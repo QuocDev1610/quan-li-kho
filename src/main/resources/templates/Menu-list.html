@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" class="layout-wide" data-assets-path="/assets/" data-template="vertical-menu-template-free">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Quản lý Phân Quyền Menu</title>
+    <meta name="description" content="" />
+
+    <link rel="icon" type="image/x-icon" th:href="@{/assets/img/favicon/favicon.ico}" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" th:href="@{/assets/vendor/fonts/iconify-icons.css}" />
+    <link rel="stylesheet" th:href="@{/assets/vendor/fonts/boxicons.css}" />
+
+    <link rel="stylesheet" th:href="@{/assets/vendor/css/core.css}" />
+    <link rel="stylesheet" th:href="@{/assets/css/demo.css}" />
+    <link rel="stylesheet" th:href="@{/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css}" />
+    <link rel="stylesheet" th:href="@{/assets/vendor/css/pages/page-misc.css}" />
+
+    <script th:src="@{/assets/vendor/js/helpers.js}"></script>
+    <script th:src="@{/assets/js/config.js}"></script>
+
+    <style>
+        /* Ép buộc màu nền và màu chữ cho Header */
+        .custom-header {
+            background-color: #34475b !important;
+        }
+        .custom-header th {
+            background-color: #34475b !important;
+            color: #ffffff !important; /* Bắt buộc chữ màu trắng */
+            border: 1px solid #455a73 !important;
+            font-weight: 600 !important;
+        }
+
+        /* Các phần còn lại giữ nguyên */
+        .modern-card {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: none;
+            overflow: hidden;
+        }
+        .table-hover tbody tr:hover {
+            background-color: #f1f5f9 !important;
+        }
+        .url-text {
+            color: #3b82f6;
+            font-weight: 500;
+        }
+        .icon-status {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+<div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+
+        <div th:replace="~{fragments/sidebar :: sidebar}"></div>
+
+        <div class="layout-page">
+
+            <div th:replace="~{fragments/navbar :: navbar}"></div>
+
+            <div class="content-wrapper">
+
+                <div class="container-xxl flex-grow-1 container-p-y">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h4 class="text-secondary fw-bold">Quản lý Phân quyền Menu</h4>
+                    </div>
+
+                    <div class="modern-card">
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle mb-0">
+
+                                <thead class="custom-header">
+                                <tr>
+                                    <th rowspan="2" scope="col" class="text-center align-middle" style="width: 50px;">#</th>
+                                    <th rowspan="2" scope="col" class="align-middle" style="min-width: 200px;">URL</th>
+                                    <th rowspan="2" scope="col" class="align-middle">Status</th>
+
+                                    <th scope="col" class="text-center border-bottom-0" th:colspan="${roles.size()}">Role</th>
+                                </tr>
+                                <tr>
+                                    <th th:each="role : ${roles}"
+                                        th:text="${role.roleName}"
+                                        class="text-center text-capitalize" style="font-weight: normal; font-size: 0.95rem;">
+                                        Admin
+                                    </th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr th:each="item, stat : ${Menus}">
+                                    <td class="text-center text-muted" th:text="${stat.count}">1</td>
+
+                                    <td class="url-text" th:text="${item.url}">/product</td>
+
+                                    <td>
+                                        <button type="button" th:if="${item.activeFlag == 1}"
+                                                th:onclick="'toggleStatus(' + ${item.id} + ', 1)'"
+                                                class="badge rounded-pill bg-success-subtle text-success border border-success-subtle"
+                                                style="cursor: pointer; transition: all 0.2s;">
+                                            Enable
+                                        </button>
+
+                                        <button type="button" th:if="${item.activeFlag == 0}"
+                                                th:onclick="'toggleStatus(' + ${item.id} + ', 0)'"
+                                                class="badge rounded-pill bg-secondary-subtle text-secondary border border-secondary-subtle"
+                                                style="cursor: pointer; transition: all 0.2s;">
+                                            Disable
+                                        </button>
+                                    </td>
+
+                                    <td class="text-center" th:each="entry : ${item.getChildrenMap()}">
+                                        <i th:if="${entry.value == 1}" class="bx bxs-check-circle text-success icon-status"></i>
+                                        <i th:if="${entry.value == 0}" class="bx bx-minus text-black-50 icon-status"></i>
+                                    </td>
+                                </tr>
+
+                                <tr th:if="${#lists.isEmpty(Menus)}">
+                                    <td colspan="10" class="text-center text-muted py-4">Không có dữ liệu menu.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="card-footer d-flex justify-content-center border-top">
+                                <nav aria-label="Page navigation">
+                                    <ul class="pagination mb-0" th:if="${paging != null and paging.totalPages > 0}">
+
+                                        <li class="page-item" th:classappend="${paging.currentPage == 1 ? 'disabled' : ''}">
+                                            <a class="page-link" th:href="@{/menu/list/{page}(page=${paging.currentPage - 1}, url=${searchForm?.url})}" aria-label="Previous">
+                                                <i class="tf-icon bx bx-chevron-left"></i>
+                                            </a>
+                                        </li>
+
+                                        <li class="page-item" th:each="i : ${#numbers.sequence(1, paging.totalPages)}" th:classappend="${paging.currentPage == i ? 'active' : ''}">
+                                            <a class="page-link" th:href="@{/menu/list/{page}(page=${i}, url=${searchForm?.url})}" th:text="${i}">1</a>
+                                        </li>
+
+                                        <li class="page-item" th:classappend="${paging.currentPage == paging.totalPages ? 'disabled' : ''}">
+                                            <a class="page-link" th:href="@{/menu/list/{page}(page=${paging.currentPage + 1}, url=${searchForm?.url})}" aria-label="Next">
+                                                <i class="tf-icon bx bx-chevron-right"></i>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div th:replace="~{fragments/footer :: footer}"></div>
+                <div class="content-backdrop fade"></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="layout-overlay layout-menu-toggle"></div>
+</div>
+
+<script th:src="@{/assets/vendor/libs/jquery/jquery.js}"></script>
+<script th:src="@{/assets/vendor/libs/popper/popper.js}"></script>
+<script th:src="@{/assets/vendor/js/bootstrap.js}"></script>
+<script th:src="@{/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js}"></script>
+<script th:src="@{/assets/vendor/js/menu.js}"></script>
+<script th:src="@{/assets/js/main.js}"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var $alert = $('#alertMessage, #errorMessage');
+        if ($alert.length > 0) {
+            setTimeout(function() {
+                $alert.fadeOut('slow', function() {
+                    $(this).remove();
+                });
+            }, 3000);
+        }
+    });
+</script>
+<script type="text/javascript">
+    function toggleStatus(id, currentStatus) {
+        // Xác định hành động dựa trên trạng thái hiện tại
+        var actionText = (currentStatus === 1) ? "VÔ HIỆU HÓA (Disable)" : "KÍCH HOẠT (Enable)";
+
+        // Hiện form cảnh báo mặc định của trình duyệt
+        var isConfirm = confirm("Bạn có chắc chắn muốn " + actionText + " menu này không?");
+
+        // Nếu người dùng chọn OK
+        if (isConfirm) {
+            // Điều hướng gọi tới API/Controller để xử lý đổi trạng thái
+            window.location.href = "/menu/change-status/" + id;
+        }
+    }
+</script>
+</body>
+</html>

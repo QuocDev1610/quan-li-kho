@@ -1,0 +1,1393 @@
+2026-05-21 12:07:45 INFO  UserDAOimpl:19 - Finding users by property: name = dfdfdf
+2026-05-21 12:07:53 INFO  UserDAOimpl:19 - Finding users by property: name = dfdfdf
+2026-05-21 15:46:04 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:49:56 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:49:56 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:49:56 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:50:30 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:50:39 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:50:50 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:51:06 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:56:35 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:56:37 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:56:52 INFO  UserDAOimpl:19 - Finding users by property: name = admin
+2026-05-21 15:59:57 INFO  UserDAOimpl:20 - Finding users by property: name = admin
+2026-05-21 16:01:35 INFO  UserDAOimpl:20 - Finding users by property: name = admin
+2026-05-21 16:06:25 INFO  UserDAOimpl:20 - Finding users by property: name = admin
+2026-05-21 16:06:34 INFO  UserDAOimpl:20 - Finding users by property: name = admin
+2026-05-21 16:09:28 INFO  UserDAOimpl:20 - Finding users by property: name = admin
+2026-05-21 16:18:17 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 16:18:17 INFO  UserDAOimpl:20 - Finding users by property: name = null
+2026-05-21 16:40:56 INFO  UserDAOimpl:20 - Finding users by property: userName = ytf
+2026-05-21 16:41:04 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 16:41:04 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 16:45:33 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 16:45:33 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 16:45:44 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 17:34:31 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 17:34:32 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:05:46 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:05:46 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:17:31 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:17:31 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:20:51 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:20:56 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:20:56 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:33:22 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:33:22 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:33:33 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:33:33 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:36:40 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:36:40 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:42:03 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:42:04 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:44:49 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:44:49 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:54:05 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-21 23:54:05 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:03:06 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:03:10 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:03:14 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:03:14 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:05:44 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:05:48 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:05:48 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:16:17 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:16:17 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:18:51 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:18:55 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:18:55 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:21:47 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:21:51 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:21:51 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:24:18 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:24:23 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-22 00:24:23 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 10:47:45 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 10:47:46 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 10:47:56 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 10:47:56 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 10:49:54 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 10:49:55 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 10:53:26 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 10:53:31 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 10:53:31 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:01:45 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:01:45 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:04:45 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:04:45 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:13:31 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:13:32 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:43:44 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:43:44 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:45:39 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:45:39 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:50:52 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:50:52 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:52:03 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 11:52:03 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 12:00:34 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 12:00:35 INFO  UserDAOimpl:20 - Finding users by property: userName = admin
+2026-05-23 17:48:31 INFO  CategoryController:34 - Getting category list
+2026-05-23 17:48:31 INFO  ProductService:42 - Finding all categories
+2026-05-23 17:48:39 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-23 17:48:39 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:10:01 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:10:01 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:10:04 INFO  CategoryController:36 - Getting category list
+2026-05-24 17:10:04 INFO  ProductService:42 - Finding all categories
+2026-05-24 17:41:50 INFO  CategoryController:36 - Getting category list
+2026-05-24 17:41:50 INFO  ProductService:42 - Finding all categories
+2026-05-24 17:41:58 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:41:58 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:42:01 INFO  CategoryController:36 - Getting category list
+2026-05-24 17:42:01 INFO  ProductService:42 - Finding all categories
+2026-05-24 17:45:49 INFO  CategoryController:36 - Getting category list
+2026-05-24 17:45:49 INFO  ProductService:42 - Finding all categories
+2026-05-24 17:45:54 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:45:54 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:45:57 INFO  CategoryController:36 - Getting category list
+2026-05-24 17:45:57 INFO  ProductService:42 - Finding all categories
+2026-05-24 17:46:28 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:48:49 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:49:49 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:49:51 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:49:51 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:49:52 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:49:52 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:49:56 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:50:14 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:50:15 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:50:21 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:55:03 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:55:06 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:55:07 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:55:08 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:55:08 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:55:14 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:55:17 INFO  CategoryController:42 - Getting category add
+2026-05-24 17:55:25 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:55:25 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 17:55:32 INFO  CategoryController:42 - Getting category add
+2026-05-24 21:25:10 INFO  CategoryController:42 - Getting category add
+2026-05-24 21:25:23 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 21:25:23 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 21:25:35 INFO  CategoryController:42 - Getting category add
+2026-05-24 21:39:06 INFO  CategoryController:42 - Getting category add
+2026-05-24 21:39:17 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 21:39:18 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 21:39:21 INFO  CategoryController:36 - Getting category list
+2026-05-24 21:39:21 INFO  ProductService:42 - Finding all categories
+2026-05-24 21:39:47 INFO  CategoryController:42 - Getting category add
+2026-05-24 21:39:50 INFO  ProductService:37 - Finding category: sf
+2026-05-24 21:42:03 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 21:42:03 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 21:42:07 INFO  CategoryController:36 - Getting category list
+2026-05-24 21:42:07 INFO  ProductService:42 - Finding all categories
+2026-05-24 21:42:17 INFO  CategoryController:42 - Getting category add
+2026-05-24 21:44:09 INFO  CategoryController:42 - Getting category add
+2026-05-24 21:44:20 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 21:44:20 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 21:44:23 INFO  CategoryController:36 - Getting category list
+2026-05-24 21:44:23 INFO  ProductService:42 - Finding all categories
+2026-05-24 21:44:30 INFO  CategoryController:42 - Getting category add
+2026-05-24 22:05:08 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:05:08 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:05:26 INFO  CategoryController:42 - Getting category add
+2026-05-24 22:05:47 INFO  CategoryController:42 - Getting category add
+2026-05-24 22:07:05 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:07:05 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:07:21 INFO  CategoryController:42 - Getting category add
+2026-05-24 22:18:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:18:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:18:38 INFO  CategoryController:42 - Getting category add
+2026-05-24 22:23:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:23:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:23:34 INFO  CategoryController:41 - Getting category add
+2026-05-24 22:26:40 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:26:41 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:26:48 INFO  CategoryController:41 - Getting category add
+2026-05-24 22:31:02 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:31:02 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:31:11 INFO  CategoryController:40 - Getting category add
+2026-05-24 22:36:24 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:36:25 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:36:30 INFO  CategoryController:38 - Getting category add
+2026-05-24 22:37:22 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:37:22 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:37:28 INFO  CategoryController:38 - Getting category add
+2026-05-24 22:38:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:38:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:38:54 INFO  CategoryController:38 - Getting category add
+2026-05-24 22:39:13 INFO  ProductService:37 - Finding category: ap1
+2026-05-24 22:39:13 INFO  ProductService:21 - Insert category: nameApplecodeap1descriptionapple
+2026-05-24 22:39:13 INFO  CategoryController:32 - Getting category list
+2026-05-24 22:39:13 INFO  ProductService:42 - Finding all categories
+2026-05-24 22:51:34 INFO  CategoryController:38 - Getting category add
+2026-05-24 22:51:42 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:51:42 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:51:48 INFO  CategoryController:38 - Getting category add
+2026-05-24 22:51:55 INFO  ProductService:37 - Finding category: ap1
+2026-05-24 22:57:18 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:57:18 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 22:57:24 INFO  CategoryController:38 - Getting category add
+2026-05-24 22:57:33 INFO  ProductService:37 - Finding category: ap1
+2026-05-24 22:57:39 INFO  ProductService:37 - Finding category: ap1
+2026-05-24 22:59:59 INFO  CategoryController:38 - Getting category add
+2026-05-24 23:10:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:10:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:11:00 INFO  CategoryController:38 - Getting category add
+2026-05-24 23:11:05 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:11:06 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:11:11 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:11:11 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:11:14 INFO  CategoryController:38 - Getting category add
+2026-05-24 23:11:19 INFO  ProductService:37 - Finding category: ap1
+2026-05-24 23:13:14 INFO  CategoryController:38 - Getting category add
+2026-05-24 23:14:43 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:14:44 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:14:49 INFO  CategoryController:38 - Getting category add
+2026-05-24 23:17:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:17:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:17:32 INFO  CategoryController:38 - Getting category add
+2026-05-24 23:17:44 INFO  ProductService:37 - Finding category: ap11
+2026-05-24 23:17:44 INFO  ProductService:21 - Insert category: nameApple1codeap11descriptionapple
+2026-05-24 23:17:44 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:17:44 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:18:20 INFO  CategoryController:46 - Getting category edit
+2026-05-24 23:18:20 INFO  ProductService:46 - Finding category: 1
+2026-05-24 23:18:24 INFO  CategoryController:46 - Getting category edit
+2026-05-24 23:18:24 INFO  ProductService:46 - Finding category: 2
+2026-05-24 23:18:29 INFO  CategoryController:46 - Getting category edit
+2026-05-24 23:18:29 INFO  ProductService:46 - Finding category: 1
+2026-05-24 23:18:42 INFO  ProductService:37 - Finding category: ap1
+2026-05-24 23:18:42 INFO  ProductService:27 - Update category: nameApplecodeap1descriptionapple12
+2026-05-24 23:27:32 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:27:32 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:27:43 INFO  CategoryController:46 - Getting category edit
+2026-05-24 23:27:43 INFO  ProductService:46 - Finding category: 1
+2026-05-24 23:27:43 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:27:43 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:27:49 INFO  CategoryController:46 - Getting category edit
+2026-05-24 23:27:49 INFO  ProductService:46 - Finding category: 1
+2026-05-24 23:27:49 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:27:49 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:27:59 INFO  CategoryController:46 - Getting category edit
+2026-05-24 23:27:59 INFO  ProductService:46 - Finding category: 1
+2026-05-24 23:27:59 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:27:59 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:28:02 INFO  CategoryController:38 - Getting category add
+2026-05-24 23:28:12 INFO  CategoryController:46 - Getting category edit
+2026-05-24 23:28:12 INFO  ProductService:46 - Finding category: 2
+2026-05-24 23:28:12 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:28:12 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:28:50 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:28:50 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:28:54 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:28:54 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:29:01 INFO  CategoryController:38 - Getting category add
+2026-05-24 23:29:09 INFO  CategoryController:46 - Getting category edit
+2026-05-24 23:29:09 INFO  ProductService:46 - Finding category: 2
+2026-05-24 23:29:09 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:29:09 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:29:28 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:29:28 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:29:34 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:29:34 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:29:57 INFO  CategoryController:46 - Getting category edit
+2026-05-24 23:29:57 INFO  ProductService:46 - Finding category: 1
+2026-05-24 23:29:57 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:29:57 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:47:08 INFO  CategoryController:32 - Getting category list
+2026-05-24 23:47:08 INFO  ProductService:42 - Finding all categories
+2026-05-24 23:47:16 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:47:16 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:47:24 INFO  CategoryController:38 - Getting category add
+2026-05-24 23:55:28 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:55:28 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-24 23:55:35 INFO  CategoryController:38 - Getting category add
+2026-05-25 00:04:57 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 00:04:57 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 00:05:03 INFO  CategoryController:40 - Getting category add
+2026-05-25 00:09:21 INFO  CategoryController:40 - Getting category add
+2026-05-25 00:09:24 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 00:09:34 INFO  CategoryController:48 - Getting category edit
+2026-05-25 00:09:34 INFO  ProductService:46 - Finding category: 2
+2026-05-25 00:09:34 INFO  CategoryController:34 - Getting category list
+2026-05-25 00:09:34 INFO  ProductService:42 - Finding all categories
+2026-05-25 00:11:38 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 00:11:38 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 00:11:56 INFO  CategoryController:48 - Getting category edit form
+2026-05-25 00:13:28 INFO  CategoryController:48 - Getting category edit form
+2026-05-25 00:13:34 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 00:13:35 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 00:13:43 INFO  CategoryController:48 - Getting category edit form
+2026-05-25 00:17:48 INFO  CategoryController:48 - Getting category edit form
+2026-05-25 00:17:59 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 00:18:00 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 00:18:03 INFO  CategoryController:34 - Getting category list
+2026-05-25 00:18:03 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:10:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:10:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:10:34 INFO  CategoryController:34 - Getting category list
+2026-05-25 08:10:34 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:11:07 INFO  CategoryController:48 - Getting category edit form
+2026-05-25 08:11:20 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:11:28 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:11:28 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:11:28 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:11:43 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:11:44 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:12:05 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:12:10 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:12:11 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:12:11 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:12:12 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:12:12 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:12:12 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:12:21 INFO  CategoryController:48 - Getting category edit form
+2026-05-25 08:12:29 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:14:43 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 08:14:48 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:14:48 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:14:55 INFO  CategoryController:48 - Getting category edit form for ID: 1
+2026-05-25 08:14:55 INFO  ProductService:46 - Finding category: 1
+2026-05-25 08:15:03 INFO  ProductService:37 - Finding category: ap1
+2026-05-25 08:15:03 INFO  ProductService:27 - Update category: nameApplecodeap1descriptionapple12
+2026-05-25 08:15:14 INFO  ProductService:37 - Finding category: ap1
+2026-05-25 08:15:14 INFO  ProductService:27 - Update category: nameApplecodeap1descriptionapple12
+2026-05-25 08:15:31 INFO  ProductService:37 - Finding category: ap1
+2026-05-25 08:15:31 INFO  ProductService:27 - Update category: nameApple4codeap1descriptionapple1245
+2026-05-25 08:19:11 INFO  CategoryController:48 - Getting category edit form for ID: 1
+2026-05-25 08:19:11 INFO  ProductService:46 - Finding category: 1
+2026-05-25 08:19:16 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:19:16 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:19:24 INFO  CategoryController:48 - Getting category edit form for ID: 1
+2026-05-25 08:19:24 INFO  ProductService:46 - Finding category: 1
+2026-05-25 08:19:27 INFO  ProductService:37 - Finding category: ap1
+2026-05-25 08:19:27 INFO  ProductService:27 - Update category: nameApplecodeap1descriptionappleq
+2026-05-25 08:19:28 INFO  CategoryController:34 - Getting category list
+2026-05-25 08:19:28 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:31:15 INFO  CategoryController:48 - Getting category edit form for ID: 1
+2026-05-25 08:31:15 INFO  ProductService:46 - Finding category: 1
+2026-05-25 08:31:20 INFO  ProductService:37 - Finding category: ap1
+2026-05-25 08:31:20 INFO  ProductService:27 - Update category: nameApple12codeap1descriptionappleq12
+2026-05-25 08:31:20 INFO  CategoryController:34 - Getting category list
+2026-05-25 08:31:20 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:33:44 INFO  CategoryController:34 - Getting category list
+2026-05-25 08:33:44 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:33:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:33:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:33:52 INFO  CategoryController:34 - Getting category list
+2026-05-25 08:33:52 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:33:55 INFO  CategoryController:34 - Getting category list
+2026-05-25 08:33:55 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:37:17 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:37:17 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:37:20 INFO  CategoryController:34 - Getting category list
+2026-05-25 08:37:20 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:41:17 INFO  CategoryController:34 - Getting category list
+2026-05-25 08:41:17 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:41:22 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:41:22 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 08:41:25 INFO  CategoryController:34 - Getting category list
+2026-05-25 08:41:25 INFO  ProductService:42 - Finding all categories
+2026-05-25 08:41:31 INFO  CategoryController:48 - Getting category edit form for ID: 1
+2026-05-25 08:41:31 INFO  ProductService:46 - Finding category: 1
+2026-05-25 08:41:34 INFO  CategoryController:40 - Getting category add
+2026-05-25 09:33:22 INFO  CategoryController:36 - Getting category list
+2026-05-25 09:33:22 INFO  ProductService:42 - Finding all categories
+2026-05-25 09:33:27 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 09:33:27 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 09:33:49 INFO  CategoryController:49 - Getting category add
+2026-05-25 09:33:56 INFO  ProductService:37 - Finding category: ap11
+2026-05-25 09:34:00 INFO  ProductService:37 - Finding category: ap112
+2026-05-25 09:34:00 INFO  ProductService:21 - Insert category: nameApple12codeap112descriptionappleq121
+2026-05-25 09:34:00 INFO  CategoryController:36 - Getting category list
+2026-05-25 09:34:00 INFO  ProductService:42 - Finding all categories
+2026-05-25 09:37:47 INFO  CategoryController:36 - Getting category list
+2026-05-25 09:37:47 INFO  ProductService:42 - Finding all categories
+2026-05-25 09:37:52 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 09:37:52 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 09:37:59 INFO  CategoryController:49 - Getting category add
+2026-05-25 09:38:06 INFO  ProductService:37 - Finding category: ap1123
+2026-05-25 09:38:06 INFO  ProductService:21 - Insert category: namelê ngọc quôccodeap1123descriptionư
+2026-05-25 09:38:06 INFO  CategoryController:36 - Getting category list
+2026-05-25 09:38:06 INFO  ProductService:42 - Finding all categories
+2026-05-25 10:36:12 INFO  CategoryController:36 - Getting category list
+2026-05-25 10:36:12 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:36:18 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:36:18 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:36:21 INFO  CategoryController:36 - Getting category list
+2026-05-25 10:36:21 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:38:33 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:38:33 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:38:35 INFO  CategoryController:36 - Getting category list
+2026-05-25 10:38:35 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:41:07 INFO  CategoryController:36 - Getting category list
+2026-05-25 10:41:07 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:41:13 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:41:13 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:41:17 INFO  CategoryController:36 - Getting category list
+2026-05-25 10:41:17 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:41:28 INFO  CategoryController:36 - Getting category list
+2026-05-25 10:41:28 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:41:33 INFO  CategoryController:49 - Getting category add
+2026-05-25 10:45:53 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:45:53 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:45:56 INFO  CategoryController:37 - Getting category list
+2026-05-25 10:45:56 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:45:59 INFO  CategoryController:37 - Getting category list
+2026-05-25 10:45:59 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:46:05 INFO  CategoryController:50 - Getting category add
+2026-05-25 10:50:50 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:50:50 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 10:50:55 INFO  CategoryController:37 - Getting category list
+2026-05-25 10:50:55 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:50:58 INFO  CategoryController:37 - Getting category list
+2026-05-25 10:50:58 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:51:05 INFO  CategoryController:37 - Getting category list
+2026-05-25 10:51:05 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:51:08 INFO  CategoryController:37 - Getting category list
+2026-05-25 10:51:08 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:51:11 INFO  CategoryController:37 - Getting category list
+2026-05-25 10:51:11 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:58:23 INFO  CategoryController:37 - Getting category list
+2026-05-25 10:58:23 INFO  ProductService:44 - Finding all categories
+2026-05-25 10:58:30 INFO  CategoryController:37 - Getting category list
+2026-05-25 10:58:30 INFO  ProductService:44 - Finding all categories
+2026-05-25 18:42:12 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 18:42:12 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 18:42:15 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:42:15 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:55:46 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 18:55:46 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 18:55:49 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:55:49 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:00 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 18:58:00 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 18:58:03 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:03 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:21 INFO  CategoryController:59 - Getting category add
+2026-05-25 18:58:25 INFO  ProductService:40 - Finding category: ap11233
+2026-05-25 18:58:25 INFO  ProductService:24 - Insert category: namelê ngọc quôccodeap11233descriptionư
+2026-05-25 18:58:25 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:25 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:27 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:27 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:28 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:28 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:29 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:29 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:29 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:29 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:30 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:30 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:30 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:30 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:31 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:31 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:31 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:31 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:39 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:39 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:40 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:40 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:43 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:43 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:43 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:43 INFO  ProductService:45 - Finding all categories
+2026-05-25 18:58:43 INFO  CategoryController:43 - Getting category list
+2026-05-25 18:58:43 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:34 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:34 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:39 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 19:04:39 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 19:04:42 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:42 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:43 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:43 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:44 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:44 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:44 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:44 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:45 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:45 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:47 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:47 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:47 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:48 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:48 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:48 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:49 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:49 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:04:49 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:04:49 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:11:04 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:11:04 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:11:09 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 19:11:09 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 19:11:11 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:11:11 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:11:13 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:11:13 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:11:14 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:11:14 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:11:15 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:11:15 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:11:16 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:11:16 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:11:17 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:11:17 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:11:18 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:11:18 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:09 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:09 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:21 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:21 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:24 INFO  CategoryController:59 - Getting category add
+2026-05-25 19:13:28 INFO  ProductService:40 - Finding category: ap112334
+2026-05-25 19:13:29 INFO  ProductService:24 - Insert category: namelê ngọc quôccodeap112334descriptionư
+2026-05-25 19:13:29 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:29 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:30 INFO  CategoryController:59 - Getting category add
+2026-05-25 19:13:32 INFO  ProductService:40 - Finding category: ap1123344
+2026-05-25 19:13:32 INFO  ProductService:24 - Insert category: namelê ngọc quôccodeap1123344descriptionư
+2026-05-25 19:13:32 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:32 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:33 INFO  CategoryController:59 - Getting category add
+2026-05-25 19:13:36 INFO  ProductService:40 - Finding category: ap11233444
+2026-05-25 19:13:36 INFO  ProductService:24 - Insert category: namelê ngọc quôccodeap11233444descriptionư
+2026-05-25 19:13:36 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:36 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:38 INFO  CategoryController:59 - Getting category add
+2026-05-25 19:13:40 INFO  ProductService:40 - Finding category: ap11233444
+2026-05-25 19:13:41 INFO  ProductService:40 - Finding category: ap112334444
+2026-05-25 19:13:41 INFO  ProductService:24 - Insert category: namelê ngọc quôccodeap112334444descriptionư
+2026-05-25 19:13:41 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:41 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:44 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:44 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:45 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:45 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:46 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:46 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:49 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:49 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:50 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:50 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:51 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:51 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:52 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:52 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:53 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:53 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:55 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:55 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:57 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:57 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:13:59 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:13:59 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:14:05 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:14:05 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:14:06 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:14:06 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:14:07 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:14:07 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:34:04 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:34:04 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:41:46 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:41:46 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:41:51 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 19:41:51 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 19:41:54 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:41:54 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:41:57 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:41:57 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:42:07 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:42:07 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:42:13 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:42:13 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:42:16 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:42:16 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:42:18 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:42:18 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:44:44 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:44:44 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:44:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 19:44:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 19:44:52 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:44:52 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:44:54 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:44:54 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:44:56 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:44:56 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:44:57 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:44:57 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:44:58 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:44:58 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:44:59 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:44:59 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:45:03 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:45:03 INFO  ProductService:45 - Finding all categories
+2026-05-25 19:45:04 INFO  CategoryController:43 - Getting category list
+2026-05-25 19:45:04 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:20 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:20 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 20:49:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 20:49:29 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:29 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:33 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:33 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:37 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:37 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:40 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:40 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:42 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:42 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:44 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:44 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:47 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:47 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:50 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:50 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:51 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:51 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:53 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:53 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:54 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:54 INFO  ProductService:45 - Finding all categories
+2026-05-25 20:49:55 INFO  CategoryController:43 - Getting category list
+2026-05-25 20:49:55 INFO  ProductService:45 - Finding all categories
+2026-05-25 23:06:41 INFO  CategoryController:43 - Getting category list
+2026-05-25 23:06:41 INFO  ProductService:52 - Finding all categories
+2026-05-25 23:06:48 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:06:52 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:07:16 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:07:16 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:07:19 INFO  CategoryController:43 - Getting category list
+2026-05-25 23:07:19 INFO  ProductService:52 - Finding all categories
+2026-05-25 23:07:23 INFO  CategoryController:59 - Getting category add
+2026-05-25 23:24:18 INFO  CategoryController:59 - Getting category add
+2026-05-25 23:24:20 INFO  CategoryController:59 - Getting category add
+2026-05-25 23:24:30 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:24:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:24:53 INFO  ProductInfoController:57 - Getting ProductInfo add
+2026-05-25 23:25:59 INFO  ProductService:98 - Finding ProductInfo: akkk
+2026-05-25 23:26:12 INFO  ProductService:98 - Finding ProductInfo: akkkl
+2026-05-25 23:35:42 INFO  ProductInfoController:57 - Getting ProductInfo add
+2026-05-25 23:35:47 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:35:47 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:35:52 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:35:52 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:36:02 INFO  ProductInfoController:57 - Getting ProductInfo add
+2026-05-25 23:36:08 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:36:08 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:36:08 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:36:08 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:36:08 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:36:08 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:40:01 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:40:01 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:40:06 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:40:06 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:40:08 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:40:08 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:40:12 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:40:12 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:40:16 INFO  ProductInfoController:57 - Getting ProductInfo add
+2026-05-25 23:40:31 INFO  ProductService:98 - Finding ProductInfo: ap11
+2026-05-25 23:45:33 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:45:33 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:45:36 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:45:36 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:46:58 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:46:58 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:47:02 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:47:03 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:47:05 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:47:05 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:47:07 INFO  ProductInfoController:57 - Getting ProductInfo add
+2026-05-25 23:47:26 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:47:26 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:47:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:47:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:47:33 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:47:33 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:51:26 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:51:26 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:51:32 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:51:32 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-25 23:51:34 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:51:34 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:51:39 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:51:39 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:51:40 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:51:40 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:51:42 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:51:42 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:51:46 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:51:46 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:51:48 INFO  ProductInfoController:42 - Getting ProductInfo list
+2026-05-25 23:51:48 INFO  ProductService:103 - Finding all categories
+2026-05-25 23:51:49 INFO  ProductInfoController:57 - Getting ProductInfo add
+2026-05-26 07:10:57 INFO  CategoryController:67 - Getting category edit form for ID: 1
+2026-05-26 07:10:57 INFO  ProductService:74 - Finding category: 1
+2026-05-26 07:11:09 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 07:11:09 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 07:11:18 INFO  CategoryController:43 - Getting category list
+2026-05-26 07:11:18 INFO  ProductService:52 - Finding all categories
+2026-05-26 07:11:20 INFO  CategoryController:43 - Getting category list
+2026-05-26 07:11:20 INFO  ProductService:52 - Finding all categories
+2026-05-26 07:11:41 INFO  CategoryController:43 - Getting category list
+2026-05-26 07:11:41 INFO  ProductService:52 - Finding all categories
+2026-05-26 15:58:54 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 15:58:54 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 15:58:57 INFO  ProductInfoController:46 - Getting ProductInfo list
+2026-05-26 15:58:57 INFO  ProductService:112 - Finding all categories
+2026-05-26 15:59:13 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 15:59:13 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:10:30 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 16:10:30 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:10:35 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:10:35 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:10:38 INFO  CategoryController:43 - Getting category list
+2026-05-26 16:10:38 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:10:46 INFO  ProductInfoController:46 - Getting ProductInfo list
+2026-05-26 16:10:46 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:10:58 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 16:10:58 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:14:22 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 16:14:22 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:14:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:14:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:14:30 INFO  ProductInfoController:46 - Getting ProductInfo list
+2026-05-26 16:14:30 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:14:41 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 16:14:41 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:19:23 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 16:19:23 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:19:28 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:19:28 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:19:31 INFO  ProductInfoController:46 - Getting ProductInfo list
+2026-05-26 16:19:31 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:19:34 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 16:19:34 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:21:45 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 16:21:45 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:21:51 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:21:51 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:21:53 INFO  CategoryController:43 - Getting category list
+2026-05-26 16:21:53 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:21:55 INFO  ProductInfoController:46 - Getting ProductInfo list
+2026-05-26 16:21:55 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:21:58 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 16:21:58 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:22:26 INFO  CategoryController:43 - Getting category list
+2026-05-26 16:22:26 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:22:33 INFO  ProductInfoController:46 - Getting ProductInfo list
+2026-05-26 16:22:33 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:22:37 INFO  ProductInfoController:61 - Getting ProductInfo add
+2026-05-26 16:22:37 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:28:25 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 16:28:25 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:28:30 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:28:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:28:33 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 16:28:33 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:28:36 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 16:28:36 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:33:20 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 16:33:20 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:33:25 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:33:25 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:33:28 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 16:33:28 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:33:32 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 16:33:32 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:45:32 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 16:45:33 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:45:38 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:45:38 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:45:41 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 16:45:41 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:45:46 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 16:45:46 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:46:41 INFO  ProductService:107 - Finding ProductInfo: ap11
+2026-05-26 16:46:41 INFO  ProductService:86 - Insert Product: inventory.dao.entity.ProductInfo@1df0ca90
+2026-05-26 16:46:42 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 16:46:42 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:53:15 INFO  ProductInfoController:81 - Getting ProductInfo edit form for ID: 1
+2026-05-26 16:53:15 INFO  ProductService:134 - Finding ProductInfo: 1
+2026-05-26 16:53:15 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:55:06 INFO  ProductInfoController:81 - Getting ProductInfo edit form for ID: 1
+2026-05-26 16:55:06 INFO  ProductService:134 - Finding ProductInfo: 1
+2026-05-26 16:55:06 INFO  ProductService:57 - Finding all categories
+2026-05-26 16:55:12 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:55:12 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 16:55:15 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 16:55:15 INFO  ProductService:112 - Finding all categories
+2026-05-26 16:55:22 INFO  ProductInfoController:81 - Getting ProductInfo edit form for ID: 1
+2026-05-26 16:55:22 INFO  ProductService:134 - Finding ProductInfo: 1
+2026-05-26 16:55:22 INFO  ProductService:57 - Finding all categories
+2026-05-26 17:04:21 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:04:21 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:04:22 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 17:04:22 INFO  ProductService:57 - Finding all categories
+2026-05-26 17:04:28 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:04:28 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:04:37 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:04:37 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:09:56 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:09:56 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:09:57 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:09:57 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:09:57 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:09:57 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:09:58 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:09:58 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:10:02 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:10:02 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:10:04 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:10:04 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:10:05 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:10:05 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:10:10 INFO  ProductInfoController:164 - Getting ProductInfo delete
+2026-05-26 17:10:10 INFO  ProductService:134 - Finding ProductInfo: 1
+2026-05-26 17:10:10 INFO  ProductService:102 - Delete ProductInfo: inventory.dao.entity.ProductInfo@4c3c0e82
+2026-05-26 17:10:10 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:10:10 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:10:13 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:10:13 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:10:16 INFO  ProductInfoController:81 - Getting ProductInfo edit form for ID: 1
+2026-05-26 17:10:16 INFO  ProductService:134 - Finding ProductInfo: 1
+2026-05-26 17:10:16 INFO  ProductService:57 - Finding all categories
+2026-05-26 17:10:28 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 17:10:28 INFO  ProductService:57 - Finding all categories
+2026-05-26 17:10:29 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:10:29 INFO  ProductService:112 - Finding all categories
+2026-05-26 17:13:33 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:13:33 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:13:38 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:13:38 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:13:40 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:13:40 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:15:39 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:15:39 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:15:44 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:15:44 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:15:47 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:15:47 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:18:40 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:18:40 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:18:45 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:18:45 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:18:48 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:18:48 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:22:01 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:22:01 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:22:07 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:22:07 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:22:16 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:22:16 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:24:15 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:24:15 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:24:21 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:24:21 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:24:24 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:24:24 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:24:52 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 17:24:52 INFO  ProductService:57 - Finding all categories
+2026-05-26 17:25:12 INFO  ProductService:109 - Finding ProductInfo: ap1112
+2026-05-26 17:25:12 INFO  ProductService:86 - Insert Product: inventory.dao.entity.ProductInfo@636bb46e
+2026-05-26 17:25:12 INFO  ProductInfoController:155 - Error updating ProductInfo: Not-null property references a transient value - transient instance must be saved before current operation : inventory.dao.entity.ProductInfo.cate -> inventory.dao.entity.Category; nested exception is org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : inventory.dao.entity.ProductInfo.cate -> inventory.dao.entity.Category
+2026-05-26 17:25:12 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:25:12 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:25:15 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 17:25:15 INFO  ProductService:57 - Finding all categories
+2026-05-26 17:25:24 INFO  ProductService:109 - Finding ProductInfo: ap1112
+2026-05-26 17:25:24 INFO  ProductService:86 - Insert Product: inventory.dao.entity.ProductInfo@30e8d9ab
+2026-05-26 17:25:24 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:25:24 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:25:27 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:25:27 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:25:28 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:25:28 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:25:29 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:25:29 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:25:31 INFO  ProductInfoController:59 - Getting ProductInfo add
+2026-05-26 17:25:31 INFO  ProductService:57 - Finding all categories
+2026-05-26 17:26:10 INFO  ProductService:109 - Finding ProductInfo: ap1112q
+2026-05-26 17:26:10 INFO  ProductService:86 - Insert Product: inventory.dao.entity.ProductInfo@13581e98
+2026-05-26 17:26:10 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:26:10 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:26:12 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:26:12 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:30:40 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:30:40 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:30:45 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:30:45 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:30:48 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:30:48 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:31:34 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:31:34 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:31:41 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:31:41 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-26 17:31:44 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:31:44 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:31:48 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:31:48 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:31:54 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:31:54 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:31:56 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:31:56 INFO  ProductService:114 - Finding all categories
+2026-05-26 17:34:19 INFO  CategoryController:43 - Getting category list
+2026-05-26 17:34:19 INFO  ProductService:57 - Finding all categories
+2026-05-26 17:48:16 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-26 17:48:16 INFO  ProductService:114 - Finding all categories
+2026-05-27 16:16:43 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:16:43 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:43:22 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:43:22 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:43:26 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:43:26 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:47:38 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:47:38 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:47:44 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:47:44 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:47:47 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:47:47 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:47:55 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:47:55 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:47:59 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:47:59 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:48:00 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:48:00 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:48:01 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:48:01 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:48:03 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:48:03 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:50:54 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:50:54 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:51:00 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:51:00 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:51:04 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:51:04 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:51:05 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:51:05 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:51:06 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:51:06 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:51:08 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:51:08 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:51:13 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:51:13 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:51:16 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:51:16 INFO  ProductinStockService:37 - Finding all ProductinStocks
+2026-05-27 16:59:20 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:59:20 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 16:59:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:59:27 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 16:59:29 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:59:29 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 16:59:31 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:59:31 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 16:59:50 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:59:50 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 16:59:52 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:59:52 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 16:59:58 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 16:59:58 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 17:01:26 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 17:01:26 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 17:01:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 17:01:31 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 17:01:34 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 17:01:34 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 17:01:36 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 17:01:36 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 17:01:39 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 17:01:39 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 17:01:42 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 17:01:42 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 17:02:39 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 17:02:39 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 17:02:44 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 17:02:44 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 17:02:52 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 17:02:52 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 17:02:56 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-27 17:02:56 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-27 17:03:37 INFO  ProductInfoController:44 - Getting ProductInfo list
+2026-05-27 17:03:37 INFO  ProductService:114 - Finding all categories
+2026-05-27 22:44:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 22:44:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 22:44:29 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:44:29 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:44:57 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:44:57 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:55:55 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:55:55 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:56:00 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 22:56:00 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 22:56:04 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:56:04 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:56:09 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:56:09 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:57:32 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:57:32 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:57:37 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 22:57:37 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 22:57:40 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:57:40 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:57:43 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:57:43 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:57:46 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:57:46 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:57:51 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:57:51 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:59:26 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:59:26 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:59:30 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 22:59:30 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 22:59:34 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:59:34 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:59:38 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:59:38 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:59:41 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:59:41 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 22:59:44 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 22:59:44 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 23:01:19 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 23:01:19 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 23:01:22 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 23:01:22 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 23:01:28 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 23:01:28 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 23:02:38 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 23:02:38 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 23:02:41 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 23:02:41 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 23:02:46 INFO  CategoryController:43 - Getting category list
+2026-05-27 23:02:46 INFO  ProductService:57 - Finding all categories
+2026-05-27 23:02:48 INFO  CategoryController:59 - Getting category add
+2026-05-27 23:05:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 23:05:26 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 23:05:28 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 23:05:28 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 23:05:31 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 23:05:31 INFO  HistoryService:33 - Finding all Historys
+2026-05-27 23:11:18 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 23:11:18 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-27 23:11:22 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-27 23:11:22 INFO  HistoryService:33 - Finding all Historys
+2026-05-28 18:19:37 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:19:37 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:21:09 INFO  CategoryController:59 - Getting category add
+2026-05-28 18:21:12 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 18:21:12 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 18:21:14 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-28 18:21:14 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-28 18:21:17 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-28 18:21:17 INFO  HistoryService:33 - Finding all Historys
+2026-05-28 18:21:54 INFO  GoodsReceiptController:79 - Getting GoodsReceipt add
+2026-05-28 18:21:54 INFO  ProductService:114 - Finding all categories
+2026-05-28 18:22:44 INFO  GoodsReceiptController:79 - Getting Invoice add
+2026-05-28 18:22:44 INFO  ProductService:114 - Finding all categories
+2026-05-28 18:22:50 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:22:54 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:22:54 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:23:01 INFO  GoodsReceiptController:79 - Getting Invoice add
+2026-05-28 18:23:01 INFO  ProductService:114 - Finding all categories
+2026-05-28 18:29:52 INFO  GoodsReceiptController:79 - Getting Invoice add
+2026-05-28 18:29:52 INFO  ProductService:114 - Finding all categories
+2026-05-28 18:29:58 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:29:58 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:30:06 INFO  GoodsReceiptController:79 - Getting Invoice add
+2026-05-28 18:30:06 INFO  ProductService:114 - Finding all categories
+2026-05-28 18:49:45 INFO  GoodsReceiptController:79 - Getting Invoice add
+2026-05-28 18:49:45 INFO  ProductService:114 - Finding all categories
+2026-05-28 18:49:51 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:49:51 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:49:54 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 18:49:54 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 18:50:00 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 18:50:26 INFO  GoodsReceiptController:79 - Getting Invoice add
+2026-05-28 18:50:26 INFO  ProductService:114 - Finding all categories
+2026-05-28 18:56:51 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 18:56:51 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 18:56:56 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:56:56 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:56:58 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 18:56:58 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 18:57:59 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 18:57:59 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 18:58:04 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:58:04 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 18:58:06 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 18:58:06 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:12:14 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 21:12:14 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:12:20 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 21:12:20 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 21:12:23 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-28 21:12:23 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:13:37 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 21:13:37 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:13:40 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 21:13:40 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:13:44 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 21:13:44 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:15:22 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 21:15:22 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:15:27 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 21:15:27 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 21:15:29 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-28 21:15:29 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-28 21:15:30 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 21:15:30 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:15:32 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 21:15:32 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:15:32 INFO  GoodsReceiptController:79 - Getting Invoice add
+2026-05-28 21:15:32 INFO  ProductService:114 - Finding all categories
+2026-05-28 21:15:34 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:15:42 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-28 21:15:42 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:15:45 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-28 21:15:45 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:15:55 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-28 21:15:55 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:15:55 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-28 21:15:55 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:25:43 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-28 21:25:43 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:25:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 21:25:49 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 21:25:52 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 21:25:52 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:25:54 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-28 21:25:54 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:33:44 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 21:33:44 INFO  UserDAOimpl:21 - Finding users by property: userName = admin
+2026-05-28 21:33:46 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-28 21:33:46 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:33:49 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-28 21:33:49 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:33:50 INFO  InvoiceService:61 - Finding all invoices
+2026-05-28 21:33:52 INFO  GoodsIssueController:71 - Getting Invoice add
+2026-05-28 21:33:52 INFO  ProductService:114 - Finding all categories
+2026-05-28 21:33:55 INFO  GoodsIssueController:71 - Getting Invoice add
+2026-05-28 21:33:55 INFO  ProductService:114 - Finding all categories
+2026-05-28 21:34:12 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-28 21:34:12 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-28 21:34:15 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-28 21:34:15 INFO  HistoryService:33 - Finding all Historys
+2026-05-29 07:55:04 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 07:55:10 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 07:57:18 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 07:57:19 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 07:57:37 INFO  UserController:62 - Getting user add
+2026-05-29 07:57:37 INFO  UserDAOimpl:77 - Finding all users
+2026-05-29 08:04:46 INFO  UserController:62 - Getting user add
+2026-05-29 08:04:46 INFO  UserDAOimpl:77 - Finding all users
+2026-05-29 08:04:53 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 08:04:53 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 08:05:06 INFO  UserController:62 - Getting user add
+2026-05-29 08:05:06 INFO  UserDAOimpl:77 - Finding all users
+2026-05-29 08:07:33 INFO  UserController:63 - Getting user add
+2026-05-29 08:07:33 INFO  UserDAOimpl:77 - Finding all users
+2026-05-29 08:07:39 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 08:07:39 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 08:07:45 INFO  UserController:63 - Getting user add
+2026-05-29 08:07:45 INFO  UserDAOimpl:77 - Finding all users
+2026-05-29 08:18:53 INFO  UserController:63 - Getting user add
+2026-05-29 08:18:53 INFO  UserDAOimpl:77 - Finding all users
+2026-05-29 08:18:59 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 08:19:00 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 08:19:05 INFO  UserController:63 - Getting user add
+2026-05-29 08:19:05 INFO  UserDAOimpl:77 - Finding all users
+2026-05-29 08:19:29 INFO  UserDAOimpl:31 - Finding users by property: userName = adminq
+2026-05-29 08:19:29 INFO  UserDAOimpl:35 - Saving user: inventory.dao.entity.User@32ec4b8f
+2026-05-29 08:19:29 INFO  UserController:130 - Error updating User: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+2026-05-29 08:19:29 INFO  UserController:48 - Getting User list
+2026-05-29 08:19:29 INFO  UserDAOimpl:77 - Finding all users
+2026-05-29 08:23:01 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 08:23:02 INFO  UserDAOimpl:31 - Finding users by property: userName = admin
+2026-05-29 08:23:07 INFO  UserController:48 - Getting User list
+2026-05-29 08:23:07 INFO  UserDAOimpl:77 - Finding all users
+2026-05-29 08:59:30 INFO  UserController:49 - Getting User list
+2026-05-29 08:59:30 INFO  UserDAOimpl:79 - Finding all users
+2026-05-29 08:59:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-29 08:59:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-29 08:59:43 INFO  UserController:49 - Getting User list
+2026-05-29 08:59:43 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:10:48 INFO  UserDAOimpl:33 - Finding users by property: userName = Adimin
+2026-05-31 21:10:57 INFO  UserDAOimpl:33 - Finding users by property: userName = Admin
+2026-05-31 21:10:57 INFO  UserDAOimpl:33 - Finding users by property: userName = Admin
+2026-05-31 21:11:02 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-31 21:11:02 INFO  HistoryService:33 - Finding all Historys
+2026-05-31 21:11:05 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-31 21:11:05 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-31 21:11:06 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-31 21:11:06 INFO  InvoiceService:61 - Finding all invoices
+2026-05-31 21:11:11 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-31 21:11:11 INFO  InvoiceService:61 - Finding all invoices
+2026-05-31 21:11:15 INFO  InvoiceService:61 - Finding all invoices
+2026-05-31 21:11:23 INFO  UserController:49 - Getting User list
+2026-05-31 21:11:23 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:11:30 INFO  UserController:49 - Getting User list
+2026-05-31 21:11:30 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:11:44 INFO  UserController:49 - Getting User list
+2026-05-31 21:11:44 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:11:45 INFO  UserController:49 - Getting User list
+2026-05-31 21:11:45 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:11:49 INFO  UserController:49 - Getting User list
+2026-05-31 21:11:49 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:11:50 INFO  UserController:49 - Getting User list
+2026-05-31 21:11:50 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:11:54 INFO  UserController:49 - Getting User list
+2026-05-31 21:11:54 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:11:54 INFO  UserController:49 - Getting User list
+2026-05-31 21:11:54 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:12:13 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-31 21:12:13 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-31 21:12:26 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-31 21:12:26 INFO  InvoiceService:61 - Finding all invoices
+2026-05-31 21:12:46 INFO  UserController:49 - Getting User list
+2026-05-31 21:12:46 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:12:49 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-31 21:12:49 INFO  InvoiceService:61 - Finding all invoices
+2026-05-31 21:12:51 INFO  ProductInStockController:34 - Getting ProductInStock list
+2026-05-31 21:12:51 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-05-31 21:13:20 INFO  GoodsReceiptController:62 - Getting GoodsReceipt list
+2026-05-31 21:13:20 INFO  InvoiceService:61 - Finding all invoices
+2026-05-31 21:13:21 INFO  GoodsIssueController:54 - Getting GoodsIssue list
+2026-05-31 21:13:21 INFO  InvoiceService:61 - Finding all invoices
+2026-05-31 21:13:44 INFO  HistoryController:41 - Getting ProductInStock list
+2026-05-31 21:13:44 INFO  HistoryService:33 - Finding all Historys
+2026-05-31 21:13:46 INFO  UserController:49 - Getting User list
+2026-05-31 21:13:46 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:14:44 INFO  UserController:79 - Getting user add
+2026-05-31 21:14:44 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:14:50 INFO  UserController:89 - Getting User edit form for ID: 1
+2026-05-31 21:14:50 INFO  UserDAOimpl:33 - Finding users by property: id = 1
+2026-05-31 21:14:50 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:15:07 INFO  UserController:79 - Getting user add
+2026-05-31 21:15:07 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:18:35 INFO  UserController:79 - Getting user add
+2026-05-31 21:18:35 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:18:41 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-31 21:18:41 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-31 21:18:45 INFO  UserController:49 - Getting User list
+2026-05-31 21:18:45 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:18:46 INFO  UserController:79 - Getting user add
+2026-05-31 21:18:46 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:18:52 INFO  UserController:89 - Getting User edit form for ID: 1
+2026-05-31 21:18:52 INFO  UserDAOimpl:33 - Finding users by property: id = 1
+2026-05-31 21:18:52 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:18:55 INFO  UserController:79 - Getting user add
+2026-05-31 21:18:55 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:19:39 INFO  UserController:49 - Getting User list
+2026-05-31 21:19:39 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:19:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-31 21:19:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-31 21:19:46 INFO  UserController:49 - Getting User list
+2026-05-31 21:19:46 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:19:48 INFO  UserController:79 - Getting user add
+2026-05-31 21:19:48 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:19:54 INFO  UserController:89 - Getting User edit form for ID: 1
+2026-05-31 21:19:54 INFO  UserDAOimpl:33 - Finding users by property: id = 1
+2026-05-31 21:19:54 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 21:20:00 INFO  UserController:49 - Getting User list
+2026-05-31 21:20:00 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 23:35:16 INFO  UserController:49 - Getting User list
+2026-05-31 23:35:16 INFO  UserDAOimpl:79 - Finding all users
+2026-05-31 23:35:20 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-31 23:35:20 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-31 23:36:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-31 23:36:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-05-31 23:36:54 INFO  RoleController:47 - Getting Role list
+2026-05-31 23:36:54 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:30:12 INFO  CategoryController:59 - Getting category add
+2026-06-04 16:30:25 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:30:26 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:37:07 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:37:08 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:37:11 INFO  RoleController:47 - Getting Role list
+2026-06-04 16:37:11 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:38:53 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:38:54 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:38:59 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:38:59 INFO  MenuService:24 - show all menu
+2026-06-04 16:38:59 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:39:19 INFO  RoleController:47 - Getting Role list
+2026-06-04 16:39:19 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:41:01 INFO  RoleController:47 - Getting Role list
+2026-06-04 16:41:01 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:41:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:41:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:41:09 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:41:09 INFO  MenuService:24 - show all menu
+2026-06-04 16:41:09 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:45:41 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:45:41 INFO  MenuService:24 - show all menu
+2026-06-04 16:45:41 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:45:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:45:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:45:51 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:45:51 INFO  MenuService:24 - show all menu
+2026-06-04 16:45:51 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:46:55 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:46:55 INFO  MenuService:24 - show all menu
+2026-06-04 16:46:55 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:47:00 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:47:00 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 16:47:03 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:47:03 INFO  MenuService:24 - show all menu
+2026-06-04 16:47:03 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:47:16 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:47:16 INFO  MenuService:24 - show all menu
+2026-06-04 16:47:16 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:47:17 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:47:17 INFO  MenuService:24 - show all menu
+2026-06-04 16:47:17 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:47:17 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:47:17 INFO  MenuService:24 - show all menu
+2026-06-04 16:47:17 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:47:19 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:47:19 INFO  MenuService:24 - show all menu
+2026-06-04 16:47:19 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:48:43 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:48:43 INFO  MenuService:24 - show all menu
+2026-06-04 16:48:43 INFO  RoleService:57 - Finding all Roles
+2026-06-04 16:48:44 INFO  MenuController:46 - Getting Menu list
+2026-06-04 16:48:44 INFO  MenuService:24 - show all menu
+2026-06-04 16:48:44 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:04:28 INFO  UserController:49 - Getting User list
+2026-06-04 17:04:28 INFO  UserDAOimpl:79 - Finding all users
+2026-06-04 17:04:34 INFO  MenuController:46 - Getting Menu list
+2026-06-04 17:04:34 INFO  MenuService:24 - show all menu
+2026-06-04 17:04:34 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:04:36 INFO  RoleController:47 - Getting Role list
+2026-06-04 17:04:36 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:04:41 INFO  UserController:49 - Getting User list
+2026-06-04 17:04:41 INFO  UserDAOimpl:79 - Finding all users
+2026-06-04 17:04:45 INFO  RoleController:47 - Getting Role list
+2026-06-04 17:04:45 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:04:48 INFO  MenuController:46 - Getting Menu list
+2026-06-04 17:04:48 INFO  MenuService:24 - show all menu
+2026-06-04 17:04:48 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:24:55 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:24:55 INFO  MenuService:24 - show all menu
+2026-06-04 17:24:55 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:24:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 17:24:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 17:25:03 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:25:03 INFO  MenuService:24 - show all menu
+2026-06-04 17:25:03 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:26:27 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:26:27 INFO  MenuService:24 - show all menu
+2026-06-04 17:26:27 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:26:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 17:26:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 17:26:36 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:26:36 INFO  MenuService:24 - show all menu
+2026-06-04 17:26:36 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:27:29 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:27:29 INFO  MenuService:24 - show all menu
+2026-06-04 17:27:29 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:27:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 17:27:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 17:27:36 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:27:36 INFO  MenuService:24 - show all menu
+2026-06-04 17:27:36 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:34:43 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:34:43 INFO  MenuService:24 - show all menu
+2026-06-04 17:34:44 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:34:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 17:34:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-04 17:34:50 INFO  UserController:49 - Getting User list
+2026-06-04 17:34:50 INFO  UserDAOimpl:79 - Finding all users
+2026-06-04 17:34:51 INFO  UserController:79 - Getting user add
+2026-06-04 17:34:51 INFO  UserDAOimpl:79 - Finding all users
+2026-06-04 17:34:54 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:34:54 INFO  MenuService:24 - show all menu
+2026-06-04 17:34:54 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:34:57 INFO  MenuController:79 - Changing Menu status for ID: 1
+2026-06-04 17:34:57 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:34:57 INFO  MenuService:24 - show all menu
+2026-06-04 17:34:57 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:34:59 INFO  MenuController:79 - Changing Menu status for ID: 1
+2026-06-04 17:34:59 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:34:59 INFO  MenuService:24 - show all menu
+2026-06-04 17:34:59 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:35:20 INFO  MenuController:79 - Changing Menu status for ID: 4
+2026-06-04 17:35:20 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:35:20 INFO  MenuService:24 - show all menu
+2026-06-04 17:35:20 INFO  RoleService:57 - Finding all Roles
+2026-06-04 17:35:23 INFO  CategoryController:43 - Getting category list
+2026-06-04 17:35:23 INFO  ProductService:57 - Finding all categories
+2026-06-04 17:38:48 INFO  MenuController:79 - Changing Menu status for ID: 4
+2026-06-04 17:38:48 INFO  MenuController:47 - Getting Menu list
+2026-06-04 17:38:48 INFO  MenuService:24 - show all menu
+2026-06-04 17:38:48 INFO  RoleService:57 - Finding all Roles

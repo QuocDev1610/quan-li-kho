@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" class="layout-wide" data-assets-path="/assets/" data-template="vertical-menu-template-free">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Quản lý Sản phẩm</title>
+    <meta name="description" content="" />
+
+    <link rel="icon" type="image/x-icon" th:href="@{/assets/img/favicon/favicon.ico}" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" th:href="@{/assets/vendor/fonts/iconify-icons.css}" />
+    <link rel="stylesheet" th:href="@{/assets/vendor/css/core.css}" />
+    <link rel="stylesheet" th:href="@{/assets/css/demo.css}" />
+    <link rel="stylesheet" th:href="@{/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css}" />
+    <link rel="stylesheet" th:href="@{/assets/vendor/css/pages/page-misc.css}" />
+
+    <script th:src="@{/assets/vendor/js/helpers.js}"></script>
+    <script th:src="@{/assets/js/config.js}"></script>
+</head>
+
+<body>
+<div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+
+        <div th:replace="~{fragments/sidebar :: sidebar}"></div>
+
+        <div class="layout-page">
+
+            <div th:replace="~{fragments/navbar :: navbar}"></div>
+
+            <div class="content-wrapper">
+
+                <div class="container-xxl flex-grow-1 container-p-y">
+
+
+
+                    <div class="card mb-4">
+                        <div class="card-header pb-2">
+                            <h5 class="mb-0"><i class="bx bx-filter-alt me-2"></i>Bộ lọc tìm kiếm</h5>
+                        </div>
+
+                        <div th:if="${searchForm != null and ((searchForm?.product?.code != null and searchForm?.product?.code!= '') or (searchForm?.product?.name != null and searchForm?.product?.name  != '')
+                        or (searchForm?.product?.cate?.name != null and searchForm?.product?.cate?.name != '')
+                        or(searchForm?.actionName!=null and searchForm?.actionName != '') or (searchForm.type != null and searchForm.type != ''))}"
+
+                             class="alert alert-secondary d-flex align-items-center mb-4" role="alert">
+
+                            <i class="bx bx-check-shield me-2"></i>
+                            <span class="fw-semibold me-2">Đang lọc kết quả theo: </span>
+                            <span th:if="${searchForm?.getProduct()?.getCate()?.getName() != null and searchForm?.getProduct()?.getCate()?.getName() != ''}" class="badge bg-info me-2">
+                                Category: [[${searchForm.product.cate.name}]]
+                            </span>
+                            <span th:if="${searchForm?.getProduct()?.code  != null and searchForm?.getProduct()?.code  != ''}" class="badge bg-primary me-2">
+                                Mã: [[${searchForm.product.code}]]
+                            </span>
+
+                            <span th:if="${searchForm?.getProduct()?.getName()!= null and searchForm?.getProduct()?.getName()!= ''}" class="badge bg-warning text-dark me-2">
+                                Tên: [[${searchForm.product.name}]]
+                            </span>
+                            <span th:if="${searchForm?.actionName!= null and searchForm?.actionName != ''}" class="badge bg-warning text-dark me-2">
+                                Action: [[${searchForm.actionName }]]
+                            </span>
+                            <span th:if="${searchForm.type!= null and searchForm.type!= ''}" class="badge bg-warning text-dark me-2">
+                               Loại: <span th:text="${params.get(searchForm.type)}"></span>
+                            </span>
+
+
+                            <a th:href="@{/history/list/1}" class="text-danger ms-auto fw-bold" style="text-decoration: none;">
+                                <i class="bx bx-x"></i> Hủy lọc
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <form id="searchForm" th:object="${searchForm}" th:action="@{/history/list/1}" method="post" class="row g-3">
+                                <div class="col-md-4">
+                                    <label class="form-label" for="category">Category</label>
+                                    <input type="text" id="category" class="form-control" th:field="*{product.cate.name}" placeholder="Nhập Category...">
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label" for="code">Mã Code</label>
+                                    <input type="text" id="code" class="form-control" th:field="*{product.code}" placeholder="Nhập mã code cần tìm...">
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="form-label" for="name">Tên Sản phẩm</label>
+                                    <input type="text" id="name" class="form-control" th:field="*{product.name}" placeholder="Nhập tên...">
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label" for="actionname">Action Name</label>
+                                    <input type="text" id="actionname" class="form-control" th:field="*{actionName}" placeholder="Action Name...">
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label" for="typeSelect">Loại giao dịch</label>
+                                    <select id="typeSelect" th:field="*{type}" class="form-select">
+                                        <option value="">-- Tất cả loại giao dịch --</option>
+                                        <option th:each="entry : ${params}"
+                                                th:value="${entry.key}"
+                                                th:text="${entry.value}">
+                                        </option>
+                                    </select>
+                                </div>
+
+
+                                <div class="col-12 mt-4 text-end">
+                                    <button type="submit" class="btn btn-primary me-2">
+                                        <i class="bx bx-search me-1"></i> Tìm kiếm
+                                    </button>
+                                    <a th:href="@{/history/list}" class="btn btn-outline-secondary">
+                                        <i class="bx bx-refresh me-1"></i> Làm mới
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="card">
+
+
+                        <div class="table-responsive text-nowrap">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Code</th>
+                                    <th>Name</th>
+                                    <th>Category</th>
+                                    <th>Qty</th>
+                                    <th>Price</th>
+                                    <th>Action</th>
+                                    <th>Type</th>
+                                </tr>
+                                </thead>
+
+                                <tbody class="table-border-bottom-0">
+                                <tr th:each="item, stat : ${products}">
+                                    <td><strong th:text="${stat.count}">1</strong></td>
+                                    <td>
+                                        <span class="badge bg-label-secondary" th:text="${item.product.code}">Code</span>
+                                    </td>
+                                    <td>
+                                        <i class="icon-base bx bx-category icon-md text-primary me-2"></i>
+                                        <strong th:text="${item.product.name}">Tên sản phẩm</strong>
+                                    </td>
+                                    <td th:text="${item.product.cate.name}">Ca</td>
+                                    <td th:text="${item.qty}">0</td>
+                                    <td>
+                                        <span th:if="${item.price != null}" class="badge bg-label-success me-1" th:text="${#numbers.formatDecimal(item.price, 0, 'COMMA', 0, 'POINT')} + ' VNĐ'"></span>
+
+                                    </td>
+                                    <td th:text="${item.actionName}">Action</td>
+                                    <td>
+                                        <span class="badge bg-primary" th:text="${params[__${item.type}__]}">Type</span>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr th:if="${products == null or #lists.isEmpty(products)}">
+                                    <td colspan="7" class="text-center text-muted py-4">
+                                        Không tìm thấy dữ liệu phù hợp.
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="card-footer d-flex justify-content-center">
+                                <nav aria-label="Page navigation">
+                                    <ul class="pagination mb-0" th:if="${paging.totalPages > 0}">
+                                        <!-- Nút Trước -->
+                                        <li class="page-item" th:classappend="${paging.currentPage <= 1 ? 'disabled' : ''}">
+                                            <a class="page-link" th:href="@{/history/list/{page}(page=${paging.currentPage - 1}, code=${searchForm?.product?.code}, type=${searchForm.type})}">
+                                                <i class="tf-icon bx bx-chevron-left"></i>
+                                            </a>
+                                        </li>
+
+                                        <!-- Các số trang -->
+                                        <li class="page-item" th:each="i : ${#numbers.sequence(1, paging.totalPages)}"
+                                            th:classappend="${paging.currentPage == i ? 'active' : ''}">
+                                            <a class="page-link" th:href="@{/history/list/{page}(page=${i}, code=${searchForm?.product?.code}, type=${searchForm.type})}" th:text="${i}">1</a>
+                                        </li>
+
+                                        <!-- Nút Sau -->
+                                        <li class="page-item" th:classappend="${paging.currentPage >= paging.totalPages ? 'disabled' : ''}">
+                                            <a class="page-link" th:href="@{/history/list/{page}(page=${paging.currentPage + 1}, code=${searchForm?.product?.code}, type=${searchForm.type})}">
+                                                <i class="tf-icon bx bx-chevron-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div th:replace="~{fragments/footer :: footer}"></div>
+                <div class="content-backdrop fade"></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="layout-overlay layout-menu-toggle"></div>
+</div>
+
+<script th:src="@{/assets/vendor/libs/jquery/jquery.js}"></script>
+<script th:src="@{/assets/vendor/libs/popper/popper.js}"></script>
+<script th:src="@{/assets/vendor/js/bootstrap.js}"></script>
+<script th:src="@{/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js}"></script>
+<script th:src="@{/assets/vendor/js/menu.js}"></script>
+<script th:src="@{/assets/js/main.js}"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        // 1. Lấy URL hiện tại và chuẩn hóa (loại bỏ dấu '/' ở cuối nếu có)
+        var currentUrl = window.location.pathname.replace(/\/$/, "");
+
+        // Cắt lấy phần gốc của URL hiện tại (VD: /category/add -> /category)
+        var currentBase = currentUrl.substring(0, currentUrl.lastIndexOf('/'));
+
+        $('.menu-inner .menu-link').each(function() {
+            var menuHref = $(this).attr('href');
+
+            // Bỏ qua các menu không có link thực tế (menu cha để mở dropdown)
+            if (!menuHref || menuHref === '#' || menuHref.startsWith('javascript')) {
+                return; // continue sang thẻ tiếp theo
+            }
+
+            // Đảm bảo chỉ lấy phần path, đề phòng href chứa cả http://domain
+            var menuUrl = menuHref;
+            if (menuHref.startsWith('http')) {
+                try {
+                    menuUrl = new URL(menuHref).pathname;
+                } catch (e) {}
+            }
+
+            // Chuẩn hóa URL của menu (loại bỏ '/' ở cuối)
+            menuUrl = menuUrl.replace(/\/$/, "");
+
+            // Lấy phần gốc của menu (VD: /category/list -> /category)
+            var menuBase = menuUrl.substring(0, menuUrl.lastIndexOf('/'));
+
+            // 3. Phân chia các điều kiện khớp:
+            // CĐ 1: Khớp chính xác 100%
+            var isExactMatch = (currentUrl === menuUrl);
+
+            // CĐ 2: Cùng chung phần base (VD: current: /category/add, menu: /category/list)
+            var isBaseMatch = (currentBase !== '' && currentBase === menuBase && menuUrl !== '/');
+
+            // CĐ 3: Menu là module gốc (VD: menu: /category, current: /category/add)
+            var isModuleMatch = (menuUrl !== '/' && currentUrl.startsWith(menuUrl + '/'));
+
+            if (isExactMatch || isBaseMatch || isModuleMatch) {
+                // Làm sáng menu con
+                $(this).parent('li').addClass('active');
+
+                // Mở rộng và làm sáng các menu cha (nếu có cấp bậc)
+                $(this).closest('.menu-item').parents('.menu-item').addClass('active open');
+            }
+        });
+    });
+</script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
