@@ -24,14 +24,14 @@ public class RoleValiDator implements Validator {
     @Override
     public void validate(Object o, Errors errors) {
         Role Role = (Role) o;
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "RoleName", "msg.required"); // Sửa thành u thường
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "roleName", "msg.required");
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "description", "msg.required");
 
         if (Role.getRoleName() != null && !Role.getRoleName().trim().isEmpty()) {
-            List<Role> Roles = RoleService.FindByProperty("RoleName", Role.getRoleName());
+            List<Role> Roles = RoleService.FindByProperty("roleName", Role.getRoleName());
             if (Roles != null && !Roles.isEmpty()) {
                 if (Role.getId() == null || !Roles.get(0).getId().equals(Role.getId())) {
-                    errors.rejectValue("RoleName", "msg.code.exist");
+                    errors.rejectValue("roleName", "msg.code.exist");
                 }
             }
         }

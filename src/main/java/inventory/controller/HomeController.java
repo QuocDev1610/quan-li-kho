@@ -1,19 +1,29 @@
 package inventory.controller;
 
+import inventory.api.ApiMapper;
+import inventory.api.ApiResponse;
+import inventory.api.dto.UserDto;
 import inventory.dao.entity.User;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpSession;
+import java.util.HashMap;
+import java.util.Map;
 
-@Controller
+@RestController
+@RequestMapping("/api/dashboard")
 public class HomeController {
-
-    @GetMapping("/dashboard")
-    public String viewSneatDashboard() {
-        return "sneat-index";
+    @GetMapping
+    public ResponseEntity<ApiResponse<Map<String, Object>>> dashboard(Authentication authentication) {
+        Map<String, Object> data = new HashMap<>();
+        if (authentication != null && authentication.getPrincipal() instanceof User) {
+            UserDto user = ApiMapper.toUserDto((User) authentication.getPrincipal());
+            data.put("user", user);
+        }
+        data.put("status", "Inventory API is running");
+        return ResponseEntity.ok(ApiResponse.ok(data));
     }
 }
-

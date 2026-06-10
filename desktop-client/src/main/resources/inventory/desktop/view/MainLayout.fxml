@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane fx:id="root"
+            prefHeight="780.0"
+            prefWidth="1280.0"
+            styleClass="app-root"
+            xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="inventory.desktop.controller.MainLayoutController">
+    <left>
+        <VBox prefWidth="280.0" spacing="10.0" styleClass="sidebar">
+            <padding>
+                <Insets bottom="24.0" left="22.0" right="22.0" top="24.0"/>
+            </padding>
+
+            <Label text="Inventory" styleClass="brand-title"/>
+            <Label text="Warehouse Admin" styleClass="brand-subtitle"/>
+
+            <Region prefHeight="22.0"/>
+
+            <Button fx:id="dashboardButton" maxWidth="Infinity" mnemonicParsing="false" onAction="#openDashboard" text="Dashboard" styleClass="sidebar-button"/>
+            <Button fx:id="categoriesButton" maxWidth="Infinity" mnemonicParsing="false" onAction="#openCategories" text="Categories" styleClass="sidebar-button"/>
+            <Button fx:id="productsButton" maxWidth="Infinity" mnemonicParsing="false" onAction="#openProducts" text="Products" styleClass="sidebar-button"/>
+            <Button fx:id="goodsReceiptsButton" maxWidth="Infinity" mnemonicParsing="false" onAction="#openGoodsReceipts" text="Goods Receipts" styleClass="sidebar-button"/>
+            <Button fx:id="goodsIssuesButton" maxWidth="Infinity" mnemonicParsing="false" onAction="#openGoodsIssues" text="Goods Issues" styleClass="sidebar-button"/>
+            <Button fx:id="inStockButton" maxWidth="Infinity" mnemonicParsing="false" onAction="#openInStock" text="In Stock" styleClass="sidebar-button"/>
+            <Button fx:id="usersButton" maxWidth="Infinity" mnemonicParsing="false" onAction="#openUsers" text="Users" styleClass="sidebar-button"/>
+
+            <Region VBox.vgrow="ALWAYS"/>
+
+            <VBox spacing="6.0" styleClass="sidebar-profile">
+                <Label text="Signed in as" styleClass="profile-caption"/>
+                <Label fx:id="accountLabel" text="admin@inventory" styleClass="profile-name"/>
+            </VBox>
+        </VBox>
+    </left>
+
+    <top>
+        <HBox alignment="CENTER_LEFT" spacing="28.0" styleClass="header">
+            <padding>
+                <Insets bottom="16.0" left="30.0" right="30.0" top="16.0"/>
+            </padding>
+
+            <VBox prefWidth="260.0" spacing="3.0" styleClass="header-page-info">
+                <Label fx:id="pageTitleLabel" text="Dashboard" styleClass="page-title"/>
+                <Label fx:id="pageSubtitleLabel" text="Tổng quan hệ thống kho" styleClass="page-subtitle"/>
+            </VBox>
+
+            <Region HBox.hgrow="ALWAYS" minWidth="24.0"/>
+
+            <HBox alignment="CENTER_LEFT" maxWidth="430.0" minWidth="280.0" prefWidth="380.0" spacing="10.0" styleClass="header-search" HBox.hgrow="ALWAYS">
+                <FontIcon iconLiteral="fas-search" iconSize="15" styleClass="header-search-icon"/>
+                <TextField fx:id="globalSearchField" promptText="Tìm kiếm..." styleClass="header-search-input" HBox.hgrow="ALWAYS"/>
+            </HBox>
+
+            <Region HBox.hgrow="ALWAYS" minWidth="24.0"/>
+
+            <HBox alignment="CENTER_RIGHT" spacing="12.0" styleClass="header-actions">
+                <StackPane fx:id="notificationButton" onMouseClicked="#showNotifications" styleClass="notification-button">
+                    <FontIcon iconLiteral="fas-bell" iconSize="18" styleClass="notification-icon"/>
+                    <Circle radius="4.0" translateX="7.0" translateY="-8.0" styleClass="notification-dot"/>
+                </StackPane>
+
+                <HBox fx:id="profileArea" alignment="CENTER_LEFT" onMouseClicked="#showProfileMenu" spacing="10.0" styleClass="profile-area">
+                    <StackPane minHeight="36.0" minWidth="36.0" prefHeight="36.0" prefWidth="36.0" styleClass="profile-avatar">
+                        <Label fx:id="avatarInitialLabel" text="Q" styleClass="profile-avatar-text"/>
+                    </StackPane>
+                    <VBox spacing="1.0">
+                        <Label fx:id="profileNameLabel" text="Lê Ngọc Quốc" styleClass="profile-display-name"/>
+                        <Label text="Admin" styleClass="profile-role"/>
+                    </VBox>
+                    <FontIcon iconLiteral="fas-chevron-down" iconSize="12" styleClass="profile-chevron"/>
+                </HBox>
+            </HBox>
+        </HBox>
+    </top>
+
+    <center>
+        <StackPane fx:id="contentArea" styleClass="content-area">
+            <padding>
+                <Insets bottom="28.0" left="28.0" right="28.0" top="28.0"/>
+            </padding>
+        </StackPane>
+    </center>
+</BorderPane>

@@ -1,46 +1,41 @@
 package inventory.controller;
 
+import inventory.api.ApiMapper;
+import inventory.api.ApiResponse;
+import inventory.api.PageResponse;
+import inventory.api.dto.ProductInStockDto;
 import inventory.dao.entity.ProductInStock;
 import inventory.model.paging;
 import inventory.service.ProductinStockService;
-import inventory.validate.ProductInfoValidator;
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpSession;
-@Controller
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/product-in-stocks")
 public class ProductInStockController {
-
-    @Autowired
-    private ProductinStockService productService;
-    @Autowired
-    private ProductInfoValidator productInfoValidator;
     private static final Logger logger = Logger.getLogger(ProductInStockController.class);
+    private final ProductinStockService productService;
 
-    @RequestMapping(value={"/product-in-stock/list","product-in-stock/list/"})
-    public String redirect(){
-        return "redirect:/product-in-stock/list/1";
-
+    public ProductInStockController(ProductinStockService productService) {
+        this.productService = productService;
     }
-    @RequestMapping(value="/product-in-stock/list/{page}")
-    public String ProductInfoList(Model model, HttpSession session, @ModelAttribute("searchForm") ProductInStock ProductInfo1, @PathVariable("page") int page ) {
+
+    @GetMapping
+    public ResponseEntity<ApiResponse<PageResponse<ProductInStockDto>>> list(
+            @ModelAttribute ProductInStock search,
+            @RequestParam(defaultValue = "1") int page,
+            @RequestParam(defaultValue = "4") int size) {
         logger.info("Getting ProductInStock list");
-        paging paging= new paging(4);
+        paging paging = new paging(size);
         paging.setCurrentPage(page);
-        model.addAttribute("products", productService.findAllProduct(ProductInfo1,paging));
-        model.addAttribute("paging", paging);
-        return "product-in-stock";
+        List<ProductInStock> products = productService.findAllProduct(search, paging);
+        return ResponseEntity.ok(ApiResponse.ok(new PageResponse<>(ApiMapper.toProductInStockDtoList(products), paging)));
     }
-
-
-
 }
-
-

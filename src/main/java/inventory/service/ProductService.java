@@ -85,9 +85,13 @@ public class ProductService {
     public void saveProductInfo(ProductInfo productInfo) throws Exception {
         logger.info("Insert Product: " + productInfo);
         productInfo.setActiveFlag(1);
-        String filename=System.currentTimeMillis() + "_" + productInfo.getMultipartFile().getOriginalFilename();
-        productInfo.setImgUrl("/upload/"+ filename);
-        processUploadFile(productInfo.getMultipartFile(),filename);
+        if(productInfo.getMultipartFile()!=null && !productInfo.getMultipartFile().isEmpty()){
+            String filename=System.currentTimeMillis() + "_" + productInfo.getMultipartFile().getOriginalFilename();
+            productInfo.setImgUrl("/upload/"+ filename);
+            processUploadFile(productInfo.getMultipartFile(),filename);
+        } else if(productInfo.getImgUrl()==null || productInfo.getImgUrl().isEmpty()){
+            productInfo.setImgUrl("");
+        }
         productInfo.setCreateDate(new Date().toInstant());
         productInfo.setUpdateDate(new Date().toInstant());
         productInfoDAO.save(productInfo);}

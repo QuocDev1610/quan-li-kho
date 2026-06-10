@@ -43,6 +43,7 @@ return menuDAO.findById(Menu.class,id);
         if(menu1!=null){
             menu1.setName(menu.getName());
             menu1.setUrl(menu.getUrl());
+            menu1.setActiveFlag(menu.getActiveFlag());
             menu1.setUpdateDate(new java.util.Date().toInstant());
             menuDAO.update(menu1);
         }

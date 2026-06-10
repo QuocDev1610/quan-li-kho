@@ -42,7 +42,11 @@ public void SaveUser(User user) {
     userDAO.save(user);
     UserRole userRole = new UserRole();
     userRole.setUser(user);
+    if (user.getRoleID() != null) {
+        userRole.setRole(roleDAO.findById(Role.class, user.getRoleID()));
+    } else if (user.getUserRoles() != null && !user.getUserRoles().isEmpty()) {
         userRole.setRole(user.getUserRoles().iterator().next().getRole());
+    }
     userRole.setActiveFlag(1);
     userRole.setCreateDate(new java.util.Date().toInstant());
     userRole.setUpdateDate(new java.util.Date().toInstant());
@@ -53,19 +57,18 @@ public void UpdateUser(User user) {
     logger.info("Updating user: " + user);
     User user1=userDAO.findById(User.class,user.getId());
     if(user1!=null){
-        UserRole userRole = user1.getUserRoles().iterator().next();
-        Role role = userRole.getRole();
-        role.setId(user.getRoleID());
-        userRole.setRole(role);
-        userRole.setUpdateDate(new java.util.Date().toInstant());
+        if (user.getRoleID() != null && user1.getUserRoles() != null && !user1.getUserRoles().isEmpty()) {
+            UserRole userRole = user1.getUserRoles().iterator().next();
+            userRole.setRole(roleDAO.findById(Role.class, user.getRoleID()));
+            userRole.setUpdateDate(new java.util.Date().toInstant());
+            userRoleDAO.update(userRole);
+        }
         user1.setUserName(user.getUserName());
         user1.setEmail(user.getEmail());
         user1.setName(user.getName());
-        userRoleDAO.update(userRole);
-
-
-
-    } userDAO.update(user);
+        user1.setUpdateDate(new java.util.Date().toInstant());
+        userDAO.update(user1);
+    }
 
 }
 public void DeleteUser(User user) {
@@ -74,6 +77,17 @@ public void DeleteUser(User user) {
         user.setUpdateDate(new java.util.Date().toInstant());
 
         userDAO.update(user);
+}
+public User ChangeStatus(User user) {
+        logger.info("Changing user status: " + user);
+        User existing = userDAO.findById(User.class, user.getId());
+        if (existing == null) {
+            return null;
+        }
+        existing.setActiveFlag(Integer.valueOf(1).equals(existing.getActiveFlag()) ? 0 : 1);
+        existing.setUpdateDate(new java.util.Date().toInstant());
+        userDAO.update(existing);
+        return existing;
 }
 public List<User> findAll(User user, paging paging) {
         logger.info("Finding all users");

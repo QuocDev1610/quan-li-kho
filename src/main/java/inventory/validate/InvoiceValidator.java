@@ -35,10 +35,10 @@ public class InvoiceValidator implements Validator {
                 if (invoice.getId() == null || !invoice.getId().equals(existingInvoice.getId())) {
                     errors.rejectValue("code", "msg.code.exist");
                 }
-            }}if (invoice.getQty() <= 0) {
+            }}if (invoice.getQty() != null && invoice.getQty() <= 0) {
                 errors.rejectValue("qty", "msg.wrong.format");
             }
-            if (invoice.getPrice().compareTo(BigDecimal.ZERO) <= 0) {
+            if (invoice.getPrice() != null && invoice.getPrice().compareTo(BigDecimal.ZERO) <= 0) {
                 errors.rejectValue("price", "msg.wrong.format");
             }
             if (invoice.getFromdate() != null && invoice.getTodate() != null) {

@@ -1,9 +1,15 @@
 package inventory.controller;
 
+import inventory.api.ApiMapper;
+import inventory.api.ApiResponse;
+import inventory.api.PageResponse;
+import inventory.api.ValidationErrorResponse;
+import inventory.api.dto.InvoiceDto;
+import inventory.api.dto.ProductDto;
+import inventory.api.request.InvoiceRequest;
 import inventory.dao.entity.Invoice;
 import inventory.dao.entity.ProductInfo;
 import inventory.model.paging;
-
 import inventory.service.GoodsReceiptReport;
 import inventory.service.InvoiceService;
 import inventory.service.ProductService;
@@ -11,200 +17,190 @@ import inventory.utils.DateUtils;
 import inventory.utils.constant;
 import inventory.validate.InvoiceValidator;
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.io.IOException;
-import java.util.*;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-@Controller
+@RestController
+@RequestMapping("/api/goods-issues")
 public class GoodsIssueController {
-         @Autowired
-        private GoodsReceiptReport GoodsReceiptReport;
-        @Autowired
-        private InvoiceService InvoiceService;
-        @Autowired
-        private ProductService ProductService;
-        @Autowired
-        private InvoiceValidator InvoiceValidator;
-        private static final Logger logger = Logger.getLogger(inventory.controller.GoodsIssueController.class);
-        @InitBinder
-        protected void initBinder(WebDataBinder binder) {
-            if (binder.getTarget() != null &&
-                    binder.getTarget().getClass() == Invoice.class) {
-                binder.addValidators(InvoiceValidator);
-            }
-        }
-        @RequestMapping(value={"/goods-issue/list","/goods-issue/list/"})
-        public String redirect(){
-            return "redirect:/goods-issue/list/1";
+    private static final Logger logger = Logger.getLogger(GoodsIssueController.class);
+    private final GoodsReceiptReport goodsReceiptReport;
+    private final InvoiceService invoiceService;
+    private final ProductService productService;
+    private final InvoiceValidator invoiceValidator;
 
-        }
-        @RequestMapping(value="/goods-issue/list/{page}")
-        public String GoodsIssueList(Model model, HttpSession session, @ModelAttribute("searchForm") Invoice invoice, @PathVariable("page") int page ) {
-            logger.info("Getting GoodsIssue list");
-            paging paging= new paging(4);
-            paging.setCurrentPage(page);
-            if(invoice==null){invoice=new Invoice(); }
-            invoice.setType(constant.MSG_GOODS_ISSUES);
-            model.addAttribute("invoices", InvoiceService.FindAllProduct(invoice,paging));
-            if (session.getAttribute(constant.MSG_SUCCESS) != null) {
-                model.addAttribute(constant.MSG_SUCCESS,session.getAttribute(constant.MSG_SUCCESS));
-                session.removeAttribute(constant.MSG_SUCCESS);
-            } if (session.getAttribute(constant.MSG_ERROR) != null) {
-                model.addAttribute(constant.MSG_ERROR,session.getAttribute(constant.MSG_ERROR));
-                session.removeAttribute(constant.MSG_ERROR);
-            }  model.addAttribute("paging", paging);
-            return "GoodsIssue-list";
-        }
-        @GetMapping("/goods-issue/add")
-        public String GoodsIssueAdd(Model model) {
-            logger.info("Getting Invoice add");
-            model.addAttribute("model", new Invoice());
-            model.addAttribute("mapProduct", mapProduct());
-            model.addAttribute("titleForm", "Add Invoice");
-            model.addAttribute("Viewonly",false);
-            return "GoodsIssue-action";
-        }
-        @GetMapping("/goods-issue/edit/{id}")
-        public String GoodsIssueEdit(Model model, @PathVariable int id) {
-            logger.info("Getting Issue edit form for ID: " + id);
+    public GoodsIssueController(GoodsReceiptReport goodsReceiptReport, InvoiceService invoiceService,
+                                ProductService productService, InvoiceValidator invoiceValidator) {
+        this.goodsReceiptReport = goodsReceiptReport;
+        this.invoiceService = invoiceService;
+        this.productService = productService;
+        this.invoiceValidator = invoiceValidator;
+    }
 
-
-            Invoice GoodsIssue =InvoiceService.FindByIdProduct(id);
-
-
-            if (GoodsIssue == null) {
-                return "redirect:/goods-issue/list";
-            }
-
-            model.addAttribute("titleForm", "Edit Invoice!");
-            model.addAttribute("mapProduct", mapProduct());
-            model.addAttribute("model", GoodsIssue);
-            model.addAttribute("Viewonly", false);
-
-            return "GoodsIssue-action";
-        }
-        @GetMapping("/goods-issue/view/{id}")
-        public String GoodsIssueView(Model model, @PathVariable int id) {
-            logger.info("Getting GoodsIssue view");
-            Invoice GoodsIssue = InvoiceService.FindByIdProduct(id);
-            if (GoodsIssue == null) {
-                return "redirect:/goods-issue/list";
-            }
-            model.addAttribute("titleForm", "view Invoice!");
-            model.addAttribute("model", GoodsIssue);
-            model.addAttribute("Viewonly", true);
-            return "GoodsIssue-action";
-        }
-        @PostMapping("/goods-issue/save")
-        public String GoodsIssueSave(Model springModel, @Valid @ModelAttribute("model") Invoice Invoice, BindingResult bindingResult, HttpSession session) {
-            if(bindingResult.hasErrors()) {
-                if(Invoice.getId()!=null) {
-                    springModel.addAttribute("titleForm", "edit Issues!");
-                }
-                else springModel.addAttribute("titleForm", "add Issues!");
-                springModel.addAttribute("mapProduct", mapProduct());
-                springModel.addAttribute("model", Invoice);
-                springModel.addAttribute("Viewonly", false);
-                return "GoodsIssue-action";
-            }     Invoice.setType(constant.MSG_GOODS_ISSUES);
-            if(Invoice.getId() != null && Invoice.getId() != 0) {
-                try {
-                    InvoiceService.Update(Invoice);
-                    session.setAttribute(constant.MSG_SUCCESS, "Update success!!!");
-                } catch (Exception e) {
-                    logger.info("Error updating GoodsIssue: " + e.getMessage());
-                    session.setAttribute(constant.MSG_ERROR, "Error updating GoodsIssue !!!");
-                }
-            } else {
-                // Trường hợp INSERT (Thêm mới)
-                try {
-                    InvoiceService.saveInvoice(Invoice);
-                    session.setAttribute(constant.MSG_SUCCESS, "Insert success!!!");
-                } catch (Exception e) {
-                    logger.info("Error updating GoodsIssue: " + e.getMessage());
-                    session.setAttribute(constant.MSG_ERROR, "Error Inserting GoodsIssue !!!");
-                }}
-            return "redirect:/goods-issue/list";
-
-
-        }
-        @GetMapping("/goods-issue/delete/{id}")
-        public String GoodsIssueDelete(HttpSession session, @PathVariable int id) {
-            logger.info("Getting GoodsIssue delete");
-            Invoice GoodsIssue = InvoiceService.FindByIdProduct(id);
-            if (GoodsIssue == null) {
-                return "redirect:/goods-issue/list";
-            }
-            try {
-                InvoiceService.delete(GoodsIssue);
-                session.setAttribute(constant.MSG_SUCCESS, "Delete success!!!");
-            } catch (Exception e) {
-                logger.info("Error deleting GoodsIssue: " + e.getMessage());
-                session.setAttribute(constant.MSG_ERROR, "Error deleting GoodsIssue !!!");
-            }
-
-            return "redirect:/goods-issue/list";
-        }
-        @GetMapping("/api/goods-issue/check")
-        @ResponseBody
-        public ResponseEntity<?> checkGoodsIssue(@RequestParam String code) {
-            java.util.List<Invoice> results = InvoiceService.FindByProperties(code);
-            if (results != null && !results.isEmpty()) {
-                return ResponseEntity.ok(results.get(0));
-            }
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Chưa tồn tại");
-        }
-        @GetMapping("/goods-issue/export")
-        public void exportReport(HttpServletResponse response) {
-            Invoice invoice= new Invoice();
-            invoice.setType(constant.MSG_GOODS_ISSUES);
-            List<Invoice> invoiceList = InvoiceService.FindAllProduct(invoice, null);
-            response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");//khai báo định dạng file excell .xlsx
-            // Tạo tên file đính kèm giờ giấc hiện tại
-
-            String currentDateTime = DateUtils.DateToString(new Date());
-            String headerKey = "Content-Disposition";
-            String headerValue = "attachment; filename=PhieuXuatKho_" + currentDateTime + ".xlsx";
-            response.setHeader(headerKey, headerValue);
-
-            try {
-               GoodsReceiptReport.exportInvoicesToExcel(invoiceList, response);
-
-            } catch (IOException e) {
-
-                e.printStackTrace();
-
-                try {
-                    response.reset();
-                    response.sendRedirect("/goods-issue/list?error=export_failed");
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
-            }}
-        private Map<String,String> mapProduct() {
-            List<ProductInfo> categoryList = ProductService.FindAllProduct(null, null);
-            Map<String, String> map = new HashMap<>();
-            Set<String> seenNames = new HashSet<>();
-
-            for (ProductInfo ProductInfo : categoryList) {
-                String ProductName = ProductInfo.getName();
-
-                if (!seenNames.contains(ProductName)) {
-                    seenNames.add(ProductName);
-                    map.put(String.valueOf(ProductInfo.getId()), ProductName);
-                }
-            } return map;
+    @InitBinder
+    protected void initBinder(WebDataBinder binder) {
+        if (binder.getTarget() != null && binder.getTarget().getClass() == Invoice.class) {
+            binder.addValidators(invoiceValidator);
         }
     }
 
+    @GetMapping
+    public ResponseEntity<ApiResponse<PageResponse<InvoiceDto>>> list(
+            @ModelAttribute Invoice search,
+            @RequestParam(defaultValue = "1") int page,
+            @RequestParam(defaultValue = "4") int size) {
+        paging paging = new paging(size);
+        paging.setCurrentPage(page);
+        if (search == null) {
+            search = new Invoice();
+        }
+        search.setType(constant.MSG_GOODS_ISSUES);
+        List<Invoice> invoices = invoiceService.FindAllProduct(search, paging);
+        return ResponseEntity.ok(ApiResponse.ok(new PageResponse<>(ApiMapper.toInvoiceDtoList(invoices), paging)));
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<ApiResponse<InvoiceDto>> getById(@PathVariable int id) {
+        Invoice invoice = findInvoice(id);
+        if (invoice == null || !Integer.valueOf(constant.MSG_GOODS_ISSUES).equals(invoice.getType())) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Goods issue not found"));
+        }
+        return ResponseEntity.ok(ApiResponse.ok(ApiMapper.toInvoiceDto(invoice)));
+    }
+
+    @GetMapping("/form-options")
+    public ResponseEntity<ApiResponse<Map<String, List<ProductDto>>>> formOptions() {
+        Map<String, List<ProductDto>> data = new HashMap<>();
+        data.put("products", ApiMapper.toProductDtoList(productService.FindAllProduct(null, null)));
+        return ResponseEntity.ok(ApiResponse.ok(data));
+    }
+
+    @PostMapping
+    public ResponseEntity<?> create(@Valid @RequestBody InvoiceRequest request, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return validation(bindingResult);
+        }
+        Invoice invoice = toInvoice(request, constant.MSG_GOODS_ISSUES);
+        if (invoice.getProduct() == null) {
+            return ResponseEntity.badRequest().body(ApiResponse.error("Sản phẩm không tồn tại."));
+        }
+        try {
+            invoiceService.saveInvoice(invoice);
+            return ResponseEntity.status(HttpStatus.CREATED).body(ApiResponse.ok("Insert success", ApiMapper.toInvoiceDto(invoice)));
+        } catch (Exception ex) {
+            logger.error("Error inserting goods issue", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error inserting goods issue"));
+        }
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<?> update(@PathVariable int id, @Valid @RequestBody InvoiceRequest request, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return validation(bindingResult);
+        }
+        if (findInvoice(id) == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Goods issue not found"));
+        }
+        Invoice invoice = toInvoice(request, constant.MSG_GOODS_ISSUES);
+        if (invoice.getProduct() == null) {
+            return ResponseEntity.badRequest().body(ApiResponse.error("Sản phẩm không tồn tại."));
+        }
+        invoice.setId(id);
+        try {
+            invoiceService.Update(invoice);
+            return ResponseEntity.ok(ApiResponse.ok("Update success", ApiMapper.toInvoiceDto(invoice)));
+        } catch (Exception ex) {
+            logger.error("Error updating goods issue", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error updating goods issue"));
+        }
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<ApiResponse<Void>> delete(@PathVariable int id) {
+        Invoice invoice = findInvoice(id);
+        if (invoice == null || !Integer.valueOf(constant.MSG_GOODS_ISSUES).equals(invoice.getType())) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Goods issue not found"));
+        }
+        try {
+            invoiceService.delete(invoice);
+            return ResponseEntity.ok(ApiResponse.ok("Delete success", null));
+        } catch (Exception ex) {
+            logger.error("Error deleting goods issue", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error deleting goods issue"));
+        }
+    }
+
+    @GetMapping("/check")
+    public ResponseEntity<ApiResponse<InvoiceDto>> checkGoodsIssue(@RequestParam String code) {
+        List<Invoice> results = invoiceService.FindByProperties(code);
+        if (results != null && !results.isEmpty()) {
+            return ResponseEntity.ok(ApiResponse.ok(ApiMapper.toInvoiceDto(results.get(0))));
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Chua ton tai"));
+    }
+
+    @GetMapping("/export")
+    public void exportReport(HttpServletResponse response) throws IOException {
+        Invoice invoice = new Invoice();
+        invoice.setType(constant.MSG_GOODS_ISSUES);
+        List<Invoice> invoiceList = invoiceService.FindAllProduct(invoice, null);
+        response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+        response.setHeader("Content-Disposition", "attachment; filename=PhieuXuatKho_" + DateUtils.DateToString(new Date()) + ".xlsx");
+        goodsReceiptReport.exportInvoicesToExcel(invoiceList, response);
+    }
+
+    private Invoice findInvoice(int id) {
+        try {
+            return invoiceService.FindByIdProduct(id);
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    private Invoice toInvoice(InvoiceRequest request, int type) {
+        Invoice invoice = new Invoice();
+        invoice.setCode(request.getCode());
+        invoice.setQty(request.getQty());
+        invoice.setPrice(request.getPrice());
+        invoice.setType(type);
+        ProductInfo product = findProduct(request.getProductId());
+        invoice.setProduct(product);
+        return invoice;
+    }
+
+    private ProductInfo findProduct(Integer productId) {
+        if (productId == null) {
+            return null;
+        }
+        try {
+            return productService.FindByIdProduct(productId);
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    private ResponseEntity<ValidationErrorResponse> validation(BindingResult bindingResult) {
+        return ResponseEntity.badRequest().body(new ValidationErrorResponse("Validation failed", ApiMapper.validationErrors(bindingResult)));
+    }
+}

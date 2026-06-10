@@ -43,7 +43,8 @@ public class RoleService {
 
 
 
-        } roleDAO.update(Role);
+            roleDAO.update(Role1);
+        }
 
     }
     public void DeleteRole(Role Role) {
@@ -59,12 +60,12 @@ public class RoleService {
         Map<String,Object> map = new HashMap<>();
         if(Role!=null){
             if(Role.getRoleName()!=null && !Role.getRoleName().isEmpty()){
-                sb.append(" and model.RoleName like :RoleName");
-                map.put("RoleName","%"+Role.getRoleName()+"%");
+                sb.append(" and model.roleName like :roleName");
+                map.put("roleName","%"+Role.getRoleName()+"%");
             }
              if(Role.getDescription()!=null && !Role.getDescription().isEmpty()){
-                sb.append(" and model.Description like :Description");
-                map.put("Description","%"+Role.getDescription()+"%");
+                sb.append(" and model.description like :description");
+                map.put("description","%"+Role.getDescription()+"%");
             }
         }  return roleDAO.findAll(sb.toString(),map,paging);
     }

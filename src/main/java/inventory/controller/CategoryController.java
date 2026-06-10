@@ -1,156 +1,139 @@
 package inventory.controller;
 
+import inventory.api.ApiMapper;
+import inventory.api.ApiResponse;
+import inventory.api.PageResponse;
+import inventory.api.ValidationErrorResponse;
+import inventory.api.dto.CategoryDto;
 import inventory.dao.entity.Category;
 import inventory.model.paging;
 import inventory.service.ProductService;
-import inventory.utils.constant;
 import inventory.validate.CategoryValidator;
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Repository;
-import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
+import java.util.List;
 
-@Controller
+@RestController
+@RequestMapping("/api/categories")
 public class CategoryController {
-    @Autowired
-    private ProductService productService;
-    @Autowired
-    private CategoryValidator categoryValidator;
     private static final Logger logger = Logger.getLogger(CategoryController.class);
-@InitBinder
+    private final ProductService productService;
+    private final CategoryValidator categoryValidator;
+
+    public CategoryController(ProductService productService, CategoryValidator categoryValidator) {
+        this.productService = productService;
+        this.categoryValidator = categoryValidator;
+    }
+
+    @InitBinder
     protected void initBinder(WebDataBinder binder) {
-        if (binder.getTarget() != null && 
-            binder.getTarget().getClass() == inventory.dao.entity.Category.class) {
+        if (binder.getTarget() != null && binder.getTarget().getClass() == Category.class) {
             binder.addValidators(categoryValidator);
         }
     }
-    @RequestMapping(value={"/category/list","category/list/"})
-    public String redirect(){
-    return "redirect:/category/list/1";
 
-    }
-   @RequestMapping(value="/category/list/{page}")
-    public String categoryList(Model model,HttpSession session,@ModelAttribute("searchForm") Category category1,@PathVariable("page") int page ) {
-        logger.info("Getting category list");
-        paging paging= new paging(4);
+    @GetMapping
+    public ResponseEntity<ApiResponse<PageResponse<CategoryDto>>> list(
+            @ModelAttribute Category search,
+            @RequestParam(defaultValue = "1") int page,
+            @RequestParam(defaultValue = "4") int size) {
+        paging paging = new paging(size);
         paging.setCurrentPage(page);
-
-        model.addAttribute("categories", productService.FindAll(category1,paging));
-        if (session.getAttribute(constant.MSG_SUCCESS) != null) {
-            model.addAttribute(constant.MSG_SUCCESS,session.getAttribute(constant.MSG_SUCCESS));
-            session.removeAttribute(constant.MSG_SUCCESS);
-        } if (session.getAttribute(constant.MSG_ERROR) != null) {
-            model.addAttribute(constant.MSG_ERROR,session.getAttribute(constant.MSG_ERROR));
-            session.removeAttribute(constant.MSG_ERROR);
-        }  model.addAttribute("paging", paging);
-        return "category-list";
+        List<Category> categories = productService.FindAll(search, paging);
+        return ResponseEntity.ok(ApiResponse.ok(new PageResponse<>(ApiMapper.toCategoryDtoList(categories), paging)));
     }
-@GetMapping("/category/add")
-public String categoryAdd(Model model) {
-    logger.info("Getting category add");
-    model.addAttribute("model", new Category());
-    model.addAttribute("titleForm", "Add Category");
-    model.addAttribute("Viewonly",false);
-    return "category-action";
-}
-    @GetMapping("category/edit/{id}")
-    public String categoryEdit(Model model, @PathVariable int id) {
-        logger.info("Getting category edit form for ID: " + id);
 
-
-        Category category = productService.FindById(id);
-
-
+    @GetMapping("/{id}")
+    public ResponseEntity<ApiResponse<CategoryDto>> getById(@PathVariable int id) {
+        Category category = findCategory(id);
         if (category == null) {
-            return "redirect:/category/list";
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Category not found"));
         }
-
-        model.addAttribute("titleForm", "Edit Category");
-
-
-        model.addAttribute("model", category);
-        model.addAttribute("Viewonly", false);
-
-        return "category-action";
+        return ResponseEntity.ok(ApiResponse.ok(ApiMapper.toCategoryDto(category)));
     }
-@GetMapping("category/view/{id}")
-    public String categoryView(Model model, @PathVariable int id) {
-    logger.info("Getting category view");
-    Category category = productService.FindById(id);
-    if (category == null) {
-        return "redirect:/category/list";
-    }
-    model.addAttribute("titleForm", "view Category");
-    model.addAttribute("model", category);
-    model.addAttribute("Viewonly", true);
-    return "category-action";
-}
-@PostMapping("category/save")
-    public String categorySave(Model springModel, @Valid @ModelAttribute("model") Category category, BindingResult bindingResult, HttpSession session) {
-  if(bindingResult.hasErrors()) {
-      if(category.getId()!=null) {
-          springModel.addAttribute("titleForm", "edit Category");
-      }
-      else springModel.addAttribute("titleForm", "add Category");
-      springModel.addAttribute("model", category);
-      springModel.addAttribute("Viewonly", false);
-      return "category-action";
-}
-    if(category.getId() != null && category.getId() != 0) {
-        try {
-            productService.Update(category);
-            session.setAttribute(constant.MSG_SUCCESS, "Update success!!!");
-        } catch (Exception e) {
-     logger.info("Error updating category: " + e.getMessage());
-     session.setAttribute(constant.MSG_ERROR, "Error updating category !!!");
+
+    @PostMapping
+    public ResponseEntity<?> create(@Valid @RequestBody Category category, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return validation(bindingResult);
         }
-    } else {
-        // Trường hợp INSERT (Thêm mới)
         try {
             productService.save(category);
-            session.setAttribute(constant.MSG_SUCCESS, "Insert success!!!");
-        } catch (Exception e) {
-            logger.info("Error updating category: " + e.getMessage());
-            session.setAttribute(constant.MSG_ERROR, "Error Inserting category !!!");
-    }}
-    return "redirect:/category/list";
-
-
-}
-@GetMapping("category/delete/{id}")
-    public String categoryDelete(HttpSession session, @PathVariable int id) {
-    logger.info("Getting category delete");
-    Category category = productService.FindById(id);
-    if (category == null) {
-        return "redirect:/category/list";
-    }
-    try {
-        productService.delete(category);
-        session.setAttribute(constant.MSG_SUCCESS, "Delete success!!!");
-    } catch (Exception e) {
-        logger.info("Error deleting category: " + e.getMessage());
-        session.setAttribute(constant.MSG_ERROR, "Error deleting category !!!");
+            return ResponseEntity.status(HttpStatus.CREATED).body(ApiResponse.ok("Insert success", ApiMapper.toCategoryDto(category)));
+        } catch (Exception ex) {
+            logger.error("Error inserting category", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error inserting category"));
+        }
     }
 
-    return "redirect:/category/list";
-}
-    @GetMapping("/api/category/check")
-    @ResponseBody
-    public ResponseEntity<?> checkCategory(@RequestParam String code) {
-        java.util.List<Category> results = productService.FindByCode(code);
-       if (results != null && !results.isEmpty()) {
-          return ResponseEntity.ok(results.get(0));
-      }
-       return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Chưa tồn tại");
-  }
+    @PutMapping("/{id}")
+    public ResponseEntity<?> update(@PathVariable int id, @Valid @RequestBody Category category, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return validation(bindingResult);
+        }
+        Category existing = findCategory(id);
+        if (existing == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Category not found"));
+        }
+        category.setId(id);
+        try {
+            productService.Update(category);
+            return ResponseEntity.ok(ApiResponse.ok("Update success", ApiMapper.toCategoryDto(category)));
+        } catch (Exception ex) {
+            logger.error("Error updating category", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error updating category"));
+        }
+    }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<ApiResponse<Void>> delete(@PathVariable int id) {
+        Category category = findCategory(id);
+        if (category == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Category not found"));
+        }
+        try {
+            productService.delete(category);
+            return ResponseEntity.ok(ApiResponse.ok("Delete success", null));
+        } catch (Exception ex) {
+            logger.error("Error deleting category", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error deleting category"));
+        }
+    }
+
+    @GetMapping("/check")
+    public ResponseEntity<ApiResponse<CategoryDto>> checkCategory(@RequestParam String code) {
+        List<Category> results = productService.FindByCode(code);
+        if (results != null && !results.isEmpty()) {
+            return ResponseEntity.ok(ApiResponse.ok(ApiMapper.toCategoryDto(results.get(0))));
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Chua ton tai"));
+    }
+
+    private Category findCategory(int id) {
+        try {
+            return productService.FindById(id);
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    private ResponseEntity<ValidationErrorResponse> validation(BindingResult bindingResult) {
+        return ResponseEntity.badRequest().body(new ValidationErrorResponse("Validation failed", ApiMapper.validationErrors(bindingResult)));
+    }
 }

@@ -1391,3 +1391,797 @@
 2026-06-04 17:38:48 INFO  MenuController:47 - Getting Menu list
 2026-06-04 17:38:48 INFO  MenuService:24 - show all menu
 2026-06-04 17:38:48 INFO  RoleService:57 - Finding all Roles
+2026-06-08 15:37:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 15:39:07 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 15:39:07 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 15:39:07 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 15:39:08 INFO  ProductService:57 - Finding all categories
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:05:11 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 16:05:11 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 16:05:11 INFO  HistoryController:38 - Getting history list
+2026-06-08 16:05:11 INFO  ProductService:57 - Finding all categories
+2026-06-08 16:05:11 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:05:11 INFO  RoleService:58 - Finding all Roles
+2026-06-08 16:05:11 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:05:11 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:05:11 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 16:05:11 INFO  HistoryService:33 - Finding all Historys
+2026-06-08 16:05:11 INFO  MenuController:50 - Getting menu list
+2026-06-08 16:05:11 INFO  MenuService:24 - show all menu
+2026-06-08 16:05:11 INFO  RoleService:58 - Finding all Roles
+2026-06-08 16:57:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:30 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:57:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:30 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:57:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:30 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:57:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:30 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 16:57:30 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 16:57:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:34 INFO  ProductService:57 - Finding all categories
+2026-06-08 16:57:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:43 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:57:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:47 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:57:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:52 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:57:53 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:53 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:54 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:57:54 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:55 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 16:57:55 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 16:57:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:57:55 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 16:58:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:01 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:58:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:01 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:01 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:01 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 16:58:01 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 16:58:03 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:03 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:03 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:58:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:05 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:58:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:05 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:05 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:05 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 16:58:05 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 16:58:07 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:07 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:07 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:58:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:09 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:14 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:14 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:15 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:58:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:16 INFO  ProductService:57 - Finding all categories
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 16:58:18 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:18 INFO  ProductService:57 - Finding all categories
+2026-06-08 16:58:19 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:19 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:19 INFO  ProductService:118 - Finding all categories
+2026-06-08 16:58:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:21 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:23 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:24 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 16:58:24 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 16:58:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:29 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 16:58:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 16:58:29 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:04:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:48 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:04:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:49 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:04:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:49 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:04:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:49 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:04:49 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:04:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:52 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:04:58 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:58 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:04:58 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:05:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:01 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:05:03 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:03 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:03 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:05:04 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:04 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:04 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:05:04 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:05:06 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:06 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:06 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:05:08 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:08 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:08 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:11 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:05:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:15 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:05:35 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:35 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:35 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:05:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:43 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:05:44 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:44 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:44 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:05:50 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:50 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:50 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:05:50 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:05:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:52 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:05:53 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:53 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:53 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:05:54 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:54 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:54 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:05:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:57 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:05:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:57 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:05:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:57 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:05:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:05:57 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:05:57 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:09:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:09:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:09:53 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:09:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:09:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:09:55 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:10:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:01 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:10:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:01 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:10:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:02 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:10:02 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:10:03 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:03 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:03 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:10:04 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:04 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:10:04 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:28:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:02 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:28:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:02 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:28:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:02 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:28:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:02 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:28:02 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:28:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:05 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:05 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:28:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:11 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:28:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:16 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:28:25 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:25 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:25 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:28:25 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:28:26 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:26 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:26 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:28:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:31 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:28:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:31 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:28:31 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:28:32 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:32 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:32 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:28:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:43 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:28:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:28:43 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:29:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:21 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:29:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:21 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:29:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:21 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:29:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:21 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:29:21 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:29:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:23 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:29:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:29:24 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:33:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:39 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:33:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:39 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:33:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:39 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:33:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:39 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:33:39 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:33:41 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:41 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:41 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:33:45 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:45 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:45 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:33:51 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:51 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:51 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:33:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:55 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:33:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:33:57 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:34:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:01 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:34:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:02 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:34:02 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:34:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:02 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:34:07 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:07 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:07 INFO  RoleService:58 - Finding all Roles
+2026-06-08 17:34:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:15 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:34:15 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:34:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:16 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:34:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:16 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:34:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:17 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:34:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:34:23 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:35:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:35:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:35:31 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:36:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:36:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:36:22 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:36:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:36:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:36:22 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:36:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:36:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:36:22 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:36:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:36:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:36:22 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:36:22 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:41:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:22 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:41:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:22 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:41:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:22 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:41:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:22 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:41:22 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:41:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:43 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:41:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:43 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:41:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:43 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:41:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:43 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:41:43 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:41:44 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:44 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:44 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:41:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:47 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:41:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:51 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:51 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:51 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:41:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:52 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:55 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:41:56 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:56 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:57 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:41:58 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:41:58 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:01 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:42:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:01 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:02 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:02 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:42:04 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:04 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:04 INFO  RoleService:58 - Finding all Roles
+2026-06-08 17:42:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:11 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:42:11 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:42:12 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:12 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:12 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:42:12 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:12 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:12 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:42:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:13 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:42:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:14 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:42:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:15 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:42:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:15 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:42:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:15 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:42:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:15 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:42:15 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:42:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:24 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:42:27 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:27 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:27 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:42:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:42:29 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:48:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:21 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:48:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:22 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:48:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:23 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:48:23 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:48:26 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:26 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:26 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:48:26 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:48:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:30 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:48:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:31 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:48:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:31 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:48:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:34 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:48:35 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:35 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:35 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:48:36 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:36 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:36 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:48:36 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:36 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:36 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:48:36 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:36 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:36 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:48:36 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:36 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:36 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:48:36 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:48:37 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:37 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:37 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:48:38 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:38 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:38 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:48:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:39 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:48:39 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:10 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:10 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:10 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:50:10 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:10 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:10 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:10 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:10 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:10 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:10 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:10 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:10 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:50:10 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:50:12 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:12 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:12 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:50:13 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:13 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:50:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:14 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:50:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:14 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:14 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:15 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:50:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:15 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:15 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:16 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:50:16 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:50:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:16 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:16 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:50:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:17 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:18 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:18 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:50:19 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:19 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:19 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:22 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:50:32 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:32 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:33 INFO  ProductService:140 - Finding ProductInfo: 1
+2026-06-08 17:50:33 INFO  InvoiceService:29 - Insert Invoice: inventory.dao.entity.Invoice@577ceda2
+2026-06-08 17:50:33 INFO  HistoryService:76 - Insert history: inventory.dao.entity.Invoice@577ceda2
+2026-06-08 17:50:33 INFO  ProductinStockService:106 - Insert qty11 and Price12899
+2026-06-08 17:50:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:33 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:42 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:42 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:42 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:43 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:50:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:44 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:50:44 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:44 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:44 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:50:50 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:50 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:50 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:50:51 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:51 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:54 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:54 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:54 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:50:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:55 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:56 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:56 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:56 INFO  UserDAOimpl:82 - Finding all users
+2026-06-08 17:50:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:57 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:57 INFO  RoleService:58 - Finding all Roles
+2026-06-08 17:50:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:59 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:50:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:59 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:59 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:50:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:50:59 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:00 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:51:00 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-08 17:51:45 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:45 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:45 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:51:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:47 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:47 INFO  ProductService:57 - Finding all categories
+2026-06-08 17:51:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:48 INFO  ProductService:118 - Finding all categories
+2026-06-08 17:51:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:48 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:51:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:49 INFO  InvoiceService:61 - Finding all invoices
+2026-06-08 17:51:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:49 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-08 17:51:49 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-08 17:51:49 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:22:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:31 INFO  ProductService:118 - Finding all categories
+2026-06-10 09:22:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:31 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:22:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:31 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:32 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:22:32 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:32 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:32 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-10 09:22:32 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:22:37 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:37 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:37 INFO  ProductService:57 - Finding all categories
+2026-06-10 09:22:40 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:40 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:40 INFO  ProductService:118 - Finding all categories
+2026-06-10 09:22:42 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:42 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:42 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:22:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:43 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:44 INFO  ProductService:118 - Finding all categories
+2026-06-10 09:22:44 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:44 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:44 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:22:46 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:46 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:47 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-10 09:22:47 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:22:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:48 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:22:48 INFO  UserDAOimpl:93 - Finding all users
+2026-06-10 09:23:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:09 INFO  ProductService:118 - Finding all categories
+2026-06-10 09:23:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:09 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:23:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:09 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:23:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:09 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:09 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-10 09:23:09 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:23:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:11 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:11 INFO  ProductService:57 - Finding all categories
+2026-06-10 09:23:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:17 INFO  ProductService:118 - Finding all categories
+2026-06-10 09:23:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:17 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:23:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:17 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:23:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:17 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:17 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-10 09:23:17 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:23:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:21 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:21 INFO  ProductService:57 - Finding all categories
+2026-06-10 09:23:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:22 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:22 INFO  ProductService:118 - Finding all categories
+2026-06-10 09:23:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:23 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:23 INFO  ProductService:118 - Finding all categories
+2026-06-10 09:23:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:24 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:23:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:24 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:24 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:23:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:29 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:29 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:23:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:30 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:23:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:30 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:30 INFO  InvoiceService:61 - Finding all invoices
+2026-06-10 09:23:32 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:32 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:32 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-10 09:23:32 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:23:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:33 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-10 09:23:33 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:23:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:33 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-10 09:23:33 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:23:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:33 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:33 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-10 09:23:33 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:23:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:34 INFO  ProductInStockController:35 - Getting ProductInStock list
+2026-06-10 09:23:34 INFO  ProductinStockService:36 - Finding all ProductInStocks
+2026-06-10 09:23:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:34 INFO  UserDAOimpl:93 - Finding all users
+2026-06-10 09:23:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:34 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:23:34 INFO  UserDAOimpl:93 - Finding all users
+2026-06-10 09:24:19 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:24:19 INFO  UserDAOimpl:33 - Finding users by property: userName = admin
+2026-06-10 09:24:19 INFO  RoleService:58 - Finding all Roles

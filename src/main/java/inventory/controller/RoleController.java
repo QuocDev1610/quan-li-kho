@@ -1,158 +1,139 @@
 package inventory.controller;
 
-import inventory.dao.RoleDAO;
+import inventory.api.ApiMapper;
+import inventory.api.ApiResponse;
+import inventory.api.PageResponse;
+import inventory.api.ValidationErrorResponse;
+import inventory.api.dto.RoleDto;
 import inventory.dao.entity.Role;
 import inventory.model.paging;
 import inventory.service.RoleService;
-import inventory.utils.constant;
 import inventory.validate.RoleValiDator;
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
-import java.util.*;
+import java.util.List;
 
-@Controller
+@RestController
+@RequestMapping("/api/roles")
 public class RoleController {
+    private static final Logger logger = Logger.getLogger(RoleController.class);
+    private final RoleService roleService;
+    private final RoleValiDator roleValidator;
 
-        @Autowired
-        private RoleService RoleService;
-        @Autowired
-        private RoleValiDator RoleValidator;
-        @Autowired
-        private RoleDAO RoleDAO;
-        private static final Logger logger = Logger.getLogger(inventory.controller.RoleController.class);
-        @InitBinder
-        protected void initBinder(WebDataBinder binder) {
-            if (binder.getTarget() != null &&
-                    binder.getTarget().getClass() == Role.class) {
-                binder.addValidators(RoleValidator);
-            }
+    public RoleController(RoleService roleService, RoleValiDator roleValidator) {
+        this.roleService = roleService;
+        this.roleValidator = roleValidator;
+    }
+
+    @InitBinder
+    protected void initBinder(WebDataBinder binder) {
+        if (binder.getTarget() != null && binder.getTarget().getClass() == Role.class) {
+            binder.addValidators(roleValidator);
         }
-        @RequestMapping(value={"/role/list","/role/list/"})
-        public String redirect(){
-            return "redirect:/role/list/1";
+    }
 
+    @GetMapping
+    public ResponseEntity<ApiResponse<PageResponse<RoleDto>>> list(
+            @ModelAttribute Role search,
+            @RequestParam(defaultValue = "1") int page,
+            @RequestParam(defaultValue = "4") int size) {
+        paging paging = new paging(size);
+        paging.setCurrentPage(page);
+        List<Role> roles = roleService.findAll(search, paging);
+        return ResponseEntity.ok(ApiResponse.ok(new PageResponse<>(ApiMapper.toRoleDtoList(roles), paging)));
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<ApiResponse<RoleDto>> getById(@PathVariable int id) {
+        Role role = findRole(id);
+        if (role == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Role not found"));
         }
-        @RequestMapping(value="/role/list/{page}")
-        public String RoleList(Model model, HttpSession session, @ModelAttribute("searchForm") Role Role, @PathVariable("page") int page ) {
-            logger.info("Getting Role list");
-            paging paging= new paging(4);
-            paging.setCurrentPage(page);
-            List<Role> x=RoleService.findAll(Role,paging);
-            model.addAttribute("Roles", x);
-            if (session.getAttribute(constant.MSG_SUCCESS) != null) {
-                model.addAttribute(constant.MSG_SUCCESS,session.getAttribute(constant.MSG_SUCCESS));
-                session.removeAttribute(constant.MSG_SUCCESS);
-            } if (session.getAttribute(constant.MSG_ERROR) != null) {
-                model.addAttribute(constant.MSG_ERROR,session.getAttribute(constant.MSG_ERROR));
-                session.removeAttribute(constant.MSG_ERROR);
-            }  model.addAttribute("paging", paging);
-            return "Role-list";
+        return ResponseEntity.ok(ApiResponse.ok(ApiMapper.toRoleDto(role)));
+    }
+
+    @PostMapping
+    public ResponseEntity<?> create(@Valid @RequestBody Role role, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return validation(bindingResult);
         }
-        @GetMapping("/role/add")
-        public String RoleAdd(Model model) {
-            logger.info("Getting Role add");
-            model.addAttribute("model", new Role());
-            model.addAttribute("titleForm", "Add Role");
-            model.addAttribute("Viewonly",false);
-            return "Role-action";
+        try {
+            roleService.SaveRole(role);
+            return ResponseEntity.status(HttpStatus.CREATED).body(ApiResponse.ok("Insert success", ApiMapper.toRoleDto(role)));
+        } catch (Exception ex) {
+            logger.error("Error inserting role", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error inserting role"));
         }
-        @GetMapping("/role/edit/{id}")
-        public String RoleEdit(Model model, @PathVariable int id) {
-            logger.info("Getting Role edit form for ID: " + id);
+    }
 
-
-            Role Role =RoleService.FindByProperty("id", id).get(0);
-
-
-            if (Role == null) {
-                return "redirect:/role/list";
-            }
-            model.addAttribute("titleForm", "Edit Role!");
-            model.addAttribute("model", Role);
-            model.addAttribute("Viewonly", false);
-
-            return "Role-action";
+    @PutMapping("/{id}")
+    public ResponseEntity<?> update(@PathVariable int id, @Valid @RequestBody Role role, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return validation(bindingResult);
         }
-        @GetMapping("/role/view/{id}")
-        public String RoleView(Model model, @PathVariable int id) {
-            logger.info("Getting Role view");
-            Role Role = RoleService.FindByProperty("id",id).get(0);
-            if (Role == null) {
-                return "redirect:/role/list";
-            }
-            model.addAttribute("titleForm", "view Role!");
-            model.addAttribute("model", Role);
-            model.addAttribute("Viewonly", true);
-            return "Role-action";
+        if (findRole(id) == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Role not found"));
         }
-        @PostMapping("/role/save")
-        public Object RoleSave(Model springModel, @Valid @ModelAttribute("model") Role Role, BindingResult bindingResult, HttpSession session) {
-            if(bindingResult.hasErrors()) {
-                if(Role.getId()!=null) {
-                    springModel.addAttribute("titleForm", "edit Roles!");
-                }
-                else springModel.addAttribute("titleForm", "add Roles!");
-                springModel.addAttribute("model", Role);
-                springModel.addAttribute("Viewonly", false);
-                return "Role-action";
-            }
-            if(Role.getId() != null && Role.getId() != 0) {
-                try {
-                    RoleService.UpdateRole(Role);
-                    session.setAttribute(constant.MSG_SUCCESS, "Update success!!!");
-                } catch (Exception e) {
-                    logger.info("Error updating Role: " + e.getMessage());
-                    session.setAttribute(constant.MSG_ERROR, "Error updating Role !!!");
-                }
-            } else {
-                // Trường hợp INSERT (Thêm mới)
-                try {
-                    RoleService.SaveRole(Role);
-                    session.setAttribute(constant.MSG_SUCCESS, "Insert success!!!");
-                } catch (Exception e) {
-                    logger.info("Error updating Role: " + e.getMessage());
-                    session.setAttribute(constant.MSG_ERROR, "Error Inserting Role !!!");
-                }}
-            return new org.springframework.http.ResponseEntity<>("redirect:/role/list", org.springframework.http.HttpStatus.OK);
-
-
+        role.setId(id);
+        try {
+            roleService.UpdateRole(role);
+            return ResponseEntity.ok(ApiResponse.ok("Update success", ApiMapper.toRoleDto(role)));
+        } catch (Exception ex) {
+            logger.error("Error updating role", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error updating role"));
         }
-        @GetMapping("/role/delete/{id}")
-        public String RoleDelete(HttpSession session, @PathVariable int id) {
-            logger.info("Getting Role delete");
-            Role Role = RoleService.FindByProperty("id",id).get(0);
-            if (Role == null) {
-                return "redirect:/role/list";
-            }
-            try {
-                RoleService.DeleteRole(Role);
-                session.setAttribute(constant.MSG_SUCCESS, "Delete success!!!");
-            } catch (Exception e) {
-                logger.info("Error deleting Role: " + e.getMessage());
-                session.setAttribute(constant.MSG_ERROR, "Error deleting Role !!!");
-            }
+    }
 
-            return "redirect:/role/list";
+    @DeleteMapping("/{id}")
+    public ResponseEntity<ApiResponse<Void>> delete(@PathVariable int id) {
+        Role role = findRole(id);
+        if (role == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Role not found"));
         }
-        @GetMapping("/api/role/check")
-        @ResponseBody
-        public ResponseEntity<?> checkRole(@RequestParam String code) {
-            java.util.List<Role> results = RoleService.FindByProperty("Rolename",code);
-            if (results != null && !results.isEmpty()) {
-                return ResponseEntity.ok(results.get(0));
-            }
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Chưa tồn tại");
+        try {
+            roleService.DeleteRole(role);
+            return ResponseEntity.ok(ApiResponse.ok("Delete success", null));
+        } catch (Exception ex) {
+            logger.error("Error deleting role", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error deleting role"));
         }
+    }
 
+    @GetMapping("/check")
+    public ResponseEntity<ApiResponse<RoleDto>> checkRole(@RequestParam String code) {
+        List<Role> results = roleService.FindByProperty("roleName", code);
+        if (results != null && !results.isEmpty()) {
+            return ResponseEntity.ok(ApiResponse.ok(ApiMapper.toRoleDto(results.get(0))));
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ApiResponse.error("Chua ton tai"));
+    }
 
+    private Role findRole(int id) {
+        try {
+            List<Role> roles = roleService.FindByProperty("id", id);
+            return roles == null || roles.isEmpty() ? null : roles.get(0);
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    private ResponseEntity<ValidationErrorResponse> validation(BindingResult bindingResult) {
+        return ResponseEntity.badRequest().body(new ValidationErrorResponse("Validation failed", ApiMapper.validationErrors(bindingResult)));
+    }
 }
