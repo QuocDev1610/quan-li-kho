@@ -15,9 +15,4 @@ public class HashingPassword {
         return encoder.matches(rawPassword, hashedPasswordFromDB);
     }
 
-    public static void main(String[] args) {
-
-        System.out.println(hashPassword("123456"));
-        System.out.println(checkPassword("123456","$2a$10$uju5EgbcBaD/SlZerOj4AuXasPCKt1zd876jRZprjo7jKVAU4QJtG"));
-    }
 }

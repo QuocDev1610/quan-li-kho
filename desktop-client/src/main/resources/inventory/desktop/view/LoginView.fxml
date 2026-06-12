@@ -19,7 +19,7 @@
       fx:controller="inventory.desktop.controller.LoginController">
     <StackPane prefWidth="350.0" styleClass="login-hero">
         <VBox alignment="CENTER_LEFT" spacing="18.0" maxWidth="260.0">
-            <FontIcon iconLiteral="fas-boxes" iconSize="54" styleClass="login-hero-icon"/>
+            <FontIcon iconLiteral="fas-box-open" iconSize="54" styleClass="login-hero-icon"/>
             <Label text="Inventory" styleClass="login-hero-title"/>
             <Label text="Modern warehouse management desktop system" wrapText="true" styleClass="login-hero-subtitle"/>
             <Region prefHeight="26.0"/>

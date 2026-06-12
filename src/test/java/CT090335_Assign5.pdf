@@ -1,0 +1,140 @@
+import java.sql.*;
+import java.util.Scanner;
+
+public class CT090335_Assign2 {
+    // Thông tin kết nối MySQL
+    static final String DB_URL = "jdbc:mysql://localhost:3306/QuanLySinhVienDB";
+    static final String USER = "root"; // Đổi thành username MySQL của bạn
+    static final String PASS = "";     // Đổi thành mật khẩu MySQL của bạn
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int choice;
+
+        try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS)) {
+            System.out.println("Kết nối cơ sở dữ liệu thành công!");
+
+            do {
+                System.out.println("\n===== QUẢN LÝ SINH VIÊN =====");
+                System.out.println("1. Hiển thị danh sách sinh viên");
+                System.out.println("2. Thêm sinh viên mới");
+                System.out.println("3. Cập nhật điểm theo ID");
+                System.out.println("4. Xóa sinh viên theo ID");
+                System.out.println("0. Thoát chương trình");
+                System.out.print("Chọn chức năng: ");
+                choice = Integer.parseInt(scanner.nextLine());
+
+                switch (choice) {
+                    case 1:
+                        hienThiDanhSach(conn);
+                        break;
+                    case 2:
+                        themSinhVien(conn, scanner);
+                        break;
+                    case 3:
+                        capNhatDiem(conn, scanner);
+                        break;
+                    case 4:
+                        xoaSinhVien(conn, scanner);
+                        break;
+                    case 0:
+                        System.out.println("Thoát chương trình.");
+                        break;
+                    default:
+                        System.out.println("Lựa chọn không hợp lệ. Vui lòng thử lại!");
+                }
+            } while (choice != 0);
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (NumberFormatException e) {
+            System.out.println("Lỗi: Vui lòng nhập số hợp lệ.");
+        }
+    }
+
+    // 1. Hiển thị danh sách sinh viên
+    private static void hienThiDanhSach(Connection conn) throws SQLException {
+        String query = "SELECT * FROM SinhVien";
+        try (Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(query)) {
+
+            System.out.println("\n--- DANH SÁCH SINH VIÊN ---");
+            System.out.printf("%-5s | %-25s | %-25s | %-5s\n", "ID", "Họ tên", "Email", "Điểm");
+            System.out.println("----------------------------------------------------------------------");
+
+            boolean hasData = false;
+            while (rs.next()) {
+                hasData = true;
+                int id = rs.getInt("id");
+                String hoTen = rs.getString("ho_ten");
+                String email = rs.getString("email");
+                double diem = rs.getDouble("diem");
+                System.out.printf("%-5d | %-25s | %-25s | %-5.2f\n", id, hoTen, email, diem);
+            }
+            if (!hasData) {
+                System.out.println("Danh sách trống.");
+            }
+        }
+    }
+
+    // 2. Thêm sinh viên mới (Sử dụng PreparedStatement)
+    private static void themSinhVien(Connection conn, Scanner scanner) throws SQLException {
+        System.out.print("Nhập họ tên sinh viên: ");
+        String hoTen = scanner.nextLine();
+        System.out.print("Nhập email: ");
+        String email = scanner.nextLine();
+        System.out.print("Nhập điểm: ");
+        double diem = Double.parseDouble(scanner.nextLine());
+
+        String query = "INSERT INTO SinhVien (ho_ten, email, diem) VALUES (?, ?, ?)";
+        try (PreparedStatement pstmt = conn.prepareStatement(query)) {
+            pstmt.setString(1, hoTen);
+            pstmt.setString(2, email);
+            pstmt.setDouble(3, diem);
+
+            int rowsAffected = pstmt.executeUpdate();
+            if (rowsAffected > 0) {
+                System.out.println("Thêm sinh viên thành công!");
+            }
+        }
+    }
+
+    // 3. Cập nhật điểm theo ID (Sử dụng PreparedStatement)
+    private static void capNhatDiem(Connection conn, Scanner scanner) throws SQLException {
+        System.out.print("Nhập ID sinh viên cần cập nhật điểm: ");
+        int id = Integer.parseInt(scanner.nextLine());
+        System.out.print("Nhập điểm mới: ");
+        double diemMoi = Double.parseDouble(scanner.nextLine());
+
+        String query = "UPDATE SinhVien SET diem = ? WHERE id = ?";
+        try (PreparedStatement pstmt = conn.prepareStatement(query)) {
+            pstmt.setDouble(1, diemMoi);
+            pstmt.setInt(2, id);
+
+            int rowsAffected = pstmt.executeUpdate();
+            if (rowsAffected > 0) {
+                System.out.println("Cập nhật điểm thành công!");
+            } else {
+                System.out.println("Không tìm thấy sinh viên với ID = " + id);
+            }
+        }
+    }
+
+    // 4. Xóa sinh viên theo ID (Sử dụng PreparedStatement)
+    private static void xoaSinhVien(Connection conn, Scanner scanner) throws SQLException {
+        System.out.print("Nhập ID sinh viên cần xóa: ");
+        int id = Integer.parseInt(scanner.nextLine());
+
+        String query = "DELETE FROM SinhVien WHERE id = ?";
+        try (PreparedStatement pstmt = conn.prepareStatement(query)) {
+            pstmt.setInt(1, id);
+
+            int rowsAffected = pstmt.executeUpdate();
+            if (rowsAffected > 0) {
+                System.out.println("Xóa sinh viên thành công!");
+            } else {
+                System.out.println("Không tìm thấy sinh viên với ID = " + id);
+            }
+        }
+    }
+}
