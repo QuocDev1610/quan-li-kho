@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<HBox prefHeight="500.0"
+      prefWidth="800.0"
+      styleClass="login-root"
+      xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="inventory.desktop.controller.LoginController">
+    <StackPane prefWidth="350.0" styleClass="login-hero">
+        <VBox alignment="CENTER_LEFT" spacing="18.0" maxWidth="260.0">
+            <FontIcon iconLiteral="fas-boxes" iconSize="54" styleClass="login-hero-icon"/>
+            <Label text="Inventory" styleClass="login-hero-title"/>
+            <Label text="Modern warehouse management desktop system" wrapText="true" styleClass="login-hero-subtitle"/>
+            <Region prefHeight="26.0"/>
+            <Label text="Secure REST API Access" styleClass="login-hero-chip"/>
+        </VBox>
+    </StackPane>
+
+    <VBox alignment="CENTER_LEFT" spacing="18.0" HBox.hgrow="ALWAYS" styleClass="login-panel">
+        <padding>
+            <Insets bottom="42.0" left="48.0" right="48.0" top="42.0"/>
+        </padding>
+
+        <VBox spacing="6.0">
+            <Label text="Đăng nhập" styleClass="login-title"/>
+            <Label text="Kết nối tới hệ thống quản lý kho hàng" styleClass="login-subtitle"/>
+        </VBox>
+
+        <VBox spacing="12.0" maxWidth="360.0">
+            <VBox spacing="7.0">
+                <Label text="Địa chỉ API" styleClass="field-label"/>
+                <HBox alignment="CENTER_LEFT" spacing="10.0" styleClass="input-wrapper">
+                    <FontIcon iconLiteral="fas-server" iconSize="16" styleClass="input-icon"/>
+                    <TextField fx:id="apiUrlField" promptText="http://localhost:8080" HBox.hgrow="ALWAYS" styleClass="login-input"/>
+                </HBox>
+            </VBox>
+
+            <VBox spacing="7.0">
+                <Label text="Tài khoản" styleClass="field-label"/>
+                <HBox alignment="CENTER_LEFT" spacing="10.0" styleClass="input-wrapper">
+                    <FontIcon iconLiteral="fas-user" iconSize="16" styleClass="input-icon"/>
+                    <TextField fx:id="usernameField" promptText="admin" HBox.hgrow="ALWAYS" styleClass="login-input"/>
+                </HBox>
+            </VBox>
+
+            <VBox spacing="7.0">
+                <Label text="Mật khẩu" styleClass="field-label"/>
+                <HBox alignment="CENTER_LEFT" spacing="10.0" styleClass="input-wrapper">
+                    <FontIcon iconLiteral="fas-lock" iconSize="16" styleClass="input-icon"/>
+                    <PasswordField fx:id="passwordField" promptText="••••••••" HBox.hgrow="ALWAYS" styleClass="login-input"/>
+                </HBox>
+            </VBox>
+        </VBox>
+
+        <Label fx:id="errorLabel" minHeight="22.0" styleClass="login-error"/>
+
+        <Button text="Đăng nhập" maxWidth="360.0" mnemonicParsing="false" onAction="#handleLogin" styleClass="login-button"/>
+    </VBox>
+</HBox>

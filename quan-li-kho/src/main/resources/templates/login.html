@@ -1,0 +1,776 @@
+<!doctype html>
+
+<html
+        lang="vi"
+        class="layout-wide customizer-hide"
+        th:data-assets-path="@{/assets/}"
+        data-template="vertical-menu-template-free"
+        xmlns:th="http://www.thymeleaf.org"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="utf-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Đăng nhập | Hệ thống Quản Lí Kho Hàng</title>
+
+    <meta name="description" content="Trang đăng nhập hệ thống" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" th:href="@{/assets/img/favicon/favicon.ico}" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet" />
+
+    <link rel="stylesheet" th:href="@{/assets/vendor/fonts/iconify-icons.css}" />
+
+    <!-- Core CSS -->
+    <!-- build:css assets/vendor/css/theme.css  -->
+
+    <link rel="stylesheet" th:href="@{/assets/vendor/css/core.css}" />
+    <link rel="stylesheet" th:href="@{/assets/css/demo.css}" />
+
+    <!-- Vendors CSS -->
+
+    <link rel="stylesheet" th:href="@{/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css}" />
+
+    <!-- endbuild -->
+
+    <!-- Page CSS -->
+    <!-- Page -->
+    <link rel="stylesheet" th:href="@{/assets/vendor/css/pages/page-auth.css}" />
+
+    <!-- Helpers -->
+    <script th:src="@{/assets/vendor/js/helpers.js}"></script>
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+
+    <script th:src="@{/assets/js/config.js}"></script>
+
+    <!-- Custom Login Styles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-gradient: linear-gradient(135deg, #1e5a96 0%, #2980b9 100%);
+            --secondary-gradient: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+            --inventory-dark: #1a3a52;
+            --inventory-light: #2980b9;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f3650 0%, #1e5a96 25%, #2980b9 50%, #16a085 75%, #0f3650 100%);
+            background-size: 400% 400%;
+            background-position: 0% 50%;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Public Sans', sans-serif;
+            position: relative;
+            overflow: visible;
+            animation: gradientShift 15s ease infinite;
+        }
+
+        /* Animated gradient background */
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Multiple floating layers */
+        body::before,
+        body::after {
+            content: '';
+            position: fixed;
+            width: 200%;
+            height: 200%;
+            top: -50%;
+            left: -50%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        body::before {
+            background:
+                radial-gradient(circle at 20% 30%, rgba(52, 211, 153, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 50%);
+            animation: float1 20s ease-in-out infinite;
+        }
+
+        body::after {
+            background:
+                radial-gradient(circle at 80% 20%, rgba(243, 156, 18, 0.12) 0%, transparent 50%),
+                radial-gradient(circle at 20% 60%, rgba(30, 90, 150, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 60% 40%, rgba(22, 160, 133, 0.12) 0%, transparent 50%);
+            animation: float2 25s ease-in-out infinite reverse;
+        }
+
+        @keyframes float1 {
+            0%, 100% { transform: translateY(0px) translateX(0px) rotate(0deg); }
+            25% { transform: translateY(30px) translateX(-20px) rotate(90deg); }
+            50% { transform: translateY(60px) translateX(30px) rotate(180deg); }
+            75% { transform: translateY(30px) translateX(-30px) rotate(270deg); }
+        }
+
+        @keyframes float2 {
+            0%, 100% { transform: translateY(0px) translateX(0px) rotate(0deg); }
+            25% { transform: translateY(-40px) translateX(30px) rotate(-90deg); }
+            50% { transform: translateY(-60px) translateX(-20px) rotate(-180deg); }
+            75% { transform: translateY(-30px) translateX(40px) rotate(-270deg); }
+        }
+
+        /* Animated shapes - top left */
+        .shape-blob-1 {
+            position: fixed;
+            top: -100px;
+            left: -100px;
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, rgba(41, 128, 185, 0.3), rgba(22, 160, 133, 0.2));
+            border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+            filter: blur(40px);
+            animation: blobMove1 15s ease-in-out infinite;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* Animated shapes - bottom right */
+        .shape-blob-2 {
+            position: fixed;
+            bottom: -150px;
+            right: -150px;
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, rgba(243, 156, 18, 0.25), rgba(41, 128, 185, 0.2));
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            filter: blur(50px);
+            animation: blobMove2 20s ease-in-out infinite;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* Animated shapes - center */
+        .shape-blob-3 {
+            position: fixed;
+            top: 50%;
+            right: -50px;
+            width: 350px;
+            height: 350px;
+            background: linear-gradient(135deg, rgba(22, 160, 133, 0.2), rgba(243, 156, 18, 0.15));
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+            filter: blur(45px);
+            animation: blobMove3 18s ease-in-out infinite;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        @keyframes blobMove1 {
+            0%, 100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+            33% { transform: translate(50px, -30px) rotate(120deg) scale(1.1); }
+            66% { transform: translate(-30px, 40px) rotate(240deg) scale(0.95); }
+        }
+
+        @keyframes blobMove2 {
+            0%, 100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+            33% { transform: translate(-40px, 30px) rotate(-120deg) scale(1.05); }
+            66% { transform: translate(60px, -20px) rotate(-240deg) scale(0.98); }
+        }
+
+        @keyframes blobMove3 {
+            0%, 100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+            33% { transform: translate(-50px, 20px) rotate(110deg) scale(1.08); }
+            66% { transform: translate(40px, -35px) rotate(240deg) scale(0.93); }
+        }
+
+        /* Particle effect */
+        .particle {
+            position: fixed;
+            pointer-events: none;
+            z-index: 1;
+            font-size: 2rem;
+            opacity: 0.15;
+            animation: float-particle linear infinite;
+        }
+
+        @keyframes float-particle {
+            to {
+                transform: translate(0, 100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Shine/gloss overlay */
+        .shine-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                45deg,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.05) 50%,
+                rgba(255, 255, 255, 0) 100%
+            );
+            background-size: 200% 200%;
+            pointer-events: none;
+            z-index: 1;
+            animation: shineSweep 3s ease-in-out infinite;
+        }
+
+        @keyframes shineSweep {
+            0% {
+                background-position: -200% 0;
+            }
+            100% {
+                background-position: 200% 0;
+            }
+        }
+
+        body > * {
+            position: relative;
+            z-index: 2;
+        }
+
+        .authentication-wrapper {
+            padding: 2rem 1rem !important;
+            position: relative;
+            z-index: 2;
+        }
+
+        .authentication-inner {
+            max-width: 450px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-body {
+            padding: 3rem 2rem;
+        }
+
+        /* Logo Section */
+        .app-brand {
+            margin-bottom: 2.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .app-brand-link {
+            text-decoration: none !important;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.3s ease;
+        }
+
+        .app-brand-link:hover {
+            transform: scale(1.05);
+        }
+
+        .app-brand-logo svg {
+            width: 35px;
+            height: auto;
+        }
+
+        .app-brand-text {
+            font-size: 1.75rem;
+            background: linear-gradient(135deg, #1e5a96 0%, #f39c12 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700 !important;
+        }
+
+        /* Title and Description */
+        .card-body h4 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-body > p {
+            color: #718096;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Form Labels */
+        .form-label {
+            font-weight: 600;
+            color: #2d3748;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Form Controls */
+        .form-control,
+        .input-group-text {
+            border: 1.5px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            background-color: #f7fafc;
+        }
+
+        .form-control:focus,
+        .input-group-text:focus-within {
+            border-color: #2980b9;
+            background-color: #fff;
+            box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.1);
+        }
+
+        .form-control::placeholder {
+            color: #a0aec0;
+        }
+
+        .form-control {
+            height: 45px;
+        }
+
+        .input-group {
+            display: flex;
+        }
+
+        .input-group-text {
+            border: 1.5px solid #e2e8f0;
+            background-color: #f7fafc;
+            color: #718096;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-left: none;
+        }
+
+        .input-group-text:hover {
+            color: #2980b9;
+            background-color: #edf2f7;
+        }
+
+        /* Form Password Toggle */
+        .form-password-toggle .input-group-text {
+            padding: 0 1.25rem;
+        }
+
+        .password-toggle-icon {
+            display: inline-block;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        /* Error Messages */
+        .text-danger {
+            color: #e53e3e !important;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .text-danger::before {
+            content: "⚠";
+            font-size: 0.9rem;
+        }
+
+        /* Form Check (Remember Me) */
+        .form-check-input {
+            width: 1.25rem;
+            height: 1.25rem;
+            border: 1.5px solid #cbd5e0;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 0.25rem;
+        }
+
+        .form-check-input:checked {
+            background-color: #2980b9;
+            border-color: #2980b9;
+            box-shadow: 0 0 0 2px rgba(41, 128, 185, 0.1);
+        }
+
+        .form-check-input:focus {
+            border-color: #2980b9;
+            box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.1);
+        }
+
+        .form-check-label {
+            color: #4a5568;
+            font-weight: 500;
+            cursor: pointer;
+            user-select: none;
+            font-size: 0.9rem;
+        }
+
+        /* Form Actions Row */
+        .form-check-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            gap: 1rem;
+        }
+
+        .form-check-group a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-check-group a:hover {
+            color: #1e5a96;
+            text-decoration: underline;
+        }
+
+        /* Submit Button */
+        .btn-primary {
+            background: linear-gradient(135deg, #2980b9 0%, #1e5a96 100%);
+            border: none;
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            font-size: 1rem;
+            height: 45px;
+            transition: all 0.3s ease;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 4px 15px rgba(41, 128, 185, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(41, 128, 185, 0.4);
+            background: linear-gradient(135deg, #1e5a96 0%, #16a085 100%);
+        }
+
+        .btn-primary:active,
+        .btn-primary:focus {
+            box-shadow: 0 4px 15px rgba(41, 128, 185, 0.3);
+        }
+
+        /* Auth Footer */
+        .auth-footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .auth-footer p {
+            color: #718096;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        .auth-footer a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .auth-footer a:hover {
+            color: #1e5a96;
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 576px) {
+            .card-body {
+                padding: 2rem 1.5rem;
+            }
+
+            .card-body h4 {
+                font-size: 1.5rem;
+            }
+
+            .form-label {
+                font-size: 0.85rem;
+            }
+
+            .form-check-group {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .form-check-group a {
+                align-self: flex-end;
+            }
+
+            .app-brand-link {
+                flex-direction: column;
+            }
+
+            .app-brand-text {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .card-body {
+                padding: 1.5rem 1rem;
+            }
+
+            .card-body h4 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<!-- Animated background elements -->
+<div class="shape-blob-1"></div>
+<div class="shape-blob-2"></div>
+<div class="shape-blob-3"></div>
+<div class="shine-overlay"></div>
+
+<!-- Content -->
+
+<div class="container-xxl">
+    <div class="authentication-wrapper authentication-basic container-p-y">
+        <div class="authentication-inner">
+            <!-- Register -->
+            <div class="card px-sm-6 px-0">
+                <div class="card-body">
+                    <!-- Logo -->
+                    <div class="app-brand justify-content-center">
+                        <a th:href="index.html" class="app-brand-link gap-2">
+                  <span class="app-brand-logo demo">
+                    <span class="text-primary">
+                      <svg
+                              width="25"
+                              viewBox="0 0 25 42"
+                              version="1.1"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                          <path
+                                  d="M13.7918663,0.358365126 L3.39788168,7.44174259 C0.566865006,9.69408886 -0.379795268,12.4788597 0.557900856,15.7960551 C0.68998853,16.2305145 1.09562888,17.7872135 3.12357076,19.2293357 C3.8146334,19.7207684 5.32369333,20.3834223 7.65075054,21.2172976 L7.59773219,21.2525164 L2.63468769,24.5493413 C0.445452254,26.3002124 0.0884951797,28.5083815 1.56381646,31.1738486 C2.83770406,32.8170431 5.20850219,33.2640127 7.09180128,32.5391577 C8.347334,32.0559211 11.4559176,30.0011079 16.4175519,26.3747182 C18.0338572,24.4997857 18.6973423,22.4544883 18.4080071,20.2388261 C17.963753,17.5346866 16.1776345,15.5799961 13.0496516,14.3747546 L10.9194936,13.4715819 L18.6192054,7.984237 L13.7918663,0.358365126 Z"
+                                  id="path-1"></path>
+                          <path
+                                  d="M5.47320593,6.00457225 C4.05321814,8.216144 4.36334763,10.0722806 6.40359441,11.5729822 C8.61520715,12.571656 10.0999176,13.2171421 10.8577257,13.5094407 L15.5088241,14.433041 L18.6192054,7.984237 C15.5364148,3.11535317 13.9273018,0.573395879 13.7918663,0.358365126 C13.5790555,0.511491653 10.8061687,2.3935607 5.47320593,6.00457225 Z"
+                                  id="path-3"></path>
+                          <path
+                                  d="M7.50063644,21.2294429 L12.3234468,23.3159332 C14.1688022,24.7579751 14.397098,26.4880487 13.008334,28.506154 C11.6195701,30.5242593 10.3099883,31.790241 9.07958868,32.3040991 C5.78142938,33.4346997 4.13234973,34 4.13234973,34 C4.13234973,34 2.75489982,33.0538207 2.37032616e-14,31.1614621 C-0.55822714,27.8186216 -0.55822714,26.0572515 -4.05231404e-15,25.8773518 C0.83734071,25.6075023 2.77988457,22.8248993 3.3049379,22.52991 C3.65497346,22.3332504 5.05353963,21.8997614 7.50063644,21.2294429 Z"
+                                  id="path-4"></path>
+                          <path
+                                  d="M20.6,7.13333333 L25.6,13.8 C26.2627417,14.6836556 26.0836556,15.9372583 25.2,16.6 C24.8538077,16.8596443 24.4327404,17 24,17 L14,17 C12.8954305,17 12,16.1045695 12,15 C12,14.5672596 12.1403557,14.1461923 12.4,13.8 L17.4,7.13333333 C18.0627417,6.24967773 19.3163444,6.07059163 20.2,6.73333333 C20.3516113,6.84704183 20.4862915,6.981722 20.6,7.13333333 Z"
+                                  id="path-5"></path>
+                        </defs>
+                        <g id="g-app-brand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="Brand-Logo" transform="translate(-27.000000, -15.000000)">
+                            <g id="Icon" transform="translate(27.000000, 15.000000)">
+                              <g id="Mask" transform="translate(0.000000, 8.000000)">
+                                <mask id="mask-2" fill="white">
+                                  <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use fill="currentColor" xlink:href="#path-1"></use>
+                                <g id="Path-3" mask="url(#mask-2)">
+                                  <use fill="currentColor" xlink:href="#path-3"></use>
+                                  <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-3"></use>
+                                </g>
+                                <g id="Path-4" mask="url(#mask-2)">
+                                  <use fill="currentColor" xlink:href="#path-4"></use>
+                                  <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-4"></use>
+                                </g>
+                              </g>
+                              <g
+                                      id="Triangle"
+                                      transform="translate(19.000000, 11.000000) rotate(-300.000000) translate(-19.000000, -11.000000) ">
+                                <use fill="currentColor" xlink:href="#path-5"></use>
+                                <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-5"></use>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                  </span>
+                            <span class="app-brand-text demo text-heading fw-bold">Inventory</span>
+                        </a>
+                    </div>
+                    <!-- /Logo -->
+                    <h4 class="mb-1">Welcome to Inventory! 👋</h4>
+                    <p class="mb-6">Please sign-in to your account and start the adventure</p>
+
+                    <form id="formAuthenication" class="mb-6" th:action="@{/login}" th:object="${user}" method="post">
+                        <!-- Username Field -->
+                        <div class="mb-4">
+                            <label for="formAuthenication" class="form-label">Account or Username</label>
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    th:field="*{userName}"
+                                    placeholder="Enter your username"
+                                    autofocus />
+                            <p th:if="${#fields.hasErrors('userName')}" th:errors="*{userName}" class="text-danger mt-1"></p>
+                        </div>
+
+                        <!-- Password Field -->
+                        <div class="mb-4 form-password-toggle">
+                            <label class="form-label" for="password">Password</label>
+                            <div class="input-group input-group-merge">
+                                <input
+                                        type="password"
+                                        id="password"
+                                        class="form-control"
+                                        th:field="*{password}"
+                                        placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                        aria-describedby="password" />
+                                <span class="input-group-text cursor-pointer"><i class="icon-base bx bx-hide"></i></span>
+                            </div>
+                            <p th:if="${#fields.hasErrors('password')}" th:errors="*{password}" class="text-danger mt-1"></p>
+                        </div>
+
+                        <!-- Remember Me & Forgot Password -->
+                        <div class="form-check-group mb-6">
+                            <div class="form-check mb-0">
+                                <input class="form-check-input" type="checkbox" id="remember-me" name="remember-me" />
+                                <label class="form-check-label" for="remember-me"> Remember Me </label>
+                            </div>
+                            <a th:href="@{/forgot-password}" class="text-decoration-none">
+                                Forgot Password?
+                            </a>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="mb-6">
+                            <button class="btn btn-primary d-grid w-100" type="submit">Sign In</button>
+                        </div>
+                    </form>
+
+                    <!-- Registration Link -->
+                    <div class="auth-footer">
+                        <p>
+                            <span>Don't have an account?</span>
+                            <a th:href="@{/register}">Create one</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /Register -->
+        </div>
+    </div>
+</div>
+
+<!-- / Content -->
+
+
+
+<!-- Core JS -->
+
+<script th:src="@{/assets/vendor/libs/jquery/jquery.js}"></script>
+
+<script th:src="@{/assets/vendor/libs/popper/popper.js}"></script>
+<script th:src="@{/assets/vendor/js/bootstrap.js}"></script>
+
+<script th:src="@{/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js}"></script>
+
+<script th:src="@{/assets/vendor/js/menu.js}"></script>
+
+<!-- endbuild -->
+
+<!-- Vendors JS -->
+
+<!-- Main JS -->
+
+<script th:src="@{/assets/js/main.js}"></script>
+
+<!-- Page JS -->
+
+<!-- Place this tag before closing body tag for github widget button. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- Password Toggle Script -->
+<script>
+    // Generate animated particles
+    function generateParticles() {
+        const particleIcons = ['📦', '📫', '📊', '🚚', '📈', '💼', '🏭', '📋'];
+
+        // Remove existing particles first
+        const existingParticles = document.querySelectorAll('.particle');
+        existingParticles.forEach(p => p.remove());
+
+        for (let i = 0; i < 8; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+
+            const randomIcon = particleIcons[Math.floor(Math.random() * particleIcons.length)];
+            const randomLeft = Math.random() * 100;
+            const randomDelay = Math.random() * 5;
+            const randomDuration = 8 + Math.random() * 4;
+
+            particle.style.left = randomLeft + '%';
+            particle.style.top = '-50px';
+            particle.style.animation = `float-particle ${randomDuration}s linear infinite`;
+            particle.style.animationDelay = randomDelay + 's';
+            particle.style.opacity = Math.random() * 0.15 + 0.05;
+
+            particle.textContent = randomIcon;
+
+            document.body.appendChild(particle);
+        }
+    }
+
+    // Initialize particles on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        // Generate particles
+        generateParticles();
+
+        // Password toggle functionality
+        const passwordField = document.getElementById('password');
+        const toggleBtn = document.querySelector('.form-password-toggle .input-group-text');
+
+        if (toggleBtn && passwordField) {
+            toggleBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Toggle password visibility
+                if (passwordField.type === 'password') {
+                    passwordField.type = 'text';
+                    toggleBtn.innerHTML = '<i class="icon-base bx bx-show"></i>';
+                } else {
+                    passwordField.type = 'password';
+                    toggleBtn.innerHTML = '<i class="icon-base bx bx-hide"></i>';
+                }
+            });
+        }
+    });
+</script>
+</body>
+</html>

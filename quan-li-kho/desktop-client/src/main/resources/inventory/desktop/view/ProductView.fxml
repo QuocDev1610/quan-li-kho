@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane styleClass="module-shell" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inventory.desktop.controller.module.ProductViewController">
+    <top>
+        <VBox spacing="18.0">
+            <VBox spacing="5.0">
+                <Label fx:id="moduleTitleLabel" styleClass="module-title"/>
+                <Label fx:id="moduleSubtitleLabel" styleClass="module-subtitle"/>
+            </VBox>
+
+            <HBox alignment="CENTER_LEFT" spacing="12.0" styleClass="module-toolbar">
+                <HBox alignment="CENTER_LEFT" maxWidth="520.0" spacing="10.0" styleClass="module-search-wrapper" HBox.hgrow="ALWAYS">
+                    <FontIcon iconLiteral="fas-search" iconSize="15" styleClass="module-search-icon"/>
+                    <TextField fx:id="searchField" promptText="Tìm kiếm sản phẩm..." HBox.hgrow="ALWAYS" styleClass="module-search"/>
+                </HBox>
+                <Region HBox.hgrow="ALWAYS"/>
+                <HBox spacing="10.0" styleClass="module-actions">
+                    <Button fx:id="refreshButton" text="Làm mới" onAction="#refresh" styleClass="button-primary">
+                        <graphic><FontIcon iconLiteral="fas-sync-alt" iconSize="14"/></graphic>
+                    </Button>
+                    <Button fx:id="addButton" text="Thêm" styleClass="button-success">
+                        <graphic><FontIcon iconLiteral="fas-plus" iconSize="14"/></graphic>
+                    </Button>
+                    <Button fx:id="editButton" text="Sửa" styleClass="button-primary">
+                        <graphic><FontIcon iconLiteral="fas-pen" iconSize="14"/></graphic>
+                    </Button>
+                    <Button fx:id="deleteButton" text="Xóa" styleClass="button-danger">
+                        <graphic><FontIcon iconLiteral="fas-trash-alt" iconSize="14"/></graphic>
+                    </Button>
+                </HBox>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox styleClass="module-card">
+            <BorderPane.margin>
+                <Insets top="18.0"/>
+            </BorderPane.margin>
+            <TableView fx:id="tableView" VBox.vgrow="ALWAYS"/>
+        </VBox>
+    </center>
+</BorderPane>

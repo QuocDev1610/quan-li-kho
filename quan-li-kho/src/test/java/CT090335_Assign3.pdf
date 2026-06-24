@@ -1,0 +1,136 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
+
+// 1. Lớp Order đưa ra ngoài, độc lập
+class Order {
+    int orderId;
+    int processingTime; // Tính bằng giây
+
+    public Order(int orderId, int processingTime) {
+        this.orderId = orderId;
+        this.processingTime = processingTime;
+    }
+}
+
+// 2. Lớp Employee đưa ra ngoài, độc lập
+class Employee extends Thread {
+    int employeeId;
+    List<Order> orders;
+
+    public Employee(int employeeId) {
+        this.employeeId = employeeId;
+        this.orders = new ArrayList<>();
+    }
+
+    public void addOrder(Order order) {
+        this.orders.add(order);
+    }
+
+    @Override
+    public void run() {
+        for (Order order : orders) {
+            System.out.println("-> Nhân viên " + employeeId + " ĐANG xử lý đơn hàng ID: " + order.orderId + " (Cần " + order.processingTime + "s)");
+            try {
+                // Thread.sleep nhận vào mili-giây, nên cần nhân thời gian với 1000
+                Thread.sleep(order.processingTime * 1000L);
+            } catch (InterruptedException e) {
+                System.out.println("Quá trình xử lý bị gián đoạn.");
+            }
+            System.out.println("=> Nhân viên " + employeeId + " ĐÃ HOÀN TẤT đơn hàng ID: " + order.orderId);
+        }
+        if (!orders.isEmpty()) {
+            System.out.println("*** Nhân viên " + employeeId + " đã hoàn thành tất cả công việc. ***");
+        }
+    }
+}
+
+// 3. Class chính chứa hàm main (Tên class trùng với tên file)
+public class CT090335_Assign3 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Yêu cầu nhập tổng số đơn và nhân viên
+        System.out.print("Nhập tổng số đơn hàng: ");
+        int numOrders = scanner.nextInt();
+        System.out.print("Nhập tổng số nhân viên: ");
+        int numEmployees = scanner.nextInt();
+
+        // Nhập thông tin từng đơn hàng
+        List<Order> allOrders = new ArrayList<>();
+        for (int i = 0; i < numOrders; i++) {
+            System.out.println("\nNhập thông tin đơn hàng thứ " + (i + 1) + ":");
+            System.out.print("  ID đơn hàng: ");
+            int id = scanner.nextInt();
+            System.out.print("  Thời gian xử lý (giây): ");
+            int time = scanner.nextInt();
+            allOrders.add(new Order(id, time));
+        }
+
+        // Khởi tạo danh sách nhân viên
+        List<Employee> employees = new ArrayList<>();
+        for (int i = 0; i < numEmployees; i++) {
+            employees.add(new Employee(i + 1));
+        }
+
+        // Chọn Option
+        System.out.println("\n===== CHỌN CÁCH XỬ LÝ =====");
+        System.out.println("Option 1: Chia đều danh sách đơn hàng cho các Thread.");
+        System.out.println("Option 2: Chia random, xử lý tuần tự (Nhân viên có ít đơn làm trước).");
+        System.out.print("Mời bạn chọn (1 hoặc 2): ");
+        int choice = scanner.nextInt();
+
+        if (choice == 1) {
+            // Option 1: Chia đều
+            for (int i = 0; i < allOrders.size(); i++) {
+                // Dùng phép chia lấy dư (modulo) để chia đều tuần tự cho các nhân viên
+                employees.get(i % numEmployees).addOrder(allOrders.get(i));
+            }
+
+            System.out.println("\n--- BẮT ĐẦU XỬ LÝ (OPTION 1 - CHẠY SONG SONG) ---");
+            // Vì không có ràng buộc 1 máy, tất cả các thread chạy song song
+            for (Employee emp : employees) {
+                if (!emp.orders.isEmpty()) {
+                    emp.start();
+                }
+            }
+
+        } else if (choice == 2) {
+            // Option 2: Chia random
+            Random random = new Random();
+            for (Order order : allOrders) {
+                int randomEmpIndex = random.nextInt(numEmployees);
+                employees.get(randomEmpIndex).addOrder(order);
+            }
+
+            // Sắp xếp danh sách nhân viên theo số lượng đơn hàng tăng dần (ít làm trước)
+            employees.sort(Comparator.comparingInt(emp -> emp.orders.size()));
+
+            System.out.println("\n--- THÔNG KÊ PHÂN CHIA (OPTION 2) ---");
+            for (Employee emp : employees) {
+                System.out.println("Nhân viên " + emp.employeeId + " được phân " + emp.orders.size() + " đơn.");
+            }
+
+            System.out.println("\n--- BẮT ĐẦU XỬ LÝ (OPTION 2 - CHẠY TUẦN TỰ DO CÓ 1 MÁY) ---");
+            for (Employee emp : employees) {
+                if (!emp.orders.isEmpty()) {
+                    emp.start();
+                    try {
+                        // Sử dụng join() để Main thread chờ luồng này chạy xong hoàn toàn
+                        // rồi mới cho luồng (nhân viên) tiếp theo bắt đầu.
+                        emp.join();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        } else {
+            System.out.println("Lựa chọn không hợp lệ!");
+        }
+
+        scanner.close();
+    }
+}

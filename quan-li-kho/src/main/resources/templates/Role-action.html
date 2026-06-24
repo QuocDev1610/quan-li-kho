@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" class="layout-wide" data-assets-path="/assets/" data-template="vertical-menu-template-free">
+<body>
+<div class="layout-wrapper layout-content-navbar">
+    <div class="card mb-4" style="border: none; box-shadow: none; margin-bottom: 0 !important;">
+
+        <span id="titleForm" th:text="${titleForm}" style="display: none;">Role Action</span>
+
+        <form class="card-body" th:object="${model}" th:action="@{/Role/save}" method="post" enctype="multipart/form-data" style="padding: 0;">
+
+            <input type="hidden" th:field="*{id}" />
+            <input type="hidden" th:field="*{createDate}" />
+            <input type="hidden" th:field="*{updateDate}" />
+            <input type="hidden" th:field="*{activeFlag}" />
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label" for="name">Role Name</label>
+                <div class="col-sm-9">
+                    <input type="text" id="name" th:field="*{roleName}" th:disabled="${Viewonly}" class="form-control" placeholder="roleName..." autofocus>
+                    <p th:if="${#fields.hasErrors('roleName')}" th:errors="*{roleName}" class="text-danger mt-1 mb-0 small"></p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label" for="Description">Description</label>
+                <div class="col-sm-9">
+                    <div class="input-group input-group-merge">
+                        <input type="text" id="Description" class="form-control" th:field="*{description}" th:disabled="${Viewonly}" placeholder="Nhập mô tả role...">
+                    </div>
+                    <p th:if="${#fields.hasErrors('description')}" th:errors="*{description}" class="text-danger mt-1 mb-0 small"></p>
+                </div>
+            </div>
+
+            <div class="row justify-content-end mt-4" th:if="${!Viewonly}">
+                <div class="col-sm-9 text-end">
+                    <button type="button" class="btn btn-label-secondary me-2" data-dismiss="modal" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
