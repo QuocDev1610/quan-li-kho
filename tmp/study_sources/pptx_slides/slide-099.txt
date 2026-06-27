@@ -1,0 +1,12 @@
+Thanh ghi điều khiển nối tiếp SCON:
+Chế độ 2: Truyền thông bất đồng bộ với frame truyền 11 bit: 1 bit Start, 8 bit dữ liệu, 1 bit lập trình được (bên truyền là TB8, nhận là RB8) và 1 bit Stop. TxD thực hiện truyền, RxD nhận dữ liệu, tốc độ truyền cài đặt qua Timer1. Bit thứ 9 thường được dung là bit parity.
+ - Quá trình truyền:
+
+
+- Quá trình nhận:
+
+
+
+Chế độ 3: tương tự như chế độ 2, trừ tốc độ baud
+3.5. Truyền thông nối tiếp - Các thanh ghi cổng nối tiếp (6)
+99

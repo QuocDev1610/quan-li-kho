@@ -1,0 +1,5 @@
+2.3.1. Tổ chức bộ nhớ trong
+2.3.2. Tổ chức bộ nhớ ngoài
+2.3.3. Ví dụ tổ chức bộ nhớ ngoài
+2.3. Tổ chức bộ nhớ 8051
+25

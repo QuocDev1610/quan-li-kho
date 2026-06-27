@@ -1,0 +1,9 @@
+Thanh ghi điều khiển nối tiếp SCON:
+Chế độ 0: Đây là chế độ thanh ghi dịch 8 bit, không có bit start/stop, ở chế độ này RxD là chân truyền nhận, còn TxD phát xung đồng bộ
+Quá trình truyền bắt đầu khi ghi giá trị vào SBUF, kết thúc khi TI = 1
+
+ 
+
+Quá trình nhận tự động bởi hệ thống và kết thúc khi RI = 1
+3.5. Truyền thông nối tiếp - Các thanh ghi cổng nối tiếp (4)
+97

@@ -1,0 +1,7 @@
+3.2. Các thanh ghi dùng cho bộ định thời/bộ đếm –TMOD (1)
+C/T: bit chọn chức năng đếm hoặc định thời
+C/T =0 định thời, hoạt động dựa vào xung clock nội bên trong chip. Tần số clock của bộ định thời = 1/12 của tần số thạch anh.
+C/T = 1 đếm sự kiện. bộ định thời/bộ đếm hoạt động dựa vào xung clock cấp từ bên ngoài đưa vào trên chân T0 (với bộ định thời/bộ đếm 0), chân T1 (với bộ định thời/bộ đếm 1).
+Cả hai bộ đếm/định thời đều dung chung một thanh ghi chế độ định thời (TMOD - timer mode register) để thiết lập các chế độ làm việc khác nhau. TMOD là thanh ghi 8 bit, 4 bit thấp sử dụng để thiết lập chế độ cho bộ định thời/bộ đếm 0; 4 bit cao được sử dụng để thiết lập chế độ hoạt động cho bộ định thời/bộ đếm 1, Hình 3.2
+Hình 3.2. Thanh ghi TMOD
+73

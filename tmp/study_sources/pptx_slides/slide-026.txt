@@ -1,0 +1,10 @@
+2.3.1. Tổ chức bộ nhớ trong (1)
+Hình 2.8. trình bày vùng nhớ RAM trong có 128 byte được gán địa chỉ từ 00H đến 7FH. 
+Từ 00H đến 1FH (32 byte) là các băng thanh ghi và ngăn xếp.
+Từ 20H đến 2FH (16 byte) được định địa chỉ bit. Vùng nhớ này có thể truy nhập theo byte, hoặt bit tùy theo lệnh. Ví dụ:
+MOV A, 2Ch ; đọc cả byte
+ORL A, #10000000B; set bit cao nhất
+MOV 2CH, A; ghi lại cả byte
+Ba lệnh trên tương đương lệnh “SETB 67H”
+Từ 30H đến 7FH (80 byte) được sử dụng để lưu thông tin khi đọc và ghi, hay được gọi là bảng nháp. 80 byte này thường được sử dụng để lưu dữ liệu và tham số.
+26

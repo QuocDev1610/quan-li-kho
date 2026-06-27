@@ -1,0 +1,17 @@
+Ví dụ 4.7. (tiếp) 
+BACK:	MOV	A, P1		; nhan du liuu tu cong P1
+	MOV	SBUF, A		; gui sao toi SBUF
+	MOV	P2, A		; gui ra cong P2
+	SJMP	BACK		; lap lai vong lap
+; ----trinh phuc vu ngat truyen thong noi tiep
+	ORG	100h
+SERIAL:	JB	TI, TRANS		; nhay neu co TI cao
+	MOV	A, SBUF		; neu khong thi nhan du lieu
+	CLR	RI		; xoa có RI
+	RETI			; tro ve chuong trinh chinh
+TRANS:	CLR	TI		; xoa co TI
+	RETI			; tro ve chuong trinh chinh
+	END
+Trong chương trình này, cần lưu lý đến cờ TI và RI. Tại thời điểm một byte được ghi vào SBUF thì byte này được định khung và truyền nối tiếp. Khi bit cuối cùng (stop) được truyền đi cờ TI được bật cao và gây ra ngắt nối tiếp. Trong trình phục vụ ngắt nối tiếp, cần kiểm tra cả cờ TI và RI vì cả hai để có thể gọi ngắt chỉ có một ngắt chung cho cả phát và thu dữ liệu.
+4.5. Lập trình ngắt truyền thông nối tiếp – Một số ví dụ (2)
+131

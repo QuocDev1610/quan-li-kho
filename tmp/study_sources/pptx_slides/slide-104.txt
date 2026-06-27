@@ -1,0 +1,13 @@
+Ví dụ 3.9: Nhận các byte dữ liệu nối tiếp và gửi ra cổng P1, tốc độ 4800 baud, 8 bit dữ liệu và 1 bit stop
+
+			MOV 	TMOD, #20h	; chọn Timer 1, chế độ 2 (tự nạp lại)
+			MOV 	TH1,#-6	   	; chọn tốc độ 4800 baud
+			MOV 	SCON, #50h 	; khung uart: 8b+1start+1stop, cho phep thu
+			SETB 	TR1	   	; khởi động Timer1
+HERE: 	JNB 	RI, HERE	; chờ đến bit cuối cùng
+			MOV	A, SBUF	; lưu ký tự vào thanh ghi A
+			MOV 	P1, A		; gửi ra cổng P1
+			CLR 	RI		; sẵn sàng nhận byte kế tiếp
+			SJMP 	HERE		; tiếp tục nhận dữ liệu
+3.5. Truyền thông nối tiếp – Lập trình nhận DL nối tiếp chế độ 1 (2)
+104

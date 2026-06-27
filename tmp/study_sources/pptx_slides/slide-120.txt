@@ -1,0 +1,23 @@
+Ví dụ 4.3. Viết chương trình nhận liên tục dữ liệu 8 bit từ công P0 và gửi ra cổng P1. Trong thời gian nhận và gửi dữ liệu tạo một song vuông có chu kỳ 502µs. Sử dụng ngắt Timer 0, chế độ 2; tần số của 8051 là XTAL = 12MHz
+Phần mềm
+Phần cứng
+ORG	0000h
+	LJMP	MAIN
+; --- chuong trinh ISR cho Timer0 de tao song vuong
+	ORG	000Bh		; vector ngat cua Timer 0
+	CPL	P2.0		; lay bù
+	SETB 	TR0 
+	RETI
+; --- chuong trinh chinh
+	ORG	0030h		; dia chi chuong trình chính
+MAIN:	MOV 	TMOD, #02h 	; chon Timer 0, che do 2 tu nap lai
+	MOV	P0, #0FFh		; P0 lam cong vao
+	MOV	TH0, #5
+	MOV	IE, #10000010B	; cho phép ngat Timer 0
+	SETB 	TR0 		; khoi dong Timer 0
+BACK:	MOV	A, P0		; nhan dl tu P0
+	MOV	P1, A
+	SJMP	BACK
+	END
+4.3. Lập trình ngắt bộ định thời – Một số ví dụ (2)
+120

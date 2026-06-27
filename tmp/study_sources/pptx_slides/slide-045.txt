@@ -1,0 +1,7 @@
+Các thanh ghi định thời/bộ đếm
+8051 có 02 định thời/bộ đếm (timer/counter) 16 bit để định khoảng thời gian hoặc đếm các sự kiện. 
+Bộ định thời 0: TL0 – byte thấp, địa chỉ 8AH; TH0 – byte cao, địa chỉ 8CH
+Bộ định thời 1: TL1 – byte thấp, địa chỉ 8BH; TH1 – byte cao, địa chỉ 8DH
+Hoạt động của bộ định thời được thiết lập bởi thanh ghi chế độ định thời TMOD (time mode register) và thanh ghi điều khiển định thời TCON (timer control register). Các thanh ghi này sẽ thảo luận ở phần sau.
+2.4.1. Các thanh ghi chức năng đặc biệt của 8051 (5)
+45

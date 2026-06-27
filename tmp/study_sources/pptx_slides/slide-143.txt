@@ -1,0 +1,4 @@
+5.3. Cấu trúc Load - Store
+ARM là bộ vi xử lý dựa trên kiến trúc RISC, do đó hỗ trợ kiến trúc nạp và lưu trữ (Load – Stror Architecture). Để thực hiện lệnh xử lý dữ liệu, các toán hạng phải được nạp vào một tập thanh ghi trung tâm, các phép toán dữ liệu phải được thực hiện trên các thanh ghi này và kết quả sau đó được lưu lại trong bộ nhớ.
+Hình 5.3. Cấu trúc Load - Store
+143

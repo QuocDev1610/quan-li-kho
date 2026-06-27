@@ -1,0 +1,14 @@
+2.4.2. Các chế độ địa chỉ (1)
+Chế độ địa chỉ tức thời
+Toán hạng nguồn là hằng số
+Trước dữ liệu tức thời cần có dấu #
+Ví dụ 2.6: MOV    A, #25	; Nạp giá trị 25 và thanh ghi A
+Chế độ định địa chỉ thanh ghi
+Sử dụng thanh ghi để lưu trữ dữ liệu cần thao tác
+Thanh ghi nguồn và đích phải phù hợp về kích thước
+Không được chuyển dữ liệu giữa các thanh ghi Rn vào Rm
+Ví dụ 2.7:
+MOV  	A, R0 		; Chuyển dữ liệu trong R0 vào A
+MOV	DPTR, A	; không thực hiện được, vì không cùng kích thước
+MOV	R1, R2		; không hợp lệ
+47

@@ -1,0 +1,5 @@
+Khi Bộ định thời/bộ đếm thực hiện chức năng định thời sử dụng nguồn xung thạch anh của 8051, còn thực hiện chức năng bộ đếm thì sử dụng nguồn xung lấy từ bên ngoài của 8051 để tăng nội dung các thanh ghi TH, TL.
+Bit C/T của TMOD có nhiệm vụ xác định nguồn xung. Nếu C/T=0 bộ định thời nhận xung đồng hồ từ bộ dao động thạch anh của 8051, nếu C/T=1 bộ đếm nhận xung từ bên ngoài 8051.
+C/T=1 bộ đếm thự hiện đếm tăng khi có xung đông hồ đưa tới chân P3.4 (T0 – đầu vào của Timer 0) hoặc P3.5(T1 – đầu vào của Timer 1)
+3.4. Lập trình cho bộ định thời/bộ đếm - Lập trình bộ đếm (1)
+88

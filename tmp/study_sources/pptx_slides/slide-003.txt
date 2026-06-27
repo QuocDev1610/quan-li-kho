@@ -1,0 +1,7 @@
+TÀI LIỆU THAM KHẢO
+[1] Cấu trúc và lập trình họ vi điều khiển 8051- Nguyễn Tăng Cường – NXB Khoa học & Kỹ thuật.
+[2] Vi điều khiển – Trần Viết Thắng, Phạm Hùng Kim Khánh – Trường đại học kỹ thuật công nghệ
+[3] Vi xử lý - Hồ Trung Mỹ - NXB ĐHQG, 2003 (TLTK chính).
+[4] Họ vi điều khiển 8051 - Tống Văn On, Hoàng Đức Hải - NXB LĐXH, 2001.
+[5] Vi Xử Lý trong Đo Lường và Điều Khiển - Ngô Diên Tập - NXB Khoa Học & Kỹ Thuật, 2000.
+3

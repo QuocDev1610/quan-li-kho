@@ -1,0 +1,3 @@
+2.3.2. Tổ chức bộ nhớ ngoài (1)
+8051 có không gian bộ nhớ riêng cho chương trình và dữ liệu. Bộ nhớ chương trình và dữ liệu đặt bên trong chip, tuy nhiên có thể mở rộng bộ nhớ chương trình và dữ liệu bằng các chip nhớ bên ngoài với dung lượng tối đa 64K cho mỗi bộ nhớ. Không gian bộ nhớ ROM, Hình 2.4
+29

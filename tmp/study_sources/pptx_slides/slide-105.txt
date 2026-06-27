@@ -1,0 +1,14 @@
+Bài tập 3.3: Thực hiện truyền nối tiếp giữa 02 bộ vi điều khiển chế độ 1, tốc độ UART 9600 baud để truyền nối tiếp (một chiều) các số đếm (tăng) từ 0 tới 9 và hiển thị lên LED 7 đoạn.
+
+
+
+
+Bài tập 3.4: Thực hiện truyền nối tiếp giữa 02 bộ vi điều khiển chế độ 1, tốc độ UART 9600 baud để truyền nối tiếp (hai chiều) các số đếm (một bộ đếm tăng, một bộ đếm giảm) từ 0 đến 9 và hiển thị trên LED 7 đoạn
+3.5. Truyền thông nối tiếp – Bài tập
+Truyền
+Nhận
+Sơ đồ
+Truyền
+Nhận
+Sơ đồ
+105

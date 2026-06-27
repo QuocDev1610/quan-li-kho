@@ -1,0 +1,14 @@
+5.5. Mô hình giao tiếp trong ARM
+Các khối chức năng trong vi điều khiển ARM bao gồm:
+Bộ xử lý ARM; 
+Bộ điều khiển ngắt; 
+Bộ phân xử bus truyền hiệu suất cao (AHB-Advanced High-performance Bus);
+Bộ điều khiển bộ nhớ;
+SRAM;
+EPROM hoặc Flash;
+DRAM;
+Cầu nối AHB – APB (Advanced Peripheral Bus: Bus truyền ngoại vi tối ưu) - Cầu nối ngoài AHB;
+ Bộ đếm/định thời;
+Khối SPI (Serial Peripheral Interface): Khối giao tiếp các thiết bị ngoại vi nối tiếp;
+Khối Serial UART (Serial Universal Asynchronous Receiver/Transmitter): Khối giao tiếp nối tiếp truyền/thu không đồng bộ đa năng.
+147

@@ -1,0 +1,4 @@
+5.5. Mô hình giao tiếp trong ARM
+Hình 5.5. Mô hình giao tiếp trong ARM
+Vi điều khiển ARM được thực thi trên hệ thống kiến trúc các bus truyền dữ liệu đa chức năng của vi điều khiển. Bao gồm bộ vi xử lý ARM kết nối qua hệ thống bus truyền dữ liệu hiệu suất cao để đồng bộ nhanh với SRAM, các bus giao tiếp ngoài, và cầu nối tới các bus truyền ngoại vi công suất thấp, được mô tả trong Hình 5.5.
+146

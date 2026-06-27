@@ -1,0 +1,5 @@
+2.4. Tập lệnh của 8051
+2.4.1. Các thanh ghi chức năng đặt biệt của 8051
+2.4.2. Các chế độ địa chỉ
+2.4.3. Tập lệnh
+40

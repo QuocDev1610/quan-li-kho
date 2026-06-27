@@ -1,0 +1,17 @@
+Ví dụ 3.6. Giả sử xung đồng hồ được cấp tới chân T1. Viết chương trình cho bộ đếm 1 ở chế độ 2 để đếm các xung và hiển thị trạng thái của số đếm TL1 trên cổng P2
+	   MOV	    TMOD, #01100000B	; chọn bộ đếm 1, chế độ 2, 
+					; C/T=1 xung ngoài
+	   MOV     TH1, #0		; xóa TH1
+	   SETB	     P3.5			; lấy đầu vào T1
+AGAIN:  SETB	     TR1			; khởi động bộ đếm
+BACK:    MOV	     A, TL1		; lấy bản sao số đếm TL1
+	   MOV	     P2, A			; đưa TL1 hiển thị ra cổng P2
+	   JNB        TF1, BACK		; duy trì đếm nếu TF = 0
+	   CLR        TR1			; dung bộ đếm
+	   CLR        TF1			; xóa cờ  TF1
+	   SJMP       AGAIN		; tiếp tục thực hiện			
+Lưu ý: các cổng được thiết lập là cổng ra mỗi khi 8051 được cấp nguồn, do vậy để P3.5 là đầu vào phải chuyển nó lên mức cao bằng lệnh “SETB P3.5
+3.4. Lập trình cho bộ định thời/bộ đếm - Lập trình bộ đếm (2)
+Phần mềm
+Phần cứng
+89

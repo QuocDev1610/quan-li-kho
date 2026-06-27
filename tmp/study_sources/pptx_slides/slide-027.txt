@@ -1,0 +1,10 @@
+Băng 0 được mặc định khi sử dụng, để chuyển sang các băng thanh ghi khác bằng cách sử dụng bit D3, D4 (PSW.3, PSW.4) của thanh ghi PSW, Bảng 2.2. Các bit này có thể được lập, xóa theo lệnh SETB, CLR. Ví dụ, “SETB PSW.3”
+Lưu ý: mặc định các bit này = 0.
+Bảng 2.2. Chọn băng thanh ghi
+Băng thanh ghi
+Ví dụ 2.1:
+SETB	PSW.3		; PSW.3=1
+;SETB	PSW.4		; PSW.4=1
+MOV	R0, #99	; nạp giá trị 99H vào R0
+2.3.1. Tổ chức bộ nhớ trong (2)
+27

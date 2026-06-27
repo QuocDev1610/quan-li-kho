@@ -1,0 +1,4 @@
+4.4. Lập trình ngắt cứng ngoài - Kích hoạt ngắt theo mức (1)
+Là chế độ mặc định khi khởi động hoặc Reset. Ở chế độ này, các chân INT0 và INT1 bình hường ở mức cao, khi có tín hiệu mức thấp cấp tới tín hiệu được kích hoạt. Khi đó bộ VĐK sẽ dừng chương trình chính và chuyển sang thực hiện ISR có vector ngắt tương ứng. 
+Trước khi thực hiện lệnh RETI mức thấp tại chân INTx phải chuyển sang mức cao, nếu không sẽ tạo ra một ngắt khác. Tức là, nếu vẫn duy ở mức thấp khi ISR kết thúc 8051 sẽ hiểu là có một ngắt mới và nhảy đến bảng vector ngắt để thực hiện ISR
+125

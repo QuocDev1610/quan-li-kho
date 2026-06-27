@@ -1,0 +1,9 @@
+5.6. Đặc điểm các dòng vi xử lý ARM
+Cortex-A: Là nhân chip được sử dụng nhiều nhất trên các dòng chip Android, Cortex-A sở hữu công cụ chính là SMID (tập lệnh đa dữ liệu) có khả năng thực hiện các tác vụ như truy cập bộ nhớ và xử lý dữ liệu song song trên một tập hợp vector.
+Cortex-R: Đem đến nhiều giải pháp tính toán hiệu suất cải tiến dành cho những hệ thống nhúng đòi hỏi độ bảo mật cao và đảm bảo tính sẵn sàng cùng khả năng đáp ứng thời gian thực.
+Cortex-M: Là nhân chip thường được ứng dụng trong ngành công nghiệp xe hơi, với đặc trưng là kích cỡ nhỏ và không chiếm nhiều không gian trong cấu trúc hệ thống linh kiện ô tô.
+Ethos-N: Nổi danh trong ngành công nghiệp AI và được ứng dụng rất nhiều do khả năng tương thích với các tác vụ máy học.
+Ethos-U: Được xem là “bản mini” rút gọn từ nhân Ethos-N, Ethos-U sẽ vận hành tương tự như một bộ đồng xử lý Co-processor.
+Neoverse: Có tuổi đời còn khá ngắn, ra đời từ tháng 10/2018, Neoverse được biết đến như nhân xử lý chuyên phục vụ các hệ thống máy chủ và trung tâm dữ liệu.
+SecurCore: Đúng như tên gọi, SecurCore đặt yếu tố bảo mật lên hàng đầu và là lõi chip được ARM Holdings, Ltd thiết kế dành cho các thẻ thông minh, rất phổ biến trong ngành ngân hàng, thanh toán.
+148

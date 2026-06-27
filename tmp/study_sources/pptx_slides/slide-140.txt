@@ -1,0 +1,7 @@
+5.2. Kiến trúc cơ bản của vi xử lý ARM (3)
+Ngoài ra, kiến trúc ARM có thể cung cấp:
+ Điểu khiển cả khối ALU và bộ dịch chuyển (shifter) trong các lệnh xử lý dữ liệu để tối ưu hóa việc sử dụng ALU và bộ dịch chuyển.
+Các chế độ địa chỉ tự tăng hoặc tự giảm để tối ưu hóa các lệnh vòng lặp.
+Các lệnh Load/Strore để tối đa dữ liệu truyền qua.
+Nhờ các tối ưu trên nền kiến trúc RISC căn bản, ARM có thể đạt được một sự cân bằng giữa hiệu năng cao, kích thước mã nguồn ít, công suất tiêu thụ thấp.
+140

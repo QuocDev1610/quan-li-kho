@@ -1,0 +1,673 @@
+P0	Normal	ĐỀ CƯƠNG ÔN THI CUỐI KỲ
+P1	Normal	PHÁP LUẬT ĐẠI CƯƠNG
+P2	Normal	Bài làm hoàn chỉnh 19 câu và hệ thống bài tập nâng cao
+P4	Normal	Biên soạn lại từ file tổng hợp của người học; đã loại bỏ hoặc đánh dấu các căn cứ hết hiệu lực.
+P5	Heading 1	MỤC LỤC NỘI DUNG
+P6	Heading 2	Danh sách 19 câu lý thuyết
+P7	List Number	Câu 1: Nhà nước và bản chất Nhà nước
+P8	List Number	Câu 2: Văn bản quy phạm pháp luật
+P9	List Number	Câu 3: Nhà nước CHXHCN Việt Nam
+P10	List Number	Câu 4: Nguyên tắc Luật Hình sự
+P11	List Number	Câu 5: Quan hệ pháp luật
+P12	List Number	Câu 6: Hình thức pháp luật
+P13	List Number	Câu 7: Luật Dân sự
+P14	List Number	Câu 8: Quy phạm pháp luật
+P15	List Number	Câu 9: Quyền sở hữu
+P16	List Number	Câu 10: Vi phạm pháp luật
+P17	List Number	Câu 11: Thừa kế theo di chúc
+P18	List Number	Câu 12: Luật Lao động
+P19	List Number	Câu 13: Hợp đồng lao động
+P20	List Number	Câu 14: Tranh chấp lao động
+P21	List Number	Câu 15: Luật Hành chính
+P22	List Number	Câu 16: Tội phạm
+P23	List Number	Câu 17: Tố cáo
+P24	List Number	Câu 18: Luật Hôn nhân và gia đình
+P25	List Number	Câu 19: Hiến pháp năm 2013 và cập nhật 2025
+P27	Heading 1	HƯỚNG DẪN SỬ DỤNG
+P28	List Bullet	Học theo cấu trúc: khái niệm → đặc điểm/nguyên tắc → phân loại/nội dung → ví dụ → kết luận.
+P29	List Bullet	Khi làm bài tình huống, không suy đoán dữ kiện. Nêu giả định nếu đề bài chưa cho đủ thông tin.
+P30	List Bullet	Nếu đề thi yêu cầu theo giáo trình của trường, ưu tiên thuật ngữ và phạm vi do giảng viên đã dạy.
+P31	List Bullet	Không học thuộc các điều luật đã hết hiệu lực trong bản tổng hợp cũ.
+P32	Heading 1	NHỮNG ĐIỂM ĐÃ HIỆU ĐÍNH SO VỚI FILE CŨ
+P33	Heading 1	DANH MỤC VĂN BẢN NỀN TẢNG
+P34	List Bullet	Hiến pháp năm 2013 và Nghị quyết sửa đổi, bổ sung một số điều của Hiến pháp năm 2025.
+P35	List Bullet	Luật Ban hành văn bản quy phạm pháp luật số 64/2025/QH15 và Luật sửa đổi, bổ sung số 87/2025/QH15.
+P36	List Bullet	Bộ luật Dân sự năm 2015.
+P37	List Bullet	Bộ luật Hình sự năm 2015, Luật sửa đổi năm 2017 và Luật sửa đổi, bổ sung số 86/2025/QH15.
+P38	List Bullet	Bộ luật Lao động năm 2019.
+P39	List Bullet	Luật Hôn nhân và gia đình năm 2014.
+P40	List Bullet	Luật Tố cáo năm 2018; Luật Khiếu nại năm 2011.
+P41	List Bullet	Luật Xử lý vi phạm hành chính năm 2012 và các luật sửa đổi, bổ sung hiện hành.
+P42	Normal	Tra cứu bản chính thức tại: https://vanban.chinhphu.vn/ | https://vbpl.vn/
+P43	Heading 1	PHẦN I. ĐÁP ÁN ĐẦY ĐỦ 19 CÂU LÝ THUYẾT
+P44	Heading 2	Câu 1. Khái niệm và bản chất của Nhà nước; ý nghĩa phương pháp luận
+P45	Heading 3	Khái niệm
+P46	Normal	Nhà nước là tổ chức đặc biệt của quyền lực chính trị, có bộ máy chuyên làm nhiệm vụ quản lý và cưỡng chế, quản lý dân cư theo lãnh thổ, ban hành pháp luật và thu thuế nhằm duy trì trật tự, tổ chức đời sống chung của xã hội.
+P47	List Bullet	Nhà nước là quyền lực công cộng đặc biệt, tách tương đối khỏi dân cư và được tổ chức thành bộ máy gồm các cơ quan thực hiện quyền lực. Nhà nước khác các tổ chức xã hội ở quyền ban hành pháp luật, sử dụng cưỡng chế nhà nước, quản lý dân cư theo lãnh thổ, thực hiện chủ quyền và thu các khoản bắt buộc để duy trì bộ máy.
+P48	Heading 3	Bản chất
+P49	List Bullet	Tính giai cấp: trong xã hội có giai cấp, nhà nước trước hết là công cụ quyền lực của lực lượng giữ địa vị thống trị về kinh tế và chính trị; tính giai cấp thể hiện qua quyền lực kinh tế, chính trị và tư tưởng.
+P50	List Bullet	Tính xã hội: nhà nước phải giải quyết những công việc chung như bảo đảm an ninh, trật tự, hạ tầng, giáo dục, y tế, bảo vệ môi trường và điều hòa lợi ích xã hội.
+P51	List Bullet	Hai phương diện có quan hệ thống nhất. Không được viết rằng nhà nước chỉ có tính giai cấp hoặc chỉ phục vụ lợi ích chung một cách phi giai cấp.
+P52	List Bullet	Tính giai cấp thể hiện ở chỗ nhà nước ra đời trong xã hội có mâu thuẫn giai cấp và quyền lực nhà nước trước hết phản ánh ý chí, bảo vệ địa vị của lực lượng giữ ưu thế về kinh tế và chính trị. Tính giai cấp thể hiện thông qua chính sách kinh tế, tổ chức quyền lực, pháp luật và hệ tư tưởng.
+P53	List Bullet	Tính xã hội thể hiện qua việc nhà nước phải giải quyết các công việc chung mà cá nhân hoặc tổ chức riêng lẻ không thể tự giải quyết có hiệu quả: bảo vệ trật tự, quốc phòng, hạ tầng, giáo dục, y tế, cứu trợ, môi trường và điều hòa lợi ích.
+P54	List Bullet	Hai phương diện có quan hệ thống nhất. Nếu nhà nước không thực hiện chức năng xã hội thì trật tự chung và chính cơ sở tồn tại của quyền lực nhà nước cũng bị đe dọa. Ngược lại, chức năng xã hội được thực hiện trong những điều kiện chính trị và lợi ích nhất định.
+P55	Heading 3	Ý nghĩa phương pháp luận
+P56	Normal	Khi phân tích một nhà nước cụ thể phải đặt trong điều kiện kinh tế – xã hội, tương quan giai cấp, tổ chức quyền lực và chức năng thực tế; đồng thời xem xét cả tính giai cấp và vai trò xã hội.
+P57	List Bullet	Ý nghĩa phương pháp luận là khi đánh giá một nhà nước phải xem xét điều kiện lịch sử, cơ sở kinh tế, lực lượng nắm quyền, cách tổ chức quyền lực và hoạt động thực tế; không được nhìn nhà nước như một hiện tượng phi giai cấp hoặc chỉ là bộ máy cưỡng chế.
+P58	Normal	Ví dụ: Việc Nhà nước ban hành chính sách thuế vừa tạo nguồn lực duy trì bộ máy quyền lực, vừa cung cấp tài chính cho giáo dục, y tế và an sinh. Ví dụ này phản ánh đồng thời phương diện quyền lực và phương diện xã hội.
+P60	Heading 2	Câu 2. Văn bản quy phạm pháp luật và nguyên tắc xây dựng, ban hành
+P61	Heading 3	Khái niệm
+P62	Normal	Văn bản quy phạm pháp luật là văn bản có chứa quy phạm pháp luật, được ban hành đúng thẩm quyền, hình thức, trình tự và thủ tục theo luật. Nếu ban hành không đúng thẩm quyền, hình thức hoặc thủ tục luật định thì không được coi là văn bản quy phạm pháp luật.
+P63	List Bullet	Dấu hiệu cốt lõi của văn bản quy phạm pháp luật là có chứa quy phạm pháp luật, tức quy tắc xử sự chung, có hiệu lực bắt buộc chung và được áp dụng lặp lại. Văn bản giải quyết một cá nhân hoặc vụ việc xác định thường là văn bản áp dụng pháp luật, không phải văn bản QPPL.
+P64	Heading 3	Đặc điểm
+P65	List Bullet	Chứa quy tắc xử sự chung, áp dụng nhiều lần đối với nhiều chủ thể.
+P66	List Bullet	Do chủ thể có thẩm quyền ban hành và có tên loại văn bản do pháp luật quy định.
+P67	List Bullet	Có hiệu lực bắt buộc và được Nhà nước bảo đảm thực hiện.
+P68	List Bullet	Phải phù hợp với Hiến pháp, văn bản có hiệu lực pháp lý cao hơn và bảo đảm tính thống nhất của hệ thống pháp luật.
+P69	List Bullet	Văn bản phải được ban hành đúng chủ thể có thẩm quyền, đúng tên loại, nội dung, hình thức, trình tự và thủ tục do luật quy định. Việc một cơ quan nhà nước ban hành văn bản không đương nhiên làm văn bản đó trở thành văn bản QPPL.
+P70	List Bullet	Tính hợp hiến yêu cầu mọi văn bản phù hợp Hiến pháp. Tính hợp pháp bao gồm phù hợp văn bản có hiệu lực cao hơn và đúng thẩm quyền, thủ tục. Tính thống nhất đòi hỏi quy định không mâu thuẫn, chồng chéo trong hệ thống.
+P71	Heading 3	Nguyên tắc trọng tâm
+P72	List Bullet	Bảo đảm sự lãnh đạo của Đảng, chủ quyền nhân dân và kiểm soát quyền lực nhà nước.
+P73	List Bullet	Bảo đảm tính hợp hiến, hợp pháp, thống nhất, công khai, minh bạch, khả thi và ổn định.
+P74	List Bullet	Đúng thẩm quyền, nội dung, hình thức, trình tự và thủ tục.
+P75	List Bullet	Tôn trọng, bảo vệ quyền con người, quyền công dân; bảo đảm quốc phòng, an ninh và thực hiện điều ước quốc tế mà Việt Nam là thành viên.
+P76	List Bullet	Quy trình cụ thể phụ thuộc từng loại văn bản; không dùng một quy trình của luật để áp dụng cho mọi văn bản.
+P77	List Bullet	Công khai, minh bạch đòi hỏi quá trình xây dựng và nội dung văn bản có khả năng tiếp cận, lấy ý kiến khi pháp luật yêu cầu và công bố đúng quy định. Tính khả thi đòi hỏi quy định rõ ràng, có nguồn lực, có điều kiện thực hiện và không tạo chi phí tuân thủ bất hợp lý.
+P78	List Bullet	Phải bảo đảm quyền con người, quyền công dân, lợi ích quốc gia, quốc phòng, an ninh và việc thực hiện điều ước quốc tế. Khi điều ước quốc tế và văn bản trong nước khác nhau phải áp dụng theo quy tắc của pháp luật về điều ước quốc tế; Hiến pháp vẫn có vị trí cao nhất.
+P79	List Bullet	Quy trình ban hành không giống nhau cho mọi văn bản. Luật, nghị quyết của Quốc hội có quy trình khác nghị định, thông tư hoặc nghị quyết của HĐND. Vì vậy bài thi nên trình bày nguyên tắc chung, chỉ nêu quy trình cụ thể khi đề yêu cầu.
+P80	Normal	Ví dụ: Quyết định xử phạt A 5 triệu đồng chỉ áp dụng một lần cho A nên là văn bản áp dụng pháp luật. Nghị định quy định mức phạt chung cho mọi người có hành vi tương ứng là văn bản QPPL.
+P82	Heading 2	Câu 3. Bản chất và đặc trưng của Nhà nước CHXHCN Việt Nam
+P83	Heading 3	Bản chất hiến định
+P84	Normal	Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam là Nhà nước pháp quyền xã hội chủ nghĩa của Nhân dân, do Nhân dân, vì Nhân dân. Tất cả quyền lực nhà nước thuộc về Nhân dân; nền tảng là liên minh giữa giai cấp công nhân với giai cấp nông dân và đội ngũ trí thức.
+P85	List Bullet	Bản chất của Nhà nước Việt Nam được thể hiện trước hết ở nguyên tắc Nhà nước pháp quyền xã hội chủ nghĩa của Nhân dân, do Nhân dân và vì Nhân dân. Nhân dân là chủ thể tối cao của quyền lực nhà nước, thực hiện quyền lực bằng dân chủ trực tiếp và dân chủ đại diện.
+P86	List Bullet	Nền tảng xã hội của quyền lực nhà nước là liên minh giữa giai cấp công nhân với giai cấp nông dân và đội ngũ trí thức. Nhà nước đại diện cho lợi ích của Nhân dân và các dân tộc trên lãnh thổ Việt Nam.
+P87	Heading 3	Đặc trưng
+P88	List Bullet	Quyền lực nhà nước là thống nhất, có sự phân công, phối hợp và kiểm soát giữa các cơ quan thực hiện quyền lập pháp, hành pháp và tư pháp.
+P89	List Bullet	Nhà nước tổ chức và hoạt động theo Hiến pháp, pháp luật; quản lý xã hội bằng Hiến pháp và pháp luật.
+P90	List Bullet	Công nhận, tôn trọng, bảo vệ và bảo đảm quyền con người, quyền công dân.
+P91	List Bullet	Đảng Cộng sản Việt Nam lãnh đạo Nhà nước và xã hội, gắn bó và chịu sự giám sát của Nhân dân, chịu trách nhiệm trước Nhân dân về quyết định của mình.
+P92	List Bullet	Thực hiện đại đoàn kết dân tộc, bình đẳng giữa các dân tộc và đường lối đối ngoại hòa bình, hợp tác.
+P93	List Bullet	Các đặc trưng trên là đặc trưng của Nhà nước; không dùng tám đặc trưng của xã hội xã hội chủ nghĩa để thay thế toàn bộ nội dung này.
+P94	List Bullet	Quyền lực nhà nước là thống nhất nhưng có phân công, phối hợp và kiểm soát giữa các cơ quan thực hiện quyền lập pháp, hành pháp và tư pháp. “Thống nhất” không có nghĩa mọi quyền tập trung không giới hạn vào một cơ quan.
+P95	List Bullet	Nhà nước tổ chức và hoạt động theo Hiến pháp và pháp luật; cơ quan, cán bộ, công chức phải tôn trọng Nhân dân, chịu sự giám sát và chịu trách nhiệm trước Nhân dân. Đây là biểu hiện quan trọng của tính pháp quyền.
+P96	List Bullet	Nhà nước công nhận, tôn trọng, bảo vệ và bảo đảm quyền con người, quyền công dân; thực hiện mục tiêu dân giàu, nước mạnh, dân chủ, công bằng, văn minh và chính sách đại đoàn kết dân tộc.
+P97	List Bullet	Đảng Cộng sản Việt Nam lãnh đạo Nhà nước và xã hội, đồng thời hoạt động trong khuôn khổ Hiến pháp, pháp luật, gắn bó với Nhân dân, chịu sự giám sát và chịu trách nhiệm trước Nhân dân.
+P98	Normal	Ví dụ: Nhân dân bầu đại biểu Quốc hội và HĐND là dân chủ đại diện; biểu quyết khi Nhà nước tổ chức trưng cầu ý dân là dân chủ trực tiếp.
+P100	Heading 2	Câu 4. Khái niệm và các nguyên tắc cơ bản của Luật Hình sự
+P101	Heading 3	Khái niệm
+P102	Normal	Luật Hình sự là ngành luật gồm các quy phạm xác định hành vi nào là tội phạm, quy định hình phạt, biện pháp tư pháp, căn cứ trách nhiệm hình sự và các vấn đề liên quan.
+P103	Heading 3	Nguyên tắc
+P104	List Bullet	Pháp chế: chỉ Bộ luật Hình sự mới quy định tội phạm và hình phạt; xử lý đúng căn cứ, thẩm quyền và thủ tục.
+P105	List Bullet	Bình đẳng trước pháp luật hình sự.
+P106	List Bullet	Có lỗi: không có lỗi thì không có trách nhiệm hình sự.
+P107	List Bullet	Cá thể hóa trách nhiệm và hình phạt theo tính chất hành vi, nhân thân và tình tiết vụ án.
+P108	List Bullet	Công bằng, nhân đạo; hình phạt không nhằm trả thù hoặc hạ thấp nhân phẩm.
+P109	List Bullet	Trách nhiệm hình sự không chỉ áp dụng với cá nhân; pháp nhân thương mại có thể chịu trách nhiệm đối với các tội luật định.
+P110	List Bullet	Nguyên tắc pháp chế hình sự được thể hiện ở yêu cầu chỉ BLHS mới có thể quy định tội phạm và hình phạt; không được áp dụng tương tự pháp luật để kết tội; việc truy cứu và quyết định hình phạt phải đúng căn cứ và thủ tục.
+P111	List Bullet	Bình đẳng trước pháp luật hình sự có nghĩa mọi người, pháp nhân thương mại khi đủ điều kiện đều bị xử lý theo luật, không phân biệt giới tính, dân tộc, tín ngưỡng, nghề nghiệp hoặc địa vị. Bình đẳng không có nghĩa áp dụng một mức hình phạt giống nhau cho mọi trường hợp.
+P112	List Bullet	Trách nhiệm trên cơ sở có lỗi đòi hỏi chủ thể có khả năng nhận thức, điều khiển hành vi và có thái độ cố ý hoặc vô ý. Không thể chỉ dựa vào hậu quả để quy trách nhiệm hình sự.
+P113	List Bullet	Cá thể hóa trách nhiệm và hình phạt yêu cầu xem xét tính chất, mức độ nguy hiểm, nhân thân, động cơ, mục đích, tình tiết tăng nặng, giảm nhẹ và khả năng giáo dục, phòng ngừa.
+P114	List Bullet	Nguyên tắc công bằng, nhân đạo thể hiện ở việc không làm oan, không bỏ lọt tội phạm, hình phạt không nhằm hành hạ hoặc hạ thấp nhân phẩm, đồng thời tạo điều kiện để người phạm tội cải tạo và tái hòa nhập.
+P115	List Bullet	Tài liệu cũ nói chỉ cá nhân chịu trách nhiệm là không còn chính xác. Pháp nhân thương mại có thể chịu trách nhiệm về các tội được BLHS liệt kê khi đủ điều kiện.
+P116	Normal	Ví dụ: Hai người cùng gây thiệt hại nhưng một người chủ mưu, một người giúp sức hạn chế và thành khẩn khắc phục thì hình phạt không nhất thiết bằng nhau; đây là cá thể hóa chứ không vi phạm bình đẳng.
+P118	Heading 2	Câu 5. Quan hệ pháp luật: khái niệm, đặc điểm và các yếu tố cấu thành
+P119	Heading 3	Khái niệm
+P120	Normal	Quan hệ pháp luật là quan hệ xã hội được quy phạm pháp luật điều chỉnh, trong đó các bên có quyền và nghĩa vụ pháp lý được Nhà nước bảo đảm thực hiện.
+P121	List Bullet	Quan hệ pháp luật không tự phát sinh chỉ vì có quy phạm. Thông thường cần có quy phạm điều chỉnh, chủ thể có năng lực phù hợp và sự kiện pháp lý như giao kết hợp đồng, gây thiệt hại, sinh, chết hoặc quyết định của cơ quan có thẩm quyền.
+P122	List Bullet	Sự kiện pháp lý có thể là hành vi hợp pháp, hành vi vi phạm hoặc biến cố không phụ thuộc ý chí. Một sự kiện có thể làm phát sinh, thay đổi hoặc chấm dứt quan hệ.
+P123	Heading 3	Đặc điểm
+P124	List Bullet	Phát sinh trên cơ sở quy phạm pháp luật và sự kiện pháp lý.
+P125	List Bullet	Mang tính ý chí; có chủ thể xác định.
+P126	List Bullet	Các bên có quyền chủ thể và nghĩa vụ pháp lý tương ứng.
+P127	List Bullet	Được Nhà nước bảo đảm thực hiện.
+P128	Heading 3	Các yếu tố
+P129	List Bullet	Chủ thể: cá nhân, pháp nhân, tổ chức hoặc Nhà nước có năng lực chủ thể phù hợp. Pháp nhân phải đáp ứng Điều 74 BLDS 2015.
+P130	List Bullet	Nội dung: quyền chủ thể và nghĩa vụ pháp lý.
+P131	List Bullet	Khách thể: lợi ích vật chất, tinh thần hoặc kết quả hành vi mà các chủ thể hướng tới.
+P132	List Bullet	Chủ thể là cá nhân, pháp nhân, tổ chức hoặc Nhà nước tham gia quan hệ với quyền và nghĩa vụ xác định. Năng lực pháp luật là khả năng có quyền, nghĩa vụ; năng lực hành vi là khả năng bằng hành vi của mình xác lập, thực hiện quyền, nghĩa vụ.
+P133	List Bullet	Năng lực hành vi không giống nhau ở mọi ngành luật. Một người có thể đủ năng lực thực hiện giao dịch dân sự thông thường nhưng chưa đủ tuổi kết hôn hoặc chịu trách nhiệm với một tội cụ thể.
+P134	List Bullet	Nội dung quan hệ gồm quyền chủ thể và nghĩa vụ pháp lý tương ứng. Quyền có thể bao gồm tự xử sự, yêu cầu bên kia thực hiện và yêu cầu cơ quan có thẩm quyền bảo vệ.
+P135	List Bullet	Khách thể là lợi ích vật chất, tinh thần hoặc kết quả hành vi mà các bên hướng tới. Khi phân tích tình huống không nên ghi khách thể là tên của một bên.
+P136	Normal	Ví dụ: Trong hợp đồng vay, chủ thể là bên vay và bên cho vay; nội dung là quyền, nghĩa vụ giao và hoàn trả tiền; khách thể là lợi ích đạt được qua khoản vay; việc giao kết và đến hạn là các sự kiện pháp lý.
+P138	Heading 2	Câu 6. Hình thức pháp luật và các loại hình thức pháp luật
+P139	Heading 3	Khái niệm
+P140	Normal	Hình thức pháp luật là cách thức biểu hiện ra bên ngoài của pháp luật, qua đó các quy tắc pháp lý được nhận biết và áp dụng.
+P141	List Bullet	Hình thức pháp luật là phương thức tồn tại và biểu hiện ra bên ngoài của các quy tắc pháp lý, giúp chủ thể nhận biết quyền, nghĩa vụ và căn cứ áp dụng.
+P142	Heading 3	Các loại
+P143	List Bullet	Tập quán pháp: tập quán được Nhà nước thừa nhận và bảo đảm thực hiện.
+P144	List Bullet	Tiền lệ pháp/án lệ: cách giải quyết trong bản án, quyết định được lựa chọn và công bố để nghiên cứu, áp dụng cho vụ việc tương tự theo điều kiện pháp luật.
+P145	List Bullet	Văn bản quy phạm pháp luật: hình thức chủ yếu trong hệ thống pháp luật Việt Nam.
+P146	List Bullet	Ngoài ra, điều ước quốc tế và các nguyên tắc chung có vai trò theo quy định của từng lĩnh vực.
+P147	List Bullet	Tập quán pháp là tập quán được Nhà nước thừa nhận. Không phải mọi thói quen cộng đồng đều là tập quán pháp; tập quán không được trái các nguyên tắc cơ bản và chỉ áp dụng trong điều kiện pháp luật cho phép.
+P148	List Bullet	Tiền lệ pháp theo nghĩa rộng là quyết định giải quyết vụ việc được thừa nhận làm mẫu. Ở Việt Nam cần dùng thuật ngữ án lệ thận trọng: chỉ lập luận, phán quyết đã được lựa chọn và công bố, không phải tất cả bản án.
+P149	List Bullet	Văn bản QPPL là hình thức chủ yếu của pháp luật Việt Nam vì có tính thành văn, rõ thẩm quyền, hiệu lực và thuận lợi cho việc bảo đảm thống nhất.
+P150	List Bullet	Điều ước quốc tế có vai trò quan trọng trong quan hệ đối ngoại và nhiều lĩnh vực nội luật. Việc áp dụng phải theo Hiến pháp và pháp luật về điều ước quốc tế.
+P151	List Bullet	Các hình thức có ưu, nhược điểm khác nhau: tập quán linh hoạt nhưng có thể thiếu rõ ràng; án lệ góp phần thống nhất xét xử nhưng phụ thuộc vụ việc; văn bản rõ ràng nhưng có nguy cơ chậm so với thực tiễn.
+P152	Normal	Ví dụ: Một tập quán thương mại chỉ được áp dụng khi các bên không thỏa thuận, pháp luật không quy định và tập quán không trái nguyên tắc cơ bản; không thể viện dẫn tập quán để hợp pháp hóa hành vi bị cấm.
+P154	Heading 2	Câu 7. Luật Dân sự: đối tượng và phương pháp điều chỉnh
+P155	Heading 3	Khái niệm
+P156	Normal	Luật Dân sự là ngành luật điều chỉnh quan hệ tài sản và quan hệ nhân thân được hình thành trên cơ sở bình đẳng, tự do ý chí, độc lập về tài sản và tự chịu trách nhiệm.
+P157	List Bullet	Đối tượng điều chỉnh của luật dân sự gồm quan hệ tài sản và quan hệ nhân thân hình thành trên cơ sở bình đẳng, tự do ý chí, độc lập tài sản và tự chịu trách nhiệm.
+P158	Heading 3	Đối tượng
+P159	List Bullet	Quan hệ tài sản: quan hệ giữa các chủ thể thông qua tài sản, thường có tính giá trị và trao đổi.
+P160	List Bullet	Quan hệ nhân thân: quan hệ gắn với giá trị nhân thân; có thể liên quan hoặc không liên quan đến tài sản.
+P161	List Bullet	Quan hệ tài sản là quan hệ giữa các chủ thể thông qua tài sản, không phải quan hệ đơn thuần giữa người với vật. Tài sản gồm vật, tiền, giấy tờ có giá và quyền tài sản.
+P162	List Bullet	Quan hệ nhân thân gắn với giá trị không thể chuyển giao tùy tiện như họ tên, danh dự, đời sống riêng tư; một số quyền nhân thân có thể làm phát sinh quyền tài sản như quyền tác giả.
+P163	Heading 3	Phương pháp
+P164	List Bullet	Bình đẳng về địa vị pháp lý.
+P165	List Bullet	Tự do, tự nguyện cam kết, thỏa thuận nhưng không được vi phạm điều cấm hoặc trái đạo đức xã hội.
+P166	List Bullet	Độc lập về tài sản và tự chịu trách nhiệm.
+P167	List Bullet	Tòa án chỉ giải quyết khi có yêu cầu và trong phạm vi yêu cầu, trừ trường hợp luật quy định khác.
+P168	List Bullet	Bình đẳng có nghĩa không bên nào được dùng quyền lực nhà nước để áp đặt trong quan hệ dân sự. Cơ quan nhà nước khi mua bán, thuê tài sản cũng phải bình đẳng như chủ thể khác.
+P169	List Bullet	Tự do, tự nguyện cam kết được tôn trọng nhưng bị giới hạn bởi điều cấm, đạo đức xã hội, quyền của người khác và lợi ích công cộng.
+P170	List Bullet	Độc lập tài sản và tự chịu trách nhiệm tạo cơ sở để mỗi bên chịu hậu quả từ cam kết, hành vi của mình. Trách nhiệm dân sự chủ yếu hướng tới khôi phục quyền, bù đắp thiệt hại.
+P171	Normal	Ví dụ: Cơ quan nhà nước thuê nhà của cá nhân thì quan hệ thuê là dân sự vì hai bên bình đẳng; việc cơ quan ra quyết định xử phạt cá nhân là quan hệ hành chính.
+P173	Heading 2	Câu 8. Quy phạm pháp luật: khái niệm, đặc điểm và cấu trúc
+P174	Heading 3	Khái niệm
+P175	Normal	Quy phạm pháp luật là quy tắc xử sự chung, có hiệu lực bắt buộc chung, do Nhà nước ban hành hoặc thừa nhận và bảo đảm thực hiện nhằm điều chỉnh quan hệ xã hội.
+P176	List Bullet	Quy phạm pháp luật là quy tắc xử sự chung chứ không đồng nhất với một điều luật. Một điều có thể chứa nhiều quy phạm; một quy phạm có thể được thể hiện qua nhiều điều hoặc nhiều văn bản.
+P177	Heading 3	Đặc điểm
+P178	List Bullet	Tính bắt buộc chung và áp dụng nhiều lần.
+P179	List Bullet	Thể hiện ý chí nhà nước; xác định quyền, nghĩa vụ hoặc hậu quả pháp lý.
+P180	List Bullet	Có hình thức chặt chẽ và được bảo đảm bằng quyền lực nhà nước.
+P181	List Bullet	Tính bắt buộc chung nghĩa là quy phạm áp dụng với mọi chủ thể thuộc điều kiện đã dự liệu, không phải áp dụng cho toàn bộ mọi người trong mọi hoàn cảnh.
+P182	Heading 3	Cấu trúc logic
+P183	List Bullet	Giả định: chủ thể, điều kiện, hoàn cảnh áp dụng – trả lời ai, khi nào, trong trường hợp nào.
+P184	List Bullet	Quy định: cách xử sự được phép, bắt buộc hoặc bị cấm.
+P185	List Bullet	Chế tài: hậu quả pháp lý bất lợi khi không thực hiện đúng quy định.
+P186	List Bullet	Một quy phạm không nhất thiết có đủ ba bộ phận trong cùng một điều luật; một điều luật cũng có thể chứa nhiều quy phạm.
+P187	List Bullet	Giả định xác định chủ thể, thời gian, địa điểm, điều kiện hoặc hoàn cảnh. Giả định có thể đơn giản hoặc phức tạp, xác định hoặc tương đối xác định.
+P188	List Bullet	Quy định nêu cách xử sự được phép, bắt buộc hoặc bị cấm. Đây là phần định hướng hành vi và thường được coi là trung tâm của quy phạm.
+P189	List Bullet	Chế tài nêu hậu quả pháp lý bất lợi khi chủ thể không tuân thủ. Có thể là hình sự, hành chính, dân sự, kỷ luật; không nên chỉ phân loại bằng các cụm từ thiếu chuẩn như “phủ nhận pháp luật”.
+P190	List Bullet	Trong quy phạm xử phạt, quy định về nghĩa vụ thường được thể hiện ngầm hoặc nằm ở văn bản giao thông, còn mức phạt nằm trong nghị định xử phạt.
+P191	Normal	Ví dụ: Câu “phạt tiền đối với người đi xe máy không đội mũ” có giả định là người điều khiển/ngồi trên xe trong điều kiện tham gia giao thông; quy định ngầm là phải đội và cài đúng; chế tài là mức phạt.
+P193	Heading 2	Câu 9. Sở hữu và quyền sở hữu theo Bộ luật Dân sự 2015
+P194	Heading 3	Khái niệm
+P195	Normal	Sở hữu là quan hệ xã hội về việc chiếm hữu của cải. Quyền sở hữu là quyền của chủ sở hữu đối với tài sản, gồm quyền chiếm hữu, quyền sử dụng và quyền định đoạt.
+P196	List Bullet	Sở hữu là quan hệ xã hội giữa người với người đối với tài sản. Quyền sở hữu là phạm trù pháp lý gồm quyền chiếm hữu, sử dụng và định đoạt.
+P197	Heading 3	Nội dung
+P198	List Bullet	Chiếm hữu: nắm giữ, chi phối tài sản trực tiếp hoặc gián tiếp.
+P199	List Bullet	Sử dụng: khai thác công dụng, hưởng hoa lợi, lợi tức.
+P200	List Bullet	Định đoạt: chuyển giao quyền sở hữu, từ bỏ quyền sở hữu, tiêu dùng hoặc tiêu hủy tài sản.
+P201	List Bullet	Chiếm hữu là nắm giữ, chi phối tài sản trực tiếp hoặc gián tiếp. Người thuê, mượn hoặc giữ tài sản có thể chiếm hữu hợp pháp nhưng không phải chủ sở hữu.
+P202	List Bullet	Sử dụng là khai thác công dụng, hưởng hoa lợi và lợi tức. Việc sử dụng phải không gây thiệt hại, ảnh hưởng lợi ích quốc gia, công cộng hoặc quyền của người khác.
+P203	List Bullet	Định đoạt là chuyển giao quyền sở hữu, từ bỏ, tiêu dùng hoặc tiêu hủy tài sản. Chủ thể định đoạt phải có năng lực và đúng thẩm quyền; người không phải chủ sở hữu chỉ định đoạt khi được ủy quyền hoặc luật cho phép.
+P204	Heading 3	Căn cứ xác lập và chấm dứt
+P205	List Bullet	Xác lập từ lao động, sản xuất kinh doanh; chuyển giao; thu hoa lợi, lợi tức; tạo vật mới; thừa kế; chiếm hữu theo luật; bản án/quyết định và các căn cứ khác.
+P206	List Bullet	Chấm dứt khi chuyển quyền, từ bỏ, tài sản bị tiêu hủy, xử lý để thực hiện nghĩa vụ, trưng mua, tịch thu hoặc người khác được xác lập quyền theo luật.
+P207	List Bullet	Căn cứ xác lập gồm lao động, sản xuất kinh doanh; chuyển giao; hoa lợi, lợi tức; tạo vật mới; thừa kế; chiếm hữu vật vô chủ, đánh rơi, bỏ quên; thời hiệu và căn cứ khác.
+P208	List Bullet	Quyền sở hữu chấm dứt khi chuyển quyền, từ bỏ, tài sản tiêu hủy, bị xử lý nghĩa vụ, trưng mua, tịch thu hoặc người khác được xác lập quyền theo luật.
+P209	Normal	Ví dụ: A thuê xe của B: A có quyền chiếm hữu, sử dụng trong phạm vi hợp đồng; B vẫn là chủ sở hữu; A không có quyền bán xe.
+P211	Heading 2	Câu 10. Vi phạm pháp luật: khái niệm, dấu hiệu và phân loại
+P212	Heading 3	Khái niệm
+P213	Normal	Vi phạm pháp luật là hành vi trái pháp luật, có lỗi, do chủ thể có năng lực trách nhiệm pháp lý thực hiện, xâm hại quan hệ xã hội được pháp luật bảo vệ.
+P214	List Bullet	Vi phạm pháp luật phải là hành vi biểu hiện ra bên ngoài bằng hành động hoặc không hành động. Suy nghĩ hoặc ý định chưa biểu hiện thành hành vi không phải vi phạm.
+P215	Heading 3	Dấu hiệu
+P216	List Bullet	Là hành vi xác định của con người hoặc tổ chức, dưới dạng hành động hoặc không hành động.
+P217	List Bullet	Trái pháp luật và xâm hại quan hệ xã hội được bảo vệ.
+P218	List Bullet	Có lỗi cố ý hoặc vô ý.
+P219	List Bullet	Do chủ thể có năng lực trách nhiệm pháp lý thực hiện.
+P220	List Bullet	Hành vi phải trái quy định pháp luật và xâm hại hoặc đe dọa xâm hại quan hệ được bảo vệ. Không phải hành vi gây phản cảm nào cũng là vi phạm nếu pháp luật không điều chỉnh.
+P221	List Bullet	Chủ thể phải có lỗi. Lỗi là thái độ tâm lý đối với hành vi và hậu quả trong điều kiện có khả năng lựa chọn cách xử sự phù hợp.
+P222	List Bullet	Chủ thể phải có năng lực trách nhiệm pháp lý theo ngành luật, phụ thuộc độ tuổi, khả năng nhận thức và tư cách tổ chức.
+P223	Heading 3	Phân loại
+P224	List Bullet	Vi phạm hình sự (tội phạm).
+P225	List Bullet	Vi phạm hành chính.
+P226	List Bullet	Vi phạm dân sự.
+P227	List Bullet	Vi phạm kỷ luật.
+P228	List Bullet	Một hành vi có thể đồng thời làm phát sinh nhiều loại trách nhiệm pháp lý nếu đủ căn cứ.
+P229	List Bullet	Vi phạm hình sự có tính nguy hiểm cao và được BLHS quy định; vi phạm hành chính xâm phạm quản lý nhà nước nhưng không phải tội; vi phạm dân sự xâm phạm tài sản, nhân thân hoặc nghĩa vụ; vi phạm kỷ luật xâm phạm trật tự nội bộ.
+P230	List Bullet	Một hành vi có thể làm phát sinh nhiều trách nhiệm: người lao động cố ý phá tài sản có thể bị kỷ luật, bồi thường và bị xử lý hình sự nếu đủ dấu hiệu.
+P231	Normal	Ví dụ: Người lái xe vượt sai gây thương tích có thể bị xử phạt hành chính, bồi thường; nếu hậu quả và các dấu hiệu đạt ngưỡng luật hình sự thì còn bị truy cứu.
+P233	Heading 2	Câu 11. Thừa kế và thừa kế theo di chúc
+P234	Heading 3	Khái niệm
+P235	Normal	Thừa kế là việc chuyển dịch tài sản của người chết cho người còn sống theo di chúc hoặc theo pháp luật. Di chúc là sự thể hiện ý chí của cá nhân nhằm chuyển tài sản của mình cho người khác sau khi chết.
+P236	List Bullet	Thừa kế là sự chuyển dịch tài sản của người chết. Di sản chỉ gồm tài sản riêng và phần của người chết trong tài sản chung, sau khi xác định nghĩa vụ tài sản.
+P237	List Bullet	Di chúc hợp pháp đòi hỏi người lập minh mẫn, tự nguyện; nội dung không vi phạm điều cấm, đạo đức xã hội; hình thức phù hợp. Di chúc công chứng vẫn có thể vô hiệu nếu bị cưỡng ép.
+P238	Heading 3	Thừa kế theo di chúc
+P239	List Bullet	Thừa kế theo di chúc là việc chuyển dịch di sản của người chết cho người còn sống theo ý chí của người để lại di sản được thể hiện trong di chúc hợp pháp.
+P240	List Bullet	Người lập minh mẫn, sáng suốt; không bị lừa dối, đe dọa hoặc cưỡng ép.
+P241	List Bullet	Nội dung không vi phạm điều cấm, không trái đạo đức xã hội; hình thức phù hợp luật.
+P242	List Bullet	Người từ đủ 15 đến dưới 18 tuổi lập bằng văn bản và được cha, mẹ hoặc người giám hộ đồng ý về việc lập di chúc.
+P243	List Bullet	Di chúc miệng chỉ trong tình trạng tính mạng bị đe dọa và phải tuân thủ điều kiện người làm chứng, ghi chép, xác nhận theo luật.
+P244	List Bullet	Quyền chỉ định, truất quyền, phân chia di sản, di tặng, dành tài sản thờ cúng và giao nghĩa vụ.
+P245	List Bullet	Người thừa kế không phụ thuộc nội dung di chúc: cha, mẹ, vợ/chồng, con chưa thành niên và con thành niên không có khả năng lao động, trừ trường hợp luật loại trừ.
+P246	List Bullet	BLDS 2015 không còn chế định riêng về di chúc chung của vợ chồng như BLDS 2005.
+P247	List Bullet	Trước khi chia phải xác định tài sản của người chết, tách tài sản chung và thanh toán nghĩa vụ tài sản.
+P248	List Bullet	Người từ đủ 15 đến dưới 18 tuổi phải lập di chúc bằng văn bản và được cha mẹ hoặc người giám hộ đồng ý về việc lập; không nên viết bắt buộc cha mẹ ký thay vào di chúc.
+P249	List Bullet	Di chúc miệng chỉ khi tính mạng bị đe dọa và không thể lập văn bản; phải có ít nhất hai người làm chứng, ghi chép, ký/điểm chỉ và được xác nhận theo thời hạn luật định. Sau ba tháng người lập còn sống, minh mẫn thì di chúc miệng mặc nhiên bị hủy bỏ.
+P250	List Bullet	Người thừa kế bắt buộc gồm cha, mẹ, vợ/chồng, con chưa thành niên, con thành niên không có khả năng lao động; được ít nhất hai phần ba suất theo pháp luật, trừ trường hợp từ chối hoặc không có quyền hưởng.
+P251	List Bullet	BLDS 2015 không còn chế định riêng về di chúc chung của vợ chồng. Mỗi người chỉ định đoạt phần tài sản thuộc quyền của mình.
+P252	List Bullet	Khi giải bài phải theo thứ tự: thời điểm mở thừa kế – di sản – nghĩa vụ – di chúc – người hưởng – chia phần – kiểm tra tổng.
+P253	Normal	Ví dụ: Tài sản chung vợ chồng 900 triệu và người chết có 100 triệu riêng: di sản là 450 + 100 = 550 triệu, không phải một tỷ.
+P255	Heading 2	Câu 12. Luật Lao động: khái niệm, đối tượng và phương pháp điều chỉnh
+P256	Heading 3	Khái niệm
+P257	Normal	Luật Lao động là ngành luật điều chỉnh quan hệ lao động giữa người lao động và người sử dụng lao động cùng các quan hệ liên quan trực tiếp.
+P258	List Bullet	Đối tượng trung tâm là quan hệ lao động có việc làm, trả công/tiền lương và sự quản lý, điều hành, giám sát của người sử dụng lao động.
+P259	Heading 3	Đối tượng
+P260	List Bullet	Quan hệ phát sinh từ việc làm có trả công, tiền lương và sự quản lý, điều hành, giám sát của một bên.
+P261	List Bullet	Quan hệ việc làm, học nghề, đối thoại, thương lượng tập thể, an toàn vệ sinh lao động, bảo hiểm, đại diện người lao động và giải quyết tranh chấp.
+P262	List Bullet	Các quan hệ liên quan gồm việc làm, học nghề, an toàn vệ sinh, đối thoại, thương lượng tập thể, tổ chức đại diện, bảo hiểm và giải quyết tranh chấp.
+P263	Heading 3	Phương pháp
+P264	List Bullet	Thỏa thuận trên cơ sở tự nguyện nhưng phải tuân thủ chuẩn tối thiểu bảo vệ người lao động.
+P265	List Bullet	Quyền quản lý, điều hành của người sử dụng lao động trong giới hạn pháp luật.
+P266	List Bullet	Sự tham gia của tổ chức đại diện người lao động và cơ chế thương lượng tập thể.
+P267	List Bullet	Phương pháp thỏa thuận thể hiện trong giao kết hợp đồng và thương lượng nhưng không tuyệt đối; các bên không được thỏa thuận thấp hơn tiêu chuẩn tối thiểu có lợi cho người lao động.
+P268	List Bullet	Phương pháp quyền uy trong nội bộ thể hiện ở quyền tổ chức, phân công, kiểm tra và xử lý kỷ luật của người sử dụng lao động, nhưng phải trong giới hạn pháp luật.
+P269	List Bullet	Sự tham gia của tổ chức đại diện người lao động giúp cân bằng vị thế, đặc biệt trong thương lượng tập thể, kỷ luật và tranh chấp.
+P270	List Bullet	Quan hệ công vụ của cán bộ, công chức chủ yếu do pháp luật cán bộ, công chức và hành chính điều chỉnh, không nên xếp toàn bộ vào luật lao động.
+P271	Normal	Ví dụ: Doanh nghiệp có quyền bố trí ca làm theo hợp đồng và nội quy, nhưng không thể buộc người lao động làm quá giới hạn thời giờ hoặc cắt lương làm hình thức kỷ luật.
+P273	Heading 2	Câu 13. Hợp đồng lao động: nhận diện, hình thức và chấm dứt
+P274	Heading 3	Khái niệm và nhận diện
+P275	Normal	Hợp đồng lao động là thỏa thuận về việc làm có trả công, tiền lương, điều kiện lao động, quyền và nghĩa vụ của mỗi bên. Dù mang tên khác, nếu có việc làm có trả công và sự quản lý, điều hành, giám sát thì vẫn được coi là hợp đồng lao động.
+P276	List Bullet	Tên gọi không quyết định bản chất. Thỏa thuận mang tên cộng tác viên, khoán việc hoặc dịch vụ vẫn là hợp đồng lao động nếu có việc làm có trả công và chịu quản lý, điều hành, giám sát.
+P277	Heading 3	Hình thức và loại hợp đồng
+P278	List Bullet	Thông thường phải bằng văn bản hoặc thông điệp dữ liệu; một số hợp đồng dưới một tháng có thể bằng lời nói, trừ trường hợp luật bắt buộc bằng văn bản.
+P279	List Bullet	Hai loại cơ bản: không xác định thời hạn và xác định thời hạn không quá 36 tháng.
+P280	List Bullet	Thông thường hợp đồng phải bằng văn bản hoặc thông điệp dữ liệu. Hợp đồng dưới một tháng có thể bằng lời nói, trừ các trường hợp luật bắt buộc văn bản.
+P281	List Bullet	Có hai loại: không xác định thời hạn và xác định thời hạn không quá 36 tháng. Luật giới hạn việc ký nối tiếp hợp đồng xác định thời hạn.
+P282	List Bullet	Nội dung chủ yếu gồm công việc, địa điểm, thời hạn, lương, hình thức trả, nâng lương, thời giờ, nghỉ ngơi, bảo hộ, bảo hiểm, đào tạo và nội dung khác.
+P283	Heading 3	Chấm dứt
+P284	List Bullet	Theo thỏa thuận, hết hạn, hoàn thành công việc, đơn phương hợp pháp và các căn cứ luật định.
+P285	List Bullet	Khi đơn phương phải có căn cứ hoặc tuân thủ thời hạn báo trước tùy chủ thể và trường hợp.
+P286	List Bullet	Đơn phương trái pháp luật có thể dẫn đến nghĩa vụ nhận lại làm việc, trả lương, đóng bảo hiểm, bồi thường hoặc hoàn trả chi phí.
+P287	List Bullet	Chấm dứt có thể do hết hạn, thỏa thuận, hoàn thành công việc, đơn phương hợp pháp hoặc căn cứ khác. Người lao động thường có quyền đơn phương khi báo trước; một số trường hợp không phải báo trước.
+P288	List Bullet	Đơn phương trái pháp luật dẫn đến nghĩa vụ nhận lại, trả lương, bảo hiểm, bồi thường hoặc nghĩa vụ của người lao động tùy bên vi phạm.
+P289	Normal	Ví dụ: Hợp đồng ghi “dịch vụ” nhưng người làm chấm công hằng ngày, nhận lương tháng và chịu quản lý trực tiếp có thể được xác định là hợp đồng lao động.
+P291	Heading 2	Câu 14. Tranh chấp lao động và cơ chế giải quyết theo Bộ luật Lao động 2019
+P292	Heading 3	Khái niệm và phân loại
+P293	List Bullet	Tranh chấp lao động cá nhân giữa người lao động với người sử dụng lao động hoặc chủ thể liên quan.
+P294	List Bullet	Tranh chấp lao động tập thể về quyền.
+P295	List Bullet	Tranh chấp lao động tập thể về lợi ích.
+P296	List Bullet	Tranh chấp cá nhân phát sinh giữa người lao động với người sử dụng lao động hoặc chủ thể liên quan về quyền, nghĩa vụ và lợi ích của cá nhân.
+P297	List Bullet	Tranh chấp tập thể về quyền liên quan việc giải thích, thực hiện quy định đã có trong luật, thỏa ước, nội quy hoặc thỏa thuận hợp pháp. Tranh chấp lợi ích nhằm xác lập điều kiện mới.
+P298	Heading 3	Chủ thể có thẩm quyền
+P299	List Bullet	Hòa giải viên lao động.
+P300	List Bullet	Hội đồng trọng tài lao động trong trường hợp luật quy định và các bên lựa chọn.
+P301	List Bullet	Tòa án nhân dân.
+P302	List Bullet	Chủ thể giải quyết gồm hòa giải viên lao động, Hội đồng trọng tài lao động và Tòa án. Không còn mô hình Hội đồng hòa giải cơ sở và Chủ tịch UBND huyện như tài liệu cũ.
+P303	Heading 3	Trình tự khái quát
+P304	List Bullet	Tranh chấp cá nhân thường phải qua hòa giải viên trước khi yêu cầu trọng tài hoặc Tòa án, trừ các trường hợp được miễn hòa giải như xử lý kỷ luật sa thải, đơn phương chấm dứt, bồi thường khi chấm dứt, bảo hiểm và một số tranh chấp khác.
+P305	List Bullet	Tranh chấp tập thể về quyền: hòa giải → trọng tài hoặc Tòa án theo lựa chọn và điều kiện luật định.
+P306	List Bullet	Tranh chấp tập thể về lợi ích: hòa giải → trọng tài; đình công chỉ có thể đặt ra theo đúng điều kiện và trình tự.
+P307	List Bullet	Không còn dùng mô hình Hội đồng hòa giải cơ sở hoặc Chủ tịch UBND cấp huyện như tài liệu cũ.
+P308	List Bullet	Tranh chấp cá nhân thường phải hòa giải trước, nhưng các tranh chấp như sa thải, đơn phương chấm dứt, bồi thường khi chấm dứt, bảo hiểm và một số nhóm khác được miễn.
+P309	List Bullet	Tranh chấp tập thể về quyền có thể được giải quyết qua hòa giải, trọng tài hoặc Tòa án theo quy định. Tranh chấp lợi ích qua hòa giải, trọng tài và có thể dẫn tới đình công nếu đủ điều kiện.
+P310	List Bullet	Đình công chỉ là biện pháp của tập thể người lao động đối với tranh chấp lợi ích, phải do tổ chức đại diện có quyền tổ chức và tuân thủ trình tự.
+P311	Normal	Ví dụ: Yêu cầu trả khoản phụ cấp đã ghi trong thỏa ước là tranh chấp về quyền; yêu cầu tạo một phụ cấp hoàn toàn mới là tranh chấp về lợi ích.
+P313	Heading 2	Câu 15. Luật Hành chính: khái niệm, đối tượng và phương pháp điều chỉnh
+P314	Heading 3	Khái niệm
+P315	Normal	Luật Hành chính là ngành luật điều chỉnh các quan hệ xã hội phát sinh trong hoạt động quản lý hành chính nhà nước và những quan hệ quản lý khác được pháp luật giao.
+P316	List Bullet	Luật Hành chính điều chỉnh quan hệ phát sinh trong quản lý hành chính nhà nước và các hoạt động chấp hành – điều hành.
+P317	Heading 3	Đối tượng
+P318	List Bullet	Quan hệ giữa cơ quan hành chính với cá nhân, tổ chức.
+P319	List Bullet	Quan hệ tổ chức và hoạt động nội bộ của cơ quan nhà nước.
+P320	List Bullet	Quan hệ khi cơ quan, tổ chức hoặc cá nhân được trao quyền quản lý hành chính.
+P321	List Bullet	Nhóm điển hình là quan hệ giữa cơ quan hành chính hoặc người có thẩm quyền với cá nhân, tổ chức; quan hệ tổ chức nội bộ; và quan hệ khi chủ thể khác được trao quyền quản lý.
+P322	List Bullet	Không phải mọi quan hệ có cơ quan nhà nước đều là hành chính. Cơ quan ký hợp đồng mua bán bình đẳng là quan hệ dân sự.
+P323	Heading 3	Phương pháp
+P324	Normal	Phương pháp quyền lực – phục tùng là chủ yếu: một bên nhân danh quyền lực nhà nước có quyền đưa ra quyết định đơn phương trong phạm vi thẩm quyền; bên kia có nghĩa vụ chấp hành và có quyền khiếu nại, khởi kiện khi quyết định hoặc hành vi trái pháp luật.
+P325	List Bullet	Phương pháp quyền lực – phục tùng cho phép một bên ra quyết định đơn phương trong phạm vi thẩm quyền. Bên kia phải chấp hành nhưng có quyền khiếu nại, khởi kiện và yêu cầu kiểm soát.
+P326	List Bullet	Quyết định hành chính hợp pháp phải đúng thẩm quyền, căn cứ, nội dung, hình thức, trình tự, thủ tục và mục đích. Một hành vi vi phạm có thật không làm hợp pháp hóa quyết định sai thẩm quyền.
+P327	List Bullet	Cưỡng chế hành chính chỉ được áp dụng bởi chủ thể có thẩm quyền, đúng trường hợp và thủ tục, bảo đảm quyền con người.
+P328	Normal	Ví dụ: Chủ tịch có thẩm quyền phạt ra quyết định xử phạt là quan hệ hành chính; UBND thuê dịch vụ sửa máy tính là quan hệ hợp đồng.
+P330	Heading 2	Câu 16. Tội phạm: khái niệm, dấu hiệu và phân loại
+P331	Heading 3	Khái niệm
+P332	Normal	Tội phạm là hành vi nguy hiểm cho xã hội được quy định trong Bộ luật Hình sự, do người có năng lực trách nhiệm hình sự hoặc pháp nhân thương mại thực hiện một cách cố ý hoặc vô ý, xâm phạm các quan hệ được luật hình sự bảo vệ và phải bị xử lý hình sự.
+P333	List Bullet	Tính nguy hiểm cho xã hội là dấu hiệu nội dung cơ bản. Hành vi phải gây hoặc đe dọa gây thiệt hại đáng kể cho quan hệ được BLHS bảo vệ.
+P334	Heading 3	Dấu hiệu
+P335	List Bullet	Tính nguy hiểm đáng kể cho xã hội.
+P336	List Bullet	Tính có lỗi.
+P337	List Bullet	Tính trái pháp luật hình sự.
+P338	List Bullet	Tính phải chịu hình phạt hoặc biện pháp hình sự.
+P339	List Bullet	Chủ thể có năng lực trách nhiệm hình sự; pháp nhân thương mại chỉ chịu trách nhiệm về các tội được liệt kê.
+P340	List Bullet	Về độ tuổi: người từ đủ 16 tuổi chịu trách nhiệm về mọi tội, trừ trường hợp luật quy định khác; người từ đủ 14 đến dưới 16 tuổi chỉ chịu trách nhiệm về những tội được liệt kê tại Điều 12 BLHS.
+P341	List Bullet	Tính có lỗi yêu cầu chủ thể có thái độ cố ý hoặc vô ý. Người gây hậu quả trong sự kiện bất ngờ, không thể thấy trước hoặc không buộc phải thấy trước, không có lỗi.
+P342	List Bullet	Tính trái BLHS đòi hỏi hành vi được mô tả trong một tội danh. Không được suy diễn hoặc áp dụng tương tự để buộc tội.
+P343	List Bullet	Tính chịu hình phạt nghĩa là tội phạm bị đe dọa áp dụng hình phạt, nhưng người phạm tội thực tế có thể được miễn trách nhiệm hoặc miễn hình phạt khi đủ điều kiện.
+P344	List Bullet	Cấu thành gồm khách thể; mặt khách quan; chủ thể; mặt chủ quan. Phải phân biệt khách thể với đối tượng tác động và bị hại.
+P345	List Bullet	Từ đủ 16 tuổi chịu trách nhiệm về mọi tội trừ quy định khác; từ 14 đến dưới 16 chỉ chịu trách nhiệm về tội cụ thể được liệt kê tại Điều 12.
+P346	Heading 3	Phân loại tội phạm
+P347	List Bullet	Bốn loại: ít nghiêm trọng, nghiêm trọng, rất nghiêm trọng và đặc biệt nghiêm trọng, căn cứ tính chất nguy hiểm và mức cao nhất của khung hình phạt.
+P348	List Bullet	Bốn loại tội căn cứ tính chất, mức độ nguy hiểm và mức cao nhất của khung: đến 3 năm; trên 3 đến 7; trên 7 đến 15; trên 15, tù chung thân hoặc tử hình.
+P349	Normal	Ví dụ: Người 15 tuổi không đương nhiên chịu trách nhiệm chỉ vì hành vi được xếp loại rất nghiêm trọng; phải kiểm tra tội danh có trong danh mục Điều 12.
+P351	Heading 2	Câu 17. Tố cáo: khái niệm, đặc điểm, thẩm quyền và thủ tục
+P352	Heading 3	Khái niệm
+P353	Normal	Tố cáo là việc cá nhân theo thủ tục luật định báo cho cơ quan, tổ chức hoặc cá nhân có thẩm quyền biết về hành vi vi phạm pháp luật gây thiệt hại hoặc đe dọa gây thiệt hại đến lợi ích Nhà nước, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.
+P354	List Bullet	Chủ thể tố cáo là cá nhân, không chỉ công dân. Đối tượng là hành vi vi phạm pháp luật của cơ quan, tổ chức, cá nhân trong thực hiện nhiệm vụ, công vụ hoặc quản lý nhà nước.
+P355	Heading 3	Đặc điểm
+P356	List Bullet	Chủ thể tố cáo là cá nhân.
+P357	List Bullet	Đối tượng là hành vi vi phạm pháp luật trong thực hiện nhiệm vụ, công vụ hoặc hành vi vi phạm về quản lý nhà nước trong các lĩnh vực.
+P358	List Bullet	Khác khiếu nại: khiếu nại nhằm bảo vệ trực tiếp quyền, lợi ích của người khiếu nại trước quyết định/hành vi hành chính hoặc kỷ luật.
+P359	List Bullet	Tố cáo khác khiếu nại ở đối tượng và mục đích. Khiếu nại yêu cầu xem xét quyết định/hành vi xâm phạm trực tiếp quyền người khiếu nại; tố cáo báo hành vi vi phạm để xử lý.
+P360	Heading 3	Thẩm quyền giải quyết
+P361	List Bullet	Nguyên tắc chung: người đứng đầu cơ quan, tổ chức có thẩm quyền quản lý người bị tố cáo giải quyết; trường hợp khác theo luật chuyên ngành.
+P362	List Bullet	Nguyên tắc chung về thẩm quyền là người đứng đầu cơ quan, tổ chức có thẩm quyền quản lý người bị tố cáo giải quyết; trường hợp đặc biệt theo luật.
+P363	Heading 3	Thủ tục giải quyết
+P364	List Bullet	Trình tự: tiếp nhận, xử lý ban đầu → thụ lý → xác minh → kết luận nội dung → xử lý kết luận.
+P365	List Bullet	Thời hạn thông thường không quá 30 ngày từ ngày thụ lý; vụ việc phức tạp có thể gia hạn theo luật.
+P366	List Bullet	Thông tin không rõ họ tên, địa chỉ không xử lý theo thủ tục tố cáo; nhưng nếu nội dung rõ, có tài liệu cụ thể và cơ sở kiểm tra thì có thể được chuyển để thanh tra, kiểm tra.
+P367	List Bullet	Trình tự gồm tiếp nhận, xử lý ban đầu; thụ lý; xác minh; kết luận nội dung; xử lý kết luận và thông báo theo luật.
+P368	List Bullet	Thời hạn thông thường không quá 30 ngày từ ngày thụ lý; vụ phức tạp có thể gia hạn một lần, đặc biệt phức tạp có thể gia hạn hai lần, mỗi lần không quá 30 ngày.
+P369	List Bullet	Đơn không rõ tên, địa chỉ không giải quyết theo thủ tục tố cáo. Tuy nhiên nếu thông tin rõ, có tài liệu cụ thể và cơ sở kiểm tra thì cơ quan có thể thanh tra, kiểm tra hoặc chuyển cơ quan có thẩm quyền.
+P370	List Bullet	Người tố cáo được bảo mật và có thể được bảo vệ tính mạng, sức khỏe, tài sản, danh dự, vị trí việc làm khi có nguy cơ bị xâm hại.
+P371	Normal	Ví dụ: A phản đối quyết định phạt mình thì khiếu nại/khởi kiện; B phát hiện cán bộ nhận hối lộ thì tố cáo hoặc báo tin tội phạm.
+P373	Heading 2	Câu 18. Khái niệm, nguyên tắc và tính ưu việt của Luật Hôn nhân và gia đình
+P374	Heading 3	Khái niệm
+P375	Normal	Luật Hôn nhân và gia đình là ngành luật điều chỉnh quan hệ nhân thân và tài sản giữa vợ chồng, cha mẹ và con, cùng các thành viên gia đình.
+P376	List Bullet	Hôn nhân tự nguyện, tiến bộ đòi hỏi nam nữ tự quyết định, đủ điều kiện, không bị cưỡng ép hoặc lừa dối và đăng ký tại cơ quan có thẩm quyền.
+P377	Heading 3	Nguyên tắc theo Luật năm 2014
+P378	List Bullet	Hôn nhân tự nguyện, tiến bộ, một vợ một chồng, vợ chồng bình đẳng.
+P379	List Bullet	Hôn nhân giữa công dân thuộc các dân tộc, tôn giáo; giữa người có và không có tôn giáo; giữa công dân Việt Nam với người nước ngoài được tôn trọng và bảo vệ.
+P380	List Bullet	Xây dựng gia đình ấm no, tiến bộ, hạnh phúc; các thành viên tôn trọng, quan tâm, chăm sóc, giúp đỡ nhau.
+P381	List Bullet	Không phân biệt đối xử giữa các con; bảo vệ trẻ em, người cao tuổi, người khuyết tật và người mẹ.
+P382	List Bullet	Kế thừa, phát huy truyền thống tốt đẹp; xóa bỏ phong tục, tập quán lạc hậu.
+P383	List Bullet	Nam, nữ chung sống như vợ chồng mà không đăng ký thì không phát sinh quyền, nghĩa vụ giữa vợ và chồng; tài sản và con chung được giải quyết theo quy định tương ứng.
+P384	List Bullet	Một vợ một chồng là nguyên tắc bắt buộc; sự đồng ý của người vợ hoặc chồng hiện tại không làm hợp pháp quan hệ với người thứ ba.
+P385	List Bullet	Vợ chồng bình đẳng về nhân thân, tài sản, lựa chọn nơi cư trú, nghề nghiệp, chăm sóc con và đại diện. Bình đẳng không phủ nhận việc thỏa thuận phân công phù hợp.
+P386	List Bullet	Nhà nước tôn trọng hôn nhân giữa các dân tộc, tôn giáo và có yếu tố nước ngoài nếu đáp ứng điều kiện pháp luật.
+P387	List Bullet	Gia đình có nghĩa vụ tôn trọng, chăm sóc, giúp đỡ; bảo vệ trẻ em, người cao tuổi, người khuyết tật; không phân biệt giữa các con.
+P388	List Bullet	Nam nữ chung sống mà không đăng ký không phát sinh quyền nghĩa vụ vợ chồng; quan hệ con chung vẫn được bảo vệ; tài sản giải quyết theo thỏa thuận, công sức đóng góp và pháp luật dân sự.
+P389	Heading 3	Tính ưu việt
+P390	List Bullet	Bảo đảm quyền tự do kết hôn, ly hôn trên cơ sở tự nguyện và bình đẳng.
+P391	List Bullet	Xóa bỏ chế độ đa thê, cưỡng ép, trọng nam khinh nữ và phân biệt giữa các con.
+P392	List Bullet	Bảo vệ phụ nữ, trẻ em và thành viên yếu thế; đề cao trách nhiệm chăm sóc, phụng dưỡng và tương trợ.
+P393	List Bullet	Kết hợp giá trị tiến bộ với việc kế thừa truyền thống gia đình tốt đẹp của Việt Nam.
+P394	Normal	Ví dụ: Ông A đang có vợ mà sống với bà B: B không trở thành vợ hợp pháp dù vợ A đồng ý; nhưng con của A và B có quyền như các con khác khi quan hệ cha con được xác định.
+P396	Heading 2	Câu 19. Phân tích nội dung cơ bản của Hiến pháp năm 2013
+P397	Heading 3	Nội dung cơ bản
+P398	List Bullet	Hiến pháp là luật cơ bản, có hiệu lực pháp lý cao nhất. Mọi văn bản pháp luật khác phải phù hợp với Hiến pháp; mọi hành vi vi phạm Hiến pháp phải bị xử lý.
+P399	List Bullet	Chế độ chính trị; bản chất Nhà nước; chủ quyền Nhân dân; vai trò lãnh đạo của Đảng.
+P400	List Bullet	Quyền con người, quyền và nghĩa vụ cơ bản của công dân.
+P401	List Bullet	Kinh tế, xã hội, văn hóa, giáo dục, khoa học, công nghệ và môi trường.
+P402	List Bullet	Bảo vệ Tổ quốc.
+P403	List Bullet	Tổ chức bộ máy nhà nước: Quốc hội, Chủ tịch nước, Chính phủ, Tòa án, Viện kiểm sát, chính quyền địa phương, Hội đồng bầu cử quốc gia và Kiểm toán nhà nước.
+P404	List Bullet	Hiệu lực và thủ tục sửa đổi Hiến pháp.
+P405	List Bullet	Năm 2025, một số điều của Hiến pháp được sửa đổi, bổ sung để phù hợp việc sắp xếp tổ chức bộ máy, củng cố vai trò của Mặt trận Tổ quốc Việt Nam và tổ chức chính quyền địa phương theo mô hình hai cấp.
+P406	List Bullet	Hiến pháp là luật cơ bản, có hiệu lực cao nhất, quy định nền tảng chế độ chính trị, quyền con người, tổ chức quyền lực, kinh tế – xã hội và bảo vệ Tổ quốc.
+P407	List Bullet	Chương về chế độ chính trị xác định bản chất Nhà nước, chủ quyền Nhân dân, nguyên tắc quyền lực thống nhất có phân công, phối hợp, kiểm soát, vai trò lãnh đạo của Đảng và Mặt trận.
+P408	List Bullet	Chương quyền con người, quyền công dân ghi nhận các quyền dân sự, chính trị, kinh tế, xã hội, văn hóa và nghĩa vụ. Quyền con người gắn với mọi cá nhân; quyền công dân gắn với quốc tịch.
+P409	List Bullet	Quyền chỉ có thể bị hạn chế theo luật trong trường hợp cần thiết vì các mục đích hiến định. Văn bản dưới luật không thể tự đặt giới hạn quyền vượt quá luật.
+P410	List Bullet	Quốc hội thực hiện quyền lập hiến, lập pháp và giám sát tối cao; Chính phủ thực hiện quyền hành pháp; Tòa án thực hiện quyền tư pháp; Viện kiểm sát công tố và kiểm sát tư pháp; Chủ tịch nước đứng đầu Nhà nước.
+P411	List Bullet	Các chương khác quy định kinh tế, xã hội, văn hóa, giáo dục, khoa học, công nghệ, môi trường; bảo vệ Tổ quốc; chính quyền địa phương; Hội đồng bầu cử quốc gia; Kiểm toán nhà nước.
+P412	List Bullet	Sửa đổi năm 2025 liên quan sắp xếp tổ chức bộ máy, Mặt trận Tổ quốc và mô hình chính quyền địa phương hai cấp. Khi thi cần căn cứ yêu cầu giảng viên để trình bày nội dung hiện hành hoặc so sánh bản năm 2013.
+P413	Normal	Ví dụ: Nếu một thông tư hạn chế quyền công dân mà không có căn cứ luật thì không chỉ có nguy cơ trái luật mà còn đặt ra vấn đề bảo đảm quyền theo Hiến pháp.
+P416	Heading 1	PHẦN II. BẢNG GHI NHỚ NHANH
+P417	Heading 2	1. Phân biệt quy phạm pháp luật – điều luật – văn bản QPPL
+P418	Heading 2	2. Phân biệt các loại vi phạm pháp luật
+P419	Heading 2	3. Công thức giải bài tình huống
+P420	List Number	Tóm tắt đúng dữ kiện pháp lý; xác định câu hỏi đề bài.
+P421	List Number	Xác định quan hệ pháp luật và ngành luật điều chỉnh.
+P422	List Number	Nêu quy tắc/căn cứ pháp lý cần áp dụng.
+P423	List Number	Đối chiếu từng dấu hiệu với dữ kiện; không bỏ qua lỗi, năng lực chủ thể và quan hệ nhân quả.
+P424	List Number	Nêu dữ kiện còn thiếu hoặc các trường hợp cần phân nhánh.
+P425	List Number	Kết luận ngắn, rõ, không tuyệt đối hóa khi chưa đủ chứng cứ.
+P426	Heading 2	4. Nhận diện nhanh các tội chiếm đoạt
+P428	Heading 1	PHẦN III. BÀI TẬP NÂNG CAO CÓ LỜI GIẢI CHI TIẾT
+P429	Normal	Mỗi bài được giải theo trình tự: xác định quan hệ pháp luật hoặc vấn đề cần giải quyết; nêu quy tắc áp dụng; đối chiếu từng dữ kiện; phân biệt với trường hợp gần giống; kết luận và chỉ rõ dữ kiện có thể làm thay đổi đáp án.
+P430	Heading 2	Bài 1. Vé số trúng thưởng – thời điểm phát sinh ý định chiếm đoạt
+P431	Normal	Đề bài: C bỏ tiền mua 3 tờ vé số và đồng ý để Đ cầm giữ. Sau khi biết vé trúng 150 triệu đồng, Đ tự nhận thưởng, nói dối rằng vé không trúng, dùng tiền mua xe và không trả C. Xác định tội danh và phân tích cấu thành.
+P432	Heading 3	Gợi ý giải
+P433	Normal	Quan hệ ban đầu: C là chủ sở hữu vé và quyền nhận thưởng. Đ nhận vé công khai, được C chấp nhận nên việc có tài sản ban đầu là hợp pháp, mang tính giữ hộ.
+P434	Normal	Phân biệt lừa đảo: Lừa đảo đòi hỏi gian dối có trước, làm chủ tài sản tin tưởng và tự nguyện giao tài sản. Trong tình huống, lời nói dối xuất hiện sau khi Đ đã nhận vé; vì vậy gian dối không phải nguyên nhân làm C giao vé.
+P435	Normal	Phân biệt trộm cắp: Không có hành vi lén lút lấy vé khỏi sự quản lý của C.
+P436	Normal	Hướng định tội: Đ nhận tài sản hợp pháp rồi nảy sinh ý định chiếm đoạt, nhận thưởng, che giấu và từ chối hoàn trả. Hành vi có dấu hiệu lạm dụng tín nhiệm chiếm đoạt tài sản theo Điều 175 BLHS nếu đủ điều kiện cấu thành.
+P437	Normal	Khách thể và đối tượng: Khách thể là quan hệ sở hữu; đối tượng tác động là vé số và khoản tiền thưởng 150 triệu đồng.
+P438	Normal	Mặt khách quan: Hành vi nhận giữ, tự nhận thưởng, gian dối và sử dụng tiền; hậu quả C mất 150 triệu; có quan hệ nhân quả trực tiếp.
+P439	Normal	Mặt chủ quan: Cố ý trực tiếp, mục đích chiếm đoạt, động cơ tư lợi.
+P440	Normal	Chủ thể và kết luận: Phải giả định Đ đủ tuổi và có năng lực trách nhiệm hình sự. Kết luận phù hợp hơn là lạm dụng tín nhiệm, không phải cứ có lời nói dối là lừa đảo.
+P441	Heading 2	Bài 2. Lén lấy 50 triệu để đóng học phí
+P442	Normal	Đề bài: A, 23 tuổi, lợi dụng chủ nhà đi vắng và tủ không khóa để lấy 50 triệu đồng, dùng 20 triệu mua xe và số còn lại đóng học phí. Phân tích các yếu tố cấu thành vi phạm pháp luật và hướng tội danh.
+P443	Heading 3	Gợi ý giải
+P444	Normal	Mặt khách quan: A lén lút lấy tài sản; hậu quả chủ sở hữu mất 50 triệu; quan hệ nhân quả trực tiếp. Việc tủ không khóa không phải là từ bỏ quyền sở hữu.
+P445	Normal	Mặt chủ quan: A biết tiền không thuộc mình, biết hành vi trái luật và mong muốn chiếm đoạt nên là cố ý trực tiếp. Động cơ khó khăn học phí không loại trừ lỗi.
+P446	Normal	Chủ thể: A 23 tuổi và giả định có khả năng nhận thức, điều khiển hành vi nên có năng lực trách nhiệm hình sự.
+P447	Normal	Khách thể: Quan hệ sở hữu, không phải bản thân người bị mất tiền.
+P448	Normal	Phân loại vi phạm: Có dấu hiệu tội trộm cắp tài sản theo Điều 173 BLHS vì phương thức là lén lút; giá trị 50 triệu được dùng để xác định khung nếu đề yêu cầu.
+P449	Normal	Trách nhiệm bổ sung: A phải hoàn trả, bồi thường; trách nhiệm dân sự hoặc kỷ luật không thay thế trách nhiệm hình sự.
+P450	Heading 2	Bài 3. Cấu trúc quy phạm xử phạt đội mũ bảo hiểm
+P451	Normal	Đề bài: Xác định giả định, quy định, chế tài trong câu: “Phạt tiền từ 100.000 đồng đến 200.000 đồng đối với người điều khiển, người ngồi trên xe máy không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài đúng quy cách khi tham gia giao thông trên đường bộ”.
+P452	Heading 3	Gợi ý giải
+P453	Normal	Giả định: Người điều khiển hoặc người ngồi trên xe máy; trong hoàn cảnh tham gia giao thông đường bộ; có hành vi không đội hoặc cài không đúng.
+P454	Normal	Quy định: Được thể hiện ngầm: các chủ thể trên phải đội mũ bảo hiểm và cài đúng quy cách khi tham gia giao thông.
+P455	Normal	Chế tài: Phạt tiền từ 100.000 đến 200.000 đồng.
+P456	Normal	Lưu ý hiệu lực: Nghị định 71/2012 và Nghị định 34/2010 trong đề cũ đã hết hiệu lực. Ta chỉ phân tích cấu trúc câu được cung cấp, không dùng mức phạt này như pháp luật hiện hành.
+P457	Normal	Nhận xét: Ba bộ phận là cấu trúc logic; quy định về nghĩa vụ và chế tài có thể nằm ở các văn bản khác nhau.
+P458	Heading 2	Bài 4. Hai lần mở thừa kế – Thành, An, Mai và bốn người con
+P459	Normal	Đề bài: Thành và An kết hôn hợp pháp, có nhà chung 540 triệu và hai con Hà, Hồng. Khi hôn nhân còn tồn tại, Thành chung sống với Mai, có Hằng, Thái; Thành và Mai cùng mua nhà 120 triệu. An chết năm 2018, Thành chết năm 2020, đều không để lại di chúc. Giả định cha mẹ họ đã chết, không có nghĩa vụ và Thành–Mai đóng góp nhà 120 triệu ngang nhau.
+P460	Heading 3	Gợi ý giải
+P461	Normal	Tư cách Mai: Mai không phải vợ hợp pháp vì quan hệ hình thành khi Thành đang có vợ; sự đồng ý của An không làm hợp pháp hóa việc vi phạm một vợ một chồng.
+P462	Normal	Di sản của An: Nhà 540 triệu chia phần sở hữu vợ chồng: An 270, Thành 270. Di sản An là 270 triệu.
+P463	Normal	Chia lần một: Hàng thứ nhất của An gồm Thành, Hà, Hồng. Mỗi người hưởng 90 triệu. Thành lúc này có 270 + 90 = 360 triệu.
+P464	Normal	Nhà của Thành và Mai: Không phải tài sản chung vợ chồng mà là đồng sở hữu theo đóng góp. Theo giả định, mỗi người 60 triệu.
+P465	Normal	Di sản của Thành: 360 + 60 = 420 triệu.
+P466	Normal	Chia lần hai: Bốn con Hà, Hồng, Hằng, Thái bình đẳng, mỗi người 105 triệu; Mai không hưởng với tư cách vợ.
+P467	Normal	Kết quả: Hà và Hồng mỗi người 195 triệu sau hai lần; Hằng, Thái mỗi người 105 triệu; Mai giữ 60 triệu là tài sản của mình.
+P468	Normal	Dữ kiện làm đổi đáp án: Cha mẹ người chết còn sống, nghĩa vụ tài sản, tỷ lệ đóng góp khác hoặc bằng chứng về tài sản riêng.
+P469	Heading 2	Bài 5. Hai lần mở thừa kế – Dũng, Dung, Thơm
+P470	Normal	Đề bài: Dũng và Dung có nhà chung 850 triệu, Dũng có 9 triệu riêng và hai con Hoa, Hà. Dũng chung sống với Thơm khi hôn nhân với Dung còn tồn tại và có con Thu. Dung chết năm 1997, Dũng chết năm 2000, không di chúc. Giả định cha mẹ đã chết, không có nghĩa vụ.
+P471	Heading 3	Gợi ý giải
+P472	Normal	Di sản Dung: Phần của Dung trong nhà là 425 triệu.
+P473	Normal	Chia di sản Dung: Dũng, Hoa, Hà mỗi người hưởng 425/3 = 141,666 triệu.
+P474	Normal	Di sản Dũng: 425 triệu phần nhà + 9 triệu riêng + 141,666 triệu thừa kế = 575,666 triệu.
+P475	Normal	Tư cách Thơm: Không phải vợ hợp pháp theo dữ kiện; không hưởng với tư cách vợ.
+P476	Normal	Chia di sản Dũng: Hoa, Hà, Thu là ba con cùng hàng, mỗi người khoảng 191,889 triệu.
+P477	Normal	Kết quả: Hoa và Hà mỗi người khoảng 333,555 triệu; Thu khoảng 191,889 triệu.
+P478	Normal	Sai lầm cần tránh: Không lấy 859 triệu làm di sản ngay từ đầu; phải tách tài sản chung và giải quyết từng thời điểm mở thừa kế.
+P479	Heading 2	Bài 6. Lấy xe khi được nhờ sửa và trách nhiệm người cất giấu
+P480	Normal	Đề bài: A nhờ H sửa xe. Sau khi sửa, H nổ máy phóng đi, gửi xe ở nhà B và bán được 12 triệu. H không dùng vũ lực. Phân tích tội danh của H và trách nhiệm của B.
+P481	Heading 3	Gợi ý giải
+P482	Normal	Loại trừ cướp: Không có vũ lực, đe dọa dùng ngay tức khắc vũ lực hoặc thủ đoạn làm A không thể chống cự.
+P483	Normal	Phân nhánh đối với H: Nếu A chỉ cho tiếp cận để sửa và H công khai lấy trong hoàn cảnh A không thể ngăn cản, xem xét công nhiên chiếm đoạt; nếu A đã giao xe cho H quản lý/sửa chữa và H lợi dụng sự tín nhiệm, xem xét lạm dụng tín nhiệm. Cần làm rõ thời điểm nảy sinh ý định.
+P484	Normal	Không kết luận theo ngôn ngữ đời thường: “Phóng xe đi” không đương nhiên là cướp giật; phải xác định phương thức chiếm đoạt và trạng thái quản lý tài sản.
+P485	Normal	B không biết: Không có lỗi nên không chịu trách nhiệm hình sự.
+P486	Normal	B biết sau khi nhận: Nếu biết rõ tài sản do phạm tội mà có nhưng vẫn cất giấu hoặc bán, có thể phạm tội chứa chấp hoặc tiêu thụ tài sản do người khác phạm tội mà có.
+P487	Normal	B hứa hẹn trước: Nếu thống nhất hỗ trợ từ trước, B có thể là đồng phạm của tội H thực hiện.
+P488	Heading 2	Bài 7. Bán hàng qua mạng – lừa đảo hay tranh chấp hợp đồng?
+P489	Normal	Đề bài: M đăng bán máy ảnh 40 triệu, nhận đủ tiền từ N nhưng không giao hàng. M khai do nguồn hàng bị chậm và muốn hoàn tiền; N cho rằng M lừa đảo. Điều tra xác định trước khi nhận tiền M có hoặc không có máy ảnh trong hai giả thiết khác nhau.
+P490	Heading 3	Gợi ý giải
+P491	Normal	Giả thiết M không có hàng và dùng ảnh giả: Nếu ngay từ đầu M dựng thông tin gian dối nhằm làm N chuyển tiền rồi cắt liên lạc, hành vi có dấu hiệu lừa đảo chiếm đoạt tài sản.
+P492	Normal	Giả thiết M có hàng nhưng phát sinh vi phạm sau: Nếu giao dịch được xác lập thật, M có khả năng thực hiện nhưng sau đó chậm giao, tranh chấp trước hết là dân sự. Chỉ chuyển sang hình sự khi chứng minh ý định chiếm đoạt và hành vi thỏa mãn cấu thành.
+P493	Normal	Điểm phân biệt: Thời điểm có ý định chiếm đoạt, tính giả tạo của thông tin trước khi giao tiền, cách sử dụng tiền và hành vi sau khi nhận.
+P494	Normal	Trách nhiệm dân sự: Hoàn trả tiền, lãi, phạt vi phạm và bồi thường nếu có căn cứ.
+P495	Normal	Kết luận: Không hình sự hóa quan hệ dân sự chỉ vì một bên không thực hiện đúng hạn; đồng thời không được dùng hợp đồng giả để che giấu chiếm đoạt.
+P496	Heading 2	Bài 8. Người chưa thành niên, đồng phạm và tội chiếm đoạt
+P497	Normal	Đề bài: P 17 tuổi rủ Q 15 tuổi giật điện thoại trị giá 30 triệu từ tay người đi đường. P lái xe, Q ngồi sau trực tiếp giật. Sau đó R 20 tuổi biết rõ nguồn gốc nhưng vẫn bán giúp và lấy 2 triệu tiền công.
+P498	Heading 3	Gợi ý giải
+P499	Normal	Tội danh dự kiến: Hành vi công khai, nhanh chóng giật tài sản rồi tẩu thoát có dấu hiệu cướp giật tài sản.
+P500	Normal	Vai trò P và Q: P tổ chức, điều khiển xe tạo điều kiện; Q trực tiếp thực hành. Cả hai có sự thống nhất ý chí nên có thể là đồng phạm.
+P501	Normal	Tuổi của P: P 17 tuổi phải chịu trách nhiệm về tội phạm theo quy định chung nếu có năng lực.
+P502	Normal	Tuổi của Q: Q 15 tuổi chỉ chịu trách nhiệm nếu tội cướp giật thuộc danh mục Điều 12 BLHS và hành vi đạt điều kiện luật định; không chỉ dựa vào tên loại tội.
+P503	Normal	Trách nhiệm R: Nếu không hứa hẹn trước, R không là đồng phạm của vụ cướp giật nhưng có thể phạm tội chứa chấp hoặc tiêu thụ tài sản do người khác phạm tội mà có.
+P504	Normal	Nếu R hứa bán từ trước: R có thể bị xem xét là người giúp sức trong đồng phạm.
+P505	Heading 2	Bài 9. Hợp đồng cộng tác viên, tiền lương và sa thải
+P506	Normal	Đề bài: Công ty ký “hợp đồng cộng tác viên” 24 tháng với L, yêu cầu làm đủ 8 giờ/ngày, chấm công, nhận lương cố định và chịu quản lý trực tiếp. L đi muộn nhiều lần, công ty cắt nửa tháng lương và thông báo nghỉ ngay không họp kỷ luật.
+P507	Heading 3	Gợi ý giải
+P508	Normal	Nhận diện quan hệ: Có việc làm, trả lương và quản lý, điều hành nên dù mang tên cộng tác viên vẫn có dấu hiệu hợp đồng lao động.
+P509	Normal	Loại hợp đồng: Thời hạn 24 tháng là hợp đồng xác định thời hạn nếu quan hệ lao động được công nhận.
+P510	Normal	Cắt lương: Pháp luật cấm phạt tiền, cắt lương thay xử lý kỷ luật.
+P511	Normal	Chấm dứt: Công ty phải xác định căn cứ đơn phương hoặc căn cứ kỷ luật sa thải; đi muộn nhiều lần không tự động thuộc trường hợp sa thải.
+P512	Normal	Thủ tục kỷ luật: Phải chứng minh lỗi, thông báo họp, bảo đảm thành phần, thời hiệu và lập biên bản theo luật.
+P513	Normal	Tranh chấp: L có thể yêu cầu giải quyết tranh chấp về chấm dứt và tiền lương; tranh chấp sa thải/đơn phương thuộc nhóm không bắt buộc hòa giải trước khi khởi kiện.
+P514	Heading 2	Bài 10. Quyết định xử phạt sai thẩm quyền và hành vi nhận hối lộ
+P515	Normal	Đề bài: Trưởng phòng cấp huyện ký quyết định phạt doanh nghiệp 100 triệu dù không có thẩm quyền. Doanh nghiệp đồng thời có video cho thấy cán bộ nhận tiền để bỏ qua một vi phạm khác. Doanh nghiệp phải sử dụng cơ chế nào?
+P516	Heading 3	Gợi ý giải
+P517	Normal	Quyết định xử phạt: Sai thẩm quyền là căn cứ xem xét tính bất hợp pháp dù doanh nghiệp có hành vi vi phạm thật.
+P518	Normal	Cơ chế bảo vệ: Doanh nghiệp có thể khiếu nại quyết định hoặc khởi kiện vụ án hành chính theo điều kiện, thời hiệu luật định.
+P519	Normal	Hậu quả hủy quyết định: Việc hủy quyết định sai không làm mất quyền xử lý hành vi gốc bởi người có thẩm quyền nếu còn thời hiệu và đúng thủ tục.
+P520	Normal	Hành vi nhận tiền: Cá nhân biết sự việc có thể tố cáo; nếu có dấu hiệu tội phạm, cung cấp tin báo và chứng cứ cho cơ quan điều tra, viện kiểm sát.
+P521	Normal	Phân biệt: Khiếu nại hướng tới quyết định xâm phạm trực tiếp doanh nghiệp; tố cáo/tin báo hướng tới hành vi vi phạm của cán bộ.
+P522	Heading 2	Bài 11. Hôn nhân không đăng ký, tài sản và thừa kế
+P523	Normal	Đề bài: A đang có vợ hợp pháp là B nhưng chung sống với C trong 15 năm, có con D. A và C cùng mua nhà 2 tỷ, C chứng minh đóng góp 70%. A chết không di chúc, còn mẹ ruột, B, hai con với B và D.
+P524	Heading 3	Gợi ý giải
+P525	Normal	Quan hệ A–C: Không phát sinh tư cách vợ chồng hợp pháp; C không hưởng thừa kế với tư cách vợ.
+P526	Normal	Nhà 2 tỷ: Giải quyết theo đồng sở hữu và công sức đóng góp. Nếu chứng minh C 70%, C có 1,4 tỷ; phần A là 600 triệu và được đưa vào di sản.
+P527	Normal	Di sản khác: Phải cộng tài sản riêng, phần trong tài sản chung với B và trừ nghĩa vụ trước khi chia.
+P528	Normal	Người thừa kế: Mẹ A, B và tất cả các con, gồm D, cùng hàng thứ nhất. Các con bình đẳng, không phụ thuộc tình trạng hôn nhân của cha mẹ.
+P529	Normal	Chia: Sau khi xác định tổng di sản ròng, chia đều cho mẹ, B và ba người con nếu không có người khác và không có tình tiết loại trừ.
+P530	Normal	Vi phạm hôn nhân: Việc A vi phạm một vợ một chồng là vấn đề riêng, không làm D mất quyền.
+P531	Heading 2	Bài 12. Tai nạn giao thông, hình sự, hành chính và bồi thường
+P532	Normal	Đề bài: K lái xe tải lấn làn vượt xe, va chạm làm T bị thương 60%, hỏng xe 80 triệu. K có giấy phép, không dùng rượu bia, ở lại cứu người. Xác định các trách nhiệm có thể phát sinh.
+P533	Heading 3	Gợi ý giải
+P534	Normal	Hành vi và lỗi: K vi phạm quy tắc giao thông, có lỗi vô ý; hậu quả thương tích và tài sản có quan hệ nhân quả.
+P535	Normal	Trách nhiệm hình sự: Nếu chỉ một người bị thương 60% và thiệt hại 80 triệu, dữ kiện thường chưa đạt các ngưỡng cơ bản tương ứng của tội vi phạm quy định về tham gia giao thông. Cần kiểm tra đầy đủ hậu quả và tình tiết định tội hiện hành.
+P536	Normal	Trách nhiệm hành chính: Nếu chưa đến mức tội phạm, K có thể bị xử phạt về hành vi lấn làn, vượt sai và các vi phạm liên quan.
+P537	Normal	Trách nhiệm dân sự: Phải bồi thường chi phí chữa trị, thu nhập mất/giảm, người chăm sóc, tổn thất tinh thần, thiệt hại xe và khoản hợp lý khác.
+P538	Normal	Chủ sở hữu xe: Nếu K lái xe trong nhiệm vụ của doanh nghiệp hoặc xe là nguồn nguy hiểm cao độ của chủ thể khác, phải phân tích trách nhiệm của người sử dụng lao động/chủ sở hữu và quyền hoàn trả.
+P539	Normal	Kết luận: Không được thấy thương tích cao rồi tự động kết luận hình sự; phải đối chiếu ngưỡng và tình tiết.
+P540	Heading 2	Bài 13. Di chúc vô hiệu một phần, người thừa kế bắt buộc và thế vị
+P541	Normal	Đề bài: Ông X có di sản ròng 1,2 tỷ. Di chúc hợp pháp để toàn bộ cho bạn Y, nhưng 300 triệu trong khối tài sản thực tế thuộc vợ X. X còn vợ, mẹ, con 10 tuổi; một người con A chết trước X và có hai con A1, A2.
+P542	Heading 3	Gợi ý giải
+P543	Normal	Xác định di sản: Loại 300 triệu thuộc vợ; di sản của X chỉ 900 triệu.
+P544	Normal	Suất theo pháp luật: Nếu chia theo pháp luật, hàng thứ nhất gồm vợ, mẹ, con 10 tuổi và nhánh A. Có bốn suất; mỗi suất 225 triệu.
+P545	Normal	Thế vị: A1, A2 cùng hưởng suất 225 triệu của A, mỗi người 112,5 triệu nếu phải chia theo pháp luật.
+P546	Normal	Người thừa kế bắt buộc: Vợ, mẹ và con 10 tuổi thuộc diện bắt buộc, mỗi người ít nhất 2/3 × 225 = 150 triệu.
+P547	Normal	A1, A2: Cháu thế vị không thuộc nhóm thừa kế bắt buộc chỉ vì là cháu; do di chúc đã định đoạt toàn bộ, họ không đương nhiên hưởng nếu không có căn cứ khác.
+P548	Normal	Phần Y: Y hưởng 900 – 450 = 450 triệu sau khi bảo đảm ba phần bắt buộc, giả định không có tình tiết khác.
+P549	Normal	Vô hiệu một phần: Di chúc không có hiệu lực đối với 300 triệu không thuộc X; điều này không làm toàn bộ di chúc vô hiệu.
+P550	Heading 2	Bài 14. Xung đột văn bản và bảo vệ quyền công dân
+P551	Normal	Đề bài: Một thông tư yêu cầu công dân cung cấp toàn bộ lịch sử liên lạc để được giải quyết thủ tục, trong khi luật chỉ yêu cầu thông tin định danh cần thiết. Cơ quan từ chối hồ sơ vì công dân không cung cấp lịch sử liên lạc.
+P552	Heading 3	Gợi ý giải
+P553	Normal	Thứ bậc hiệu lực: Thông tư phải phù hợp luật và Hiến pháp; không được đặt thêm điều kiện trái luật.
+P554	Normal	Quyền liên quan: Đời sống riêng tư, bí mật cá nhân và quyền được giải quyết thủ tục theo quy định.
+P555	Normal	Giới hạn quyền: Chỉ được hạn chế quyền theo luật, trong trường hợp cần thiết và với phạm vi tương xứng; văn bản dưới luật không tự tạo giới hạn vượt luật.
+P556	Normal	Xử lý vụ việc: Công dân có thể khiếu nại hành vi/quyết định từ chối hoặc khởi kiện hành chính nếu đủ điều kiện.
+P557	Normal	Xử lý văn bản: Cơ quan có thẩm quyền phải kiểm tra, đình chỉ, bãi bỏ hoặc kiến nghị xử lý thông tư trái luật.
+P558	Normal	Kết luận: Áp dụng văn bản cấp dưới trái văn bản cấp trên không trở thành hợp pháp chỉ vì thông tư chưa bị bãi bỏ tại thời điểm tranh chấp; cần vận dụng cơ chế xử lý và bảo vệ quyền phù hợp.
+P560	Heading 1	PHẦN IV. CHECKLIST TRƯỚC KHI ĐI THI
+P561	Normal	☐ Tôi phân biệt được quy phạm pháp luật với điều luật và văn bản QPPL.
+P562	Normal	☐ Tôi nhớ ba yếu tố của quan hệ pháp luật: chủ thể – nội dung – khách thể.
+P563	Normal	☐ Tôi nhớ bốn dấu hiệu của vi phạm pháp luật.
+P564	Normal	☐ Tôi phân tích được mặt khách quan – mặt chủ quan – chủ thể – khách thể.
+P565	Normal	☐ Tôi phân biệt được sáu tội chiếm đoạt tài sản thường gặp.
+P566	Normal	☐ Tôi luôn tách tài sản chung trước khi chia thừa kế.
+P567	Normal	☐ Tôi biết xác định người thừa kế bắt buộc.
+P568	Normal	☐ Tôi phân biệt tố cáo với khiếu nại.
+P569	Normal	☐ Tôi biết tranh chấp lao động nào không bắt buộc hòa giải.
+P570	Normal	☐ Tôi không dùng BLDS 2005, BLHS 1999, Luật HN&GĐ 2000 hoặc cơ chế lao động cũ nếu đề hỏi pháp luật hiện hành.
+P571	Heading 2	MẪU KHUNG TRẢ LỜI TỰ LUẬN
+P572	List Number	Nêu khái niệm chính xác, không vòng vo.
+P573	List Number	Liệt kê đặc điểm hoặc nguyên tắc theo từng ý.
+P574	List Number	Phân tích ngắn từng ý và gắn một ví dụ.
+P575	List Number	Nếu có căn cứ pháp luật, nêu tên văn bản và điều luật khi chắc chắn.
+P576	List Number	Kết luận hoặc nêu ý nghĩa thực tiễn.
+T0R0C0	CELL	Mục tiêu
+T0R0C1	CELL	Ôn tự luận, nhận diện vấn đề và giải bài tập tình huống
+T0R1C0	CELL	Cấu trúc
+T0R1C1	CELL	19 câu trả lời hoàn chỉnh + bảng ghi nhớ + bài tập tổng hợp nâng cao
+T0R2C0	CELL	Căn cứ chính
+T0R2C1	CELL	Các văn bản pháp luật hiện hành được liệt kê trong tài liệu
+T0R3C0	CELL	Lưu ý
+T0R3C1	CELL	Đây là tài liệu học tập, không thay thế tư vấn pháp lý cho vụ việc thực tế
+T1R0C0	CELL	Phần
+T1R0C1	CELL	Nội dung
+T1R1C0	CELL	Hướng dẫn sử dụng và các điểm hiệu đính
+T1R1C1	CELL	Cách học, văn bản nền tảng, nội dung đã thay thế
+T1R2C0	CELL	Phần I. Đáp án 19 câu lý thuyết
+T1R2C1	CELL	Mỗi câu gồm khái niệm, phân tích, ví dụ, lưu ý và dàn ý
+T1R3C0	CELL	Phần II. Bảng ghi nhớ nhanh
+T1R3C1	CELL	So sánh khái niệm và công thức giải bài
+T1R4C0	CELL	Phần III. Bài tập
+T1R4C1	CELL	Chỉ gồm các tình huống nâng cao, đa dạng và có lời giải chi tiết
+T1R5C0	CELL	Phần IV. Checklist trước khi thi
+T1R5C1	CELL	Kiểm tra kiến thức và khung trả lời tự luận
+T2R0C0	CELL	Nội dung cũ
+T2R0C1	CELL	Hướng sử dụng hiện nay
+T2R1C0	CELL	BLDS 2005
+T2R1C1	CELL	Dùng Bộ luật Dân sự 2015.
+T2R2C0	CELL	BLHS 1999
+T2R2C1	CELL	Dùng BLHS 2015, sửa đổi 2017 và các sửa đổi có hiệu lực hiện hành.
+T2R3C0	CELL	Luật HN&GĐ 2000
+T2R3C1	CELL	Dùng Luật Hôn nhân và gia đình 2014.
+T2R4C0	CELL	Luật Khiếu nại, tố cáo cũ
+T2R4C1	CELL	Dùng Luật Tố cáo 2018 cho nội dung tố cáo.
+T2R5C0	CELL	Tranh chấp lao động
+T2R5C1	CELL	Dùng Bộ luật Lao động 2019; bỏ mô hình Hội đồng hòa giải cơ sở cũ.
+T2R6C0	CELL	Hiến pháp 2013
+T2R6C1	CELL	Đọc cùng nội dung sửa đổi, bổ sung năm 2025 về Mặt trận Tổ quốc và chính quyền địa phương.
+T2R7C0	CELL	Thiếu Câu 13
+T2R7C1	CELL	Bổ sung câu trả lời về hợp đồng lao động.
+T2R8C0	CELL	Bài tập hình sự
+T2R8C1	CELL	Sửa lỗi nhầm giữa cướp, cướp giật, công nhiên chiếm đoạt, trộm cắp, lừa đảo và lạm dụng tín nhiệm.
+T3R0C0	CELL	Từ khóa ghi điểm: quyền lực công cộng đặc biệt; quản lý dân cư; chủ quyền; pháp luật; thuế; tính giai cấp; tính xã hội
+T4R0C0	CELL	Từ khóa ghi điểm: quy tắc xử sự chung; áp dụng nhiều lần; đúng thẩm quyền; hợp hiến; hợp pháp; thống nhất; minh bạch; khả thi
+T5R0C0	CELL	Từ khóa ghi điểm: Nhân dân; pháp quyền XHCN; quyền lực thống nhất; phân công–phối hợp–kiểm soát; quyền con người; Đảng lãnh đạo
+T6R0C0	CELL	Từ khóa ghi điểm: tội phạm; hình phạt; pháp chế; bình đẳng; có lỗi; cá thể hóa; công bằng; nhân đạo; pháp nhân thương mại
+T7R0C0	CELL	Từ khóa ghi điểm: quy phạm pháp luật + sự kiện pháp lý; chủ thể; năng lực pháp luật; năng lực hành vi; nội dung; khách thể
+T8R0C0	CELL	Từ khóa ghi điểm: hình thức bên ngoài; tập quán pháp; án lệ; văn bản quy phạm pháp luật; điều ước quốc tế
+T9R0C0	CELL	Từ khóa ghi điểm: quan hệ tài sản; quan hệ nhân thân; bình đẳng; tự do ý chí; độc lập tài sản; tự chịu trách nhiệm
+T10R0C0	CELL	Từ khóa ghi điểm: quy tắc xử sự chung; giả định; quy định; chế tài; quy phạm không đồng nhất với điều luật
+T11R0C0	CELL	Từ khóa ghi điểm: BLDS 2015; chiếm hữu; sử dụng; định đoạt; căn cứ xác lập; căn cứ chấm dứt
+T12R0C0	CELL	Từ khóa ghi điểm: hành vi; trái pháp luật; có lỗi; năng lực trách nhiệm pháp lý; hình sự; hành chính; dân sự; kỷ luật
+T13R0C0	CELL	Từ khóa ghi điểm: di sản; thời điểm mở thừa kế; di chúc hợp pháp; người thừa kế bắt buộc; tách tài sản chung; nghĩa vụ tài sản
+T14R0C0	CELL	Từ khóa ghi điểm: việc làm có trả công; tiền lương; quản lý–điều hành–giám sát; thỏa thuận; chuẩn tối thiểu; đại diện người lao động
+T15R0C0	CELL	Từ khóa ghi điểm: việc làm có trả công; quản lý; hợp đồng bằng văn bản; xác định thời hạn; không xác định thời hạn; đơn phương; báo trước
+T16R0C0	CELL	Từ khóa ghi điểm: cá nhân; tập thể về quyền; tập thể về lợi ích; hòa giải viên; trọng tài lao động; Tòa án; đình công
+T17R0C0	CELL	Từ khóa ghi điểm: quản lý hành chính; quyền lực–phục tùng; quyết định đơn phương; thẩm quyền; khiếu nại; khởi kiện
+T18R0C0	CELL	Từ khóa ghi điểm: nguy hiểm cho xã hội; có lỗi; trái BLHS; chịu hình phạt; năng lực TNHS; Điều 12; bốn loại tội phạm
+T19R0C0	CELL	Từ khóa ghi điểm: cá nhân; hành vi vi phạm; phân biệt khiếu nại; thụ lý; xác minh; kết luận; 30 ngày; bảo vệ người tố cáo
+T20R0C0	CELL	Từ khóa ghi điểm: tự nguyện; tiến bộ; một vợ một chồng; bình đẳng; đăng ký kết hôn; bảo vệ thành viên yếu thế
+T21R0C0	CELL	Từ khóa ghi điểm: luật cơ bản; hiệu lực cao nhất; quyền con người; tổ chức bộ máy; kiểm soát quyền lực; sửa đổi 2025; chính quyền hai cấp
+T22R0C0	CELL	Tiêu chí
+T22R0C1	CELL	Quy phạm pháp luật
+T22R0C2	CELL	Điều luật
+T22R0C3	CELL	Văn bản QPPL
+T22R1C0	CELL	Bản chất
+T22R1C1	CELL	Quy tắc xử sự chung
+T22R1C2	CELL	Đơn vị trình bày trong văn bản
+T22R1C3	CELL	Văn bản chứa quy phạm
+T22R2C0	CELL	Quan hệ
+T22R2C1	CELL	Có thể nằm ở nhiều điều
+T22R2C2	CELL	Có thể chứa một hoặc nhiều quy phạm
+T22R2C3	CELL	Gồm nhiều điều, chương
+T22R3C0	CELL	Ví dụ
+T22R3C1	CELL	Cấm chiếm đoạt tài sản
+T22R3C2	CELL	Một điều quy định tội danh
+T22R3C3	CELL	Bộ luật, luật, nghị định…
+T23R0C0	CELL	Loại
+T23R0C1	CELL	Quan hệ bị xâm hại
+T23R0C2	CELL	Căn cứ chính
+T23R0C3	CELL	Chủ thể xử lý
+T23R0C4	CELL	Hậu quả điển hình
+T23R1C0	CELL	Hình sự
+T23R1C1	CELL	Quan hệ được BLHS bảo vệ
+T23R1C2	CELL	Bộ luật Hình sự
+T23R1C3	CELL	Tòa án
+T23R1C4	CELL	Hình phạt, biện pháp tư pháp
+T23R2C0	CELL	Hành chính
+T23R2C1	CELL	Trật tự quản lý nhà nước
+T23R2C2	CELL	Luật XLVPHC và luật chuyên ngành
+T23R2C3	CELL	Người/cơ quan có thẩm quyền
+T23R2C4	CELL	Cảnh cáo, phạt tiền, biện pháp khắc phục
+T23R3C0	CELL	Dân sự
+T23R3C1	CELL	Tài sản, nhân thân
+T23R3C2	CELL	BLDS, hợp đồng
+T23R3C3	CELL	Tòa án/trọng tài
+T23R3C4	CELL	Bồi thường, buộc thực hiện nghĩa vụ
+T23R4C0	CELL	Kỷ luật
+T23R4C1	CELL	Trật tự nội bộ
+T23R4C2	CELL	Nội quy, luật công vụ/lao động
+T23R4C3	CELL	Người sử dụng lao động/cơ quan
+T23R4C4	CELL	Khiển trách, kéo dài nâng lương, sa thải…
+T24R0C0	CELL	Tội danh
+T24R0C1	CELL	Dấu hiệu nhận diện chính
+T24R0C2	CELL	Thời điểm hình thành ý định chiếm đoạt
+T24R1C0	CELL	Cướp
+T24R1C1	CELL	Dùng/đe dọa dùng ngay tức khắc vũ lực hoặc thủ đoạn làm nạn nhân không thể chống cự
+T24R1C2	CELL	Trước hoặc trong khi chiếm đoạt
+T24R2C0	CELL	Cướp giật
+T24R2C1	CELL	Công khai, nhanh chóng giật lấy rồi tẩu thoát
+T24R2C2	CELL	Trước khi chiếm đoạt
+T24R3C0	CELL	Công nhiên chiếm đoạt
+T24R3C1	CELL	Công khai lấy tài sản khi chủ tài sản không thể ngăn cản
+T24R3C2	CELL	Trước khi chiếm đoạt
+T24R4C0	CELL	Trộm cắp
+T24R4C1	CELL	Lén lút chiếm đoạt
+T24R4C2	CELL	Trước khi chiếm đoạt
+T24R5C0	CELL	Lừa đảo
+T24R5C1	CELL	Gian dối có trước làm chủ tài sản tự nguyện giao tài sản
+T24R5C2	CELL	Có trước việc giao tài sản
+T24R6C0	CELL	Lạm dụng tín nhiệm
+T24R6C1	CELL	Nhận tài sản hợp pháp rồi dùng thủ đoạn/điều kiện luật định để chiếm đoạt
+T24R6C2	CELL	Thường phát sinh sau khi nhận tài sản
+T25R0C0	CELL	Lời nhắc cuối: Một bài có bố cục rõ, thuật ngữ đúng và biết phân nhánh dữ kiện thường an toàn hơn một bài dài nhưng khẳng định sai.

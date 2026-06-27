@@ -1,0 +1,22 @@
+Ví dụ 2.24: tạo dãy xung vuông tại P1.0
+HERE: 	SETB	P1.0	; thiết lập P1.0 lên 1
+	ACALL	DELAY
+	CLR	P1.0
+ACALL	DELAY
+	SJMP	HERE
+Hoặc có thể viết
+HERE: 	CPL	P1.0	; lấy bù bit 0 của P1.0
+	ACALL	DELAY
+	SJMP	HERE
+Ví dụ 2.25: Nhận dữ liệu từ cổng P1 và kiểm tra bit P1.0. Nếu P1.0 = 0 gửi nội dung thanh ghi R0 ra cổng P2, nếu  P1.0 = 1 gửi nội dung thanh ghi R1 ra cổng P2
+	MOV 	A, P1
+	JNB	ACC.0, NEXT1
+	MOV	P2, R1
+	SJMP	NEXT2
+NEXT1:	
+	MOV	P2, R0	
+NEXT2:
+Lệnh xử lý bit (2)
+Phần mềm
+Phần cứng
+62

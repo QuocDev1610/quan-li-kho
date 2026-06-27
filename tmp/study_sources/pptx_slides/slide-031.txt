@@ -1,0 +1,4 @@
+Không gian bộ nhớ RAM, Hình 2.6
+Hình 2.6. Không gian bộ nhớ RAM
+2.3.2. Tổ chức bộ nhớ ngoài (3)
+31

@@ -1,0 +1,9 @@
+Thanh ghi điều khiển nối tiếp SCON:
+Chế độ 1: Truyền thông bất đồng bộ với frame truyền 10 bit (1 bit Start, 8 bit dữ liệu, 1 bit Stop). TxD truyền, RxD nhận dữ liệu, tốc độ truyền được cài đặt qua Timer 1
+- Quá trình truyền:
+
+
+
+- Quá trình nhận:
+3.5. Truyền thông nối tiếp - Các thanh ghi cổng nối tiếp (5)
+98

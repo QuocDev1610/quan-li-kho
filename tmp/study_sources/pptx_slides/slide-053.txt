@@ -1,0 +1,11 @@
+PUSH
+Cú pháp: 	PUSH	trực tiếp
+PUSH	ACC
+PUSH	R1
+
+POP
+Cú pháp: 	POP	trực tiếp
+POP	R1
+POP	ACC
+Lệnh chuyển dữ liệu (3)
+53

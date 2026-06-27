@@ -1,0 +1,21 @@
+Ví dụ 3.4. Tạo xung vuông T = 2 ms trên chân P2.0 của 8051 (XTAL=12 MHz), sử dụng Timer 0 để tạo trễ thời gian.
+
+
+Theo Ví dụ 3.3, để tạo trễ 1ms sử dụng 8051 có XTAL = 12 MHz, nội dung TH = FCh, TL = 18h. 
+Chương trình:
+		MOV 	TMOD, #01h 	; chọn Timer 0, chế độ 1
+HERE:		MOV 	TH0, #0FCh
+		MOV 	TL0, #18h
+		CPL	P2.0
+		ACALL	DELAY
+		SJMP	HERE		; nạp lại TH, TL
+DELAY: 
+		SETB 	TR0 		; khởi động Timer 0
+AGAIN: 	JNB 	TF0, AGAIN 	; kiểm tra cờ Timer 0
+		CLR 	TR0 		; xóa TR0 (dừng Timer 0)
+		CLR 	TF0 		; Xóa TF0
+		RET
+3.4. Lập trình cho bộ định thời/bộ đếm - Lập trình định thời Chế độ 1 (6)
+Phần mềm
+Phần cứng
+83

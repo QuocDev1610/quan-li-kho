@@ -1,0 +1,4 @@
+Ví dụ 2.3:  ghép nối 8051 với RAM ngoài dung lượng 8KB bắt đầu từ địa chỉ 0000h
+Bản đồ địa chỉ:
+2.3.3. Ví dụ tổ chức bộ nhớ ngoài – RAM (1)
+38

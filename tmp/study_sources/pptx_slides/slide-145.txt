@@ -1,0 +1,9 @@
+5.4. Cấu trúc tập lệnh ARM (2)
+Tất cả lệnh của ARM đều là 32 bit:
+Có cấu trúc dạng load-store.
+Cấu trúc lệnh định dạng ba địa chỉ (nghĩa là địa chỉ của hai toán hạng nguồn và toán hạng đích đều là các địa chỉ riêng biệt).
+Mỗi một lệnh thực thi một điều kiện.
+Có cả lệnh load-store nhiều thanh ghi đồng thời.
+Có khả năng dịch bit kết hợp với thực thi lệnh ALU trong chỉ một chu kỳ máy.
+Chế độ Thumb code: là một chế độ đặc biệt của ARM dùng để tăng mật độ mã bằng cách nén lệnh 32 bit thành 16 bit. Một phần cứng đặc biệt sẽ giải nén lệnh Thumb 16 bit thành lệnh 32 bit
+145

@@ -1,0 +1,4 @@
+3.3. Các chế độ định thời
+Có 4 chế độ định thời (Bảng 3.1). Chúng ta chỉ tập trung và các chế độ được sử dụng rộng rãi là chế độ 1 và 2.
+Bảng 3.1. Các chế độ định thời của 8051.
+77

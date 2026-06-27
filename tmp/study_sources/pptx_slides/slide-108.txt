@@ -1,0 +1,7 @@
+4.1. Giới thiệu ngắt
+4.2. Tổ chức ngắt của 8051
+4.3. Xử lý ngắt
+4.4. Lập trình ngắt bộ định thời
+4.5. Lập trình ngắt truyền thông nối tiếp
+NỘI DUNG
+108

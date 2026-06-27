@@ -1,0 +1,12 @@
+Để đổ cách kích hoạt ngắt theo sườn cần phải lập trình cho các bit của thanh ghi TCON (thanh ghi điều khiển bộ định thời/bộ đếm), Hình 4.2
+
+
+
+Hình 4.2. TCON – Thành ghi điều khiển bộ định thời/bộ đếm 
+Bốn bit từ TCON.4 đến TCON.7 (đã tìm hiểu trong mục 3.2)
+TCON.3 (IE1): cờ ngắt INT1 (kích hoạt ngắt theo sườn), được CPU thiết lập khi phát hiện có sườn xuống ngắt ngoài và được CPU xóa khi ngắt được xử lý (lưu ý: không sử dụng đối với kích hoạt ngắt theo mức)
+TCON.2 (IT1): điều khiển ngắt 1, được thiết lập/xóa bằng phần mềm để xác định kiểu kích hoạt ngắt thwo sườn xuống, hay mức thấp
+TCON.1 (IE0): tương tự như IE1, nhưng cho ngắt INT0
+TCON.0 (IT0): tương tự như IT0, nhưng cho ngắt INT0
+4.4. Lập trình ngắt cứng ngoài - Kích hoạt ngắt theo sườn (1)
+127

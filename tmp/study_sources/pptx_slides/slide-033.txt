@@ -1,0 +1,3 @@
+Cấu trúc chung của IC nhớ
+2.3.2. Tổ chức bộ nhớ ngoài (5)
+33

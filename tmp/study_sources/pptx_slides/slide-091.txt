@@ -1,0 +1,4 @@
+Tốc độ truyền tin nối tiếp được tính bằng bit/giây (bps).  Một thuật ngữ khác cũng thường được sử dụng là baud. Tuy nhiên, khái niệm bps và baud không hoàn toàn giống nhau. Baud là đơn vị đo dùng cho modem và được định nghĩa là số lần thay đổi tín hiệu trong một giây. Đối với modem, mỗi lần thay đổi tín hiệu có thể truyền được nhiều bit dữ liệu. Còn đối với đường truyền thì tốc độ baud và bps là một. Do vậy, ở đây sẽ không phân biệt hai thuật ngữ trên.
+Với 8051 thu/phát dữ liệu nối tiếp theo nhiều tốc độ khác nhau. Việc thay đổi tốc độ được lập trình qua bộ định thời Timer 1 và được lập trình về mode 2, chế độ thanh ghi 8 bit tự động nạp lại.
+3.5. Truyền thông nối tiếp - Tốc độ baud của 8051 (1)
+91

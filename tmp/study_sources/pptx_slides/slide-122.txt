@@ -1,0 +1,6 @@
+Trình ứng dụng không được sử dụng không gian bộ nhớ dành cho bảng vector ngắt (trong trường hợp hệ thống sử dụng ngắt). Do vậy, mã chương trình được đặt từ địa chỉ 30h. Lệnh LJMP lái bộ điều khiển tránh khỏi bảng vector ngắt.
+Nếu trình phục vụ ngắt (ISR) có kích thước nhỏ đặt vừa trong không gian nhớ dành cho ngắt trong bảng vector ngắt thì bắt đầu từ địa chỉ tương ứng (ví dụ 4.3). Nếu kích thước ISR lớn hơn không gian nhớ dành cho ngắt thì sử dụng thêm vùng chương trình (ví dụ 4.4).
+Mỗi khi bộ Timer quay về 0 thì cờ TFx được bật lên, bộ VĐK sẽ nhảy tới vector ngắt tương ứng để thực hiện trình phục ngắt (ISR)
+Trong trình phục vụ ngắt không cần thực hiện lệnh “CLR TFx” trước lệnh RETI vì 8051 sẽ xóa cở TF khi nhảy tới bảng vector ngắt.
+4.3. Lập trình ngắt bộ định thời – Một số lưu ý
+122

@@ -1,0 +1,15 @@
+Ví dụ 4.1. Viết các lệnh thực hiện
+Cho phé ngắt nối tiếp, ngắt Timer 0 và ngắt cứng ngoài 1
+Cấm (che) ngắt Timer 0
+Cấm tất cả mọi ngắt chỉ bằng một lệnh duy nhất
+Giải 
+       MOV IE, #10010110B 
+; lệnh trên tương đương đoạn chương trình
+	SETB	IE.7	; cho phéo tất cả các ngắt
+	SETB	IE.4	; cho phép ngắt nối tiếp
+	SETB	IE.1	; cho phép ngắt Timer 1
+	SETB	IE.2	; cho phép ngắn cứng ngoài 1
+b)	CLR	IE.1	; xóa (che) ngắt Timer 0
+c)	CLR	IE.7	; cấm tất cả các ngắt
+4.2. Tổ chức ngắt của 8051 - Cho phép ngắt và cấm ngắt (3)
+114

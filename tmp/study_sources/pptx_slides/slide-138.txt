@@ -1,0 +1,4 @@
+Kiến trúc cơ bản của vi xử lý ARM, Hình 5.1
+5.2. Kiến trúc cơ bản của vi xử lý ARM (1)
+Hình 5.1. Kiến trúc ARM
+138

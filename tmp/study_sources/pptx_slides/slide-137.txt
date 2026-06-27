@@ -1,0 +1,5 @@
+5.1. Tổng quan về vi xử lý ARM
+ARM là một trong những họ CPU dựa trên kiến ​​trúc RISC (máy tính tập lệnh giản thiểu) được phát triển bởi Advanced RISC Machines (ARM).
+ARM là một loại cấu trúc vi xử lý RISC 32 bit và 64 bit. RISC được thiết kế để thực hiện một số lượng nhỏ hơn các loại hướng dẫn máy tính để chúng có thể hoạt động ở tốc độ cao hơn, thực hiện thêm hàng triệu phép tính mỗi giây (MIPS). Bằng cách loại bỏ các phép tính không cần thiết và tối ưu hóa các lộ trình.
+Kiến trúc ARM được được thiết kễ chuyê dụng cho các ứng dụng nhúng. Do đó, hiện thực hóa chip ARM được thiết kế để cho các ứng dụng nhỏ, nhưng có hiệu năng cao, tiêu thụ ít năng lượng
+137

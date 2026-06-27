@@ -1,0 +1,8 @@
+NỘI DUNG MÔN HỌC
+Thực hành:  - Mô phỏng mạch điện tử số bằng phần mềm Proteus
+                           - Thực hiện tại phòng máy
+Chương 1:Tổng quan về bộ vi xử lý và hệ vi xử lý.
+Chương 2: Vi điều khiển 8051
+Chương 3:  Bộ đếm/ định thời và truyền thông nối tiếp trong 8051
+Chương 4: Lập trình ngắt trong 8051
+Chương 5: Bộ vi xử lý ARM

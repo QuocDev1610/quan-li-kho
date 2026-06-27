@@ -1,0 +1,3 @@
+Truy xuất bộ nhớ ROM ngoài, Hình 2.5
+2.3.2. Tổ chức bộ nhớ ngoài (2)
+30

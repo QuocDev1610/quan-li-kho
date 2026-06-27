@@ -1,0 +1,13 @@
+4.2. Tổ chức ngắt của 8051 - Mức ưu tiên ngắt của 8051 (1)
+Mức ưu tiên ngắt khi Reset, Bảng 4.3
+Bảng 4.3. Bảng mức ưu tiên ngắt của 8051
+
+
+
+
+
+
+Thiết lập mức ưu tiên ngắt sử dụng thanh ghi IP
+Có thể thay đổi trình tự ưu tiên cho ở Bảng 4.3 bằng cách gán mức ưu tiên cao hơn cho bất kỳ ngắt nào. Điều này được thực hiện bằng cách lập trình cho thanh ghi mức ưu tiên ngắt IP (Interrupt Priority).
+Nếu nhiều bit trong thanh ghi IP cùng được đặt lên cao, khi đó chúng được phục vụ theo trình tự trong Bảng 4.3
+115

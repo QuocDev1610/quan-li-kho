@@ -1,0 +1,23 @@
+DA: hiệu chỉnh nội dung thanh ghi A sau khi cộng các số ở mã BCD
+Nếu giá trị 4 bit thấp >9 hoặc AF=1, cộng 06H vào A
+Nếu giá trị 4 bit cao>9 hoặc CF=1, cộng 60H vào A
+Lệnh số học (3)
+Ví dụ 2.16:
+MOV A, #29H  ; A=0010 1001
+ADD A, #18H   ; A=0010 1001
+	          ; +   0001 1000
+	          ; =   0100 0001=41H, AF=1, CF=0
+DA	          ; A=A+06H=41h+06H=47H
+Ví dụ 2.17:
+MOV  A, #35H  ; A=0011 0101
+ADD   A, #28H  ; A=0011 0101
+	           ; +   0010 1000
+	           ; =   0101 1101=5DH, AF=0, 4 bit thấp = 0Dh=13>9
+DA	           ; A=A+06H=5DH+06H=63H
+Ví dụ 2.18:
+MOV	A, #35H	; A=0011 0101
+ADD	A, #78H	; A=0011 0101
+		; +   0111 1000
+		; =   1010 1101=0ADH, 4 bit cao = 0A=10>9 4 bit thấp = 0Dh=13>9
+DA		; A=A+66H=0ADH+66H=13H, CF=1
+57

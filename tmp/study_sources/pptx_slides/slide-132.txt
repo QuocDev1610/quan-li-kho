@@ -1,0 +1,17 @@
+Giải 
+	ORG 	0000h
+	LJMP	MAIN
+;--- vector ngat truyen thong noi tiep
+	ORG	0023h
+	LJMP	SERIAL		; nhay den ISR noi tiep
+;--- chuong trinh chinh
+	ORG	0030h
+MAIN:	MOV	P1, #0FFh		; dat P1 làm cong vao
+	MOV	TMOD, #20h	; Timer 1, che do 2 tu nap lai
+	MOV	TH1, #0FDh	; chon toc do baud = 9600
+	MOV 	SCON, #50h	; khung 8 bit, 1 stop, cho phep (REN)
+	MOV	IE, #10010000h	; cho phép ngat noi tiep
+	SETB	TR1		; khoi dong Timer 1
+4.5. Lập trình ngắt truyền thông nối tiếp – Một số ví dụ (3)
+Ví dụ 4.8. Viết chương trình cho VĐK 8051 thực hiện nhận dữ liệu từ cổng P1 và gửi liên tục tới cổng P2, trong khi đó dữ liệu nhận được từ cổng nối tiếp gửi ra cổng P0. Giả thiết tần số XTAL là 11.0592MHz và tốc độ truyền 9600 baud.
+132

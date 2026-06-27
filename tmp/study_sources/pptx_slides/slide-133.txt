@@ -1,0 +1,17 @@
+Ví dụ 4.8. (tiếp) 
+
+BACK:	MOV	A, P1		; nhan du liuu tu cong P1
+	MOV	P2, A		; gui ra cong P2
+	SJMP	BACK		; lap lai vong lap
+; ----trinh phuc vu ngat truyen thong noi tiep
+	ORG	100h
+SERIAL:	JB	TI, TRANS		; nhay neu co TI cao
+	MOV	A, SBUF		; neu khong thi nhan du lieu
+	MOV	P0, A		; gui du lieu nhan duoc ra cong P0
+	CLR	RI		; xoa có RI
+	RETI			; tro ve chuong trinh chinh
+TRANS:	CLR	TI		; xoa co TI
+	RETI			; tro ve chuong trinh chinh
+	END
+4.5. Lập trình ngắt truyền thông nối tiếp – Một số ví dụ (4)
+133

@@ -1,0 +1,11 @@
+Bài tập 3.1. Giả thiết nội dung của TH = 08Bh, TL = 3Eh của 8051 làm việc ở tần số 12 MHz. Tính thời gian trễ (sử dụng Timer 0 làm việc ở chế độ 1), từ đó viết đoạn chương trình tạo ra một dãy xung vuông tại chân P2.0 có chu kỳ bằng 4 lần thời gian trễ đã tính.
+
+
+
+Bài tâp 3.2. Tính thời gian trễ lớn nhất sử dụng Timer của 8051 làm việc ở tần số 12MHz (sử dụng Timer 1 làm việc ở chế độ 2), từ đó viết đoạn chương trình tạo ra dãy xung vuông tại chân P2.0 có chu kỳ bằng 10 lần thời gian trễ đã tính.
+Phần mềm
+Phần cứng
+Phần mềm
+Phần cứng
+3.4. Lập trình cho bộ định thời/bộ đếm - Lập trình định thời Chế độ 2 (4)
+87

@@ -1,0 +1,7 @@
+3.1. Nguyên lý hoạt động cơ bản của bộ định thời/bộ đếm
+3.2. Các thanh ghi dùng cho bộ định thời/bộ đếm 
+3.3. Các chế độ định thời
+3.4. Lập trình cho bộ định thời/bộ đếm
+3.5. Truyền thông nối tiếp trong 8051
+NỘI DUNG
+70

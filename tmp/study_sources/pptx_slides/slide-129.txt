@@ -1,0 +1,5 @@
+4.5. Lập trình ngắt truyền thông nối tiếp - Cờ RI, TI và ngắt
+Cờ ngắt phát TI (Transfer interrupt) được bật lên khi bit cuối cùng của khung dữ liêu-bit Stop được phát đi báo rằng thanh ghi SBUF sẵn sàng phát byte kế tiếp. 
+Cờ ngắt thu RI (Receive Interupt) được bật lên 1 khi toàn bộ khung dữ liệu kể cả bit Stop đã được nhận. Nói cách khác, thanh ghi SBUF đang lưu một byte, thì cờ RI bật lên báo rằng byte dữ liệu thu được cất đi trước khi bị mất (bị ghi đè) bởi dữ liệu tiếp theo sẽ được nhận. 
+8051 chỉ có một ngắt dành riêng cho truyền thông nối tiếp. Ngắt này được dùng cho cả phát và thu dữ liệu. Nếu bit ngắt trong thanh ghi IE (IE.4) được phép khi RI và TI bật lên, thì 8051 nhận được ngắt và nhảy đến địa chỉ trình phục vụ ngắt dành cho truyền thông nối tiếp có vector ngắt 0023h trong bảng vector ngắt. Lúc đó, cần kiểm tra cờ TI và RI để xem cờ nào gây ngắt để có đáp ứng phù hợp.
+129

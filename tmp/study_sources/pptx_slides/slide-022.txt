@@ -1,0 +1,3 @@
+Bảng 2.1 Chức năng của các chân Port 3
+2.2. Sơ đồ, chức năng chân tín hiệu 8051 (4)
+22

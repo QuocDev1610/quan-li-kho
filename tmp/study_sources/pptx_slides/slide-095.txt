@@ -1,0 +1,10 @@
+Thanh ghi điều khiển nối tiếp SCON: là thanh ghi  8 bit được lập trình bit khởi động Start, bit dừng Stop và các bit dữ liệu khi định khung dữ liệu, Hình 3.3
+
+
+
+
+Hình 3.3. Thanh ghi điều khiển nối tiếp SCON
+
+SM0, SM1: được sử dụng để xác định chế độ khung dữ liệu bằng cách xác định số bit của một ký tự và các bit Start, Stop. Các tổ hợp của chúng Bảng 3.4
+3.5. Truyền thông nối tiếp - Các thanh ghi cổng nối tiếp (2)
+95

@@ -1,0 +1,9 @@
+Port 1 (từ chân 1 đến 8), có 01 chức năng duy nhất là trao đổi dữ liệu với thiết bị bên ngoài khi có yêu cầu
+Port 2 (từ chân 21 đến 28), có 02 chức năng:
+Trao đổi dữ liệu với thiết bị bên ngoài
+Là byte cao địa chỉ cho các thiết kế có bộ nhớ ngoài
+Port 3 (từ chân 10 đến 17), có 02 chức năng:
+Trao đổi dữ liệu với thiết bị bên ngoài
+Khi không hoạt động trao đổi dữ liệu, mỗi chân của Port 3 thực hiện chức năng riêng (Bảng 2.1)
+2.2. Sơ đồ, chức năng chân tín hiệu 8051 (3)
+21

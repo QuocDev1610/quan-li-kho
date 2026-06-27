@@ -1,0 +1,6 @@
+3.4. Lập trình cho bộ định thời/bộ đếm - Lập trình định thời Chế độ 1 (1)
+Bộ định thời 16 bit, các giá trị trong khoảng từ 0000h đến FFFFh có thể được nạp vào TL và TH của bộ định thời
+Sau khi TL và TH được nạp, thực hiện khởi động bộ định thời bằng lệnh “SETB TR0” cho bộ Timer 0 và “SETB TR1” cho Timer 1
+Sau khi được khởi động bắt đầu đếm tăng, sau khi đạt tời giá trị FFFFh bộ định thời sẽ quay về 0000h và lập cờ TF (Timer Flage) =1. Khi cờ bộ định thời được thiết lập, để dừng bộ định thời bằng phần mềm sử dụng lệnh “CLR TR0” cho Timer 0, “CLR TR1” cho Timer 1.
+Bộ định thời sau khi đạt giá trị giới hạn thì thực hiện quay vòng về 0. Để lặp lại quá trình đếm của bộ định thời, các thanh ghi TL, TH phải được nạp lại giá trị ban đầu và TF cần được xóa về 0.
+78

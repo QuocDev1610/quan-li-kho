@@ -1,0 +1,10 @@
+Các thanh ghi cổng nối tiếp: 8051 có một cổng nối tiếp để truyền thông với các thiết bị nối tiếp. 
+Thanh ghi cấu hình cổng nối tiếp SCON
+Thanh ghi SBUF (serial data buffer) được sử dụng để lưu dữ liệu truyền đi, hoặc nhận về
+(hoạt động chi tiết được thảo luận ở phần sau)
+Thanh ghi ngắt
+8051 có một cấu trúc ngắt với 2 mức ưu tiên và 5 nguyên nhân ngắt (5 source, 2 priority level interrupt structure). Các ngắt bị vô hiệu hóa sau khi reset hệ thống, sau đó được cho phép bằng cách ghi vào thanh ghi cho phép ngắt IE (interrupt enable register). 
+(Hoạt động chi tiết được thảo luận ở phần sau)
+Thanh ghi điều khiển nguồn PCON (power control register) cho phép tăng tốc độ của cổng nối tiếp
+2.4.1. Các thanh ghi chức năng đặc biệt của 8051 (6)
+46

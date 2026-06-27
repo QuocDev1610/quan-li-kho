@@ -1,0 +1,19 @@
+Ví dụ 4.5. Giả sử chân INT được nối đến công tắc bình thường ở mức cao. Mỗi khi chân này xuống thấp thì bật đèn LED. Đèn LED được nối đến chân P2.0 và bình thường ở chế độ tắt. Nếu đèn được bật thì cần phải sáng vài phần giây. Khi công tắc được ấn xuống, đèn LED sáng liên tục
+ORG	0000h
+	LJMP	MAIN
+; --- chuong trinh ISR cho ngat ngaoi INT1 de bat LED
+	ORG	0013h		; vector ngat cua Timer 0
+	CLR	P2.0
+	MOV	R3, #255
+BACK:	DJNZ	R3, BACK
+	SETB	P2.0
+	RETI
+; --- chuong trinh chinh
+	ORG	0030h		; dia chi chuong trình chính
+MAIN:	MOV	IE, #10000100B	; cho phép ngat INT1
+	SJMP	$
+	END
+Phần mềm
+Phần cứng
+4.4. Lập trình ngắt cứng ngoài - Kích hoạt ngắt theo mức (2)
+126

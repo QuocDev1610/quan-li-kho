@@ -1,0 +1,15 @@
+XCH
+Cú pháp: XCH A, nguồn	; đổi nội dung thanh ghi A với nguồn (nguồn là thanh ghi (Ri) hay ô nhớ)
+Ví dụ 2.11:
+XCH A, R7
+XCH A, 60H
+XCH A, @R0
+XCHD
+Cú pháp: XCHD A, @Ri 	; hoán đổi 4 bit thấp của A với 4 bit thấp của ô nhớ được trỏ bởi Ri
+Ví dụ 2.12:
+MOV A, #0F3h		; A = 1111 0011
+MOV R1, #40h		; R1 = 40h
+MOV @R1, #5Bh	; ô nhớ = 0101 1011
+XCHD A, @R1		; A = 1111 1011; ô nhớ địa chỉ 40h: 0101 0011
+Lệnh chuyển dữ liệu (4)
+54

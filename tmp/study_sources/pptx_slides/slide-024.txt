@@ -1,0 +1,5 @@
+2.2. Sơ đồ, chức năng chân tín hiệu 8051 (6)
+Hình 2.3. Mạch tạo dao đông, Reset cho 8051
+RST (Reset): bình thương ở mức logic thấp. Khi có mức logic cao vi điều khiển khởi động lại, khi đó mọi giá trị trên các thanh ghi bị xóa, bộ đếm chương trình PC=0 (tức là CPU nhận lệnh đầu tiên tại địa chỉ 0000h – địa chỉ khởi động của 8051)
+Chân XTAL1, XTAL2: mạch tạo dao động ngoài cho 8051. Hình 2.3
+24

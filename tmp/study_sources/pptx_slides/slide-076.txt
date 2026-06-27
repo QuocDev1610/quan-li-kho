@@ -1,0 +1,4 @@
+3.2. Các thanh ghi dùng cho bộ định thời/bộ đếm – TCON
+Thanh ghi điều khiển bộ định thời/bộ đếm (TCON) chứa các bit điều khiển và trạng thái của bộ định thời/bộ đếm 0 và 1. Bốn bit cao (TCON.4 đến TCON.7) được sử dụng để điều khiển khởi động/dừng  hoặc báo các tràn đối bộ định thời/bộ đếm, Bảng 3.2. Bốn bit thấp (TCON.0 đến TCON.3) không dùng cho bộ định thời/bộ đếm (đề cập tới trong nội dung ngắt)
+Bảng 3.2. Bốn bit cao thanh ghi TCON
+76

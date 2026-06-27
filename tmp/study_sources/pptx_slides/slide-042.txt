@@ -1,0 +1,3 @@
+Bảng 2.5 Thanh ghi trạng thái chương trình PSW
+2.4.1. Các thanh ghi chức năng đặc biệt của 8051 (2)
+42

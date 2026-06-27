@@ -1,0 +1,7 @@
+Phần mềm là chương trình do người lập trình tạo ra để giải quyết nhiệm vụ bài toán đặt ra khi thiết kế hệ thống. Các chương trình này được đặt trong bộ nhớ ROM và RAM khi hệ thống hoạt động.
+Trong máy tính, phần mềm được phân lớp.
+ Các lớp trong là các chương trình quản lý, điều khiển, các dữ liệu cố định... làm nhiệm vụ trung gian giữ người  và máy được gọi là hệ điều hành (HĐH). Các chương trình của HĐH thường khá lớn và được nạp một phần trong ROM, phần còn lại được chứa trong bộ nhớ ngoài và được nạp vào RAM mỗi khi khởi động máy. 
+Các chương trình do người lập trình viết ở lớp ngoài để giải quyết một bài toán nào đó, khi  thực hiện sẽ được HĐH nạp vào trong RAM ở vị trí theo sự phân bố của HĐH. Khi phần cứng thực hiện xong chương trình đó thì bài toán được giải.
+1.1. Hệ vi xử lý (2)
+1.1.2. Phần mềm
+9

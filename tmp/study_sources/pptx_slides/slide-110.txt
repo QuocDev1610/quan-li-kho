@@ -1,0 +1,10 @@
+4.1. Giới thiệu ngắt (2)
+Trình tự thực xử lý ngắt:
+Khi có ngắt
+PC + 1 → [SP]
+SP = SP + 2
+PC ← Vecto ngắt
+Khi gặp lệnh IRET
+PC ← [SP]
+SP = SP - 2
+110

@@ -1,0 +1,9 @@
+Bài tập 4.1. Viết chương trình nhận liên tục dữ liệu 8 bit từ công P0 và gửi ra cổng P1. Trong thời gian nhận và gửi dữ liệu tạo một sóng vuông với mức cao kéo dài 1000µs, mức thấp dài 500µs. Sử dụng ngắt Timer 1, chế độ; tần số của 8051 là XTAL = 12MHz	
+
+Trễ 1000µs → nội dung TH1=FCh; TL1=18h (xem ví dụ 3.3)
+
+Trễ 500µs → nội dung TH1=?, TL1=?
+4.3. Lập trình ngắt bộ định thời – Bài tập
+Phần mềm
+Phần cứng
+123

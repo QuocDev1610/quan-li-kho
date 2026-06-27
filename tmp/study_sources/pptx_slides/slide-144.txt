@@ -1,0 +1,5 @@
+5.4. Cấu trúc tập lệnh ARM (1)
+ARM cung cấp khả năng thực hiện một cách có điều kiện hầu hết các lệnh dựa trên tổ hợp trạng thái của các cờ điều kiện trong thanh ghi CPSR.
+Thanh ghi CPSR cho biết trạng thái của chương trình hiện tại và được mô tả trong Hình 5.4
+Hình 5.4. Vị trí các bit trên thanh ghi CPSR
+144

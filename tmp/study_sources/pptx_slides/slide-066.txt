@@ -1,0 +1,24 @@
+Khung chương trình
+ORG 0000h
+	- khai báo hằng (nếu có)
+	- LJMP  địa_chỉ_ctrình_chính 
+;-------------------------
+ORG địa_chỉ_ngắt (nếu chương trình sử dụng ngắt)
+	- các câu lệnh
+RETI
+;--------------------------
+        ORG  địa_chỉ_ctrình_chính
+MAIN:  
+	;bắt đầu chương trình chính
+	- các câu lệnh
+RET
+;--------------------------
+Ct_con1:
+	……….
+Ret
+CT_con2:
+	………..
+Ret
+END
+2.5. Khung chương trình hợp ngữ 8051 (1)
+66

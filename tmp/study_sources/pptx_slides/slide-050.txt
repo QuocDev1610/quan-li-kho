@@ -1,0 +1,9 @@
+Cấu trúc chung một lệnh
+[label:] <mã lệnh> [toán hạng 1][,toán hạng 2 ],[toán hạng 3] [;chú giải]
+
+<mã lệnh> bắt buộc phải có
+Các trường khác có thể có hoặc không (tùy từng lệnh)
+Các trường cách nhau bởi dấu “cách” hoặc “tab”
+Label phải kết thúc bởi dấu “:”, có độ dài tối đa 31 ký tự gồm các chữ cái, số, dấu ”?”, “_”, không được trùng với mã lệnh, bắt đầu bằng các chữ cái.
+Chú giải bắt đầu bằng “;”
+50

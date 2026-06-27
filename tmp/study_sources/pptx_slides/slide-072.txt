@@ -1,0 +1,12 @@
+3.2. Các thanh ghi dùng cho bộ định thời/bộ đếm - Thanh ghi chứa giá trị đếm
+Mỗi bộ định thời/bộ đếm trong 8051 có 1 thanh ghi 16 bit chứa giá trị đếm, được truy cập (đọc/ghi) dưới 2 thanh ghi 8 bit độc lập gọi là byte thấp (TLx), byte cao (THx), Hình 3.1. Các thanh ghi này được truy cập như các thanh ghi khác (A, B, R0, R1,….). Ví dụ:
+	MOV 	TL0, #4Fh
+	MOV 	R5, TH0
+
+
+
+
+
+
+Hình 3.1. Thanh ghi của bộ định thời/bộ đếm
+72

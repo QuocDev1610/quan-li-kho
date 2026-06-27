@@ -1,0 +1,9 @@
+Con trỏ ngăn xếp: Thanh ghi con trỏ ngăn xếp (SP) là thanh ghi 8 bit, chứa địa chỉ của đỉnh ngăn xếp. SP=SP+1 khi cất dữ liệu vào ngăn xếp; SP=SP-1 khi lấy dữ liệu ra từ ngăn xếp.
+Con trỏ dữ liệu DPTR: DPTR (data pointer) được sử dụng để truy xuất bộ nhớ chương trình, hoặc dữ liệu ngoài. DPTR là thanh ghi 16 bit, thanh ghi này được chia là 02 phần: DPL (byte thấp - địa chỉ  82H), DPH (byte cao – địa chỉ 83H)
+Ví dụ 2.5:
+MOV	A, #55H
+MOV	DPTR, #1000H
+MOV	@DPTR, A
+Đoạn chương trình nạp giá trị 55H vào ô nhớ ngoài có địa chỉ 1000H
+2.4.1. Các thanh ghi chức năng đặc biệt của 8051 (4)
+44

@@ -1,0 +1,3 @@
+4.2. Tổ chức ngắt của 8051 - Bảng vec tơ ngắt của 8051
+Bảng 4.1. Bảng vector ngắt của 8051
+111

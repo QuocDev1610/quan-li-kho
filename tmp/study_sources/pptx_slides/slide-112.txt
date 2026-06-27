@@ -1,0 +1,11 @@
+4.2. Tổ chức ngắt của 8051 - Cho phép ngắt và cấm ngắt (1)
+Khi Reset tất cả các ngắt đều bị cấm (bị che). Vì vây, các ngắt phải được cho phép bằng phần mềm để bộ VĐK có thể đáp ứng được. Việc cho phép hoặc cấm ngắt được thực hiện bởi thanh ghi cho phép ngắt IE (Interupt Enable) có địa chỉ byte là 0A8h, Hình 4.1
+
+
+
+
+
+Hình 4.1. Thanh ghi IE
+
+Các bit được mô tả trong Bảng 4.2
+112

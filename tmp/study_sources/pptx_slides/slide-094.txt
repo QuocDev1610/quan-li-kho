@@ -1,0 +1,9 @@
+Ví dụ 3.7:
+	MOV SBUF, #“D”	; nạp 44h (mã ASCII của “D”) vào SBUF
+	MOV SBUF, A	; chuyển nội của của A vào SBUF
+	MOV A, SBUF	; chuyển nội dung SBUF và A
+Khi byte dữ liệu được ghi vào SBUF, byte dữ liệu được định khung với bit Start và Stop và được truyền nối tiếp qua TxD.
+Khi các bit được nhận nối tiếp từ RxD thì 8051 mở khung, tức là loại các bit Start, Stop để lấy ra byte dữ liệu và đặt vào SBUF
+3.5. Truyền thông nối tiếp - Các thanh ghi cổng nối tiếp (1)
+Thanh ghi SBUF: là thanh ghi 8 bit. Dữ liệu được đặt vào SBUF trước khi truyền, và lưu dữ liệu nhận được. SBUF được truy cập như các thanh ghi khác.
+94

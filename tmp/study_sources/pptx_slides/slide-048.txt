@@ -1,0 +1,14 @@
+Chế độ địa chỉ trực tiếp
+Toán hạng (nguồn hoặc đích) là địa chỉ của ô nhớ
+Trước địa chỉ ô nhớ không có dấu #
+Ví dụ 2.8:
+MOV   A, 35h 	; DL trong ô nhớ có đ/c 35h được chuyển vào thanh ghi A
+MOV   56h, A	; chuyển nd thanh ghi A vào ô nhớ có địa 56h
+Chế độ định địa chỉ gián tiếp thanh ghi
+Địa chỉ ô nhớ chứa dữ liệu được chứa trong thanh ghi R0 hoặc R1
+Trước thanh ghi R0 hoặc R1 phải chèn thêm ký tự “@” để biểu thị cho chế độ địa chỉ này
+Ví dụ 2.9:
+MOV  A, @R0	;chuyển dl trong ô nhớ có đ/c trong R0 vào A
+MOV  @R1, A	; chuyển nd A vào ô nhớ có đ/c trong R1
+2.4.2. Các chế độ địa chỉ (2)
+48

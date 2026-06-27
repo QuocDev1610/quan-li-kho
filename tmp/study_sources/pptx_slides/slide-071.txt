@@ -1,0 +1,5 @@
+3.1. Nguyên lý hoạt động cơ bản của bộ định thời/bộ đếm
+8051 có 02 bộ định thời/bộ đếm (Timer/Counter 0, Timer/Counter 1). Chúng được sử dụng bộ đếm để đếm các sự kiện hoặc làm bộ định thời để tạo trễ thời gian.
+Một bộ định thời là một chuỗi các Flip-Flop, với mỗi Flip-Flop là mạch chia 2. Chuỗi này nhận một tín hiệu ngõ vào làm nguồn xung clock. Xung clock đặt vào Flip-Flop thứ nhất, Flip-Flop chia đôi tần số xung clock. Ngõ ra của Flip-Flop thứ nhất là nguồn xung clock cho Flip-Flop thứ 2, nguồn xung ngày cũng được chia cho 2,…Vì mỗi một tầng kế tiếp nhau đều chia cho 2 nên một bộ định thời có n tầng sẽ chia tần số xung clock ở ngõa vào của bộ định thời này cho 2n
+Ngõ ra của tầng cuối cùng làm xung clock cho một Flip-Flop báo tràn bộ định thời (cờ tràn – OF). OF được kiểm tra bằng phần mềm, hoặc tạo ra một ngắt. Giá trị nhị phân trong các Flip-Flop của bộ định thời là số đếm của các xung clock từ khi bộ định thời bắt đầu đếm.
+71

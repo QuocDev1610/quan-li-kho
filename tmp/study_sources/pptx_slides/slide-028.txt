@@ -1,0 +1,6 @@
+Ngăn xếp (stack)
+Ngăng xếp là một vùng nhớ RAM được sử dụng để lưu thông tin (có thể là dữ liệu hoặc địa chỉ) tạm thời. SP (stack pointer) độ dài 8 bit, được sử dụng để trỏ tới đỉnh ngăn xếp. Khi cất dữ liệu vào stack SP được tăng thêm 1. 
+Khi bật nguồn, hoặc reset SP=07H, nghĩa là ngăn nhớ có địa chỉ 07H là ngăn nhớ đầu tiên được dụng làm ngăn xếp. Khi đó dung lượng tối đa của ngăng xếp là 24 byte (từ 08H đến 1FH). Nếu chương trình cần nhiều hơn 24 byte cho vùng ngăn xếp thì có thể đổi SP trỏ tới vùng từ 30H đến 7Fh bằng lệnh “MOV SP, #XX”. 
+Cần lưu ý rằng các vùng nhớ được định địa chỉ bit không được sử dụng cho vùng ngăn xếp.
+2.3.1. Tổ chức bộ nhớ trong (3)
+28

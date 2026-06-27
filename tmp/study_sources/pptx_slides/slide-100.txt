@@ -1,0 +1,12 @@
+Thanh ghi điều khiển nối tiếp SCON:
+
+
+
+Hình 3.3. Thanh ghi điều khiển nối tiếp SCON
+SM2: SM2 =0 hệ thống đơn xử lý, SM2=1 hệ thống đa xử lý (truyền thông giữa các bộ vi xử lý)
+REN: bit cho phép thu, để thu dữ liệu bit REN phải được set bằng 1, nếu REN bằng 0 chỉ cho phép phát (bộ thu bị khóa)
+TB8 và RB8: được dùng cho chế độ nối tiếp 2 và 3. 
+TI: Cờ ngắt truyền, khi một byte trong SBUF được truyền thành công thì TI = 1. Trước khi truyền byte khác bit này cần phải xóa bằng phần mềm
+RI: Cờ ngắt nhận, khi nhận thành công 1 byte vào SBUF thì RI = 1. Sau khi đọc SBUF, RI cần phải xóa bằng phần mềm
+3.5. Truyền thông nối tiếp - Các thanh ghi cổng nối tiếp (7)
+100

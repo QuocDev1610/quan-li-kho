@@ -1,0 +1,22 @@
+Ví dụ 4.2. Tạo xung vuông T = 2 ms trên chân P2.0 của 8051 (XTAL=12 MHz), sử dụng ngắt Timer 0. Nội dung TH = FCh, TL = 18h (xem Ví dụ 3.3)
+Phần mềm
+Phần cứng
+4.3. Lập trình ngắt bộ định thời – Một số ví dụ (1)
+ORG	0000h
+	LJMP	MAIN
+	ORG	000Bh		; vector ngat cua Timer 0
+	CPL	P2.0		; lay bù
+	MOV 	TH0, #0FCh
+	MOV 	TL0, #18h
+	SETB	TR0
+	RETI
+	ORG	0030h		; dia chi chuong trình chính
+MAIN:	
+	MOV 	TMOD, #01h 	; chon Timer 0, che do 1
+	MOV 	TH0, #0FCh
+	MOV 	TL0, #18h
+	MOV	IE, #10000010B	; cho phép ngat Timer 0
+	SETB 	TR0		; khoi dong Timer 0
+	SJMP	$
+	END
+119

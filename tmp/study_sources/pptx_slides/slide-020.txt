@@ -1,0 +1,6 @@
+Port 0 (từ chân 32 đến 39), có 02 chức năng:
+ Trong các thiết kế tối thiểu, các chân này có chức năng xuất/nhập dữ liệu;
+ Là byte địa chỉ thấp cho các thiết kế có bộ nhớ ngoài. 
+Các chân của cổng P0 có dạng cực máng hở, nên phải được nối với một điện trở kéo 10KΩ bên ngoài, Hình 2.2
+2.2. Sơ đồ, chức năng chân tín hiệu 8051 (2)
+20

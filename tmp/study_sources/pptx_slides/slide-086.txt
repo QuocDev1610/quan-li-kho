@@ -1,0 +1,16 @@
+Ví dụ 3.5. Xác định tần số sóng vuông được tạo ra trên chân P2.0 trong đoạn chương trình sau,  giả thiết tần số của 8051 XTAL = 12MHz
+	MOV	TMOD, #20h	; chọn Timer 1 chế độ 2 (8 bit, tự nạp lại)
+	MOV	TH1, #5		; TH1 = 5
+	SETB	TR1		; khởi động Timer 1
+AGAIN: JNB	TF1, AGAIN	; kiểm tra cờ Timer 1
+	CPL	P2.0		
+	CLR	TF1		; xóa cờ Timer 1
+	SJMP	AGAIN
+Giải:
+Thời gian trễ (nửa chu kỳ) = (256 – 5) * 1µs = 251 µs. 
+Cả chu kỳ xung T = 251 * 2 = 502 µs
+ Tần số = 1/T = 1,992kHz
+Phần mềm
+Phần cứng
+3.4. Lập trình cho bộ định thời/bộ đếm - Lập trình định thời Chế độ 2 (3)
+86

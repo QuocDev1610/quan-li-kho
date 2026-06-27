@@ -1,0 +1,7 @@
+2.1. Tổng quan về 8051
+2.2. Sơ đồ chân tín hiệu của 8051
+2.3. Tổ chức bộ nhớ của 8051
+2.4. Tập lệnh của 8051
+2.5. Khung chương trình hợp ngữ cho 8051
+NỘI DUNG
+17

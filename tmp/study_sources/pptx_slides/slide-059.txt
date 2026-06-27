@@ -1,0 +1,12 @@
+MUL: nhân 2 số 8 bit
+Cú pháp: MUL AB ; A*B kết quả 16 bit, B chưa byte cao, A chứa byte thấp
+Lệnh số học (5)
+Ví dụ 2.21:
+MOV A, #25H
+MOV B, #65H
+MUL AB	; 25H*56H=0E99h, B=0EH, A=99H
+Ví dụ 2.22: 
+MOV A, #95
+MOV B, #10
+DIV AB		;  A=09 (thương số), B=05 (số dư)
+59

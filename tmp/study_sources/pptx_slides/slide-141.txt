@@ -1,0 +1,5 @@
+5.2. Kiến trúc cơ bản của vi xử lý ARM (4)
+Các thanh ghi
+Tổ chức các thanh ghi của ARM được thực hiện trên hình 5.2
+Hình 5.2. Tổ chức thanh ghi của ARM
+141

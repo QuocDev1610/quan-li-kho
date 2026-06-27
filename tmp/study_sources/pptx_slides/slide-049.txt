@@ -1,0 +1,8 @@
+2.4.3. Tập lệnh
+Cấu trúc chung một lệnh
+Lệnh chuyển dữ liệu
+Lệnh số học
+Lệnh logic
+Xử lý bit
+Lệnh rẽ nhánh
+49

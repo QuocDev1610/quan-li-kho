@@ -1,0 +1,8 @@
+Một số IC nhớ ROM
+- Tac = 450ns
+- Vpp : Read 5V, Program 25V
+ Vcc: Power 5V
+ GND: Ground
+Hình 2.9. Sơ đồ EPROM 2716
+2.3.2. Tổ chức bộ nhớ ngoài (6)
+34

@@ -1,0 +1,9 @@
+Thiết lập mức ưu tiên ngắt sử dụng thanh ghi IP, ví dụ:
+Lập trình thanh ghi IP để gán mức ưu tiên cao nhất cho ngắt INT1
+Phân tích điều gì xảy ra khi INT0, INT1 và TF0 được kích hoạt cùng một lúc. Giả thiết tất cả các ngắt đề có tách động ngắt theo sườn
+Giải:
+MOV  IP, #00000100B   ; đặt IP.2=1 để INT1 có mức ưu tiên cao hơn
+			       	    ; tương đương lệnh “SETB  IP.2”
+b) INT1 được gán mức ưu tiên cao hơn, do vậy khi INT0, INT1 và TF0 cùng kích hoạt thì thứ tự được đáp ứng: INT1, INT0, TF0
+4.2. Tổ chức ngắt của 8051 - Mức ưu tiên ngắt của 8051 (3)
+117

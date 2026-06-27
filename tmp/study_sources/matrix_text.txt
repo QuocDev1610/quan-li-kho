@@ -1,0 +1,203 @@
+
+===== PAGE 1 =====
+1 
+ 
+ 
+BAN CƠ YẾU CHÍNH PHỦ 
+HỌC VIỆN KỸ THUẬT MẬT MÃ 
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ 
+ 
+ 
+ 
+NGUYỄN THANH NGỌC 
+NGÂN HÀNG CÂU HỎI THI TRẮC NGHIỆM 
+KỸ THUẬT VI XỬ LÝ 
+Hà Nội, 2024 
+
+
+===== PAGE 2 =====
+2 
+ 
+ 
+
+===== PAGE 3 =====
+3 
+ 
+PHẦN I. TRÍCH LƯỢC ĐỀ CƯƠNG CHI TIẾT MÔN HỌC 
+1. Thông tin chung 
+Tên môn học: Kỹ thuật vi xử lý 
+Số TC, số tiết: 2  
+2. Mục tiêu chung: 
+2.1. Mục tiêu chung 
+➢ Sinh viên trình bày được về vi xử lý: cấu trúc chung của một hệ thống 
+vi xử lý, vi điều khiển cấu trúc và các lệnh cơ bản của bộ vi xử lý, vi 
+điều khiển. 
+➢ Sinh viên lập trình được bằng hợp ngữ cho vi điều khiển. 
+2.2. Mục tiêu cụ thể 
+Mục tiêu Mô tả 
+M1 Trình bày được kiến trúc và hoạt động của vi xử lý và vi điều khiển. 
+M2 Lập trình được các chương trình hợp ngữ cho vi điều khiển 89C51. 
+M3 Trình bày được các nguyên lý hoạt động của bộ đếm/định thời, cổng 
+truyền thông nối tiếp và ngắt. 
+3. Nội dung học phần 
+Chương trình P1 và P2:  Chuyên ngành công ngh ệ thông tin và chuyên ngành k ỹ 
+thuật mật mã  
+Chương I. TỔNG QUAN VỀ BỘ VI XỬ LÝ VÀ HỆ VI XỬ LÝ 
+1.  Giới thiệu về hệ vi xử lý 
+2.  Các thành phần của hệ vi xử lý 
+3.  Giới thiệu bộ vi xử lý 
+4.  Phân loại các bộ vi xử lý 
+Chương II. VI ĐIỀU KHIỂN 89C51 
+2.1. Sơ đồ và chức năng các chân tín hiệu của 89C51 
+2.2. Tổ chức bộ nhớ của 89C51 
+2.3. Tập lệnh của 89C51 
+2.4. Khung chương trình hợp ngữ cho 89C51 
+
+===== PAGE 4 =====
+4 
+ 
+Chương III. B Ộ ĐẾM/ĐỊNH THỜI VÀ TRUY ỀN TIN N ỐI TIẾP TRÊN VI 
+ĐIỀU KHIỂN 89C51 
+3.1. Nguyên lý hoạt động cơ bản của bộ định thời/bộ đếm 
+3.2. Các thanh ghi dùng cho bộ đếm/ định thời 
+3.3. Các chế độ định thời 
+3.4. Lập trình cho bộ đếm/định thời 
+3.5. Truyền tin nối tiếp trên vi điều khiển 89C51 
+Chương IV. Lập trình ngắt trên vi điều khiển 89C51 
+4.1. Tổ chức ngắt của 89C51 
+4.2. Lập trình ngắt bộ định thời 
+4.3. Lập trình Ngắt truyền thông nối tiếp 
+4.4. Mức ưu tiên ngắt trên vi điều khiển 89C51 
+Chương V. BỘ VI XỬ LÝ ARM 
+5.1. Tổng quan về vi xử lý ARM  
+5.2. Kiến trúc cơ bản của ARM  
+5.3. Cấu trúc load-store 
+5.4. Cấu trúc tập lệnh 
+5.5. Mô hình giao tiếp trong vi xử lý ARM 
+5.6. Đặc điểm các dòng lõi xử lý ARM 
+ 
+
+===== PAGE 5 =====
+5 
+ 
+PHẦN II. PHÂN RÃ CHUẨN ĐẦU RA HỌC PHẦN 
+1. Các chuẩn đầu ra được đánh giá 
+TT Ký 
+hiệu Chuẩn đầu ra 
+1 CLO1 Trình bày được cấu trúc và nguyên lý hoạt động của vi xử lý, 
+vi điều khiển. 
+2 CLO2 Hiểu được cấu trúc phần cứng và tập lệnh của vi điều khiển. 
+3 CLO3 Có khả năng lập trình được cho vi điều khiển 89C51. 
+
+===== PAGE 6 =====
+6 
+ 
+PHẦN III. MA TRẬN ĐỀ THI 
+Tổng số câu hỏi: 40 câu. Thời gian làm bài: 60 phút. 
+Tài liệu được phép sử dụng: Không 
+Cấu trúc đề thi:  
+Ký 
+hiệu Nhóm câu hỏi Cấp 
+độ 
+Tổng 
+số 
+Số 
+lượng 
+Hệ 
+số 
+điểm 
+ 
+CLO1. Trình bày đư ợc c ấu trúc và 
+nguyên lý hoạt động của vi xử lý, vi điều 
+khiển. 
+      
+1.  Tổng quan chung về vi xử lý, vi điều khiển. NB  1 1 
+2.  Nhóm câu hỏi về cấu trúc chung c ủa bộ vi 
+xử lý NB  1 1 
+3.  Nguyên lý hoạt động của bộ vi xử lý NB  1 1 
+4.  Câu hỏi về cấu trúc bộ nhớ NB  1 1 
+ CLO2. Hiểu được cấu trúc phần cứng và 
+tập lệnh của vi điều khiển.      
+5.  Nhóm câu h ỏi v ề kiến trúc t ổng quan c ủa 
+89C51 NB  1 1 
+6.  Các chân điều khiển của 89C51 NB  1 1 
+7.  Các thanh ghi chức năng đặc biệt 89C51 NB  1 1 
+8.  Các cờ trên vi điều khiển 89C51 NB  1 1 
+9.  Xác định không gian địa chỉ bộ nhớ TH  1 1 
+10.  Xác định dung lượng bộ nhớ TH  1 1 
+11.  Tổ chức bộ nhớ RAM và bộ nhớ ROM TH  1 1 
+12.  Mở rộng bộ nhớ RAM và ROM TH  1 1 
+13.  Các chế độ định địa chỉ TH  1 1 
+14.  Tổng quan về ASM và khai báo trong ASM NB  1 1 
+15.  Phân loại lệnh trong 89C51 NB  1 1 
+ CLO3. Có khả năng lập trình cho vi điều 
+khiển 89C51       
+16.  Xác định chức năng của lệnh (1) TH  1 1 
+17.  Xác định chức năng của lệnh (2) VD  1 1 
+
+===== PAGE 7 =====
+7 
+ 
+Ký 
+hiệu Nhóm câu hỏi Cấp 
+độ 
+Tổng 
+số 
+Số 
+lượng 
+Hệ 
+số 
+điểm 
+18.  Xác định giá trị thanh ghi sau một lệnh TH  1 1 
+19.  Xác định giá trị của các cờ trạng thái TH  1 1 
+20.  Xác định giá trị thanh ghi sau một đoạn lệnh 
+(1) TH  1 1 
+21.  Xác định giá trị thanh ghi sau một đoạn lệnh 
+(2) TH  1 1 
+22.  Chương trình con VD  1 1 
+23.  Hoàn thiện đoạn lệnh của chương trình VD  1 1 
+24.  Đọc hiểu chương trình và tính giá tr ị thanh 
+ghi ô nhớ trong chương trình con VD  1 1 
+25.  Xác định chức năng của chương trình VD  1 1 
+26.  Nguyên lý ho ạt động của bộ đếm/ bộ định 
+thời TH  1 1 
+27.  Nhóm câu hỏi xác định chế độ của bộ đếm/ 
+bộ định thời VD  1 1 
+28.  Xác đ ịnh giá tr ị đếm/định th ời c ủa b ộ 
+đếm/bộ định thời VD  1 1 
+29.  Xác định giá tr ị khởi đ ầu của bộ đếm/ bộ 
+định thời VD  1 1 
+30.  Lập trình cho bộ đếm/ bộ định thời VD  1 1 
+31.  Nguyên lý hoạt động của cổng truyền thông 
+nối tiếp TH  1 1 
+32.  Xác đ ịnh ch ế độ của các thanh ghi trong 
+cổng truyền thông nối tiếp VD  1 1 
+33.  Xác định tốc độ truyền VD  1 1 
+34.  Lập trình trong truyền thông nối tiếp VD  1 1 
+35.  Hoạt động ngắt trong 89C51 TH  1 1 
+36.  Xác định vecto ngắt TH  1 1 
+37.  Thiết l ập thanh ghi IE và IP cho các ng ắt 
+tương ứng TH  1 1 
+38.  Lập trình ngắt cho bộ đếm/ bộ định thời VD  1 1 
+39.  Lập trịnh ngắt cứng ngoài VD  1 1 
+
+===== PAGE 8 =====
+8 
+ 
+Ký 
+hiệu Nhóm câu hỏi Cấp 
+độ 
+Tổng 
+số 
+Số 
+lượng 
+Hệ 
+số 
+điểm 
+40.  Lập trình Ngắt truyền thông nối tiếp VD  1 1 
+ Tổng số câu hỏi thi: 40  
+ 
+ 
+ 
+  
+ 

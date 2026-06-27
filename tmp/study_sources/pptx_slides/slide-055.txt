@@ -1,0 +1,16 @@
+ADD: cộng các số không nhớ
+Cú pháp:  ADD A, nguồn ; A = A + nguồn
+Lưu ý: 
+Toán hạng đích luôn là thanh ghi A, toán hạng nguồn có thể là dữ liệu, thanh ghi hay ô nhớ
+Ảnh hưởng tới các cờ: AF, CF, PF
+Ví dụ 2.13:
+MOV A, #0F5h	; A= 1111 0101B
+ADD A, #0Bh	; A= 1111 0101B
+		; +    0000 1011B
+		; =    0000 0000B, CF=1, AF=1, PF=1
+Ví dụ 2.14:
+MOV R0, #40h
+MOV A, #5
+ADD A, @R0
+Lệnh số học (1)
+55

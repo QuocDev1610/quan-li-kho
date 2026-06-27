@@ -1,0 +1,14 @@
+MOV
+Cú pháp: MOV đích, nguồn ; thực hiện chuyển nguồn vào đích
+Các giá trị có thể nạp trực tiếp vào bất kỳ thanh ghi nào A, B, R0-R7, giá trị phải có dấu “#” ở trước
+Giá trị bắt đầu là chữ cái phải thêm số 0 đằng trước.
+Đích, nguồn phải có cùng độ dài.
+Ví dụ 2.10:
+MOV 	A, #12H
+MOV 	R1, #15H
+MOV	 B, #0BH
+MOV 	R2, #123H ; không hợp lệ
+MOV   	A, 35h 	     ; chuyển nội dung ô nhớ có đ/c 35h vào thanh ghi A
+MOV	@R1, A	     ; chuyển nội dung thanh ghi A vào ô nhớ có đ/c trong R1
+Lệnh chuyển dữ liệu (1)
+51

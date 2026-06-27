@@ -1,0 +1,2 @@
+3.5. Truyền thông nối tiếp - Tốc độ baud của 8051 (2)
+92

@@ -1,0 +1,10 @@
+Nạp giá trị 20h vào thanh ghi TMOD báo sử dụng Timer1 ở chế độ 2 (8 bit tự nạp) để thiết lập chế độ baud.
+Nạp giá trị vào TH1 để thiết lập chế độ baud
+Nạp giá trị 50h vào SCON báo chế độ nối tiếp 1 để định khung 8 bit dữ liệu, 1 bit start, 1 bit stop.
+Bật TR1=1 khởi động Timer 1
+Xóa bit TI bằng lệnh CLR TI
+Ghi byte ký tự cần truyền vào SBUF
+Kiểm tra bit cờ TI bằng lệnh “JNB TI, xx” để báo hoàn tất việc chuyển ký tự
+Trở về bước 5 để truyền ký tự tiếp theo
+3.5. Truyền thông nối tiếp – Lập trình truyền DL nối tiếp chế độ 1 (1)
+101

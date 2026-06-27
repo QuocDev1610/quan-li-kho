@@ -1,0 +1,6 @@
+8051 có một cổng nối tiếp, chức năng cơ bản là thực hiện chuyển đổi dữ liệu song song sang nối tiếp khi phát và chuyển đổi nối tiếp sang song song khi thu.
+Các mạch phần cứng bên ngoài truy xuất cổng nối tiếp thông qua chân TxD (P3.1) – phát dữ liệu, chân RxD (P3.0) – thu dữ liệu.
+Cổng nối tiếp của 8051 hoạt động song công (full duplex), tức là có khả năng thu và phát đồng thời.
+Để truy xuất cổng nối tiếp 8051 sử dụng hai thanh ghi: SBUF (đệm dữ liệu) và SCON (cấu hình cổng nôi tiếp)
+3.5. Truyền thông nối tiếp - Mở đầu
+90

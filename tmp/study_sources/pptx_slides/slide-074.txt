@@ -1,0 +1,6 @@
+GATE: Điều khiển khởi động/dừng hoạt động của bộ định thời/bộ đếm
+GATE = 0. Khởi động bộ định thời/bộ đếm bằng phần mềm bằng cách set bit TRx lên 1. (TR0 cho bộ đêm/bộ định thời 0, TR1 cho bộ định thời/bộ đếm 1). bộ định thời/bộ đếm dừng hoạt động nếu bit TRx được xóa về 0.
+GATE = 1. Khởi động bộ định thời/bộ đếm bằng phần cứng (đề cập trong nội dung về ngắt)
+Hình 3.2. Thanh ghi TMOD
+3.2. Các thanh ghi dùng cho bộ định thời/bộ đếm –TMOD (2)
+74

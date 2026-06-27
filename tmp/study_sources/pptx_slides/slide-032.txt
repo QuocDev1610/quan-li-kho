@@ -1,0 +1,4 @@
+Truy xuất bộ nhớ RAM ngoài, Hình 2.7
+Hình 2.7. Truy xuất bộ nhớ RAM ngoài
+2.3.2. Tổ chức bộ nhớ ngoài (4)
+32

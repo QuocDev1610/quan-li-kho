@@ -1,0 +1,5 @@
+Thanh ghi điều khiển nối tiếp SCON:
+
+Bảng 3.5. Các chế độ cổng nối tiếp
+3.5. Truyền thông nối tiếp - Các thanh ghi cổng nối tiếp (3)
+96

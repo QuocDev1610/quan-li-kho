@@ -1,0 +1,4 @@
+Ví dụ 2.2: Ghép nối 8051 với ROM ngoài dung lượng 2KB bắt đầu từ địa chỉ 1000h
+2.3.3. Ví dụ tổ chức bộ nhớ ngoài – ROM (1)
+Bản đồ địa chỉ:
+36

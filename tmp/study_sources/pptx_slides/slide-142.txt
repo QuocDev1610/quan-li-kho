@@ -1,0 +1,9 @@
+5.2. Kiến trúc cơ bản của vi xử lý ARM (5)
+Các thanh ghi 
+ARM có 37 thanh ghi, trong đó 31 thanh ghi đa dụng. Tuy nhiên tại một thời điểm chỉ có 16 thanh ghi đa dụng và 2 thanh ghi trạng thái hiển thị. Các thanh ghi khác ở dạng ẩn, chỉ hiện thị ở một số chế độ hoạt động riêng.
+Các thanh ghi đa dụng có thể dùng để lưu dữ liệu hoặc địa chỉ. Các thanh ghi này được đánh dấu bằng ký hiểu r. Tất cả các thanh ghi đề 32 bit.  Trong các thanh ghi đa dụng có 3 thanh ghi được dùng cho các chức năng hoặc nhiệm vụ đặt biệt : r13, r14, r15
+R13 được dùng làm stack pointer (SP)
+R14 là thanh ghi kết nối (LR) chứa địa chỉ quay lại của chương trình khi  chương trình chạy một hàm con
+R15 là bộ đếm chương trình (PC) và chứa địa chỉ của lệnh tiếp theo
+Hai thanh ghi trạng thái: thanh ghi TT chương trình hiện tại (CPSR) để giám sát các trạng thái hoạt động hiện tại; thanh ghi TT chương trình lưu (SPSR) để lưu trữ giá trị của CPSR khi có một ngoại lệ xẩy ra.
+142

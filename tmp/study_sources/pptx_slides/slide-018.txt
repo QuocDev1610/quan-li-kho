@@ -1,0 +1,13 @@
+2.1. Tổng quan về 8051
+Đóng trong hộp 40 chân 
+4KB ROM
+128 byte RAM
+4 cổng xuất nhập dữ liệu 8 bit
+1 cổng nối tiếp
+2 bộ Timer 16 bit
+6 nguồn ngắt (2 ngắt ngoài)
+ Không gian nhớ chương trình ngoài 64KB
+ Không gian nhớ dữ liệu ngoài 64KB
+210 vị trí được định địa chỉ bit
+Tần số xung nhịp (11.0592 MHz, 12 MHz, 16MHz, 24 MHz)
+18

@@ -1,0 +1,9 @@
+Các bước lập trình 
+Nạp giá trị cho thanh ghi TMOD xác định bộ Timer 0 hay Timer 1 và chế độ nào được chọn.
+Nạp giá trị đếm ban đầu cho các thanh ghi TH
+Khởi động bộ định thời
+Kiểm tra trạng thái bật của bộ định thời TF bằng lệnh “JNB TFx, đích”. Thoát khỏi vòng lặp khi TF được bật lên cao
+Xóa cờ TF cho vòng kế tiếp.
+Quay trở lại bước 4 vì chế độ 2 tự nạp lại
+3.4. Lập trình cho bộ định thời/bộ đếm - Lập trình định thời Chế độ 2 (2)
+85

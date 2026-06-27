@@ -1,0 +1,7 @@
+Thiết lập mức ưu tiên ngắt sử dụng thanh ghi IP
+
+
+
+Hình 4.3. Thanh ghi IP
+4.2. Tổ chức ngắt của 8051 - Mức ưu tiên ngắt của 8051 (2)
+116

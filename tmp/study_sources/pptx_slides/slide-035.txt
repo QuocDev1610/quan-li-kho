@@ -1,0 +1,11 @@
+Một số IC nhớ RAM
+- Tac từ 55-70ns
+- VCC: Power (5V)
+- VSS: Grond
+- CS: Chip Selet Input
+- WR: Output Enabe Input
+- I/O1-I/O8: DataInputs/Outputs
+ A0-A14: Address Inputs
+ OE: Output enable
+2.3.2. Tổ chức bộ nhớ ngoài (7)
+35

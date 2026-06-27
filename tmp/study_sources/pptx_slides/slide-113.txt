@@ -1,0 +1,3 @@
+Bảng 4.2. Mô tả các bit của thanh ghi IE
+4.2. Tổ chức ngắt của 8051 - Cho phép ngắt và cấm ngắt (2)
+113

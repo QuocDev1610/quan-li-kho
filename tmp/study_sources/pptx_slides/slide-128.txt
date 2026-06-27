@@ -1,0 +1,6 @@
+Ví dụ 4.6. Giả thiết chân P3.3 (INT1) được nối với một máy tạo xung. Viết chương trình trong đó sườn xuống của xung sẽ chuyển chân P2.0 lên cao, chân này được nối tới đèn LED. Như vậy đèn LED được bật và tắt  cùng tần số với xung cấp tới chân INT1.
+Phần mềm
+Phần cứng
+Lưu ý: Khi các ISR kết thúc, nghĩa là khi thực hiện lệnh RETI, các bit TCON.1 và TCON.3 được xóa để báo rằng phục vụ ngắt đã được hoàn tất và 8051 sẵn sàng đáp ứng ngắt khác trên chân đó. Để có thể nhận được ngắt khác từ tín hiện trên đó phải trở lại mức cao và sau đó xuống thấp để tạo nên một ngắt tác động theo sườn xuống.
+4.4. Lập trình ngắt cứng ngoài - Kích hoạt ngắt theo sườn (2)
+128

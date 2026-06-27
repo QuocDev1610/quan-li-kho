@@ -1,0 +1,3 @@
+Sơ đồ mạch:
+2.3.3. Ví dụ tổ chức bộ nhớ ngoài – ROM (2)
+37

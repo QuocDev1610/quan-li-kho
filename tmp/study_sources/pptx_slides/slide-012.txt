@@ -1,0 +1,5 @@
+1.1.2. Phân loại bộ vi xử lý
+VXL đa năng: bao gồm tất cả các phần tử tính toán trên một chip (trừ bộ nhớ và các cổng vào ra – 8086/8088, 6800)
+Vi điều khiển: bao gồm cả bộ nhớ và các cổng vào ra
+1.1. Bộ vi xử lý  (2)
+12

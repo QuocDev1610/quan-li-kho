@@ -1,0 +1,11 @@
+MỘT SỐ VÍ DỤ LẬP TRÌNH HỢP NGỮ 8051
+Ví dụ 2.26: Ghép nối 8051 với LED đơn thông qua cổng P2, lập trình sáng tuần tự các LED
+Phần mềm:
+Phần cứng:
+Ví dụ 2.27: Sử dụng cổng P2 của 8051 ghép nối với 01 LED 7 đoạn, lập trình hiển thị liên tục các số từ 0-9 
+Phần mềm:
+Phần cứng:
+Ví dụ 2.28: Sử dụng cổng P2 của 8051 ghép nối với 02 LED 7 đoạn, lập trình hiển thị liên tục các số từ 00-99.
+Phần mềm:
+Phần cứng:
+67

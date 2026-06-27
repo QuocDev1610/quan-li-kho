@@ -1,0 +1,8 @@
+5.2. Kiến trúc cơ bản của vi xử lý ARM (2)
+ARM được thiết kế theo kiến trúc RISC, do vậy nó chứa các kiến trúc RISC chung:
+Các thanh ghi đồng dạng
+Kiến trúc dạng Load-Store. Các địa chỉ Load/Store chỉ được xác định từ nội dung thanh ghi và các chỉ lệnh
+Các kiểu đánh địa chỉ đơn giản
+Các chỉ lệnh có độ dài cố định và đồng dạng, do đó đơn giản hóa việc giải mã các câu lệnh
+Thiết kế tối giản số chu kỳ xung nhịp cho một chỉ lệnh
+139

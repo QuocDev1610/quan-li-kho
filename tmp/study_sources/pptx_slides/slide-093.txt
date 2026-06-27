@@ -1,0 +1,9 @@
+Bảng 3.3. Giá trị thanh ghi TH1 của Timer1 với các tốc độ baud khác nhau
+(với XTAL = 11.0592)
+MOV	A, PCON   ; nạp thanh ghi PCON vào ACC
+SETB	ACC.7	    ; đặt D7 = 1
+MOV	PCON, A   ; đặt SMOD (của PCON) = 1 nhân đôi tốc độ baud
+3.5. Truyền thông nối tiếp - Tốc độ baud của 8051 (3)
+Bảng tốc độ baud
+Để nhân đôi tốc độ Baud:
+93

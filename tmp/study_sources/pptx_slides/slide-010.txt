@@ -1,0 +1,9 @@
+Quá trình nhận lệnh: CPU nhận lệnh từ bộ nhớ trung tâm. Để nhận 1 byte lệnh, từ giá trị của thanh ghi địa chỉ lệnh, CPU tạo ra các bit địa chỉ đưa ra Bus địa chỉ xác định byte lệnh cần lấy vào. Sau đó CPU đưa các tín hiệu điều khiển đọc byte lệnh về CPU. Khi đó nội dung của các thanh ghi địa chỉ lệnh tự động tăng 1 đơn vị để chuẩn bị cho việc nhận byte lệnh tiếp theo.
+Quá trình giải mã lệnh: Byte đầu tiên của lệnh là byte mã lệnh. CPU giải mã byte mã lệnh này để xác định chức năng của lệnh. Nếu lệnh không cần toán hạng chuyển sang chu kỳ thực hiện lệnh. Nếu lệnh cần toán hạng, CPU xác định toán hạng cho lệnh.
+ Quá trình thực hiện lệnh.
+Nếu là lệnh dừng, thì CPU dừng quá trình làm việc cho tới khi Reset
+Nếu không phải thì CPU thực hiện lệnh và gửi kết quả. Trong quá trình thực hiện lệnh, nếu là lệnh thao tác ngay trong bộ VXL thì CPU sẽ thực hiện lệnh, còn nếu là lệnh cần thao tác với bên ngoài thì CPU gửi tín hiệu địa chỉ và điều khiển để thực hiện.
+Sau đó quá trình lại quay lại lệnh tiếp theo. Các quá trình nhận lệnh, giải mã lệnh và thực hiện lệnh có thể tiến hành tuần tự hay song song tuỳ theo cấu trúc  từng bộ VXL
+1.2. Hệ vi xử lý (3)
+1.1.3. Hoạt động của hệ vi xử lý
+10

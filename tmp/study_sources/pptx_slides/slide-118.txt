@@ -1,0 +1,5 @@
+4.3. Lập trình ngắt bộ định thời - Các bước lập trình ngắt bộ định thời
+Lập bit IE.7 (EA) cho phép các ngắt
+Lập bit cho phép ngắt bộ định thời IE.1 (ET0) đối với Timer 0, IE.3 (ET1) đối với Timer 1
+Khi bộ định thời quay trở về 0, cờ TF được lập bằng 1, bộ VĐK sẽ ngừng chương trình chính đang thực hiện và nhảy tới địa chỉ  000Bh (Vector ngắt Timer 0), 001Bh (Vector ngắt Timer 1) để thực hiện trình điều khiển ngắt (ISR)
+118

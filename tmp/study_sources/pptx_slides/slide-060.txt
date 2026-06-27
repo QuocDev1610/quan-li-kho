@@ -1,0 +1,14 @@
+Lệnh logic
+Ví dụ 2.23:
+MOV	A, #55h ; A = 0101 0101B
+CPL	A	; A = 1010 1010B
+RR	A	; quay phải A đi 01 bit
+RL	A	; quay trái A đi 01 bit
+RRC	A	; quay phải A 01 bit quan cờ CF
+RLC	A	; quay trái A 01 bit quan cờ CF 
+SWAP A	; hoán đổi nội dung thanh ghi A
+ANL	đích, nguồn	; đích = đích  AND nguồn
+ORL	đích, nguồn	; đích = đích OR nguồn
+XRL	A, nguồn 	; đích = A XOR nguồn (nguồn: thanh ghi, ô nhớ, giá trị) 
+CPL	A		; lấy bù nội dung của A
+60

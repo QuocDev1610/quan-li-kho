@@ -1,0 +1,7 @@
+Là một vi mạch logic chế tạo theo công nghệ LSI (Large scale integrated) cho đến VLSI (very large scale integrated)
+ Hoạt động dưới sự điều khiển của chương trình đặt trong bộ nhớ. 
+ Bộ VXL là hạt nhân của hệ VXL, nắm quyền kiểm soát toàn bộ các thành phần có trong hệ thống.
+ Thực hiện các phép toán số học, logic, đưa ra các quyết định và thông tin với thế giới bên ngoài qua các cổng vào/ra dưới sự điều khiển của chương trình cài đặt trong bộ nhớ.
+1.2. Bộ vi xử lý  (1)
+1.2.1. Khái niệm bộ VXL
+11

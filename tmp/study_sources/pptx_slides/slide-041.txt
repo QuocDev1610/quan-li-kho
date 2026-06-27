@@ -1,0 +1,4 @@
+2.4.1. Các thanh ghi chức năng đặc biệt của 8051 (1)
+Thanh ghi trạng thái chương trình PSW
+PSW (Program status word), hay còn gọi là thanh ghi cờ 8 bit, nhưng chỉ có 6 bit được sử dụng. Hai bit cờ chưa dung là các cờ mà người dùng có thể định nghĩa được. Bốn trong số các cờ là cờ điều kiện, được thiết lập do kết quả thực hiện một lệnh, đó là CY, AC, P và OV, các bit có chức năng được tóm tắt trong Bảng 2.5.
+41

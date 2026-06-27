@@ -1,0 +1,12 @@
+Ví dụ 3.8: truyền nối tiếp liên tục một ký tự “A” với tốc độ 4800 baud.
+		
+			MOV 	TMOD, #20h	; chọn Timer 1, chế độ 2 (tự nạp lại)
+			MOV 	TH1, #-6	; chọn tốc độ 4800 baud
+			MOV 	SCON, #50h 	; khung uart: 8b+1start+1stop, cho phep thu
+			SETB 	TR1	   	; khởi động Timer1
+AGAIN:	MOV 	SBUF, #’A’	; truyền ký tự “A”
+HERE: 	JNB 	TI, HERE	; chờ đến bit cuối cùng
+			CLR 	TI		; xóa bit TI cho ký tự tiếp theo
+			SJMP 	AGAIN	; tiếp tục gửi lại chữ “A”
+3.5. Truyền thông nối tiếp – Lập trình truyền DL nối tiếp chế độ 1 (2)
+102

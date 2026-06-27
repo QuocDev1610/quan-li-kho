@@ -1,0 +1,24 @@
+Ví dụ 4.4.  Thực hiện lại ví du 4.3, nhưng sử dụng thêm không gian chương trình để chứa trình điều khiển ngắt ISR
+Phần mềm
+Phần cứng
+ORG	0000h
+	LJMP	MAIN
+; --- chuong trinh ISR cho Timer0 de tao song vuong
+	ORG	000Bh		; vector ngat cua Timer 0
+	LJMP	ISR_T1
+; --- chuong trinh chinh
+	ORG	0030h		; dia chi chuong trình chính
+MAIN:	MOV 	TMOD, #02h 	; chon Timer 0, che do 2 tu nap lai
+	MOV	P0, #0FFh		; P0 lam cong vao
+	MOV	TH0, #5
+	MOV	IE, #10000010B	; cho phép ngat Timer 0
+	SETB 	TR0 		; khoi dong Timer 0
+BACK:	MOV	A, P0		; nhan dl tu P0
+	MOV	P1, A
+	SJMP	BACK
+ISR_T1: 	CPL	P2.0		; lay bù
+	SETB 	TR0 
+	RETI
+	END
+4.3. Lập trình ngắt bộ định thời – Một số ví dụ (3)
+121

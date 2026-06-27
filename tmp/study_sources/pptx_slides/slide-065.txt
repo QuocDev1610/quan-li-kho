@@ -1,0 +1,14 @@
+Một số chỉ dẫn
+ORG (origin): bắt đầu chương trình, Ví dụ: 
+		ORG 0000h
+EQU (Equate): được sử dụng định nghĩa một hằng số,  Ví dụ: 
+		count  EQU  	25 
+		…….
+		MOV	R3, 	count
+BIT: được sử dụng định nghĩa một bit, Ví dụ:
+		WR 	BIT  	P2.2
+		…..
+		SETB	WR
+END: chỉ báo kết thúc trình hợp dịch
+2.5. Khung chương trình hợp ngữ 8051 (1)
+65

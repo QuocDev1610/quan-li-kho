@@ -1,0 +1,10 @@
+4.1. Giới thiệu ngắt (1)
+Ngắt (interrupt) là một sự kiện bên trong hoặc bên ngoài làm ngưng một chương trình khác đang thực thi. Các ngắt đóng vai trò quan trọng trong việc thiết kế và thực hiện các ứng dụng của bộ vi điều khiển
+Chương trình xử lý một ngắt được gọi là trình phục vụ ngắt ISR (interrupt service routine) hay trình quản lý ngắt (interrupt handler).
+Trình tự thực xử lý ngắt:
+Kết thúc lệnh hiện tại và lưu địa chỉ của lệnh kế tiếp (PC) vào Stack
+Lưu trạng thái hiện hành của tất cả các ngắt
+Nhảy đến một vị trí cố định trong bộ nhớ được gọi là bảng vector ngắt, nơi lưu giữ địa chỉ của một trình phục vụ ngắt.
+Nhận địa chỉ ISR từ bảng vector ngắt và nhảy tới địa chỉ đó và bắt đầu thực hiện trình phục vụ ngắt cho đến lệnh cuối cùng của ISR là RETI.
+Khi gặp lệnh RETI (kết thúc trình phục vụ ngắt), bộ vi điều khiển quay trở về nơi nó đã bị ngắt bằng cách nạp 02 byte của đỉnh stack vào PC, khi đó bộ VĐK sẽ thực hiện tiếp các lệnh từ địa chỉ đó
+109

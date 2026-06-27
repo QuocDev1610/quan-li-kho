@@ -1,0 +1,18 @@
+Ví dụ 3.3. Tạo trễ có thời gian 1ms cho 8051 có XTAL = 12Hz
+Xác định nội dung của TL, TH:
+Thời gian trễ = 1ms = 1000µS = (Số đếm +1) * 1µs = ((65335 – THTL)+1) * 1µs 
+                       →1000 = 65536 – THTL
+                       → THTL = 64536 = FC18h 
+                       → TH = FCh, TL = 18h
+Chương trình:
+DELAY: 
+	MOV TMOD, #01h 	; chọn Timer 0, chế độ 1
+	MOV TH0, #0FCh
+	MOV TL0, #018H 
+	SETB TR0 		; khởi động Timer 0
+HERE: 	JNB TF0, HERE 		; kiểm tra cờ Timer 0
+	CLR TR0 		; xóa TR0 (dừng Timer 0)
+	CLR TF0 		; Xóa TF0
+RET
+3.4. Lập trình cho bộ định thời/bộ đếm - Lập trình định thời Chế độ 1 (5)
+82

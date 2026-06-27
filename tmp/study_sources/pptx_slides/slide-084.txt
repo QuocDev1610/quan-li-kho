@@ -1,0 +1,6 @@
+Bộ định thời 8 bit, nạp các giá trị từ 00h đến FFh vào thanh ghi TH của bộ định thời.
+Sau khi TH được nạp, 8051 sao nội dung của TH vào TL và bộ định thời được khởi động bằng lệnh “SETB TR0” đối với Timer 0, “SETB TR1” đối với Timer 1.
+Sau khi được khởi động bộ định thười bắt đầu đếm tăng nội dung TL cho tới khi đạt giá trị giới hạn FFh. Khi quay vòng từ FFh về 00h cờ TF0 (Timer 0) hoặc TF1 (Timer 1) được lập bằng 1. 
+Khi TF = 1, TL  được tự động nạp lại với giá trị ban đầu đang được lưu ở TH. Để lặp lại quá trình chỉ cần xóa cờ TF và bộ định thời tự làm việc mà không cần nạp lại giá trị ban đầu (chế độ tự nạp – khác với chế độ 1 phải nạp lại các thanh ghi TH và TL)
+3.4. Lập trình cho bộ định thời/bộ đếm - Lập trình định thời Chế độ 2 (1)
+84

@@ -1,0 +1,24 @@
+SUBB: trừ các số
+Cú pháp: SUBB A, nguồn	; A=A-nguồn-CF
+Quá trình thực hiện:
+Lấy bù 2 của toán hạng nguồn
+Cộng nội dung của A với giá trị bù 2 vừa xác định (kết quả ở dạng bù 2)
+Đảo cờ nhớ (CF=0 số dương; CF=1 số âm)
+Lệnh số học (4)
+Ví dụ 2.19:
+MOV	A, #3Fh	 ; A	= 0011 1111
+MOV	R3, #23h ; R3	= 0010 0011
+SUBB	A, R3	 ; A	= 0011 1111
+		 ; +	   1101 1101 (bù 2 của 23h)
+		 ; =   	   0001 1100  (bù 2), CF=1
+		 ; =	   CF=0 (đảo cờ nhớ), số dương
+		 ; kết quả A=0001 1100 = 1Ch
+Ví dụ 2.20:
+MOV	A, #15h	  ; A	= 0001 0101
+MOV	R3, #27h  ; R3	= 0010 0111
+SUBB	A, R3	  ; A	= 0001 0101
+		  ; +	   1101 1001 (bù 2 của 27h)
+		  ; =   	   1110 1110  (bù 2), CF=0
+		  ; =	   CF=1 (đảo cờ nhớ), số âm
+		  ; kết quả A=0001 0010 = -12h
+58

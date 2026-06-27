@@ -1,0 +1,15 @@
+MOVC
+Cú pháp: 
+MOVC  A, @A + DPTR 	; chuyển vào A một byte từ bộ nhớ chương trình tại vị trí 
+				; cách con trỏ gốc DPTR một khoảng là nội dung của A
+			
+MOVC A, @A + PC		; chuyển vào A một byte từ bộ nhớ chương trình tại vị trí
+				; cách vị trí lệnh hiện hành một khoảng là nội dung của A
+MOVX 
+Cú pháp:
+MOVX	A, @Ri
+MOVX	A, @DPTR
+MOVX	@Ri, A
+MOVX	@DPTR, A
+Lệnh chuyển dữ liệu (2)
+52
