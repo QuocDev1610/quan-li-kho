@@ -57,31 +57,36 @@ invoice.setUpdateDate(new Date().toInstant());
         return invoiceDAO.findByProperty("code", code);
 
     }
-    public List<Invoice> FindAllProduct(Invoice invoice, paging paging) {
-        logger.info("Finding all invoices");
-        StringBuffer query = new StringBuffer();
-        Map<String, Object> params = new java.util.HashMap<>();
-        if(invoice != null){
-            if (invoice.getType()!=null && invoice.getType()!=0){
-                query.append(" and model.type=:type");
-                params.put("type",invoice.getType());
-            }
-            if (invoice.getCode() != null && !invoice.getCode().isEmpty()) {
-                query.append(" and model.code = :code");
-                params.put("code", invoice.getCode());
-            }
+public List<Invoice> FindAllProduct(Invoice invoice, paging paging) {
+    logger.info("Finding all invoices");
+    StringBuffer query = new StringBuffer();
+    Map<String, Object> params = new java.util.HashMap<>();
 
-            if (invoice.getFromdate() != null) {
-                query.append(" and model.updateDate >= :fromdate ");
-                params.put("fromdate", invoice.getFromdate());
-            }
-            if (invoice.getTodate() != null) {
-                query.append(" and model.updateDate <= :todate ");
-                params.put("todate", invoice.getTodate());
-            }
+    query.append(" and model.activeFlag = :activeFlag ");
+    params.put("activeFlag", 1);
+
+    if(invoice != null){
+        if (invoice.getType()!=null && invoice.getType()!=0){
+            query.append(" and model.type=:type");
+            params.put("type",invoice.getType());
         }
-        return invoiceDAO.findAll(query.toString(),params,paging);
+        if (invoice.getCode() != null && !invoice.getCode().isEmpty()) {
+            query.append(" and model.code = :code");
+            params.put("code", invoice.getCode());
+        }
+
+        if (invoice.getFromdate() != null) {
+            query.append(" and model.updateDate >= :fromdate ");
+            params.put("fromdate", invoice.getFromdate());
+        }
+        if (invoice.getTodate() != null) {
+            query.append(" and model.updateDate <= :todate ");
+            params.put("todate", invoice.getTodate());
+        }
     }
+
+    return invoiceDAO.findAll(query.toString(), params, paging);
+}
     public Invoice FindByIdProduct(int id) {
         logger.info("Finding invoice: " + id);
         return invoiceDAO.findByProperty("id", id).get(0);
