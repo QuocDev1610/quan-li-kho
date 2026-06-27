@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Inventory - Full Stack" type="CompoundRunConfigurationType">
+    <toRun name="Inventory Backend" type="MavenRunConfiguration" />
+    <toRun name="Inventory Frontend" type="MavenRunConfiguration" />
+    <method v="2" />
+  </configuration>
+</component>

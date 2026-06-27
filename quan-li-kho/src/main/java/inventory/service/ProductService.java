@@ -46,6 +46,7 @@ public class ProductService {
     public void delete(Category category) throws Exception {
         logger.info("Delete category: " + category);
         category.setActiveFlag(0);
+        category.setUpdateDate(new Date().toInstant());
         categoryDAO.update(category);
     }
     public List<Category> FindByCode(String code) {
@@ -57,6 +58,8 @@ public class ProductService {
         logger.info("Finding all categories");
         StringBuffer query = new StringBuffer();
         Map<String, Object> params = new java.util.HashMap<>();
+        query.append(" and model.activeFlag = :activeFlag");
+        params.put("activeFlag", 1);
         if(category != null){
             if (category.getId()!=null && category.getId()!=0){
                 query.append(" and model.id=:id");
@@ -107,6 +110,7 @@ public class ProductService {
     public void delete(ProductInfo ProductInfo) throws Exception {
         logger.info("Delete ProductInfo: " + ProductInfo);
         ProductInfo.setActiveFlag(0);
+        ProductInfo.setUpdateDate(new Date().toInstant());
         productInfoDAO.update(ProductInfo);
     }
     public List<ProductInfo> FindByCodeProduct(String code) {
@@ -118,6 +122,8 @@ public class ProductService {
         logger.info("Finding all categories");
         StringBuffer query = new StringBuffer();
         Map<String, Object> params = new java.util.HashMap<>();
+        query.append(" and model.activeFlag = :activeFlag");
+        params.put("activeFlag", 1);
         if(ProductInfo != null){
             if (ProductInfo.getId()!=null && ProductInfo.getId()!=0){
                 query.append(" and model.id=:id");

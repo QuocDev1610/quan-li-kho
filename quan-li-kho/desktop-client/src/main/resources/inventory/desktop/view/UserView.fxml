@@ -6,6 +6,7 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.VBox?>
@@ -25,7 +26,7 @@
                     <TextField fx:id="searchField" promptText="Tìm kiếm người dùng..." HBox.hgrow="ALWAYS" styleClass="module-search"/>
                 </HBox>
                 <Region HBox.hgrow="ALWAYS"/>
-                <HBox spacing="10.0" styleClass="module-actions">
+                <FlowPane hgap="10.0" vgap="10.0" alignment="CENTER_RIGHT" prefWrapLength="620.0" styleClass="module-actions">
                     <Button fx:id="refreshButton" text="Làm mới" onAction="#refresh" styleClass="button-primary">
                         <graphic><FontIcon iconLiteral="fas-sync-alt" iconSize="14"/></graphic>
                     </Button>
@@ -38,7 +39,7 @@
                     <Button fx:id="deleteButton" text="Khóa" styleClass="button-danger">
                         <graphic><FontIcon iconLiteral="fas-user-lock" iconSize="14"/></graphic>
                     </Button>
-                </HBox>
+                </FlowPane>
             </HBox>
         </VBox>
     </top>

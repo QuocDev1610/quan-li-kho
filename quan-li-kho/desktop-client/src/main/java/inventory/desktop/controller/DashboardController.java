@@ -44,6 +44,9 @@ public class DashboardController {
     private Label lowStockLabel;
 
     @FXML
+    private Label currentYearLabel;
+
+    @FXML
     private BarChart<String, Number> inventoryFlowChart;
 
     @FXML
@@ -63,6 +66,7 @@ public class DashboardController {
 
     @FXML
     private void initialize() {
+        currentYearLabel.setText(String.valueOf(LocalDate.now().getYear()));
         setupLowStockTable();
         loadDashboardData();
     }

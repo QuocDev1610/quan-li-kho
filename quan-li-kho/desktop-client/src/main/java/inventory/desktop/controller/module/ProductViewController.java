@@ -103,11 +103,32 @@ public class ProductViewController extends BaseModuleController<ProductDto> {
         body.put("code", stringValue(values, "code"));
         body.put("name", stringValue(values, "name"));
         body.put("description", stringValue(values, "description"));
-        body.put("imgUrl", stringValue(values, "imgUrl"));
+        body.put("imgUrl", normalizeImagePath(stringValue(values, "imgUrl")));
         body.put("cate", Map.of("id", integerValue(values, "categoryId")));
         return body;
     }
 
+    private String normalizeImagePath(String rawPath) {
+        if (rawPath == null || rawPath.trim().isEmpty()) {
+            return "";
+        }
+        String path = rawPath.trim().replace("\\", "/");
+        if (path.startsWith("http://") || path.startsWith("https://")) {
+            return path;
+        }
+        String lower = path.toLowerCase();
+        int uploadIndex = lower.indexOf("/upload/");
+        if (uploadIndex >= 0) {
+            return path.substring(uploadIndex);
+        }
+        if (path.startsWith("upload/")) {
+            return "/" + path;
+        }
+        if (!path.startsWith("/")) {
+            return "/upload/" + path;
+        }
+        return path;
+    }
     private String text(Object value) {
         return value == null ? "" : String.valueOf(value);
     }

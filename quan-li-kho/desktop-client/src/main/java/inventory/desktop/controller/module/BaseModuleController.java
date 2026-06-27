@@ -23,6 +23,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 
 import java.lang.reflect.Type;
+import java.net.URL;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -67,15 +68,27 @@ public abstract class BaseModuleController<T> {
         moduleSubtitleLabel.setText(subtitle);
         tablePlaceholder.getStyleClass().add("table-placeholder");
         tableView.setPlaceholder(tablePlaceholder);
+        if (!tableView.getStyleClass().contains("data-table")) {
+            tableView.getStyleClass().add("data-table");
+        }
+        tableView.setFixedCellSize(66);
         configureColumns(columns);
         configureSearch();
-        addButton.setDisable(!writable);
-        editButton.setDisable(!writable);
-        deleteButton.setDisable(!writable);
-        addButton.setOnAction(event -> addItem());
-        editButton.setOnAction(event -> editItem());
-        deleteButton.setOnAction(event -> deleteItem());
-        refreshButton.setOnAction(event -> refresh());
+        if (addButton != null) {
+            addButton.setDisable(!writable);
+            addButton.setOnAction(event -> addItem());
+        }
+        if (editButton != null) {
+            editButton.setDisable(!writable);
+            editButton.setOnAction(event -> editItem());
+        }
+        if (deleteButton != null) {
+            deleteButton.setDisable(!writable);
+            deleteButton.setOnAction(event -> deleteItem());
+        }
+        if (refreshButton != null) {
+            refreshButton.setOnAction(event -> refresh());
+        }
         refresh();
     }
 
@@ -163,8 +176,10 @@ public abstract class BaseModuleController<T> {
             info("Vui lòng chọn một dòng dữ liệu để xóa.");
             return;
         }
-        Alert confirm = new Alert(Alert.AlertType.CONFIRMATION, "Bạn chắc chắn muốn xóa bản ghi này?", ButtonType.YES, ButtonType.NO);
-        confirm.setHeaderText("Xác nhận xóa");
+        Alert confirm = new Alert(Alert.AlertType.CONFIRMATION, "Thao tác này sẽ cập nhật dữ liệu trong hệ thống. Bạn muốn tiếp tục?", ButtonType.YES, ButtonType.NO);
+        confirm.setTitle("Xác nhận thao tác");
+        confirm.setHeaderText("Xác nhận xóa bản ghi");
+        styleAlert(confirm);
         Optional<ButtonType> choice = confirm.showAndWait();
         if (choice.isEmpty() || choice.get() != ButtonType.YES) {
             return;
@@ -220,6 +235,9 @@ public abstract class BaseModuleController<T> {
             final int columnIndex = i;
             TableColumn<ObservableList<String>, String> column = new TableColumn<>(columns.get(i));
             column.setCellValueFactory(cell -> new SimpleStringProperty(cell.getValue().get(columnIndex)));
+            column.setReorderable(false);
+            column.setSortable(true);
+            column.setMinWidth(minWidthFor(columns.get(i)));
             column.prefWidthProperty().bind(tableView.widthProperty().multiply(columnPercent(columns.get(i), columns.size())));
             configureColumnAlignment(column, columns.get(i));
             if (isActiveStatusColumn(columns.get(i))) {
@@ -276,10 +294,18 @@ public abstract class BaseModuleController<T> {
     }
 
     private void setBusy(boolean busy) {
-        refreshButton.setDisable(busy);
-        addButton.setDisable(busy || !writableModule);
-        editButton.setDisable(busy || !writableModule);
-        deleteButton.setDisable(busy || !writableModule);
+        if (refreshButton != null) {
+            refreshButton.setDisable(busy);
+        }
+        if (addButton != null) {
+            addButton.setDisable(busy || !writableModule);
+        }
+        if (editButton != null) {
+            editButton.setDisable(busy || !writableModule);
+        }
+        if (deleteButton != null) {
+            deleteButton.setDisable(busy || !writableModule);
+        }
         tablePlaceholder.setText(busy ? "Đang tải dữ liệu..." : "Chưa có dữ liệu phù hợp.");
     }
 
@@ -293,6 +319,7 @@ public abstract class BaseModuleController<T> {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setHeaderText("Không thể thực hiện thao tác");
         alert.setContentText(ApiErrorParser.friendlyException(throwable));
+        styleAlert(alert);
         alert.showAndWait();
     }
 
@@ -300,6 +327,7 @@ public abstract class BaseModuleController<T> {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText("Thông báo");
         alert.setContentText(message);
+        styleAlert(alert);
         alert.showAndWait();
     }
 
@@ -320,6 +348,30 @@ public abstract class BaseModuleController<T> {
         return Math.max(0.10, 1.0 / Math.max(columnCount, 1));
     }
 
+    private double minWidthFor(String columnName) {
+        String lower = columnName.toLowerCase(Locale.ROOT);
+        if ("id".equals(lower)) {
+            return 72;
+        }
+        if (lower.contains("image") || lower.contains("ảnh")) {
+            return 110;
+        }
+        if (isActiveStatusColumn(columnName)) {
+            return 150;
+        }
+        if (lower.contains("name") || lower.contains("sản phẩm") || lower.contains("product") || lower.contains("category") || lower.contains("danh mục")) {
+            return 190;
+        }
+        return 130;
+    }
+
+    private void styleAlert(Alert alert) {
+        URL stylesheet = getClass().getResource("/inventory/desktop/styles/global-style.css");
+        if (stylesheet != null) {
+            alert.getDialogPane().getStylesheets().add(stylesheet.toExternalForm());
+        }
+        alert.getDialogPane().getStyleClass().add("modern-alert");
+    }
     private boolean isCenteredColumn(String columnName) {
         String lower = columnName.toLowerCase(Locale.ROOT);
         return "id".equals(lower)

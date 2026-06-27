@@ -15,6 +15,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import org.kordamp.ikonli.javafx.FontIcon;
 
 import java.io.IOException;
 public class MainLayoutController {
@@ -29,6 +30,9 @@ public class MainLayoutController {
 
     @FXML
     private Label pageSubtitleLabel;
+
+    @FXML
+    private FontIcon pageIcon;
 
     @FXML
     private TextField globalSearchField;
@@ -77,6 +81,15 @@ public class MainLayoutController {
         configureProfileMenu();
         ViewNavigator.initialize(contentArea);
         openDashboard();
+    }
+    @FXML
+    private Button chatButton;
+
+    @FXML
+    private void openChat() {
+        activate(chatButton);
+        setPageTitle("AI Assistant", "Trợ lý thông minh hỗ trợ sử dụng hệ thống kho");
+        ViewNavigator.navigateTo(ViewNavigator.CHAT_VIEW);
     }
 
     @FXML
@@ -145,6 +158,7 @@ public class MainLayoutController {
     public void setPageTitle(String title, String subtitle) {
         pageTitleLabel.setText(title == null || title.isBlank() ? "Inventory" : title);
         pageSubtitleLabel.setText(subtitle == null || subtitle.isBlank() ? "" : subtitle);
+        pageIcon.setIconLiteral(iconFor(title));
     }
 
     private void configureProfileMenu() {
@@ -187,6 +201,32 @@ public class MainLayoutController {
         return display.isEmpty() ? "A" : display.substring(0, 1).toUpperCase();
     }
 
+    private String iconFor(String title) {
+        if (title == null) {
+            return "fas-cubes";
+        }
+        switch (title) {
+            case "Dashboard":
+                return "fas-chart-pie";
+            case "Danh mục":
+                return "fas-layer-group";
+            case "Sản phẩm":
+                return "fas-box-open";
+            case "Nhập kho":
+                return "fas-arrow-circle-down";
+            case "Xuất kho":
+                return "fas-arrow-circle-up";
+            case "Tồn kho":
+                return "fas-warehouse";
+            case "Người dùng":
+                return "fas-users";
+            case "AI Assistant":
+                return "fas-comments";
+            default:
+                return "fas-cubes";
+        }
+    }
+
     private void activate(Button activeButton) {
         Button[] buttons = {
                 dashboardButton,
@@ -195,7 +235,8 @@ public class MainLayoutController {
                 goodsReceiptsButton,
                 goodsIssuesButton,
                 inStockButton,
-                usersButton
+                usersButton,
+                chatButton
         };
         for (Button button : buttons) {
             button.getStyleClass().remove("sidebar-button-active");

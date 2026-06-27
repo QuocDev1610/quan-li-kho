@@ -15,7 +15,7 @@ public final class ViewNavigator {
     public static final String GOODS_ISSUE_VIEW = "/inventory/desktop/view/GoodsIssueView.fxml";
     public static final String IN_STOCK_VIEW = "/inventory/desktop/view/InStockView.fxml";
     public static final String USER_VIEW = "/inventory/desktop/view/UserView.fxml";
-
+    public static final String CHAT_VIEW = "/inventory/desktop/view/ChatView.fxml";
     private static StackPane contentArea;
 
     private ViewNavigator() {

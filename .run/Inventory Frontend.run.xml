@@ -1,0 +1,35 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Inventory Frontend" type="MavenRunConfiguration" factoryName="Maven">
+    <MavenSettings>
+      <option name="myGeneralSettings">
+        <MavenGeneralSettings>
+          <option name="workingDirectory" value="$PROJECT_DIR$/quan-li-kho/desktop-client" />
+        </MavenGeneralSettings>
+      </option>
+      <option name="myRunnerSettings">
+        <MavenRunnerSettings />
+      </option>
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="cmdOptions" value="" />
+          <option name="profiles">
+            <set />
+          </option>
+          <option name="goals">
+            <list>
+              <option value="javafx:run" />
+            </list>
+          </option>
+          <option name="multimoduleDir" value="" />
+          <option name="pomFileName" value="pom.xml" />
+          <option name="profilesMap">
+            <map />
+          </option>
+          <option name="resolveToWorkspace" value="false" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/quan-li-kho/desktop-client" />
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <method v="2" />
+  </configuration>
+</component>

@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Local secrets: never commit API keys.
+/config/application-secrets.properties

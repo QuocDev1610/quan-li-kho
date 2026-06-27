@@ -32,24 +32,36 @@ public class InvoiceService {
         invoice.setUpdateDate(new Date().toInstant());
         invoiceDAO.save(invoice);
         HistoryService.Save(invoice, constant.ACTION_ADD);
-        ProductinStockService.SaveorUpdate(invoice);
+        ProductinStockService.applyInvoice(invoice);
 
     }
     public void Update(Invoice invoice) throws Exception {
         logger.info("Update invoice: " + invoice);
-      int oldQty = invoiceDAO.findById(Invoice.class,invoice.getId()).getQty();
- Invoice dao= new Invoice();
- dao.setProduct(invoice.getProduct());
- dao.setQty(invoice.getQty()-oldQty);
- dao.setPrice(invoice.getPrice());
-invoice.setUpdateDate(new Date().toInstant());
-       HistoryService.Save(invoice, constant.ACTION_EDIT);
-        invoiceDAO.update(invoice);
-        ProductinStockService.SaveorUpdate(dao);
+        Invoice existing = invoiceDAO.findById(Invoice.class, invoice.getId());
+        if (existing == null) {
+            throw new IllegalArgumentException("Invoice not found");
+        }
+
+        ProductinStockService.updateInvoice(existing, invoice);
+        existing.setCode(invoice.getCode());
+        existing.setType(invoice.getType());
+        existing.setProduct(invoice.getProduct());
+        existing.setQty(invoice.getQty());
+        existing.setPrice(invoice.getPrice());
+        existing.setUpdateDate(new Date().toInstant());
+
+        HistoryService.Save(existing, constant.ACTION_EDIT);
+        invoiceDAO.update(existing);
     }
     public void delete(Invoice invoice) throws Exception {
         logger.info("Delete invoice: " + invoice);
+        if (!Integer.valueOf(1).equals(invoice.getActiveFlag())) {
+            throw new IllegalStateException("Phiếu kho đã được xóa trước đó.");
+        }
+        ProductinStockService.reverseInvoice(invoice);
         invoice.setActiveFlag(0);
+        invoice.setUpdateDate(new Date().toInstant());
+        HistoryService.Save(invoice, constant.ACTION_DELETE);
         invoiceDAO.update(invoice);
     }
     public List<Invoice> FindByProperties(String code) {
@@ -61,6 +73,8 @@ invoice.setUpdateDate(new Date().toInstant());
         logger.info("Finding all invoices");
         StringBuffer query = new StringBuffer();
         Map<String, Object> params = new java.util.HashMap<>();
+        query.append(" and model.activeFlag = :activeFlag");
+        params.put("activeFlag", 1);
         if(invoice != null){
             if (invoice.getType()!=null && invoice.getType()!=0){
                 query.append(" and model.type=:type");

@@ -58,6 +58,8 @@ public class RoleService {
         logger.info("Finding all Roles");
         StringBuffer sb = new StringBuffer();
         Map<String,Object> map = new HashMap<>();
+        sb.append(" and model.activeFlag = :activeFlag");
+        map.put("activeFlag", 1);
         if(Role!=null){
             if(Role.getRoleName()!=null && !Role.getRoleName().isEmpty()){
                 sb.append(" and model.roleName like :roleName");

@@ -12,24 +12,30 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import org.kordamp.ikonli.javafx.FontIcon?>
 
-<VBox spacing="24.0"
+<VBox spacing="18.0"
       styleClass="dashboard-view"
       xmlns="http://javafx.com/javafx/21"
       xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="inventory.desktop.controller.DashboardController">
-    <padding>
-        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0"/>
-    </padding>
 
-    <VBox spacing="6.0">
-        <Label text="Analytics Dashboard" styleClass="dashboard-title"/>
-        <Label text="Tổng quan nhanh hoạt động nhập xuất và tồn kho" styleClass="dashboard-subtitle"/>
-    </VBox>
+    <HBox alignment="CENTER_LEFT" spacing="12.0" styleClass="dashboard-overview">
+        <VBox spacing="3.0">
+            <Label text="Tổng quan vận hành" styleClass="dashboard-section-heading"/>
+            <Label text="Các chỉ số quan trọng được tổng hợp trực tiếp từ hệ thống kho"
+                   styleClass="dashboard-subtitle"/>
+        </VBox>
+        <Region HBox.hgrow="ALWAYS"/>
+        <HBox alignment="CENTER" spacing="7.0" styleClass="live-data-badge">
+            <StackPane styleClass="live-data-dot"/>
+            <Label text="Dữ liệu trực tiếp"/>
+        </HBox>
+    </HBox>
 
-    <GridPane hgap="18.0" vgap="18.0">
+    <GridPane hgap="16.0">
         <columnConstraints>
             <ColumnConstraints percentWidth="25.0"/>
             <ColumnConstraints percentWidth="25.0"/>
@@ -37,81 +43,132 @@
             <ColumnConstraints percentWidth="25.0"/>
         </columnConstraints>
 
-        <VBox GridPane.columnIndex="0" spacing="14.0" styleClass="summary-card">
-            <HBox alignment="CENTER_LEFT" spacing="12.0">
-                <FontIcon iconLiteral="fas-box-open" iconSize="24" styleClass="summary-icon"/>
-                <Label text="Tổng số mặt hàng" styleClass="summary-title"/>
-            </HBox>
-            <Label fx:id="totalProductsLabel" text="0" styleClass="summary-value"/>
-        </VBox>
+        <HBox GridPane.columnIndex="0" alignment="CENTER_LEFT" spacing="16.0" styleClass="summary-card">
+            <StackPane styleClass="summary-icon-box">
+                <FontIcon iconLiteral="fas-box-open" iconSize="21" styleClass="summary-icon"/>
+            </StackPane>
+            <VBox spacing="5.0">
+                <Label text="Tổng mặt hàng" styleClass="summary-title"/>
+                <Label fx:id="totalProductsLabel" text="0" styleClass="summary-value"/>
+                <Label text="Đang quản lý trong kho" styleClass="summary-caption"/>
+            </VBox>
+        </HBox>
 
-        <VBox GridPane.columnIndex="1" spacing="14.0" styleClass="summary-card">
-            <HBox alignment="CENTER_LEFT" spacing="12.0">
-                <FontIcon iconLiteral="fas-arrow-circle-down" iconSize="24" styleClass="summary-icon"/>
-                <Label text="Phiếu nhập tháng này" styleClass="summary-title"/>
-            </HBox>
-            <Label fx:id="monthlyReceiptsLabel" text="0" styleClass="summary-value"/>
-        </VBox>
+        <HBox GridPane.columnIndex="1" alignment="CENTER_LEFT" spacing="16.0" styleClass="summary-card">
+            <StackPane>
+                <styleClass>
+                    <String fx:value="summary-icon-box"/>
+                    <String fx:value="summary-icon-box-success"/>
+                </styleClass>
+                <FontIcon iconLiteral="fas-arrow-down" iconSize="20">
+                    <styleClass>
+                        <String fx:value="summary-icon"/>
+                        <String fx:value="summary-icon-success"/>
+                    </styleClass>
+                </FontIcon>
+            </StackPane>
+            <VBox spacing="5.0">
+                <Label text="Phiếu nhập" styleClass="summary-title"/>
+                <Label fx:id="monthlyReceiptsLabel" text="0" styleClass="summary-value"/>
+                <Label text="Trong tháng hiện tại" styleClass="summary-caption"/>
+            </VBox>
+        </HBox>
 
-        <VBox GridPane.columnIndex="2" spacing="14.0" styleClass="summary-card">
-            <HBox alignment="CENTER_LEFT" spacing="12.0">
-                <FontIcon iconLiteral="fas-arrow-circle-up" iconSize="24" styleClass="summary-icon"/>
-                <Label text="Phiếu xuất tháng này" styleClass="summary-title"/>
-            </HBox>
-            <Label fx:id="monthlyIssuesLabel" text="0" styleClass="summary-value"/>
-        </VBox>
+        <HBox GridPane.columnIndex="2" alignment="CENTER_LEFT" spacing="16.0" styleClass="summary-card">
+            <StackPane>
+                <styleClass>
+                    <String fx:value="summary-icon-box"/>
+                    <String fx:value="summary-icon-box-violet"/>
+                </styleClass>
+                <FontIcon iconLiteral="fas-arrow-up" iconSize="20">
+                    <styleClass>
+                        <String fx:value="summary-icon"/>
+                        <String fx:value="summary-icon-violet"/>
+                    </styleClass>
+                </FontIcon>
+            </StackPane>
+            <VBox spacing="5.0">
+                <Label text="Phiếu xuất" styleClass="summary-title"/>
+                <Label fx:id="monthlyIssuesLabel" text="0" styleClass="summary-value"/>
+                <Label text="Trong tháng hiện tại" styleClass="summary-caption"/>
+            </VBox>
+        </HBox>
 
-        <VBox GridPane.columnIndex="3" spacing="14.0">
+        <HBox GridPane.columnIndex="3" alignment="CENTER_LEFT" spacing="16.0">
             <styleClass>
                 <String fx:value="summary-card"/>
                 <String fx:value="summary-card-danger"/>
             </styleClass>
-            <HBox alignment="CENTER_LEFT" spacing="12.0">
-                <FontIcon iconLiteral="fas-exclamation-triangle" iconSize="24" styleClass="summary-icon-danger"/>
-                <Label text="Cảnh báo sắp hết" styleClass="summary-title"/>
-            </HBox>
-            <Label fx:id="lowStockLabel" text="0" styleClass="summary-value"/>
-        </VBox>
+            <StackPane>
+                <styleClass>
+                    <String fx:value="summary-icon-box"/>
+                    <String fx:value="summary-icon-box-danger"/>
+                </styleClass>
+                <FontIcon iconLiteral="fas-exclamation-triangle" iconSize="20"
+                          styleClass="summary-icon-danger"/>
+            </StackPane>
+            <VBox spacing="5.0">
+                <Label text="Sắp hết hàng" styleClass="summary-title"/>
+                <Label fx:id="lowStockLabel" text="0" styleClass="summary-value-danger"/>
+                <Label text="Cần kiểm tra tồn kho" styleClass="summary-caption-danger"/>
+            </VBox>
+        </HBox>
     </GridPane>
 
-    <GridPane hgap="22.0" vgap="22.0" VBox.vgrow="ALWAYS">
+    <GridPane hgap="18.0" VBox.vgrow="ALWAYS">
         <columnConstraints>
-            <ColumnConstraints percentWidth="64.0"/>
-            <ColumnConstraints percentWidth="36.0"/>
+            <ColumnConstraints percentWidth="67.0"/>
+            <ColumnConstraints percentWidth="33.0"/>
         </columnConstraints>
 
-        <VBox GridPane.columnIndex="0" spacing="16.0" styleClass="dashboard-card" VBox.vgrow="ALWAYS">
+        <VBox GridPane.columnIndex="0" spacing="14.0" styleClass="dashboard-card" VBox.vgrow="ALWAYS">
             <HBox alignment="CENTER_LEFT">
-                <VBox spacing="4.0">
-                    <Label text="Xu hướng nhập / xuất hàng" styleClass="section-title"/>
-                    <Label text="Dữ liệu tổng hợp trực tiếp từ hệ thống kho" styleClass="section-subtitle"/>
+                <VBox spacing="3.0">
+                    <Label text="Xu hướng nhập và xuất kho" styleClass="section-title"/>
+                    <Label text="Số lượng hàng hóa luân chuyển theo từng tháng"
+                           styleClass="section-subtitle"/>
                 </VBox>
                 <Region HBox.hgrow="ALWAYS"/>
-                <Label text="2026" styleClass="dashboard-badge"/>
+                <HBox alignment="CENTER" spacing="8.0" styleClass="chart-period-badge">
+                    <FontIcon iconLiteral="fas-calendar-alt" iconSize="13"/>
+                    <Label fx:id="currentYearLabel" text="2026"/>
+                </HBox>
             </HBox>
 
-            <BarChart fx:id="inventoryFlowChart" animated="false" legendVisible="true" VBox.vgrow="ALWAYS">
+            <BarChart fx:id="inventoryFlowChart"
+                      animated="false"
+                      legendSide="BOTTOM"
+                      legendVisible="true"
+                      VBox.vgrow="ALWAYS">
                 <xAxis>
                     <CategoryAxis label="Tháng"/>
                 </xAxis>
                 <yAxis>
-                    <NumberAxis label="Số lượng"/>
+                    <NumberAxis forceZeroInRange="true" label="Số lượng"/>
                 </yAxis>
             </BarChart>
         </VBox>
 
-        <VBox GridPane.columnIndex="1" spacing="16.0" styleClass="dashboard-card" VBox.vgrow="ALWAYS">
-            <VBox spacing="4.0">
-                <Label text="Low Stock Alert" styleClass="section-title"/>
-                <Label text="Sản phẩm dưới định mức tồn kho" styleClass="section-subtitle"/>
-            </VBox>
+        <VBox GridPane.columnIndex="1" spacing="14.0" styleClass="dashboard-card" VBox.vgrow="ALWAYS">
+            <HBox alignment="CENTER_LEFT">
+                <VBox spacing="3.0">
+                    <Label text="Cảnh báo tồn kho" styleClass="section-title"/>
+                    <Label text="Sản phẩm dưới định mức an toàn" styleClass="section-subtitle"/>
+                </VBox>
+                <Region HBox.hgrow="ALWAYS"/>
+                <FontIcon iconLiteral="fas-exclamation-circle" iconSize="17"
+                          styleClass="stock-alert-icon"/>
+            </HBox>
 
-            <TableView fx:id="lowStockTable" VBox.vgrow="ALWAYS" styleClass="low-stock-table">
+            <TableView fx:id="lowStockTable"
+                       fixedCellSize="58.0"
+                       VBox.vgrow="ALWAYS"
+                       styleClass="low-stock-table">
                 <columns>
-                    <TableColumn fx:id="productCodeColumn" text="Mã"/>
-                    <TableColumn fx:id="productNameColumn" text="Sản phẩm"/>
-                    <TableColumn fx:id="quantityColumn" text="SL"/>
-                    <TableColumn fx:id="statusColumn" text="Trạng thái"/>
+                    <TableColumn fx:id="productCodeColumn" text="Mã" styleClass="column-left"/>
+                    <TableColumn fx:id="productNameColumn" text="Sản phẩm" styleClass="column-left"/>
+                    <TableColumn fx:id="quantityColumn" text="SL" styleClass="column-center"/>
+                    <TableColumn fx:id="statusColumn" text="Trạng thái" styleClass="column-center"/>
                 </columns>
             </TableView>
         </VBox>

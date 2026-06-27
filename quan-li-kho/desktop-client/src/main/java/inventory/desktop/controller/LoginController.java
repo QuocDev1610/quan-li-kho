@@ -63,7 +63,8 @@ public class LoginController {
             try {
                 openMainLayout();
             } catch (IOException ex) {
-                errorLabel.setText("Không thể mở giao diện chính. Vui lòng kiểm tra lại tài nguyên FXML.");
+                ex.printStackTrace();
+                errorLabel.setText("Không thể mở giao diện chính: " + rootCauseMessage(ex));
             }
         }));
         loginTask.setOnFailed(event -> Platform.runLater(() -> errorLabel.setText(ApiErrorParser.friendlyException(loginTask.getException()))));
@@ -91,5 +92,16 @@ public class LoginController {
             throw new IllegalStateException("Không tìm thấy resource: " + path);
         }
         return resource;
+    }
+
+    private String rootCauseMessage(Throwable throwable) {
+        Throwable rootCause = throwable;
+        while (rootCause.getCause() != null) {
+            rootCause = rootCause.getCause();
+        }
+        String message = rootCause.getMessage();
+        return message == null || message.isBlank()
+                ? rootCause.getClass().getSimpleName()
+                : message;
     }
 }

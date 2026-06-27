@@ -108,6 +108,8 @@ public class GoodsReceiptController {
         try {
             invoiceService.saveInvoice(invoice);
             return ResponseEntity.status(HttpStatus.CREATED).body(ApiResponse.ok("Insert success", ApiMapper.toInvoiceDto(invoice)));
+        } catch (IllegalStateException ex) {
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(ApiResponse.error(ex.getMessage()));
         } catch (Exception ex) {
             logger.error("Error inserting goods receipt", ex);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error inserting goods receipt"));
@@ -130,6 +132,8 @@ public class GoodsReceiptController {
         try {
             invoiceService.Update(invoice);
             return ResponseEntity.ok(ApiResponse.ok("Update success", ApiMapper.toInvoiceDto(invoice)));
+        } catch (IllegalStateException ex) {
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(ApiResponse.error(ex.getMessage()));
         } catch (Exception ex) {
             logger.error("Error updating goods receipt", ex);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error updating goods receipt"));
@@ -145,6 +149,8 @@ public class GoodsReceiptController {
         try {
             invoiceService.delete(invoice);
             return ResponseEntity.ok(ApiResponse.ok("Delete success", null));
+        } catch (IllegalStateException ex) {
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(ApiResponse.error(ex.getMessage()));
         } catch (Exception ex) {
             logger.error("Error deleting goods receipt", ex);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error("Error deleting goods receipt"));
